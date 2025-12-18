@@ -1098,7 +1098,7 @@ export default function Home() {
             <Card className="bg-blue-50 border-2 border-blue-500">
               <div className="text-center">
                 <CardTitle className="text-blue-600 mb-4">Raise Amount</CardTitle>
-                <div className="text-5xl font-bold text-blue-600">$500K<br/>-$1M</div>
+                <div className="text-5xl font-bold text-blue-600">$500K-$1M</div>
               </div>
             </Card>
             <Card className="bg-purple-50 border-2 border-purple-500">
