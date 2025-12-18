@@ -530,35 +530,60 @@ export default function Home() {
             </Card>
           </ThreeColumnGrid>
 
-          <div className="grid grid-cols-4 gap-6 mb-12">
-            <Card variant="glass">
-              <CardTitle>Month 6-9</CardTitle>
-              <CardContent>
-                1st Institution: $20M AUM
-              </CardContent>
-              <div className="text-3xl font-bold text-blue-500 mt-4">$200K ARR</div>
-            </Card>
-            <Card variant="glass">
-              <CardTitle>Year 1</CardTitle>
-              <CardContent>
-                3 Institutions: $100M AUM
-              </CardContent>
-              <div className="text-3xl font-bold text-blue-500 mt-4">$1M ARR</div>
-            </Card>
-            <Card variant="glass">
-              <CardTitle>Year 2</CardTitle>
-              <CardContent>
-                8-10 Partners: $500M AUM
-              </CardContent>
-              <div className="text-3xl font-bold text-blue-500 mt-4">$5M ARR</div>
-            </Card>
-            <Card variant="glass">
-              <CardTitle>Year 3</CardTitle>
-              <CardContent>
-                15-20 Partners: $1.5B AUM
-              </CardContent>
-              <div className="text-3xl font-bold text-blue-500 mt-4">$15M ARR</div>
-            </Card>
+          {/* Timeline */}
+          <div className="relative mb-12">
+            {/* Timeline line */}
+            <div className="absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-green-500"></div>
+
+            <div className="relative grid grid-cols-4 gap-6">
+              {/* Month 6-9 */}
+              <div className="flex flex-col items-center">
+                <div className="w-6 h-6 rounded-full bg-blue-500 border-4 border-black mb-4 relative z-10"></div>
+                <Card variant="glass" className="w-full">
+                  <CardTitle className="text-center">Month 6-9</CardTitle>
+                  <CardContent className="text-center">
+                    1st Institution<br/>$20M AUM
+                  </CardContent>
+                  <div className="text-3xl font-bold text-blue-400 mt-4 text-center">$200K ARR</div>
+                </Card>
+              </div>
+
+              {/* Year 1 */}
+              <div className="flex flex-col items-center">
+                <div className="w-6 h-6 rounded-full bg-purple-500 border-4 border-black mb-4 relative z-10"></div>
+                <Card variant="glass" className="w-full">
+                  <CardTitle className="text-center">Year 1</CardTitle>
+                  <CardContent className="text-center">
+                    3 Institutions<br/>$100M AUM
+                  </CardContent>
+                  <div className="text-3xl font-bold text-purple-400 mt-4 text-center">$1M ARR</div>
+                </Card>
+              </div>
+
+              {/* Year 2 */}
+              <div className="flex flex-col items-center">
+                <div className="w-6 h-6 rounded-full bg-indigo-500 border-4 border-black mb-4 relative z-10"></div>
+                <Card variant="glass" className="w-full">
+                  <CardTitle className="text-center">Year 2</CardTitle>
+                  <CardContent className="text-center">
+                    8-10 Partners<br/>$500M AUM
+                  </CardContent>
+                  <div className="text-3xl font-bold text-indigo-400 mt-4 text-center">$5M ARR</div>
+                </Card>
+              </div>
+
+              {/* Year 3 */}
+              <div className="flex flex-col items-center">
+                <div className="w-6 h-6 rounded-full bg-green-500 border-4 border-black mb-4 relative z-10"></div>
+                <Card variant="glass" className="w-full">
+                  <CardTitle className="text-center">Year 3</CardTitle>
+                  <CardContent className="text-center">
+                    15-20 Partners<br/>$1.5B AUM
+                  </CardContent>
+                  <div className="text-3xl font-bold text-green-400 mt-4 text-center">$15M ARR</div>
+                </Card>
+              </div>
+            </div>
           </div>
 
           <div className="p-6 bg-blue-500/10 border-2 border-blue-500/50 rounded-lg">
@@ -671,6 +696,43 @@ export default function Home() {
             <Card variant="glass">
               <div className="flex items-center mb-6">
                 <div className="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center text-3xl font-bold text-blue-600 mr-4">
+                  A
+                </div>
+                <div>
+                  <div className="text-2xl font-bold">Antonio Rapozo</div>
+                  <div className="text-slate-400">Co-Founder & Chief Technology Officer</div>
+                </div>
+              </div>
+
+              <CardTitle>Enterprise Infrastructure Expert</CardTitle>
+              <CardContent>
+                <ul className="space-y-2 text-left mb-4">
+                  <li>• <strong>4+ years</strong> building mission-critical government systems</li>
+                  <li>• <strong>15+ State DOTs served:</strong> Bridge inspection & asset management platforms processing $500M+ annual infrastructure spending</li>
+                  <li>• <strong>1,000+ daily users:</strong> Production apps meeting federal compliance (FHWA, NBIS, AASHTO)</li>
+                  <li>• <strong>Cloud architecture:</strong> AWS Solutions Architect (2x certified), building scalable serverless systems</li>
+                  <li>• <strong>AI/LLM integration:</strong> Building MemoryKit, open-source .NET library for LLM applications</li>
+                </ul>
+              </CardContent>
+
+              <CardTitle>Technical Stack</CardTitle>
+              <CardContent>
+                <ul className="space-y-2 text-left">
+                  <li>• Full-stack: Vue.js, React, C#, .NET Core, TypeScript</li>
+                  <li>• Cloud: AWS, Azure, serverless architecture</li>
+                  <li>• AI: OpenAI API, LangChain, Semantic Kernel</li>
+                  <li>• Data: SQL, PostgreSQL, DynamoDB, ETL pipelines</li>
+                </ul>
+              </CardContent>
+
+              <div className="mt-4 p-4 bg-slate-100 rounded-lg text-slate-700 text-sm">
+                <strong>Why Antonio:</strong> Proven track record shipping production systems that handle institutional-scale operations. Brings enterprise architecture expertise, regulatory compliance knowledge, and experience operating systems where downtime isn't an option.
+              </div>
+            </Card>
+
+            <Card variant="glass">
+              <div className="flex items-center mb-6">
+                <div className="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center text-3xl font-bold text-blue-600 mr-4">
                   E
                 </div>
                 <div>
@@ -705,43 +767,6 @@ export default function Home() {
                 <strong>Why Enrique:</strong> Deep technical knowledge of DeFi protocols, smart contract architecture, and security. Has built the exact type of vault system Monolith needs—understands the complexities, gas optimization, and risk management required.
               </div>
             </Card>
-
-            <Card variant="glass">
-              <div className="flex items-center mb-6">
-                <div className="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center text-3xl font-bold text-blue-600 mr-4">
-                  A
-                </div>
-                <div>
-                  <div className="text-2xl font-bold">Antonio Rapozo</div>
-                  <div className="text-slate-400">Co-Founder & Chief Technology Officer</div>
-                </div>
-              </div>
-
-              <CardTitle>Enterprise Infrastructure Expert</CardTitle>
-              <CardContent>
-                <ul className="space-y-2 text-left mb-4">
-                  <li>• <strong>4+ years</strong> building mission-critical government systems</li>
-                  <li>• <strong>15+ State DOTs served:</strong> Bridge inspection & asset management platforms processing $500M+ annual infrastructure spending</li>
-                  <li>• <strong>1,000+ daily users:</strong> Production apps meeting federal compliance (FHWA, NBIS, AASHTO)</li>
-                  <li>• <strong>Cloud architecture:</strong> AWS Solutions Architect (2x certified), building scalable serverless systems</li>
-                  <li>• <strong>AI/LLM integration:</strong> Building MemoryKit, open-source .NET library for LLM applications</li>
-                </ul>
-              </CardContent>
-
-              <CardTitle>Technical Stack</CardTitle>
-              <CardContent>
-                <ul className="space-y-2 text-left">
-                  <li>• Full-stack: Vue.js, React, C#, .NET Core, TypeScript</li>
-                  <li>• Cloud: AWS, Azure, serverless architecture</li>
-                  <li>• AI: OpenAI API, LangChain, Semantic Kernel</li>
-                  <li>• Data: SQL, PostgreSQL, DynamoDB, ETL pipelines</li>
-                </ul>
-              </CardContent>
-
-              <div className="mt-4 p-4 bg-slate-100 rounded-lg text-slate-700 text-sm">
-                <strong>Why Antonio:</strong> Proven track record shipping production systems that handle institutional-scale operations. Brings enterprise architecture expertise, regulatory compliance knowledge, and experience operating systems where downtime isn't an option.
-              </div>
-            </Card>
           </TwoColumnGrid>
 
           <Card variant="glass" className="mb-8">
@@ -771,34 +796,56 @@ export default function Home() {
           </Title>
 
           <p className="text-3xl mb-10 text-slate-300">
-            Working testnet demo available at:
+            Dashboard demo available at:
           </p>
 
           <div className="bg-blue-500/20 border-4 border-blue-400 rounded-xl p-8 inline-block mb-16">
             <p className="text-4xl font-bold text-blue-400">
-              yield-aggreg.vercel.app
+              [Add link here for demo]
             </p>
           </div>
 
-          <div className="grid grid-cols-3 gap-8 max-w-4xl">
-            <Card variant="glass">
-              <CardTitle>Vault Selection</CardTitle>
-              <CardContent>Choose risk tier</CardContent>
+          <Subtitle size="md" className="mb-8">
+            Customers get:
+          </Subtitle>
+
+          <div className="grid grid-cols-2 gap-6 max-w-5xl mx-auto">
+            <Card className="bg-gradient-to-br from-blue-50 to-blue-100 border-2 border-blue-500">
+              <CardTitle className="text-blue-900">Dashboard (White-Label)</CardTitle>
+              <CardContent className="text-blue-800">
+                They white-label it as their own branded platform
+              </CardContent>
             </Card>
-            <Card variant="glass">
-              <CardTitle>Deposit/Withdraw</CardTitle>
-              <CardContent>Seamless UX</CardContent>
+            <Card className="bg-gradient-to-br from-purple-50 to-purple-100 border-2 border-purple-500">
+              <CardTitle className="text-purple-900">Compliance Tooling</CardTitle>
+              <CardContent className="text-purple-800">
+                Audit trails, tax reports, insurance
+              </CardContent>
             </Card>
-            <Card variant="glass">
-              <CardTitle>Live APY</CardTitle>
-              <CardContent>Real-time yields</CardContent>
+            <Card className="bg-gradient-to-br from-green-50 to-green-100 border-2 border-green-500">
+              <CardTitle className="text-green-900">Integrations</CardTitle>
+              <CardContent className="text-green-800">
+                QuickBooks, Fireblocks, Bloomberg
+              </CardContent>
+            </Card>
+            <Card className="bg-gradient-to-br from-amber-50 to-amber-100 border-2 border-amber-500">
+              <CardTitle className="text-amber-900">User Management</CardTitle>
+              <CardContent className="text-amber-800">
+                Admins, analysts, viewers
+              </CardContent>
+            </Card>
+            <Card className="bg-gradient-to-br from-pink-50 to-pink-100 border-2 border-pink-500">
+              <CardTitle className="text-pink-900">Automated Reporting</CardTitle>
+              <CardContent className="text-pink-800">
+                Daily, weekly, monthly reports
+              </CardContent>
             </Card>
           </div>
 
-          <p className="mt-16 text-slate-400 flex items-center justify-center gap-2">
+          <div className="mt-16 text-slate-400 flex items-center justify-center gap-2">
             <Icon name="warning" size={20} className="text-yellow-500" />
-            Demo Mode • Sepolia Testnet • Not Audited
-          </p>
+            <span>Demo Mode • Sepolia Testnet • Not Audited</span>
+          </div>
         </SlideContent>
       </Slide>
 
@@ -806,87 +853,122 @@ export default function Home() {
       <Slide id={12} background="bg-black">
         <SlideContent>
           <Title size="lg" className="mb-16 text-center">
-            6-MONTH ROADMAP
+            12-MONTH ROADMAP
           </Title>
 
-          <ThreeColumnGrid className="mb-12">
-            <Card variant="glass">
-              <CardTitle>Month 1: Legal & Partnership Foundation</CardTitle>
-              <CardContent>
-                <ul className="space-y-2 text-left text-sm">
-                  <li>• <strong>Week 1-2:</strong> Legal entity setup + regulatory consultation ($2-5K)</li>
-                  <li>• <strong>Week 2-3:</strong> Custody partnership discussions (Fireblocks, Kingdom Trust)</li>
-                  <li>• <strong>Week 3-4:</strong> First customer identification + warm intros</li>
-                  <li>• <strong>Deliverable:</strong> LOI/term sheet with 1 pilot customer</li>
-                </ul>
-              </CardContent>
-            </Card>
+          {/* Vertical Timeline */}
+          <div className="relative max-w-5xl mx-auto mb-12">
+            {/* Vertical line */}
+            <div className="absolute left-8 top-0 bottom-0 w-1 bg-gradient-to-b from-blue-500 via-purple-500 via-green-500 to-amber-500"></div>
 
-            <Card variant="glass">
-              <CardTitle>Months 2-3: Smart Contracts + Audit Prep</CardTitle>
-              <CardContent>
-                <ul className="space-y-2 text-left text-sm">
-                  <li>• <strong>Month 2:</strong> Vault contracts development (ERC-4626, rebalancing logic)</li>
-                  <li>• <strong>Month 2:</strong> Internal testing suite (Foundry, 100+ tests)</li>
-                  <li>• <strong>Month 3:</strong> Book external audit (OpenZeppelin/Trail of Bits, $40-70K)</li>
-                  <li>• <strong>Month 3:</strong> Begin audit while building API layer</li>
-                  <li>• <strong>Deliverable:</strong> Audited smart contracts</li>
-                </ul>
-              </CardContent>
-            </Card>
+            <div className="space-y-8">
+              {/* Month 1 */}
+              <div className="flex items-start gap-6">
+                <div className="flex-shrink-0 w-16 h-16 rounded-full bg-blue-500 border-4 border-black flex items-center justify-center font-bold text-white relative z-10">
+                  M1
+                </div>
+                <Card variant="glass" className="flex-1">
+                  <CardTitle>Legal & Partnership Foundation</CardTitle>
+                  <CardContent>
+                    <ul className="space-y-1 text-left text-sm">
+                      <li>• Legal entity + regulatory consultation</li>
+                      <li>• Custody partnership discussions</li>
+                      <li>• First customer LOI/term sheet</li>
+                    </ul>
+                  </CardContent>
+                </Card>
+              </div>
 
-            <Card variant="glass">
-              <CardTitle>Month 4: API + Infrastructure</CardTitle>
-              <CardContent>
-                <ul className="space-y-2 text-left text-sm">
-                  <li>• <strong>Week 1-2:</strong> REST API development (deposit, balance, reporting endpoints)</li>
-                  <li>• <strong>Week 2-3:</strong> Multi-tenant architecture + auth (fund API keys)</li>
-                  <li>• <strong>Week 3-4:</strong> Monitoring & alerting (Tenderly + custom dashboard)</li>
-                  <li>• <strong>Deliverable:</strong> Production-ready API for pilot</li>
-                </ul>
-              </CardContent>
-            </Card>
+              {/* Months 2-3 */}
+              <div className="flex items-start gap-6">
+                <div className="flex-shrink-0 w-16 h-16 rounded-full bg-purple-500 border-4 border-black flex items-center justify-center font-bold text-white relative z-10">
+                  M2-3
+                </div>
+                <Card variant="glass" className="flex-1">
+                  <CardTitle>Smart Contracts + Audit</CardTitle>
+                  <CardContent>
+                    <ul className="space-y-1 text-left text-sm">
+                      <li>• ERC-4626 vault development</li>
+                      <li>• Internal testing suite (100+ tests)</li>
+                      <li>• External audit (OpenZeppelin/Trail of Bits)</li>
+                    </ul>
+                  </CardContent>
+                </Card>
+              </div>
 
-            <Card variant="glass">
-              <CardTitle>Month 5: Compliance + Reporting</CardTitle>
-              <CardContent>
-                <ul className="space-y-2 text-left text-sm">
-                  <li>• <strong>Week 1-2:</strong> Compliance reporting engine (daily/weekly/monthly)</li>
-                  <li>• <strong>Week 2-3:</strong> Audit trail documentation (for customer's auditors)</li>
-                  <li>• <strong>Week 3-4:</strong> Insurance setup (Nexus Mutual coverage, if applicable)</li>
-                  <li>• <strong>Deliverable:</strong> Compliance-ready infrastructure</li>
-                </ul>
-              </CardContent>
-            </Card>
+              {/* Month 4 */}
+              <div className="flex items-start gap-6">
+                <div className="flex-shrink-0 w-16 h-16 rounded-full bg-indigo-500 border-4 border-black flex items-center justify-center font-bold text-white relative z-10">
+                  M4
+                </div>
+                <Card variant="glass" className="flex-1">
+                  <CardTitle>API + Infrastructure</CardTitle>
+                  <CardContent>
+                    <ul className="space-y-1 text-left text-sm">
+                      <li>• REST API development</li>
+                      <li>• Multi-tenant architecture + auth</li>
+                      <li>• Monitoring & alerting systems</li>
+                    </ul>
+                  </CardContent>
+                </Card>
+              </div>
 
-            <Card variant="glass">
-              <CardTitle>Month 6: Pilot Customer Launch</CardTitle>
-              <CardContent>
-                <ul className="space-y-2 text-left text-sm">
-                  <li>• <strong>Week 1:</strong> Mainnet deployment (Ethereum L1 or L2)</li>
-                  <li>• <strong>Week 2-3:</strong> Customer integration + testing (testnet → mainnet)</li>
-                  <li>• <strong>Week 4:</strong> Go-live with $5-20M AUM</li>
-                  <li>• <strong>Ongoing:</strong> 24/7 monitoring, customer support</li>
-                  <li>• <strong>Deliverable:</strong> Live customer, proven model</li>
-                </ul>
-              </CardContent>
-            </Card>
+              {/* Month 5 */}
+              <div className="flex items-start gap-6">
+                <div className="flex-shrink-0 w-16 h-16 rounded-full bg-green-500 border-4 border-black flex items-center justify-center font-bold text-white relative z-10">
+                  M5
+                </div>
+                <Card variant="glass" className="flex-1">
+                  <CardTitle>Compliance + Reporting</CardTitle>
+                  <CardContent>
+                    <ul className="space-y-1 text-left text-sm">
+                      <li>• Compliance reporting engine</li>
+                      <li>• Audit trail documentation</li>
+                      <li>• Insurance setup (Nexus Mutual)</li>
+                    </ul>
+                  </CardContent>
+                </Card>
+              </div>
 
-            <Card variant="glass">
-              <CardTitle>Post-Launch (Months 7-12)</CardTitle>
-              <CardContent>
-                <ul className="space-y-2 text-left text-sm">
-                  <li>• <strong>Month 7-8:</strong> Iterate based on pilot feedback</li>
-                  <li>• <strong>Month 8-10:</strong> Onboard 2nd & 3rd institutional customers</li>
-                  <li>• <strong>Month 10-12:</strong> Build case studies, refine sales process</li>
-                  <li>• <strong>Month 12:</strong> Begin Series A conversations</li>
-                  <li>• <strong>Target:</strong> 3 customers, $100M AUM, $1M ARR</li>
-                </ul>
-              </CardContent>
-            </Card>
-          </ThreeColumnGrid>
+              {/* Month 6 */}
+              <div className="flex items-start gap-6">
+                <div className="flex-shrink-0 w-16 h-16 rounded-full bg-teal-500 border-4 border-black flex items-center justify-center font-bold text-white relative z-10">
+                  M6
+                </div>
+                <Card variant="glass" className="flex-1">
+                  <CardTitle>Pilot Customer Launch 🚀</CardTitle>
+                  <CardContent>
+                    <ul className="space-y-1 text-left text-sm">
+                      <li>• Mainnet deployment</li>
+                      <li>• Customer integration + testing</li>
+                      <li>• Go-live with $5-20M AUM</li>
+                    </ul>
+                  </CardContent>
+                </Card>
+              </div>
 
-          <h3 className="text-2xl mb-8 text-center text-white">Year 1 Milestones (12 Months)</h3>
+              {/* Months 7-12 */}
+              <div className="flex items-start gap-6">
+                <div className="flex-shrink-0 w-16 h-16 rounded-full bg-amber-500 border-4 border-black flex items-center justify-center font-bold text-white relative z-10 text-sm">
+                  M7-12
+                </div>
+                <Card variant="glass" className="flex-1">
+                  <CardTitle>Scale & Series A Prep</CardTitle>
+                  <CardContent>
+                    <ul className="space-y-1 text-left text-sm">
+                      <li>• Iterate based on pilot feedback</li>
+                      <li>• Onboard 2nd & 3rd customers</li>
+                      <li>• Build case studies & refine sales</li>
+                      <li>• <strong>Target:</strong> 3 customers, $100M AUM, $1M ARR</li>
+                    </ul>
+                  </CardContent>
+                </Card>
+              </div>
+            </div>
+          </div>
+
+          {/* Year 1 Milestones */}
+          <h3 className="text-2xl mb-8 text-center text-white">Year 1 Milestones</h3>
           <div className="grid grid-cols-4 gap-6">
             <Card className="bg-blue-50 border-2 border-blue-500">
               <div className="text-center">
@@ -1052,26 +1134,26 @@ export default function Home() {
               <tbody className="divide-y divide-slate-700">
                 <tr>
                   <td className="p-4 font-semibold text-green-500">Small Fund</td>
-                  <td className="p-4"><strong>$10M</strong><br/>(from $500M AUM)</td>
+                  <td className="p-4"><strong>$1M</strong><br/>(from $50M AUM)</td>
                   <td className="p-4">$0</td>
-                  <td className="p-4 text-green-500 font-bold">$500K/year</td>
-                  <td className="p-4 text-green-500 font-bold">+$400K net</td>
+                  <td className="p-4 text-green-500 font-bold">$50K/year</td>
+                  <td className="p-4 text-green-500 font-bold">+$40K net</td>
                   <td className="p-4 text-green-500 font-bold">1.5 months</td>
                 </tr>
                 <tr>
                   <td className="p-4 font-semibold text-blue-500">Mid-Size Fund</td>
-                  <td className="p-4"><strong>$50M</strong><br/>(from $2.5B AUM)</td>
+                  <td className="p-4"><strong>$3M</strong><br/>(from $150M AUM)</td>
                   <td className="p-4">$0</td>
-                  <td className="p-4 text-blue-500 font-bold">$2.5M/year</td>
-                  <td className="p-4 text-blue-500 font-bold">+$2M net</td>
+                  <td className="p-4 text-blue-500 font-bold">$150K/year</td>
+                  <td className="p-4 text-blue-500 font-bold">+$120K net</td>
                   <td className="p-4 text-blue-500 font-bold">1.5 months</td>
                 </tr>
                 <tr>
                   <td className="p-4 font-semibold text-amber-500">Large Fund</td>
-                  <td className="p-4"><strong>$200M</strong><br/>(from $10B AUM)</td>
+                  <td className="p-4"><strong>$6M</strong><br/>(from $300M AUM)</td>
                   <td className="p-4">$0</td>
-                  <td className="p-4 text-amber-500 font-bold">$10M/year</td>
-                  <td className="p-4 text-amber-500 font-bold">+$8M net</td>
+                  <td className="p-4 text-amber-500 font-bold">$300K/year</td>
+                  <td className="p-4 text-amber-500 font-bold">+$240K net</td>
                   <td className="p-4 text-amber-500 font-bold">1.5 months</td>
                 </tr>
               </tbody>
@@ -1127,7 +1209,7 @@ export default function Home() {
             </p>
             <p className="text-xl text-slate-300 flex items-center gap-4">
               <Icon name="globe" size={28} className="text-blue-400" />
-              Demo: yield-aggreg.vercel.app
+              Demo: [Add link here]
             </p>
             <p className="text-xl text-slate-300 flex items-center gap-4">
               <Icon name="folder" size={28} className="text-blue-400" />

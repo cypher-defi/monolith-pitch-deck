@@ -111,8 +111,8 @@ export default function Icon({ name, className = '', size = 24 }: IconProps) {
   };
 
   return (
-    <div className={`inline-flex ${className}`}>
+    <span className={`inline-flex ${className}`}>
       {getIcon()}
-    </div>
+    </span>
   );
 }
