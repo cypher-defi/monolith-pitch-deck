@@ -1,0 +1,781 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Monolith Pitch Deck Styles */
+/* Aligned with global.css branding standards */
+
+/* CSS Custom Properties - Monolith Brand Colors */
+:root {
+  --monolith-background: oklch(1 0 0);
+  --monolith-foreground: oklch(0.145 0 0);
+  --monolith-primary: oklch(0.205 0 0);
+  --monolith-primary-foreground: oklch(0.985 0 0);
+  --monolith-secondary: oklch(0.97 0 0);
+  --monolith-secondary-foreground: oklch(0.205 0 0);
+  --monolith-muted: oklch(0.97 0 0);
+  --monolith-muted-foreground: oklch(0.556 0 0);
+  --monolith-border: oklch(0.922 0 0);
+  --monolith-accent: oklch(0.646 0.222 41.116);
+  --monolith-accent-secondary: oklch(0.6 0.118 184.704);
+  --monolith-success: oklch(0.828 0.189 84.429);
+  --monolith-warning: oklch(0.769 0.188 70.08);
+  --monolith-radius: 0.625rem;
+
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+.dark {
+  --monolith-background: oklch(0.145 0 0);
+  --monolith-foreground: oklch(0.985 0 0);
+  --monolith-primary: oklch(0.985 0 0);
+  --monolith-primary-foreground: oklch(0.205 0 0);
+  --monolith-secondary: oklch(0.269 0 0);
+  --monolith-secondary-foreground: oklch(0.985 0 0);
+  --monolith-muted: oklch(0.269 0 0);
+  --monolith-muted-foreground: oklch(0.708 0 0);
+  --monolith-border: oklch(0.269 0 0);
+  --monolith-accent: oklch(0.488 0.243 264.376);
+  --monolith-accent-secondary: oklch(0.696 0.17 162.48);
+  --monolith-success: oklch(0.769 0.188 70.08);
+  --monolith-warning: oklch(0.645 0.246 16.439);
+}
+
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body & Container */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+    Arial, sans-serif;
+  background: #000;
+  color: #fff;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  height: -webkit-fill-available;
+  position: fixed;
+  -webkit-overflow-scrolling: touch;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.presentation {
+  width: 100vw;
+  height: 100vh;
+  height: -webkit-fill-available;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Slide Base */
+.slide {
+  width: 100%;
+  height: 100vh;
+  height: -webkit-fill-available;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+  color: #ffffff;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  padding: 60px 80px 120px 80px;
+}
+
+.slide.active {
+  display: block;
+}
+
+/* Dark Slide Variant */
+.slide.dark {
+  background: linear-gradient(
+    135deg,
+    #0a0a0a 0%,
+    #1a1a1a 100%
+  );
+  color: #ffffff;
+}
+
+.slide.dark .slide-title {
+  color: var(--monolith-accent);
+}
+
+.slide.dark .slide-subtitle {
+  color: var(--monolith-muted-foreground);
+}
+
+.slide.dark .card {
+  background: rgba(30, 41, 59, 0.5);
+  border-color: rgba(96, 165, 250, 0.3);
+}
+
+.slide.dark .card-title {
+  color: #ffffff;
+}
+
+.slide.dark .card-text {
+  color: #e5e5e5;
+}
+
+/* Slide Header */
+.slide-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.slide-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #60a5fa;
+  margin-bottom: 20px;
+}
+
+.slide-subtitle {
+  font-size: 20px;
+  color: #d1d5db;
+  line-height: 1.6;
+}
+
+.content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Logo - Two Vertical Parallel Lines */
+.logo {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-line {
+  width: 8px;
+  height: 100%;
+  background: #ffffff;
+  border-radius: calc(var(--monolith-radius) - 0.375rem);
+}
+
+/* Grid Layouts */
+.three-col {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 30px;
+  margin: 40px 0;
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin: 40px 0;
+}
+
+.four-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin: 40px 0;
+}
+
+/* Card Styles */
+.card {
+  background: #f8f9fa;
+  border: 2px solid #e0e0e0;
+  border-radius: var(--monolith-radius);
+  padding: 30px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  border-color: #2563eb;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(37, 99, 235, 0.15);
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 15px;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #404040;
+}
+
+/* Stat Box */
+.stat-box {
+  text-align: center;
+  background: #f8f9fa;
+  border: 2px solid #e0e0e0;
+  border-radius: var(--monolith-radius);
+  padding: 35px 25px;
+}
+
+.stat-number {
+  font-size: 48px;
+  font-weight: 700;
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.stat-label {
+  font-size: 16px;
+  color: #404040;
+}
+
+/* Info Box */
+.info-box {
+  background: #f8f9fa;
+  border-radius: var(--monolith-radius);
+  padding: 30px;
+  margin: 30px 0;
+  border: 2px solid #e0e0e0;
+}
+
+.info-box-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.info-box-content {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #404040;
+}
+
+/* Highlight Box */
+.highlight-box {
+  background: rgba(37, 99, 235, 0.08);
+  border: 3px solid #2563eb;
+  border-radius: var(--monolith-radius);
+  padding: 30px;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.highlight-text {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1d4ed8;
+  line-height: 1.6;
+}
+
+/* Table */
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px 0;
+  background: #f8f9fa;
+}
+
+.comparison-table th,
+.comparison-table td {
+  padding: 18px;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.comparison-table th {
+  font-weight: 700;
+  color: #2563eb;
+  font-size: 16px;
+  background: #ffffff;
+}
+
+.comparison-table td {
+  font-size: 15px;
+  color: #404040;
+}
+
+.comparison-table tr.highlight-row {
+  background: rgba(37, 99, 235, 0.08);
+}
+
+.check {
+  color: #16a34a;
+  font-weight: 700;
+}
+
+/* Navigation Controls */
+.nav-controls {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  z-index: 1000;
+  background: rgba(15, 23, 42, 0.95);
+  padding: 12px 30px;
+  border-radius: calc(var(--monolith-radius) * 4);
+  backdrop-filter: blur(10px);
+}
+
+.nav-btn {
+  background: var(--monolith-accent);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: calc(var(--monolith-radius) * 2);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.nav-btn:hover:not(:disabled) {
+  background: oklch(0.488 0.243 264.376);
+  transform: scale(1.05);
+}
+
+.nav-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.slide-number {
+  color: var(--monolith-muted-foreground);
+  font-size: 14px;
+  font-weight: 600;
+  min-width: 70px;
+  text-align: center;
+}
+
+/* Vault Cards */
+.vault-card {
+  background: #f8f9fa;
+  border: 3px solid #e0e0e0;
+  border-radius: calc(var(--monolith-radius) + 0.375rem);
+  padding: 35px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.vault-card.conservative {
+  border-color: #16a34a;
+}
+
+.vault-card.balanced {
+  border-color: #2563eb;
+}
+
+.vault-card.aggressive {
+  border-color: #d97706;
+}
+
+.vault-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.vault-card.conservative .vault-title {
+  color: #16a34a;
+}
+
+.vault-card.balanced .vault-title {
+  color: #2563eb;
+}
+
+.vault-card.aggressive .vault-title {
+  color: #d97706;
+}
+
+.vault-apy {
+  font-size: 42px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+
+.vault-card.conservative .vault-apy {
+  color: #16a34a;
+}
+
+.vault-card.balanced .vault-apy {
+  color: #2563eb;
+}
+
+.vault-card.aggressive .vault-apy {
+  color: #d97706;
+}
+
+.vault-details {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #404040;
+  margin-top: 20px;
+}
+
+/* List Items */
+.bullet-list {
+  list-style: none;
+  padding: 0;
+}
+
+.bullet-list li {
+  padding: 8px 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #404040;
+}
+
+.bullet-list li:before {
+  content: "•";
+  color: #2563eb;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* ==================== RESPONSIVE DESIGN ==================== */
+
+/* Mobile (Portrait Phones) */
+@media screen and (max-width: 768px) {
+  body {
+    height: 100vh;
+    height: -webkit-fill-available;
+  }
+
+  .presentation {
+    height: 100vh;
+    height: -webkit-fill-available;
+  }
+
+  .slide {
+    height: 100vh;
+    height: -webkit-fill-available;
+    padding: 30px 20px 100px 20px;
+  }
+
+  .content-container {
+    max-width: 100%;
+  }
+
+  .slide-header {
+    margin-bottom: 30px;
+  }
+
+  .slide-title {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+  .slide-subtitle {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .three-col,
+  .two-col,
+  .four-col {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin: 20px 0;
+  }
+
+  .card {
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+
+  .card-title {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  .card-text {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .stat-box {
+    padding: 20px 15px;
+  }
+
+  .stat-number {
+    font-size: 28px;
+  }
+
+  .stat-label {
+    font-size: 13px;
+  }
+
+  .vault-card {
+    padding: 20px;
+  }
+
+  .vault-title {
+    font-size: 16px;
+  }
+
+  .comparison-table {
+    font-size: 11px;
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .comparison-table th,
+  .comparison-table td {
+    padding: 8px 4px;
+    white-space: nowrap;
+  }
+
+  .highlight-box {
+    padding: 15px;
+    margin: 20px 0;
+  }
+
+  .highlight-text {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .info-box {
+    padding: 15px;
+    margin: 15px 0;
+  }
+
+  .info-box-title {
+    font-size: 16px;
+  }
+
+  .info-box-content {
+    font-size: 13px;
+  }
+
+  .bullet-list li {
+    font-size: 13px;
+    padding: 5px 0;
+    line-height: 1.5;
+  }
+
+  .nav-controls {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px 15px;
+    gap: 10px;
+    z-index: 1000;
+    width: auto;
+    max-width: 90%;
+  }
+
+  .nav-btn {
+    padding: 8px 12px;
+    font-size: 11px;
+    white-space: nowrap;
+  }
+
+  .slide-number {
+    font-size: 11px;
+    min-width: 45px;
+  }
+
+  /* Logo adjustments for mobile */
+  .logo {
+    width: 40px;
+    height: 40px;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+
+  .logo-line {
+    width: 5px;
+  }
+
+  /* Cover slide mobile adjustments */
+  .slide[data-slide="1"] h1 {
+    font-size: 36px !important;
+    margin-bottom: 15px !important;
+  }
+
+  .slide[data-slide="1"] p {
+    font-size: 16px !important;
+    margin-bottom: 30px !important;
+  }
+
+  .slide[data-slide="1"] .content-container {
+    padding: 0;
+  }
+
+  /* Architecture diagram - make scrollable on mobile */
+  pre {
+    font-size: 9px !important;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: pre;
+    padding: 15px;
+  }
+
+  /* Founder cards mobile layout */
+  .slide[data-slide="10"] .card {
+    margin-bottom: 20px;
+  }
+
+  .slide[data-slide="10"] .two-col > div {
+    display: block;
+  }
+
+  /* SVG icons scale down */
+  svg[width="60"] {
+    width: 45px;
+    height: 45px;
+  }
+
+  svg[width="50"] {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* Make sure long URLs don't break layout */
+  .content-container {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  /* Fix Slide 11 demo cards - equal width on mobile */
+  .slide[data-slide="11"] .card {
+    min-width: 0;
+    flex: 1;
+  }
+
+  /* Fix Slide 14 stat boxes - equal width and layout on mobile */
+  .slide[data-slide="14"] > .content-container > div:nth-child(2) {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 15px !important;
+    margin: 30px 0 !important;
+  }
+
+  .slide[data-slide="14"] .stat-box {
+    min-width: 0;
+    width: 100%;
+    padding: 20px 15px !important;
+  }
+
+  .slide[data-slide="14"] .stat-box div {
+    font-size: 28px !important;
+  }
+}
+
+/* Tablet (Landscape Phones and Portrait Tablets) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .slide {
+    padding: 40px 30px 110px 30px;
+  }
+
+  .slide-title {
+    font-size: 32px;
+  }
+
+  .slide-subtitle {
+    font-size: 16px;
+  }
+
+  .three-col {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .four-col {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .two-col {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .card {
+    padding: 25px;
+  }
+
+  .vault-card {
+    padding: 25px;
+  }
+
+  .stat-number {
+    font-size: 36px;
+  }
+
+  .comparison-table {
+    font-size: 13px;
+  }
+
+  .comparison-table th,
+  .comparison-table td {
+    padding: 12px 8px;
+  }
+}
+
+/* Landscape Orientation on Mobile */
+@media screen and (max-width: 896px) and (orientation: landscape) {
+  .slide {
+    padding: 20px 30px 80px 30px;
+    height: 100vh;
+  }
+
+  .slide-title {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+
+  .slide-subtitle {
+    font-size: 13px;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .stat-box {
+    padding: 15px 10px;
+  }
+
+  .nav-controls {
+    bottom: 10px;
+    padding: 6px 12px;
+  }
+
+  .three-col,
+  .two-col,
+  .four-col {
+    gap: 10px;
+    margin: 15px 0;
+  }
+}
