@@ -95,15 +95,15 @@ export default function Home() {
               <CardTitle className="text-center">Fintech Platforms</CardTitle>
               <CardContent className="text-center">
                 Want to offer stablecoin yields<br/><br/>
-                Need white-label solution<br/><br/>
-                6-12 months to build in-house
+                Need ready-to-deploy solution<br/><br/>
+                Can't afford 6+ months to build
               </CardContent>
             </Card>
           </ThreeColumnGrid>
 
           <div className="mt-12 p-6 bg-blue-500/10 border-2 border-blue-500/50 rounded-lg">
             <p className="text-blue-300 text-lg text-center font-medium">
-              Institutions need: Operational simplicity + Compliance-ready reporting + Professional infrastructure (not consumer apps)
+              Institutions need: Ready-to-deploy dashboard + Built-in integrations + Full compliance suite + Go live in 2 weeks (not 6 months)
             </p>
           </div>
         </SlideContent>
@@ -116,7 +116,7 @@ export default function Home() {
             INTRODUCING MONOLITH
           </Title>
           <Subtitle size="md" className="mb-12 text-center text-blue-300">
-            Institutional yield infrastructure for banks, corporate treasurers, and fintechs
+            Managed dashboard platform: Full-service yield infrastructure with built-in compliance
           </Subtitle>
 
           <ThreeColumnGrid>
@@ -128,9 +128,9 @@ export default function Home() {
               </div>
               <CardContent className="text-center">
                 <ul className="space-y-2 list-none">
-                  <li>• API integration with existing custody</li>
-                  <li>• Compliance-ready reporting</li>
-                  <li>• Insurance & audit trails</li>
+                  <li>• White-label dashboard (2 weeks to launch)</li>
+                  <li>• Built-in integrations (QuickBooks, Fireblocks)</li>
+                  <li>• Automated compliance & reporting</li>
                   <li>• Conservative DeFi allocation</li>
                 </ul>
                 <div className="mt-4 pt-4 border-t-2 border-slate-200">
@@ -142,14 +142,14 @@ export default function Home() {
             <Card variant="primary">
               <CardTitle className="text-center">FINTECH WHITE-LABEL</CardTitle>
               <div className="text-center my-6">
-                <div className="text-4xl font-bold text-blue-600">SDK +</div>
-                <div className="text-4xl font-bold text-blue-600">API</div>
+                <div className="text-4xl font-bold text-blue-600">MANAGED</div>
+                <div className="text-4xl font-bold text-blue-600">DASHBOARD</div>
               </div>
               <CardContent className="text-center">
                 <ul className="space-y-2 list-none">
-                  <li>• React Native SDK (2-week integration)</li>
-                  <li>• White-label branding (your logo, colors)</li>
-                  <li>• Multi-tenant backend infrastructure</li>
+                  <li>• Ready-to-deploy dashboard (2 weeks)</li>
+                  <li>• White-label branding (logo, colors, domain)</li>
+                  <li>• Built-in integrations & compliance</li>
                   <li>• Revenue share model (0.5-1%)</li>
                 </ul>
                 <div className="mt-4 pt-4 border-t-2 border-slate-200">
@@ -161,7 +161,7 @@ export default function Home() {
             <Card variant="secondary">
               <CardTitle className="text-center">MANAGED YIELD OPS</CardTitle>
               <div className="text-center my-6">
-                <div className="text-4xl font-bold text-amber-500">Full</div>
+                <div className="text-4xl font-bold text-amber-500">FULL</div>
                 <div className="text-4xl font-bold text-amber-500">SERVICE</div>
               </div>
               <CardContent className="text-center">
@@ -180,7 +180,7 @@ export default function Home() {
 
           <div className="mt-12 p-6 bg-blue-500/10 border-2 border-blue-500/50 rounded-lg">
             <p className="text-blue-300 text-lg text-center font-medium">
-              B2B2C Infrastructure: We handle DeFi complexity, institutions handle their customers
+              Managed Platform Infrastructure: We provide the FULL dashboard, integrations, and compliance - institutions customize and deploy
             </p>
           </div>
         </SlideContent>
@@ -193,13 +193,13 @@ export default function Home() {
             HOW MONOLITH WORKS: B2B WHITE-LABEL MODEL
           </Title>
           <Subtitle size="md" className="mb-12 text-center">
-            Infrastructure-as-a-Service: Funds leverage our SDK to offer yield to their clients
+            Managed Dashboard Platform: Institutions go live in 2 weeks with our full-service infrastructure
           </Subtitle>
 
           <div className="max-w-3xl mx-auto space-y-4 mb-12">
             <div className="bg-slate-100 p-6 rounded-lg flex items-center gap-4">
-              <Icon name="document" size={28} className="text-blue-600 flex-shrink-0" />
-              <p className="text-slate-900"><strong>ASSET MANAGEMENT FIRM</strong> integrates our React Native SDK (2 weeks)</p>
+              <Icon name="user" size={28} className="text-blue-600 flex-shrink-0" />
+              <p className="text-slate-900"><strong>INSTITUTION SIGNS UP</strong> - Treasury manager creates account on Monolith platform</p>
             </div>
             <div className="text-center">
               <Icon name="arrow-down" size={32} className="text-slate-400" />
@@ -207,15 +207,15 @@ export default function Home() {
 
             <div className="bg-slate-100 p-6 rounded-lg flex items-center gap-4">
               <Icon name="mobile" size={28} className="text-purple-600 flex-shrink-0" />
-              <p className="text-slate-900"><strong>FUND DEPLOYS</strong> white-label mobile app or web portal (their brand, logo, colors)</p>
+              <p className="text-slate-900"><strong>WHITE-LABEL DASHBOARD</strong> - Customize with their branding (logo, colors, domain)</p>
             </div>
             <div className="text-center">
               <Icon name="arrow-down" size={32} className="text-slate-400" />
             </div>
 
             <div className="bg-slate-100 p-6 rounded-lg flex items-center gap-4">
-              <Icon name="user" size={28} className="text-green-600 flex-shrink-0" />
-              <p className="text-slate-900"><strong>FUND'S CLIENTS</strong> (500-5000 users) deposit USDC/USDT via fund's app</p>
+              <Icon name="link" size={28} className="text-green-600 flex-shrink-0" />
+              <p className="text-slate-900"><strong>CONNECT INTEGRATIONS</strong> - Link QuickBooks, Fireblocks, Bloomberg in one click</p>
             </div>
             <div className="text-center">
               <Icon name="arrow-down" size={32} className="text-slate-400" />
@@ -223,15 +223,7 @@ export default function Home() {
 
             <div className="bg-slate-100 p-6 rounded-lg flex items-center gap-4">
               <Icon name="database" size={28} className="text-amber-600 flex-shrink-0" />
-              <p className="text-slate-900"><strong>MULTI-TENANT BACKEND</strong> (AWS serverless) isolates each fund's data (fundId partitioning)</p>
-            </div>
-            <div className="text-center">
-              <Icon name="arrow-down" size={32} className="text-slate-400" />
-            </div>
-
-            <div className="bg-slate-100 p-6 rounded-lg flex items-center gap-4">
-              <Icon name="link" size={28} className="text-indigo-600 flex-shrink-0" />
-              <p className="text-slate-900"><strong>VAULT CONTRACTS</strong> (on-chain, non-custodial) receive deposits, mint ERC-4626 shares</p>
+              <p className="text-slate-900"><strong>DEPOSIT CAPITAL</strong> - Transfer stablecoins to vault contracts (ERC-4626 standard)</p>
             </div>
             <div className="text-center">
               <Icon name="arrow-down" size={32} className="text-slate-400" />
@@ -239,16 +231,16 @@ export default function Home() {
 
             <div className="grid grid-cols-4 gap-3 mb-4">
               <div className="bg-slate-100 p-4 rounded-lg text-center text-sm text-slate-900">
-                USDC<br/>(Aave V3)
+                <strong>Portfolio</strong><br/>Dashboard
               </div>
               <div className="bg-slate-100 p-4 rounded-lg text-center text-sm text-slate-900">
-                USDT<br/>(Morpho)
+                <strong>Performance</strong><br/>Analytics
               </div>
               <div className="bg-slate-100 p-4 rounded-lg text-center text-sm text-slate-900">
-                DAI<br/>(MakerDAO)
+                <strong>Risk</strong><br/>Monitoring
               </div>
               <div className="bg-slate-100 p-4 rounded-lg text-center text-sm text-slate-900">
-                Curve<br/>Pools
+                <strong>Compliance</strong><br/>Reporting
               </div>
             </div>
             <div className="text-center">
@@ -257,33 +249,33 @@ export default function Home() {
 
             <div className="bg-green-100 p-6 rounded-lg border-2 border-green-500 flex items-center gap-4">
               <Icon name="check" size={28} className="text-green-600 flex-shrink-0" />
-              <p className="text-green-900"><strong>AUTO-REBALANCING</strong> optimizes yields • Funds earn revenue • Clients earn yields</p>
+              <p className="text-green-900"><strong>LIVE IN 2 WEEKS</strong> - Auto-rebalancing, daily reports, full compliance tooling</p>
             </div>
           </div>
 
           <div className="grid grid-cols-4 gap-6">
             <Card variant="glass">
-              <CardTitle className="text-center">SDK Integration</CardTitle>
+              <CardTitle className="text-center">Managed Dashboard</CardTitle>
               <CardContent className="text-center">
-                Funds integrate our React Native SDK in 2 weeks (vs 6-12 months to build)
+                We provide the complete dashboard - they white-label with their branding
               </CardContent>
             </Card>
             <Card variant="glass">
-              <CardTitle className="text-center">White-Label Deploy</CardTitle>
+              <CardTitle className="text-center">Built-in Integrations</CardTitle>
               <CardContent className="text-center">
-                Fund deploys under their brand (logo, colors, name) to their clients
+                QuickBooks, Fireblocks, Bloomberg - all pre-integrated and ready to connect
               </CardContent>
             </Card>
             <Card variant="glass">
-              <CardTitle className="text-center">Multi-Tenant Backend</CardTitle>
+              <CardTitle className="text-center">Full Compliance Suite</CardTitle>
               <CardContent className="text-center">
-                Serverless AWS isolates each fund's data (fundId partitioning, dual auth)
+                Audit trails, tax reports, insurance certificates - all automated
               </CardContent>
             </Card>
             <Card variant="glass">
-              <CardTitle className="text-center">Revenue Model</CardTitle>
+              <CardTitle className="text-center">Fast Time-to-Value</CardTitle>
               <CardContent className="text-center">
-                $2K-15K/month SaaS + implementation fees + 0.1% AUM revenue share
+                Live in 2 weeks vs 3-6 months building custom integration
               </CardContent>
             </Card>
           </div>
@@ -473,9 +465,19 @@ export default function Home() {
                   <td className="p-4 text-green-400">✓ Professional 24/7 monitoring</td>
                 </tr>
                 <tr>
-                  <td className="p-4 font-semibold">White-Label</td>
-                  <td className="p-4">✗ Protocol only</td>
-                  <td className="p-4 text-green-400">✓ SDK + API for custom branding</td>
+                  <td className="p-4 font-semibold">Dashboard & UI</td>
+                  <td className="p-4">✗ No interface (protocol only)</td>
+                  <td className="p-4 text-green-400">✓ Full managed dashboard platform</td>
+                </tr>
+                <tr>
+                  <td className="p-4 font-semibold">Integrations</td>
+                  <td className="p-4">✗ None (build yourself)</td>
+                  <td className="p-4 text-green-400">✓ Pre-built (QuickBooks, Fireblocks, etc)</td>
+                </tr>
+                <tr>
+                  <td className="p-4 font-semibold">Time to Deploy</td>
+                  <td className="p-4">3-6 months (build integration)</td>
+                  <td className="p-4 text-green-400">✓ 2 weeks (ready-to-deploy)</td>
                 </tr>
                 <tr>
                   <td className="p-4 font-semibold">Support Model</td>
@@ -493,7 +495,7 @@ export default function Home() {
 
           <div className="mt-12 p-6 bg-blue-500/10 border-2 border-blue-500/50 rounded-lg">
             <p className="text-blue-300 text-lg text-center font-medium">
-              We're not competing on yield—we compete on operational excellence. Aave = best protocol. Monolith = institutional infrastructure layer.
+              We're not competing on yield—we compete on operational excellence. Aave = best protocol. Monolith = managed dashboard platform with full compliance suite.
             </p>
           </div>
         </SlideContent>
@@ -792,21 +794,22 @@ export default function Home() {
       <Slide id={11} background="bg-gradient-to-br from-black via-zinc-900 to-black">
         <SlideContent className="text-center flex flex-col justify-center items-center min-h-[calc(100vh-180px)]">
           <Title size="lg" className="mb-16 text-center">
-            LIVE DEMO
+            MANAGED DASHBOARD PLATFORM
           </Title>
 
-          <p className="text-3xl mb-10 text-slate-300">
-            Dashboard demo available at:
-          </p>
+          <Subtitle size="md" className="mb-10 text-center text-slate-300">
+            Complete infrastructure - not just an API
+          </Subtitle>
 
           <div className="bg-blue-500/20 border-4 border-blue-400 rounded-xl p-8 inline-block mb-16">
+            <p className="text-2xl text-blue-300 mb-2">Dashboard Demo Available At:</p>
             <p className="text-4xl font-bold text-blue-400">
               [Add link here for demo]
             </p>
           </div>
 
           <Subtitle size="md" className="mb-8">
-            Customers get:
+            Full-Service Platform Includes:
           </Subtitle>
 
           <div className="grid grid-cols-2 gap-6 max-w-5xl mx-auto">
@@ -885,12 +888,12 @@ export default function Home() {
                   M2-3
                 </div>
                 <Card variant="glass" className="flex-1">
-                  <CardTitle>Smart Contracts + Audit</CardTitle>
+                  <CardTitle>Smart Contracts + Core Dashboards</CardTitle>
                   <CardContent>
                     <ul className="space-y-1 text-left text-sm">
-                      <li>• ERC-4626 vault development</li>
-                      <li>• Internal testing suite (100+ tests)</li>
-                      <li>• External audit (OpenZeppelin/Trail of Bits)</li>
+                      <li>• ERC-4626 vault development + audit</li>
+                      <li>• Portfolio & Performance dashboards</li>
+                      <li>• White-label customization system</li>
                     </ul>
                   </CardContent>
                 </Card>
@@ -902,12 +905,12 @@ export default function Home() {
                   M4
                 </div>
                 <Card variant="glass" className="flex-1">
-                  <CardTitle>API + Infrastructure</CardTitle>
+                  <CardTitle>Integrations & Compliance Tools</CardTitle>
                   <CardContent>
                     <ul className="space-y-1 text-left text-sm">
-                      <li>• REST API development</li>
-                      <li>• Multi-tenant architecture + auth</li>
-                      <li>• Monitoring & alerting systems</li>
+                      <li>• QuickBooks & Fireblocks integration</li>
+                      <li>• Compliance dashboard & reporting</li>
+                      <li>• User management & permissions</li>
                     </ul>
                   </CardContent>
                 </Card>
@@ -919,12 +922,12 @@ export default function Home() {
                   M5
                 </div>
                 <Card variant="glass" className="flex-1">
-                  <CardTitle>Compliance + Reporting</CardTitle>
+                  <CardTitle>Advanced Dashboard Features</CardTitle>
                   <CardContent>
                     <ul className="space-y-1 text-left text-sm">
-                      <li>• Compliance reporting engine</li>
-                      <li>• Audit trail documentation</li>
-                      <li>• Insurance setup (Nexus Mutual)</li>
+                      <li>• Risk monitoring & alerts</li>
+                      <li>• Advanced analytics & reporting</li>
+                      <li>• Automated report scheduling</li>
                     </ul>
                   </CardContent>
                 </Card>
@@ -939,8 +942,8 @@ export default function Home() {
                   <CardTitle>Pilot Customer Launch 🚀</CardTitle>
                   <CardContent>
                     <ul className="space-y-1 text-left text-sm">
-                      <li>• Mainnet deployment</li>
-                      <li>• Customer integration + testing</li>
+                      <li>• Customer dashboard customization</li>
+                      <li>• Mainnet deployment + onboarding</li>
                       <li>• Go-live with $5-20M AUM</li>
                     </ul>
                   </CardContent>
