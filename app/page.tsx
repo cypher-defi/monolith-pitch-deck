@@ -699,7 +699,7 @@ export default function Home() {
                   A
                 </div>
                 <div>
-                  <div className="text-2xl font-bold">Antonio Rapozo</div>
+                  <div className="text-2xl font-bold text-[#60a5fa]">Antonio Rapozo</div>
                   <div className="text-slate-400">Co-Founder & Chief Technology Officer</div>
                 </div>
               </div>
@@ -736,7 +736,7 @@ export default function Home() {
                   E
                 </div>
                 <div>
-                  <div className="text-2xl font-bold">Enrique Ibarra</div>
+                  <div className="text-2xl font-bold text-[#60a5fa]">Enrique Ibarra</div>
                   <div className="text-slate-400">Co-Founder & Chief Protocol Officer</div>
                 </div>
               </div>
@@ -1134,26 +1134,26 @@ export default function Home() {
               <tbody className="divide-y divide-slate-700">
                 <tr>
                   <td className="p-4 font-semibold text-green-500">Small Fund</td>
-                  <td className="p-4"><strong>$1M</strong><br/>(from $50M AUM)</td>
+                  <td className="p-4"><strong>$3M</strong><br/>(from $150M AUM)</td>
                   <td className="p-4">$0</td>
-                  <td className="p-4 text-green-500 font-bold">$50K/year</td>
-                  <td className="p-4 text-green-500 font-bold">+$40K net</td>
+                  <td className="p-4 text-green-500 font-bold">$150K/year</td>
+                  <td className="p-4 text-green-500 font-bold">+$120K net</td>
                   <td className="p-4 text-green-500 font-bold">1.5 months</td>
                 </tr>
                 <tr>
                   <td className="p-4 font-semibold text-blue-500">Mid-Size Fund</td>
-                  <td className="p-4"><strong>$3M</strong><br/>(from $150M AUM)</td>
+                  <td className="p-4"><strong>$6M</strong><br/>(from $300M AUM)</td>
                   <td className="p-4">$0</td>
-                  <td className="p-4 text-blue-500 font-bold">$150K/year</td>
-                  <td className="p-4 text-blue-500 font-bold">+$120K net</td>
+                  <td className="p-4 text-blue-500 font-bold">$300K/year</td>
+                  <td className="p-4 text-blue-500 font-bold">+$240K net</td>
                   <td className="p-4 text-blue-500 font-bold">1.5 months</td>
                 </tr>
                 <tr>
                   <td className="p-4 font-semibold text-amber-500">Large Fund</td>
-                  <td className="p-4"><strong>$6M</strong><br/>(from $300M AUM)</td>
+                  <td className="p-4"><strong>$10M</strong><br/>(from $500M AUM)</td>
                   <td className="p-4">$0</td>
-                  <td className="p-4 text-amber-500 font-bold">$300K/year</td>
-                  <td className="p-4 text-amber-500 font-bold">+$240K net</td>
+                  <td className="p-4 text-amber-500 font-bold">$500K/year</td>
+                  <td className="p-4 text-amber-500 font-bold">+$400K net</td>
                   <td className="p-4 text-amber-500 font-bold">1.5 months</td>
                 </tr>
               </tbody>
@@ -1494,7 +1494,7 @@ export default function Home() {
               <div className="space-y-4 text-center">
                 <div>
                   <p className="text-slate-600 text-sm mb-2">TVL Growth</p>
-                  <p className="text-3xl font-bold">$1M → $25M</p>
+                  <p className="text-3xl font-bold text-yellow-600">$1M → $25M</p>
                 </div>
                 <div>
                   <p className="text-slate-600 text-sm mb-2">Revenue</p>
@@ -1502,7 +1502,7 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="text-slate-600 text-sm mb-2">Expenses</p>
-                  <p className="text-2xl font-bold">$600K</p>
+                  <p className="text-2xl font-bold text-green-600">$600K</p>
                   <p className="text-xs text-slate-600">(Seed capital)</p>
                 </div>
                 <div>
@@ -1518,7 +1518,7 @@ export default function Home() {
               <div className="space-y-4 text-center">
                 <div>
                   <p className="text-slate-600 text-sm mb-2">TVL Growth</p>
-                  <p className="text-3xl font-bold">$25M → $100M</p>
+                  <p className="text-3xl font-bold text-yellow-600">$25M → $100M</p>
                 </div>
                 <div>
                   <p className="text-slate-600 text-sm mb-2">Revenue</p>
@@ -1526,7 +1526,7 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="text-slate-600 text-sm mb-2">Expenses</p>
-                  <p className="text-2xl font-bold">$2M</p>
+                  <p className="text-2xl font-bold text-green-600">$2M</p>
                   <p className="text-xs text-slate-600">(Series A capital)</p>
                 </div>
                 <div>
@@ -1542,7 +1542,7 @@ export default function Home() {
               <div className="space-y-4 text-center">
                 <div>
                   <p className="text-slate-600 text-sm mb-2">TVL Growth</p>
-                  <p className="text-3xl font-bold">$100M → $500M</p>
+                  <p className="text-3xl font-bold text-yellow-600">$100M → $500M</p>
                 </div>
                 <div>
                   <p className="text-slate-600 text-sm mb-2">Revenue</p>
@@ -1550,7 +1550,7 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="text-slate-600 text-sm mb-2">Expenses</p>
-                  <p className="text-2xl font-bold">$3.5M</p>
+                  <p className="text-2xl font-bold text-green-600">$3.5M</p>
                   <p className="text-xs text-slate-600">(Operating costs)</p>
                 </div>
                 <div>
