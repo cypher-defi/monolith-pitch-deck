@@ -1099,26 +1099,26 @@ export default function Home() {
             THE ASK
           </Title>
 
-          <div className="grid grid-cols-3 gap-8 mb-16">
+          <ThreeColumnGrid className="mb-16">
             <Card className="bg-blue-50 border-2 border-blue-500">
               <div className="text-center">
-                <CardTitle className="text-blue-600 mb-4">Raise Amount</CardTitle>
-                <div className="text-5xl font-bold text-blue-600">$500K-$1M</div>
+                <CardTitle className="text-blue-600 mb-4 text-sm sm:text-base">Raise Amount</CardTitle>
+                <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-600">$500K-$1M</div>
               </div>
             </Card>
             <Card className="bg-purple-50 border-2 border-purple-500">
               <div className="text-center">
-                <CardTitle className="text-purple-600 mb-4">Pre-Money Valuation</CardTitle>
-                <div className="text-5xl font-bold text-purple-600">$3-4M</div>
+                <CardTitle className="text-purple-600 mb-4 text-sm sm:text-base">Pre-Money Valuation</CardTitle>
+                <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-purple-600">$3-4M</div>
               </div>
             </Card>
             <Card className="bg-green-50 border-2 border-green-500">
               <div className="text-center">
-                <CardTitle className="text-green-600 mb-4">Equity Offered</CardTitle>
-                <div className="text-5xl font-bold text-green-600">15-20%</div>
+                <CardTitle className="text-green-600 mb-4 text-sm sm:text-base">Equity Offered</CardTitle>
+                <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-green-600">15-20%</div>
               </div>
             </Card>
-          </div>
+          </ThreeColumnGrid>
 
           <h3 className="text-2xl mb-8 text-center text-white">
             Investor Payback Scenario: Fund Allocating 2% to Stablecoins
