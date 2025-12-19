@@ -292,22 +292,22 @@ export default function Home() {
           </Title>
 
           <ThreeColumnGrid className="mb-16">
-            <Card className="bg-blue-50 border-2 border-blue-500">
+            <Card className="bg-gradient-to-br from-blue-50 via-blue-100 to-blue-50 border-2 border-blue-500 shadow-lg shadow-blue-500/20 hover:shadow-xl hover:shadow-blue-500/30 transition-all duration-300">
               <div className="text-center">
                 <div className="text-6xl font-bold text-blue-600 mb-4">$310B</div>
-                <CardTitle className="text-center text-slate-600">Total Market Size</CardTitle>
+                <CardTitle className="text-center text-slate-700">Total Market Size</CardTitle>
               </div>
             </Card>
-            <Card className="bg-green-50 border-2 border-green-500">
+            <Card className="bg-gradient-to-br from-green-50 via-green-100 to-green-50 border-2 border-green-500 shadow-lg shadow-green-500/20 hover:shadow-xl hover:shadow-green-500/30 transition-all duration-300">
               <div className="text-center">
                 <div className="text-6xl font-bold text-green-600 mb-4">+50%</div>
-                <CardTitle className="text-center text-slate-600">YoY Growth Rate</CardTitle>
+                <CardTitle className="text-center text-slate-700">YoY Growth Rate</CardTitle>
               </div>
             </Card>
-            <Card className="bg-purple-50 border-2 border-purple-500">
+            <Card className="bg-gradient-to-br from-purple-50 via-purple-100 to-purple-50 border-2 border-purple-500 shadow-lg shadow-purple-500/20 hover:shadow-xl hover:shadow-purple-500/30 transition-all duration-300">
               <div className="text-center">
                 <div className="text-6xl font-bold text-purple-600 mb-4">$1T+</div>
-                <CardTitle className="text-center text-slate-600">Monthly Volume</CardTitle>
+                <CardTitle className="text-center text-slate-700">Monthly Volume</CardTitle>
               </div>
             </Card>
           </ThreeColumnGrid>
@@ -511,21 +511,21 @@ export default function Home() {
           </Title>
 
           <ThreeColumnGrid className="mb-12">
-            <Card className="bg-green-50 border-2 border-green-500">
+            <Card className="bg-gradient-to-br from-green-50 via-green-100 to-green-50 border-2 border-green-500 shadow-lg shadow-green-500/20 hover:shadow-xl hover:shadow-green-500/30 transition-all duration-300">
               <CardTitle className="text-center text-green-600">Management Fee</CardTitle>
               <div className="text-center my-4">
                 <div className="text-5xl font-bold text-green-600 mb-2">1.0-1.5%</div>
-                <div className="text-slate-600">Annual on AUM</div>
+                <div className="text-slate-700">Annual on AUM</div>
               </div>
             </Card>
-            <Card className="bg-blue-50 border-2 border-blue-500">
+            <Card className="bg-gradient-to-br from-blue-50 via-blue-100 to-blue-50 border-2 border-blue-500 shadow-lg shadow-blue-500/20 hover:shadow-xl hover:shadow-blue-500/30 transition-all duration-300">
               <CardTitle className="text-center text-blue-600">Implementation</CardTitle>
               <div className="text-center my-4">
                 <div className="text-5xl font-bold text-blue-600 mb-2">$25-75K</div>
-                <div className="text-slate-600">One-Time Setup</div>
+                <div className="text-slate-700">One-Time Setup</div>
               </div>
             </Card>
-            <Card className="bg-amber-50 border-2 border-amber-500">
+            <Card className="bg-gradient-to-br from-amber-50 via-amber-100 to-amber-50 border-2 border-amber-500 shadow-lg shadow-amber-500/20 hover:shadow-xl hover:shadow-amber-500/30 transition-all duration-300">
               <CardTitle className="text-center text-amber-600">White-Label SDK</CardTitle>
               <div className="text-center my-4">
                 <div className="text-5xl font-bold text-amber-600 mb-2">$2-15K</div>
@@ -805,9 +805,14 @@ export default function Home() {
 
           <div className="bg-blue-500/20 border-4 border-blue-400 rounded-xl p-8 inline-block mb-16">
             <p className="text-2xl text-blue-300 mb-2">Dashboard Demo Available At:</p>
-            <p className="text-4xl font-bold text-blue-400">
-              [Add link here for demo]
-            </p>
+            <a
+              href="https://monolith-dashboard-beta.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-4xl font-bold text-blue-400 hover:text-blue-300 transition-colors underline"
+            >
+              monolith-dashboard-beta.vercel.app
+            </a>
           </div>
 
           <Subtitle size="md" className="mb-8">
@@ -975,28 +980,28 @@ export default function Home() {
           {/* Year 1 Milestones */}
           <h3 className="text-2xl mb-8 text-center text-white">Year 1 Milestones</h3>
           <FourColumnGrid>
-            <Card className="bg-blue-50 border-2 border-blue-500">
+            <Card className="bg-gradient-to-br from-blue-50 via-blue-100 to-blue-50 border-2 border-blue-500 shadow-lg shadow-blue-500/20 hover:shadow-xl hover:shadow-blue-500/30 transition-all duration-300 hover:-translate-y-1">
               <div className="text-center">
                 <div className="text-5xl font-bold text-blue-600 mb-2">3</div>
-                <div className="text-slate-600">Institutional Partners</div>
+                <div className="text-slate-700 font-medium">Institutional Partners</div>
               </div>
             </Card>
-            <Card className="bg-green-50 border-2 border-green-500">
+            <Card className="bg-gradient-to-br from-green-50 via-green-100 to-green-50 border-2 border-green-500 shadow-lg shadow-green-500/20 hover:shadow-xl hover:shadow-green-500/30 transition-all duration-300 hover:-translate-y-1">
               <div className="text-center">
                 <div className="text-5xl font-bold text-green-600 mb-2">$100M</div>
-                <div className="text-slate-600">AUM Managed</div>
+                <div className="text-slate-700 font-medium">AUM Managed</div>
               </div>
             </Card>
-            <Card className="bg-purple-50 border-2 border-purple-500">
+            <Card className="bg-gradient-to-br from-purple-50 via-purple-100 to-purple-50 border-2 border-purple-500 shadow-lg shadow-purple-500/20 hover:shadow-xl hover:shadow-purple-500/30 transition-all duration-300 hover:-translate-y-1">
               <div className="text-center">
                 <div className="text-5xl font-bold text-purple-600 mb-2">$1M</div>
-                <div className="text-slate-600">ARR</div>
+                <div className="text-slate-700 font-medium">ARR</div>
               </div>
             </Card>
-            <Card className="bg-amber-50 border-2 border-amber-500">
+            <Card className="bg-gradient-to-br from-amber-50 via-amber-100 to-amber-50 border-2 border-amber-500 shadow-lg shadow-amber-500/20 hover:shadow-xl hover:shadow-amber-500/30 transition-all duration-300 hover:-translate-y-1">
               <div className="text-center">
                 <div className="text-4xl font-bold text-amber-600 mb-2">Series A</div>
-                <div className="text-slate-600">Ready</div>
+                <div className="text-slate-700 font-medium">Ready</div>
               </div>
             </Card>
           </FourColumnGrid>
@@ -1100,21 +1105,21 @@ export default function Home() {
           </Title>
 
           <ThreeColumnGrid className="mb-16">
-            <Card className="bg-blue-50 border-2 border-blue-500">
+            <Card className="bg-gradient-to-br from-blue-50 via-blue-100 to-blue-50 border-2 border-blue-500 shadow-xl shadow-blue-500/30 hover:shadow-2xl hover:shadow-blue-500/40 transition-all duration-300 hover:scale-105">
               <div className="text-center">
-                <CardTitle className="text-blue-600 mb-4 text-sm sm:text-base">Raise Amount</CardTitle>
+                <CardTitle className="text-blue-600 mb-4 text-sm sm:text-base font-bold">Raise Amount</CardTitle>
                 <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-600">$500K-$1M</div>
               </div>
             </Card>
-            <Card className="bg-purple-50 border-2 border-purple-500">
+            <Card className="bg-gradient-to-br from-purple-50 via-purple-100 to-purple-50 border-2 border-purple-500 shadow-xl shadow-purple-500/30 hover:shadow-2xl hover:shadow-purple-500/40 transition-all duration-300 hover:scale-105">
               <div className="text-center">
-                <CardTitle className="text-purple-600 mb-4 text-sm sm:text-base">Pre-Money Valuation</CardTitle>
+                <CardTitle className="text-purple-600 mb-4 text-sm sm:text-base font-bold">Pre-Money Valuation</CardTitle>
                 <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-purple-600">$3-4M</div>
               </div>
             </Card>
-            <Card className="bg-green-50 border-2 border-green-500">
+            <Card className="bg-gradient-to-br from-green-50 via-green-100 to-green-50 border-2 border-green-500 shadow-xl shadow-green-500/30 hover:shadow-2xl hover:shadow-green-500/40 transition-all duration-300 hover:scale-105">
               <div className="text-center">
-                <CardTitle className="text-green-600 mb-4 text-sm sm:text-base">Equity Offered</CardTitle>
+                <CardTitle className="text-green-600 mb-4 text-sm sm:text-base font-bold">Equity Offered</CardTitle>
                 <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-green-600">15-20%</div>
               </div>
             </Card>
@@ -1207,19 +1212,33 @@ export default function Home() {
             Questions & Discussion
           </Subtitle>
 
-          <div className="space-y-6 text-left max-w-2xl">
-            <p className="text-xl text-slate-300 flex items-center gap-4">
-              <Icon name="email" size={28} className="text-blue-400" />
-              Contact: founders@monolith.finance
-            </p>
-            <p className="text-xl text-slate-300 flex items-center gap-4">
-              <Icon name="globe" size={28} className="text-blue-400" />
-              Demo: [Add link here]
-            </p>
-            <p className="text-xl text-slate-300 flex items-center gap-4">
-              <Icon name="folder" size={28} className="text-blue-400" />
-              Data Room: Available upon request
-            </p>
+          <div className="space-y-6 max-w-2xl w-full px-4">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4">
+              <Icon name="email" size={28} className="text-blue-400 flex-shrink-0" />
+              <p className="text-base sm:text-xl text-slate-300 break-words">
+                Contact: founders@monolith.finance
+              </p>
+            </div>
+            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4">
+              <Icon name="globe" size={28} className="text-blue-400 flex-shrink-0" />
+              <p className="text-base sm:text-xl text-slate-300 break-words">
+                Demo:{' '}
+                <a
+                  href="https://monolith-dashboard-beta.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:text-blue-300 transition-colors underline break-all"
+                >
+                  monolith-dashboard-beta.vercel.app
+                </a>
+              </p>
+            </div>
+            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4">
+              <Icon name="folder" size={28} className="text-blue-400 flex-shrink-0" />
+              <p className="text-base sm:text-xl text-slate-300 break-words">
+                Data Room: Available upon request
+              </p>
+            </div>
           </div>
         </SlideContent>
       </Slide>
@@ -1494,72 +1513,72 @@ export default function Home() {
           </Title>
 
           <ThreeColumnGrid className="mb-12">
-            <div className="bg-slate-50 p-8 rounded-xl border-2 border-slate-200">
-              <h3 className="text-blue-600 text-3xl mb-6 text-center">Year 1</h3>
+            <div className="bg-gradient-to-br from-slate-50 via-white to-slate-50 p-8 rounded-xl border-2 border-blue-300 shadow-lg shadow-blue-200/50 hover:shadow-xl hover:shadow-blue-300/60 transition-all duration-300">
+              <h3 className="text-blue-600 text-3xl mb-6 text-center font-bold">Year 1</h3>
               <div className="space-y-4 text-center">
                 <div>
-                  <p className="text-slate-600 text-sm mb-2">TVL Growth</p>
+                  <p className="text-slate-600 text-sm mb-2 font-medium">TVL Growth</p>
                   <p className="text-3xl font-bold text-yellow-600">$1M → $25M</p>
                 </div>
                 <div>
-                  <p className="text-slate-600 text-sm mb-2">Revenue</p>
+                  <p className="text-slate-600 text-sm mb-2 font-medium">Revenue</p>
                   <p className="text-3xl font-bold text-blue-600">$375K</p>
                 </div>
                 <div>
-                  <p className="text-slate-600 text-sm mb-2">Expenses</p>
+                  <p className="text-slate-600 text-sm mb-2 font-medium">Expenses</p>
                   <p className="text-2xl font-bold text-green-600">$600K</p>
                   <p className="text-xs text-slate-600">(Seed capital)</p>
                 </div>
                 <div>
-                  <p className="text-slate-600 text-sm mb-2">Net</p>
+                  <p className="text-slate-600 text-sm mb-2 font-medium">Net</p>
                   <p className="text-2xl font-bold text-red-500">($225K)</p>
                   <p className="text-xs text-slate-600">Investment phase</p>
                 </div>
               </div>
             </div>
 
-            <div className="bg-slate-50 p-8 rounded-xl border-2 border-slate-200">
-              <h3 className="text-blue-600 text-3xl mb-6 text-center">Year 2</h3>
+            <div className="bg-gradient-to-br from-slate-50 via-white to-slate-50 p-8 rounded-xl border-2 border-purple-300 shadow-lg shadow-purple-200/50 hover:shadow-xl hover:shadow-purple-300/60 transition-all duration-300">
+              <h3 className="text-purple-600 text-3xl mb-6 text-center font-bold">Year 2</h3>
               <div className="space-y-4 text-center">
                 <div>
-                  <p className="text-slate-600 text-sm mb-2">TVL Growth</p>
+                  <p className="text-slate-600 text-sm mb-2 font-medium">TVL Growth</p>
                   <p className="text-3xl font-bold text-yellow-600">$25M → $100M</p>
                 </div>
                 <div>
-                  <p className="text-slate-600 text-sm mb-2">Revenue</p>
-                  <p className="text-3xl font-bold text-blue-600">$1.5M</p>
+                  <p className="text-slate-600 text-sm mb-2 font-medium">Revenue</p>
+                  <p className="text-3xl font-bold text-purple-600">$1.5M</p>
                 </div>
                 <div>
-                  <p className="text-slate-600 text-sm mb-2">Expenses</p>
+                  <p className="text-slate-600 text-sm mb-2 font-medium">Expenses</p>
                   <p className="text-2xl font-bold text-green-600">$2M</p>
                   <p className="text-xs text-slate-600">(Series A capital)</p>
                 </div>
                 <div>
-                  <p className="text-slate-600 text-sm mb-2">Net</p>
+                  <p className="text-slate-600 text-sm mb-2 font-medium">Net</p>
                   <p className="text-2xl font-bold text-red-500">($500K)</p>
                   <p className="text-xs text-slate-600">Growth phase</p>
                 </div>
               </div>
             </div>
 
-            <div className="bg-slate-50 p-8 rounded-xl border-2 border-slate-200">
-              <h3 className="text-blue-600 text-3xl mb-6 text-center">Year 3</h3>
+            <div className="bg-gradient-to-br from-green-50 via-white to-green-50 p-8 rounded-xl border-2 border-green-400 shadow-lg shadow-green-200/50 hover:shadow-xl hover:shadow-green-300/60 transition-all duration-300">
+              <h3 className="text-green-600 text-3xl mb-6 text-center font-bold">Year 3</h3>
               <div className="space-y-4 text-center">
                 <div>
-                  <p className="text-slate-600 text-sm mb-2">TVL Growth</p>
+                  <p className="text-slate-600 text-sm mb-2 font-medium">TVL Growth</p>
                   <p className="text-3xl font-bold text-yellow-600">$100M → $500M</p>
                 </div>
                 <div>
-                  <p className="text-slate-600 text-sm mb-2">Revenue</p>
-                  <p className="text-3xl font-bold text-blue-600">$7.5M</p>
+                  <p className="text-slate-600 text-sm mb-2 font-medium">Revenue</p>
+                  <p className="text-3xl font-bold text-green-600">$7.5M</p>
                 </div>
                 <div>
-                  <p className="text-slate-600 text-sm mb-2">Expenses</p>
+                  <p className="text-slate-600 text-sm mb-2 font-medium">Expenses</p>
                   <p className="text-2xl font-bold text-green-600">$3.5M</p>
                   <p className="text-xs text-slate-600">(Operating costs)</p>
                 </div>
                 <div>
-                  <p className="text-slate-600 text-sm mb-2">Net</p>
+                  <p className="text-slate-600 text-sm mb-2 font-medium">Net</p>
                   <p className="text-2xl font-bold text-green-500">+$4M</p>
                   <p className="text-xs text-slate-600">✓ Profitable</p>
                 </div>
