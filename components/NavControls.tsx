@@ -11,11 +11,11 @@ interface NavControlsProps {
 
 export default function NavControls({ currentSlide, totalSlides, onPrevious, onNext }: NavControlsProps) {
   return (
-    <div className="nav-controls">
+    <div className="nav-controls touch-manipulation">
       <button
         onClick={onPrevious}
         disabled={currentSlide === 1}
-        className="nav-btn"
+        className="nav-btn touch-manipulation active:scale-95 transition-transform"
         aria-label="Previous slide"
       >
         ← Previous
@@ -28,7 +28,7 @@ export default function NavControls({ currentSlide, totalSlides, onPrevious, onN
       <button
         onClick={onNext}
         disabled={currentSlide === totalSlides}
-        className="nav-btn"
+        className="nav-btn touch-manipulation active:scale-95 transition-transform"
         aria-label="Next slide"
       >
         Next →

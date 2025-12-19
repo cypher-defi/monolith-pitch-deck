@@ -9,6 +9,8 @@ import CardTitle from '@/components/CardTitle';
 import CardContent from '@/components/CardContent';
 import ThreeColumnGrid from '@/components/ThreeColumnGrid';
 import TwoColumnGrid from '@/components/TwoColumnGrid';
+import FourColumnGrid from '@/components/FourColumnGrid';
+import FiveColumnGrid from '@/components/FiveColumnGrid';
 import NavControls from '@/components/NavControls';
 import Icon from '@/components/Icon';
 import usePresentationController from '@/hooks/usePresentationController';
@@ -229,7 +231,7 @@ export default function Home() {
               <Icon name="arrow-down" size={32} className="text-slate-400" />
             </div>
 
-            <div className="grid grid-cols-4 gap-3 mb-4">
+            <FourColumnGrid className="mb-4">
               <div className="bg-slate-100 p-4 rounded-lg text-center text-sm text-slate-900">
                 <strong>Portfolio</strong><br/>Dashboard
               </div>
@@ -242,7 +244,7 @@ export default function Home() {
               <div className="bg-slate-100 p-4 rounded-lg text-center text-sm text-slate-900">
                 <strong>Compliance</strong><br/>Reporting
               </div>
-            </div>
+            </FourColumnGrid>
             <div className="text-center">
               <Icon name="arrow-down" size={32} className="text-slate-400" />
             </div>
@@ -253,7 +255,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="grid grid-cols-4 gap-6">
+          <FourColumnGrid>
             <Card variant="glass">
               <CardTitle className="text-center">Managed Dashboard</CardTitle>
               <CardContent className="text-center">
@@ -278,7 +280,7 @@ export default function Home() {
                 Live in 2 weeks vs 3-6 months building custom integration
               </CardContent>
             </Card>
-          </div>
+          </FourColumnGrid>
         </SlideContent>
       </Slide>
 
@@ -310,7 +312,7 @@ export default function Home() {
             </Card>
           </ThreeColumnGrid>
 
-          <div className="grid grid-cols-5 gap-6 mb-12">
+          <FiveColumnGrid className="mb-12">
             <Card variant="glass">
               <CardTitle>USDT: $186B (60%)</CardTitle>
               <CardContent>Market leader, widely adopted</CardContent>
@@ -331,7 +333,7 @@ export default function Home() {
               <CardTitle>Others: $30B+ (10%)</CardTitle>
               <CardContent>Emerging + regional stables</CardContent>
             </Card>
-          </div>
+          </FiveColumnGrid>
 
           <div className="p-6 bg-blue-500/10 border-2 border-blue-500/50 rounded-lg">
             <p className="text-blue-300 text-lg text-center">
@@ -349,7 +351,7 @@ export default function Home() {
             WHY NOW? FOUR TAILWINDS
           </Title>
 
-          <div className="grid grid-cols-4 gap-8">
+          <FourColumnGrid>
             <Card variant="glass">
               <div className="text-center mb-4">
                 <div className="inline-block p-4 rounded-full bg-purple-50 border-2 border-purple-500 mb-4">
@@ -417,7 +419,7 @@ export default function Home() {
                 </ul>
               </CardContent>
             </Card>
-          </div>
+          </FourColumnGrid>
 
           <div className="mt-12 p-6 bg-green-500/10 border-2 border-green-500/50 rounded-lg">
             <p className="text-green-300 text-lg text-center font-medium">
@@ -537,7 +539,7 @@ export default function Home() {
             {/* Timeline line */}
             <div className="absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-green-500"></div>
 
-            <div className="relative grid grid-cols-4 gap-6">
+            <FourColumnGrid className="relative">
               {/* Month 6-9 */}
               <div className="flex flex-col items-center">
                 <div className="w-6 h-6 rounded-full bg-blue-500 border-4 border-black mb-4 relative z-10"></div>
@@ -585,7 +587,7 @@ export default function Home() {
                   <div className="text-3xl font-bold text-green-400 mt-4 text-center">$15M ARR</div>
                 </Card>
               </div>
-            </div>
+            </FourColumnGrid>
           </div>
 
           <div className="p-6 bg-blue-500/10 border-2 border-blue-500/50 rounded-lg">
@@ -972,7 +974,7 @@ export default function Home() {
 
           {/* Year 1 Milestones */}
           <h3 className="text-2xl mb-8 text-center text-white">Year 1 Milestones</h3>
-          <div className="grid grid-cols-4 gap-6">
+          <FourColumnGrid>
             <Card className="bg-blue-50 border-2 border-blue-500">
               <div className="text-center">
                 <div className="text-5xl font-bold text-blue-600 mb-2">3</div>
@@ -997,7 +999,7 @@ export default function Home() {
                 <div className="text-slate-600">Ready</div>
               </div>
             </Card>
-          </div>
+          </FourColumnGrid>
         </SlideContent>
       </Slide>
 
@@ -1165,7 +1167,7 @@ export default function Home() {
 
           <h3 className="text-2xl mb-8 text-center">Why Invest in Monolith?</h3>
 
-          <div className="grid grid-cols-4 gap-6 mb-8">
+          <FourColumnGrid className="mb-8">
             <Card variant="glass">
               <CardTitle>B2B Infrastructure Play</CardTitle>
               <CardContent>Not consumer fintech—institutional infrastructure with real revenue</CardContent>
@@ -1182,7 +1184,7 @@ export default function Home() {
               <CardTitle>Fast to Revenue</CardTitle>
               <CardContent>First customer Month 6 • $1M ARR by Year 1</CardContent>
             </Card>
-          </div>
+          </FourColumnGrid>
 
           <div className="p-6 bg-blue-500/10 border-2 border-blue-500/50 rounded-lg">
             <p className="text-blue-300 text-lg text-center">
@@ -1274,7 +1276,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-4 gap-4 mb-6">
+          <FourColumnGrid className="mb-6">
             <div className="text-center">
               <div className="text-4xl font-bold mb-2">2 weeks</div>
               <div className="text-slate-400 text-sm">Integration Time</div>
@@ -1295,7 +1297,7 @@ export default function Home() {
               <div className="text-slate-400 text-sm">Faster Distribution</div>
               <div className="text-xs text-slate-500 mt-1">Leverage fund's existing clients</div>
             </div>
-          </div>
+          </FourColumnGrid>
 
           <div className="p-6 bg-blue-500/10 border-2 border-blue-500/50 rounded-lg">
             <p className="text-blue-300 text-center">
@@ -1568,7 +1570,7 @@ export default function Home() {
           <h3 className="text-2xl mb-6 text-blue-400 text-center">
             Series A Target (Month 15-18)
           </h3>
-          <div className="grid grid-cols-4 gap-6 mb-8">
+          <FourColumnGrid className="mb-8">
             <div className="text-center">
               <div className="text-slate-400 mb-2 text-sm">Raise</div>
               <div className="text-4xl font-bold">$5-8M</div>
@@ -1587,7 +1589,7 @@ export default function Home() {
               <div className="text-4xl font-bold">$750K+</div>
               <div className="text-sm text-slate-400">annual run-rate</div>
             </div>
-          </div>
+          </FourColumnGrid>
 
           <div className="p-6 bg-blue-500/10 border-2 border-blue-500/50 rounded-lg">
             <p className="text-blue-300 text-lg text-center">
