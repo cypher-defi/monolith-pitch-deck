@@ -4,9 +4,7 @@ import Slide from "@/components/Slide";
 import SlideContent from "@/components/SlideContent";
 import Title from "@/components/Title";
 import Subtitle from "@/components/Subtitle";
-import Card from "@/components/Card";
-import CardTitle from "@/components/CardTitle";
-import CardContent from "@/components/CardContent";
+import Icon from "@/components/Icon";
 
 export default function Slide16AppendixDivider() {
   return (
@@ -23,22 +21,55 @@ export default function Slide16AppendixDivider() {
         </Subtitle>
 
         <div className="grid grid-cols-2 gap-6 max-w-3xl">
-          <Card variant="glass">
-            <CardTitle>A. Technical Architecture</CardTitle>
-            <CardContent>Smart contract design</CardContent>
-          </Card>
-          <Card variant="glass">
-            <CardTitle>B. Security Framework</CardTitle>
-            <CardContent>Audit strategy</CardContent>
-          </Card>
-          <Card variant="glass">
-            <CardTitle>C. Regulatory Strategy</CardTitle>
-            <CardContent>Jurisdiction options</CardContent>
-          </Card>
-          <Card variant="glass">
-            <CardTitle>D. 3-Year Projections</CardTitle>
-            <CardContent>Financial model</CardContent>
-          </Card>
+          <div className="bg-gradient-to-br from-blue-500/20 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-6 text-center">
+            <Icon
+              name="code"
+              size={40}
+              className="text-blue-400 mx-auto mb-3"
+            />
+            <h3 className="font-bold text-white mb-2">
+              A. Technical Architecture
+            </h3>
+            <p className="text-sm text-gray-400">
+              Smart contract design & deployment
+            </p>
+          </div>
+
+          <div className="bg-gradient-to-br from-green-500/20 to-green-500/5 border-2 border-green-500/50 rounded-xl p-6 text-center">
+            <Icon
+              name="check"
+              size={40}
+              className="text-green-400 mx-auto mb-3"
+            />
+            <h3 className="font-bold text-white mb-2">B. Security Framework</h3>
+            <p className="text-sm text-gray-400">
+              Audit & risk management strategy
+            </p>
+          </div>
+
+          <div className="bg-gradient-to-br from-purple-500/20 to-purple-500/5 border-2 border-purple-500/50 rounded-xl p-6 text-center">
+            <Icon
+              name="scroll"
+              size={40}
+              className="text-purple-400 mx-auto mb-3"
+            />
+            <h3 className="font-bold text-white mb-2">
+              C. Regulatory Strategy
+            </h3>
+            <p className="text-sm text-gray-400">
+              Jurisdiction & compliance options
+            </p>
+          </div>
+
+          <div className="bg-gradient-to-br from-amber-500/20 to-amber-500/5 border-2 border-amber-500/50 rounded-xl p-6 text-center">
+            <Icon
+              name="chart"
+              size={40}
+              className="text-amber-400 mx-auto mb-3"
+            />
+            <h3 className="font-bold text-white mb-2">D. 3-Year Projections</h3>
+            <p className="text-sm text-gray-400">Financial model & scenarios</p>
+          </div>
         </div>
       </SlideContent>
     </Slide>

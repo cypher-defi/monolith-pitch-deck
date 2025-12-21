@@ -16,59 +16,73 @@ export default function Slide19Regulatory() {
           Jurisdiction Options Under Consideration
         </Subtitle>
 
-        <div className="overflow-x-auto mb-8">
-          <table className="w-full text-left">
+        <div className="max-w-5xl mx-auto mb-8 overflow-x-auto">
+          <table className="w-full text-sm">
             <thead>
-              <tr className="border-b-2 border-slate-700">
-                <th className="p-4">Jurisdiction</th>
-                <th className="p-4">Tax Treatment</th>
-                <th className="p-4">Crypto Friendly</th>
-                <th className="p-4">Setup Cost</th>
-                <th className="p-4">Compliance</th>
+              <tr className="border-b-2 border-blue-500/30">
+                <th className="p-4 text-left text-gray-400">Jurisdiction</th>
+                <th className="p-4 text-center text-gray-400">Tax Treatment</th>
+                <th className="p-4 text-center text-gray-400">
+                  Crypto Friendly
+                </th>
+                <th className="p-4 text-center text-gray-400">Setup Cost</th>
+                <th className="p-4 text-center text-gray-400">Compliance</th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-slate-700">
-              <tr>
+            <tbody className="divide-y divide-blue-500/20">
+              <tr className="hover:bg-blue-500/10 transition">
                 <td className="p-4 font-semibold">Cayman Islands</td>
-                <td className="p-4">Tax-neutral</td>
-                <td className="p-4 text-green-400">High</td>
-                <td className="p-4">$25-40K</td>
-                <td className="p-4">Moderate</td>
+                <td className="p-4 text-center text-green-400">Tax-neutral</td>
+                <td className="p-4 text-center text-green-400 font-bold">
+                  ✓ High
+                </td>
+                <td className="p-4 text-center">$25-40K</td>
+                <td className="p-4 text-center text-gray-300">Moderate</td>
               </tr>
-              <tr>
+              <tr className="hover:bg-blue-500/10 transition">
                 <td className="p-4 font-semibold">BVI</td>
-                <td className="p-4">Tax-neutral</td>
-                <td className="p-4 text-green-400">High</td>
-                <td className="p-4">$15-30K</td>
-                <td className="p-4">Low-Moderate</td>
+                <td className="p-4 text-center text-green-400">Tax-neutral</td>
+                <td className="p-4 text-center text-green-400 font-bold">
+                  ✓ High
+                </td>
+                <td className="p-4 text-center">$15-30K</td>
+                <td className="p-4 text-center text-gray-300">Low-Moderate</td>
               </tr>
-              <tr>
+              <tr className="hover:bg-blue-500/10 transition">
                 <td className="p-4 font-semibold">Singapore</td>
-                <td className="p-4">Moderate tax</td>
-                <td className="p-4 text-green-400">High</td>
-                <td className="p-4">$15-25K</td>
-                <td className="p-4">High</td>
+                <td className="p-4 text-center text-amber-400">Moderate</td>
+                <td className="p-4 text-center text-green-400 font-bold">
+                  ✓ High
+                </td>
+                <td className="p-4 text-center">$15-25K</td>
+                <td className="p-4 text-center text-gray-300">High</td>
               </tr>
-              <tr>
+              <tr className="hover:bg-blue-500/10 transition">
                 <td className="p-4 font-semibold">Switzerland</td>
-                <td className="p-4">Moderate tax</td>
-                <td className="p-4 text-green-400">High</td>
-                <td className="p-4">$30-50K</td>
-                <td className="p-4">High</td>
+                <td className="p-4 text-center text-amber-400">Moderate</td>
+                <td className="p-4 text-center text-green-400 font-bold">
+                  ✓ High
+                </td>
+                <td className="p-4 text-center">$30-50K</td>
+                <td className="p-4 text-center text-gray-300">High</td>
               </tr>
-              <tr>
+              <tr className="hover:bg-blue-500/10 transition">
                 <td className="p-4 font-semibold">Delaware C-Corp</td>
-                <td className="p-4">US taxes</td>
-                <td className="p-4">Moderate</td>
-                <td className="p-4">$5-10K</td>
-                <td className="p-4">High</td>
+                <td className="p-4 text-center text-amber-400">US taxes</td>
+                <td className="p-4 text-center text-blue-400 font-bold">
+                  ✓ Moderate
+                </td>
+                <td className="p-4 text-center">$5-10K</td>
+                <td className="p-4 text-center text-gray-300">High</td>
               </tr>
-              <tr>
+              <tr className="hover:bg-blue-500/10 transition">
                 <td className="p-4 font-semibold">Wyoming LLC</td>
-                <td className="p-4">Pass-through</td>
-                <td className="p-4 text-green-400">High</td>
-                <td className="p-4">$2-5K</td>
-                <td className="p-4">Low</td>
+                <td className="p-4 text-center text-green-400">Pass-through</td>
+                <td className="p-4 text-center text-green-400 font-bold">
+                  ✓ High
+                </td>
+                <td className="p-4 text-center text-green-400">$2-5K</td>
+                <td className="p-4 text-center text-gray-300">Low</td>
               </tr>
             </tbody>
           </table>

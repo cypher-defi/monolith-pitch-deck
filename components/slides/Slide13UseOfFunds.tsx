@@ -6,7 +6,7 @@ import Title from "@/components/Title";
 import Card from "@/components/Card";
 import CardTitle from "@/components/CardTitle";
 import CardContent from "@/components/CardContent";
-import TwoColumnGrid from "@/components/TwoColumnGrid";
+import ThreeColumnGrid from "@/components/ThreeColumnGrid";
 
 export default function Slide13UseOfFunds() {
   return (
@@ -16,84 +16,112 @@ export default function Slide13UseOfFunds() {
           USE OF FUNDS
         </Title>
 
-        <TwoColumnGrid>
-          <div>
-            <div className="text-center mb-10">
-              <div className="text-5xl font-bold mb-2">$500K-$1M</div>
-              <div className="text-slate-400 text-xl">Seed Raise Target</div>
+        <div className="text-center mb-12">
+          <div className="text-6xl font-bold mb-2 text-blue-400">$1-1.5M</div>
+          <div className="text-slate-400 text-xl">
+            Seed Raise Target • 18-Month Runway to $500K ARR
+          </div>
+        </div>
+
+        <ThreeColumnGrid className="mb-12 gap-8">
+          <div className="bg-gradient-to-br from-blue-500/20 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-8">
+            <div className="text-center">
+              <h3 className="text-blue-300 mb-4 text-lg font-bold">
+                Engineering
+              </h3>
+              <div className="text-5xl font-bold text-blue-300 mb-4">$450K</div>
+              <div className="text-blue-400 font-semibold mb-6">45%</div>
+              <ul className="text-left text-sm text-gray-300 space-y-2">
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-0.5">✓</span>
+                  <span>Smart contract dev & optimization</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-0.5">✓</span>
+                  <span>Full-stack dashboard & API</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-0.5">✓</span>
+                  <span>Cloud infrastructure & DevOps</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-blue-400 mt-0.5">✓</span>
+                  <span>Development tools & testing</span>
+                </li>
+              </ul>
             </div>
-
-            <Card variant="glass" className="mb-6">
-              <CardTitle>Engineering: $300K (50%)</CardTitle>
-              <CardContent>
-                <ul className="space-y-2 text-left">
-                  <li>• 2 Senior Solidity engineers ($200K)</li>
-                  <li>• Backend/API engineer ($70K)</li>
-                  <li>• DevOps contractor ($30K)</li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card variant="glass" className="mb-6">
-              <CardTitle>Security & Audit: $100K (17%)</CardTitle>
-              <CardContent>
-                <ul className="space-y-2 text-left">
-                  <li>• External smart contract audit ($70K)</li>
-                  <li>• Security documentation ($15K)</li>
-                  <li>• Bug bounty program ($15K)</li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card variant="glass">
-              <CardTitle>Operations & Sales: $200K (33%)</CardTitle>
-              <CardContent>
-                <ul className="space-y-2 text-left">
-                  <li>• B2B sales & BD ($80K)</li>
-                  <li>• Legal & compliance ($40K)</li>
-                  <li>• Infrastructure & hosting ($30K)</li>
-                  <li>• Custody partnerships ($20K)</li>
-                  <li>• Operating expenses ($30K)</li>
-                </ul>
-              </CardContent>
-            </Card>
           </div>
 
-          <div>
-            <div className="text-center mb-10">
-              <div className="text-slate-400 mb-6">Allocation Breakdown</div>
-            </div>
-
-            <div className="space-y-4 mb-8">
-              <div className="flex items-center gap-4">
-                <div className="w-8 h-8 bg-blue-600 rounded"></div>
-                <span>
-                  <strong>60%</strong> Engineering
-                </span>
+          <div className="bg-gradient-to-br from-green-500/20 to-green-500/5 border-2 border-green-500/50 rounded-xl p-8">
+            <div className="text-center">
+              <h3 className="text-green-300 mb-4 text-lg font-bold">
+                Security & Audit
+              </h3>
+              <div className="text-5xl font-bold text-green-300 mb-4">
+                $200K
               </div>
-              <div className="flex items-center gap-4">
-                <div className="w-8 h-8 bg-green-600 rounded"></div>
-                <span>
-                  <strong>17%</strong> Security
-                </span>
-              </div>
-              <div className="flex items-center gap-4">
-                <div className="w-8 h-8 bg-amber-600 rounded"></div>
-                <span>
-                  <strong>23%</strong> Operations
-                </span>
-              </div>
-            </div>
-
-            <div className="p-6 bg-blue-500/10 border-2 border-blue-500/50 rounded-lg">
-              <p className="text-blue-400 text-lg text-center">
-                <strong>18-month runway</strong>
-                <br />
-                to profitability at $50M TVL
-              </p>
+              <div className="text-green-400 font-semibold mb-6">20%</div>
+              <ul className="text-left text-sm text-gray-300 space-y-2">
+                <li className="flex items-start gap-2">
+                  <span className="text-green-400 mt-0.5">✓</span>
+                  <span>Smart contract audits (2+ firms)</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-green-400 mt-0.5">✓</span>
+                  <span>Security documentation & monitoring</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-green-400 mt-0.5">✓</span>
+                  <span>Bug bounty program setup</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-green-400 mt-0.5">✓</span>
+                  <span>Custody integrations</span>
+                </li>
+              </ul>
             </div>
           </div>
-        </TwoColumnGrid>
+
+          <div className="bg-gradient-to-br from-amber-500/20 to-amber-500/5 border-2 border-amber-500/50 rounded-xl p-8">
+            <div className="text-center">
+              <h3 className="text-amber-300 mb-4 text-lg font-bold">
+                Operations & Sales
+              </h3>
+              <div className="text-5xl font-bold text-amber-300 mb-4">
+                $350K
+              </div>
+              <div className="text-amber-400 font-semibold mb-6">35%</div>
+              <ul className="text-left text-sm text-gray-300 space-y-2">
+                <li className="flex items-start gap-2">
+                  <span className="text-amber-400 mt-0.5">✓</span>
+                  <span>B2B sales & business development</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-amber-400 mt-0.5">✓</span>
+                  <span>Pilot customer acquisition</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-amber-400 mt-0.5">✓</span>
+                  <span>Legal & compliance setup</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-amber-400 mt-0.5">✓</span>
+                  <span>Infrastructure & operations</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </ThreeColumnGrid>
+
+        <div className="p-8 bg-blue-500/10 border-2 border-blue-500/50 rounded-lg text-center">
+          <p className="text-blue-300 text-lg">
+            <span className="text-blue-400 font-bold">
+              Capital-efficient allocation:
+            </span>{" "}
+            Technical founders building in-house. No external team hires. 100%
+            focused on product-market fit.
+          </p>
+        </div>
       </SlideContent>
     </Slide>
   );

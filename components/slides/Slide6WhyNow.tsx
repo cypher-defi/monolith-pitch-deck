@@ -17,74 +17,122 @@ export default function Slide6WhyNow() {
           WHY NOW? FOUR TAILWINDS
         </Title>
 
-        <FourColumnGrid>
-          <Card variant="glass">
+        <FourColumnGrid className="gap-6">
+          <div className="bg-gradient-to-br from-purple-500/20 to-purple-500/5 border-2 border-purple-500/50 rounded-xl p-6">
             <div className="text-center mb-4">
-              <div className="inline-block p-4 rounded-full bg-purple-50 border-2 border-purple-500 mb-4">
-                <Icon name="scroll" size={32} className="text-purple-600" />
-              </div>
+              <Icon
+                name="scroll"
+                size={40}
+                className="text-purple-400 mx-auto mb-3"
+              />
+              <h4 className="font-bold text-lg">Regulatory Clarity</h4>
             </div>
-            <CardTitle>Regulatory Clarity</CardTitle>
-            <CardContent>
-              <ul className="space-y-2 text-left">
-                <li>• GENIUS Act passed July 2025</li>
-                <li>• Clear stablecoin framework</li>
-                <li>• MiCA in EU operational</li>
-                <li>• Institutional confidence ↑</li>
-              </ul>
-            </CardContent>
-          </Card>
+            <ul className="space-y-2 text-sm text-gray-300">
+              <li className="flex items-start gap-2">
+                <span className="text-purple-400 mt-0.5">✓</span>
+                <span>GENIUS Act passed July 2025</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-purple-400 mt-0.5">✓</span>
+                <span>Clear stablecoin framework</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-purple-400 mt-0.5">✓</span>
+                <span>MiCA in EU operational</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-purple-400 mt-0.5">✓</span>
+                <span>Institutional confidence ↑</span>
+              </li>
+            </ul>
+          </div>
 
-          <Card variant="glass">
+          <div className="bg-gradient-to-br from-blue-500/20 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-6">
             <div className="text-center mb-4">
-              <div className="inline-block p-4 rounded-full bg-indigo-50 border-2 border-indigo-500 mb-4">
-                <Icon name="building" size={32} className="text-indigo-600" />
-              </div>
+              <Icon
+                name="building"
+                size={40}
+                className="text-blue-400 mx-auto mb-3"
+              />
+              <h4 className="font-bold text-lg">Institutional Adoption</h4>
             </div>
-            <CardTitle>Institutional Adoption</CardTitle>
-            <CardContent>
-              <ul className="space-y-2 text-left">
-                <li>• Circle (USDC) publicly traded</li>
-                <li>• $5B valuation (June 2025)</li>
-                <li>• Corporate treasuries exploring</li>
-                <li>• Family offices entering DeFi</li>
-              </ul>
-            </CardContent>
-          </Card>
+            <ul className="space-y-2 text-sm text-gray-300">
+              <li className="flex items-start gap-2">
+                <span className="text-blue-400 mt-0.5">✓</span>
+                <span>Circle (USDC) publicly traded</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-blue-400 mt-0.5">✓</span>
+                <span>$5B valuation (June 2025)</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-blue-400 mt-0.5">✓</span>
+                <span>Corporate treasuries exploring</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-blue-400 mt-0.5">✓</span>
+                <span>Family offices entering DeFi</span>
+              </li>
+            </ul>
+          </div>
 
-          <Card variant="glass">
+          <div className="bg-gradient-to-br from-amber-500/20 to-amber-500/5 border-2 border-amber-500/50 rounded-xl p-6">
             <div className="text-center mb-4">
-              <div className="inline-block p-4 rounded-full bg-teal-50 border-2 border-teal-500 mb-4">
-                <Icon name="chart" size={32} className="text-teal-600" />
-              </div>
+              <Icon
+                name="chart"
+                size={40}
+                className="text-amber-400 mx-auto mb-3"
+              />
+              <h4 className="font-bold text-lg">Infrastructure Maturity</h4>
             </div>
-            <CardTitle>Infrastructure Maturity</CardTitle>
-            <CardContent>
-              <ul className="space-y-2 text-left">
-                <li>• Aave: $40B TVL, battle-tested</li>
-                <li>• Morpho: Coinbase partnership</li>
-                <li>• Ondo: $1.4B in RWAs</li>
-                <li>• Security standards proven</li>
-              </ul>
-            </CardContent>
-          </Card>
+            <ul className="space-y-2 text-sm text-gray-300">
+              <li className="flex items-start gap-2">
+                <span className="text-amber-400 mt-0.5">✓</span>
+                <span>Aave: $40B TVL, battle-tested</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-amber-400 mt-0.5">✓</span>
+                <span>Morpho: Coinbase partnership</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-amber-400 mt-0.5">✓</span>
+                <span>Ondo: $1.4B in RWAs</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-amber-400 mt-0.5">✓</span>
+                <span>Security standards proven</span>
+              </li>
+            </ul>
+          </div>
 
-          <Card variant="glass">
+          <div className="bg-gradient-to-br from-green-500/20 to-green-500/5 border-2 border-green-500/50 rounded-xl p-6">
             <div className="text-center mb-4">
-              <div className="inline-block p-4 rounded-full bg-green-50 border-2 border-green-500 mb-4">
-                <Icon name="trending" size={32} className="text-green-600" />
-              </div>
+              <Icon
+                name="trending"
+                size={40}
+                className="text-green-400 mx-auto mb-3"
+              />
+              <h4 className="font-bold text-lg">Market Momentum</h4>
             </div>
-            <CardTitle>Market Momentum</CardTitle>
-            <CardContent>
-              <ul className="space-y-2 text-left">
-                <li>• 50% YoY growth sustained</li>
-                <li>• $310B → $465B projected (2026)</li>
-                <li>• RWA tokenization validated</li>
-                <li>• Perfect timing for aggregators</li>
-              </ul>
-            </CardContent>
-          </Card>
+            <ul className="space-y-2 text-sm text-gray-300">
+              <li className="flex items-start gap-2">
+                <span className="text-green-400 mt-0.5">✓</span>
+                <span>50% YoY growth sustained</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-green-400 mt-0.5">✓</span>
+                <span>$310B → $465B (2026)</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-green-400 mt-0.5">✓</span>
+                <span>RWA tokenization validated</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-green-400 mt-0.5">✓</span>
+                <span>Perfect timing for aggregators</span>
+              </li>
+            </ul>
+          </div>
         </FourColumnGrid>
 
         <div className="mt-12 p-6 bg-green-500/10 border-2 border-green-500/50 rounded-lg">

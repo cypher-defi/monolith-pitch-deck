@@ -24,7 +24,7 @@ export default function Slide11Demo() {
           Complete infrastructure - not just an API
         </Subtitle>
 
-        <div className="bg-blue-500/20 border-4 border-blue-400 rounded-xl p-8 inline-block mb-16">
+        <div className="bg-gradient-to-r from-blue-500/20 to-purple-500/20 border-2 border-blue-400/50 rounded-xl p-8 inline-block mb-16">
           <p className="text-2xl text-blue-300 mb-2">
             Dashboard Demo Available At:
           </p>
@@ -38,45 +38,60 @@ export default function Slide11Demo() {
           </a>
         </div>
 
-        <Subtitle size="md" className="mb-8">
+        <Subtitle size="md" className="mb-12">
           Full-Service Platform Includes:
         </Subtitle>
 
-        <div className="grid grid-cols-2 gap-6 max-w-5xl mx-auto">
-          <Card className="bg-gradient-to-br from-blue-50 to-blue-100 border-2 border-blue-500">
-            <CardTitle className="text-blue-900">
-              Dashboard (White-Label)
-            </CardTitle>
-            <CardContent className="text-blue-800">
-              They white-label it as their own branded platform
-            </CardContent>
-          </Card>
-          <Card className="bg-gradient-to-br from-purple-50 to-purple-100 border-2 border-purple-500">
-            <CardTitle className="text-purple-900">
-              Compliance Tooling
-            </CardTitle>
-            <CardContent className="text-purple-800">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <div className="bg-gradient-to-br from-blue-500/20 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-6">
+            <Icon name="chart" size={32} className="text-blue-400 mb-3" />
+            <h4 className="font-bold text-white mb-2">White-Label Dashboard</h4>
+            <p className="text-sm text-gray-400">
+              Branded as their own platform
+            </p>
+          </div>
+
+          <div className="bg-gradient-to-br from-purple-500/20 to-purple-500/5 border-2 border-purple-500/50 rounded-xl p-6">
+            <Icon name="document" size={32} className="text-purple-400 mb-3" />
+            <h4 className="font-bold text-white mb-2">Compliance Tooling</h4>
+            <p className="text-sm text-gray-400">
               Audit trails, tax reports, insurance
-            </CardContent>
-          </Card>
-          <Card className="bg-gradient-to-br from-green-50 to-green-100 border-2 border-green-500">
-            <CardTitle className="text-green-900">Integrations</CardTitle>
-            <CardContent className="text-green-800">
+            </p>
+          </div>
+
+          <div className="bg-gradient-to-br from-green-500/20 to-green-500/5 border-2 border-green-500/50 rounded-xl p-6">
+            <Icon name="link" size={32} className="text-green-400 mb-3" />
+            <h4 className="font-bold text-white mb-2">
+              Pre-built Integrations
+            </h4>
+            <p className="text-sm text-gray-400">
               QuickBooks, Fireblocks, Bloomberg
-            </CardContent>
-          </Card>
-          <Card className="bg-gradient-to-br from-amber-50 to-amber-100 border-2 border-amber-500">
-            <CardTitle className="text-amber-900">User Management</CardTitle>
-            <CardContent className="text-amber-800">
-              Admins, analysts, viewers
-            </CardContent>
-          </Card>
-          <Card className="bg-gradient-to-br from-pink-50 to-pink-100 border-2 border-pink-500">
-            <CardTitle className="text-pink-900">Automated Reporting</CardTitle>
-            <CardContent className="text-pink-800">
-              Daily, weekly, monthly reports
-            </CardContent>
-          </Card>
+            </p>
+          </div>
+
+          <div className="bg-gradient-to-br from-amber-500/20 to-amber-500/5 border-2 border-amber-500/50 rounded-xl p-6">
+            <Icon name="user" size={32} className="text-amber-400 mb-3" />
+            <h4 className="font-bold text-white mb-2">User Management</h4>
+            <p className="text-sm text-gray-400">
+              Admins, analysts, viewers with role control
+            </p>
+          </div>
+
+          <div className="bg-gradient-to-br from-pink-500/20 to-pink-500/5 border-2 border-pink-500/50 rounded-xl p-6">
+            <Icon name="trending" size={32} className="text-pink-400 mb-3" />
+            <h4 className="font-bold text-white mb-2">Automated Reporting</h4>
+            <p className="text-sm text-gray-400">
+              Daily, weekly, monthly exports
+            </p>
+          </div>
+
+          <div className="bg-gradient-to-br from-teal-500/20 to-teal-500/5 border-2 border-teal-500/50 rounded-xl p-6">
+            <Icon name="trending" size={32} className="text-teal-400 mb-3" />
+            <h4 className="font-bold text-white mb-2">Performance Analytics</h4>
+            <p className="text-sm text-gray-400">
+              Deep insights & risk metrics
+            </p>
+          </div>
         </div>
 
         <div className="mt-16 text-slate-400 flex items-center justify-center gap-2">

@@ -20,44 +20,52 @@ export default function Slide15ThankYou() {
           Questions & Discussion
         </Subtitle>
 
-        <div className="space-y-6 max-w-2xl w-full px-4">
-          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4">
+        <div className="space-y-8 max-w-3xl w-full px-4">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 p-6 bg-gradient-to-r from-blue-500/10 to-blue-500/5 border-2 border-blue-500/50 rounded-xl">
             <Icon
               name="email"
-              size={28}
+              size={32}
               className="text-blue-400 flex-shrink-0"
             />
-            <p className="text-base sm:text-xl text-slate-300 break-words">
-              Contact: founders@monolith.finance
-            </p>
+            <div>
+              <p className="text-sm text-gray-400">Email</p>
+              <p className="text-xl text-white font-semibold break-words">
+                founders@monolith.finance
+              </p>
+            </div>
           </div>
-          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4">
+
+          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 p-6 bg-gradient-to-r from-purple-500/10 to-purple-500/5 border-2 border-purple-500/50 rounded-xl">
             <Icon
               name="globe"
-              size={28}
-              className="text-blue-400 flex-shrink-0"
+              size={32}
+              className="text-purple-400 flex-shrink-0"
             />
-            <p className="text-base sm:text-xl text-slate-300 break-words">
-              Demo:{" "}
+            <div>
+              <p className="text-sm text-gray-400">Demo</p>
               <a
                 href="https://monolith-dashboard-beta.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-400 hover:text-blue-300 transition-colors underline break-all"
+                className="text-xl text-purple-400 hover:text-purple-300 transition-colors underline break-all font-semibold"
               >
                 monolith-dashboard-beta.vercel.app
               </a>
-            </p>
+            </div>
           </div>
-          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4">
+
+          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 p-6 bg-gradient-to-r from-green-500/10 to-green-500/5 border-2 border-green-500/50 rounded-xl">
             <Icon
               name="folder"
-              size={28}
-              className="text-blue-400 flex-shrink-0"
+              size={32}
+              className="text-green-400 flex-shrink-0"
             />
-            <p className="text-base sm:text-xl text-slate-300 break-words">
-              Data Room: Available upon request
-            </p>
+            <div>
+              <p className="text-sm text-gray-400">Data Room</p>
+              <p className="text-xl text-white font-semibold">
+                Available upon request
+              </p>
+            </div>
           </div>
         </div>
       </SlideContent>

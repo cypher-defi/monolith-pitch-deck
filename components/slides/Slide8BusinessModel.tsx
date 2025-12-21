@@ -17,40 +17,36 @@ export default function Slide8BusinessModel() {
           BUSINESS MODEL: INSTITUTIONAL B2B
         </Title>
 
-        <ThreeColumnGrid className="mb-12">
-          <Card className="bg-gradient-to-br from-green-50 via-green-100 to-green-50 border-2 border-green-500 shadow-lg shadow-green-500/20 hover:shadow-xl hover:shadow-green-500/30 transition-all duration-300">
-            <CardTitle className="text-center text-green-600">
-              Management Fee
-            </CardTitle>
-            <div className="text-center my-4">
-              <div className="text-5xl font-bold text-green-600 mb-2">
+        <ThreeColumnGrid className="mb-12 gap-8">
+          <div className="bg-gradient-to-br from-green-500/20 to-green-500/5 border-2 border-green-500/50 rounded-xl p-8 text-center">
+            <h3 className="text-xl font-bold mb-6">Management Fee</h3>
+            <div className="mb-6 p-4 bg-green-900/30 rounded-lg">
+              <div className="text-5xl font-bold text-green-300 mb-2">
                 1.0-1.5%
               </div>
-              <div className="text-slate-700">Annual on AUM</div>
+              <div className="text-sm text-gray-400">Annual on AUM</div>
             </div>
-          </Card>
-          <Card className="bg-gradient-to-br from-blue-50 via-blue-100 to-blue-50 border-2 border-blue-500 shadow-lg shadow-blue-500/20 hover:shadow-xl hover:shadow-blue-500/30 transition-all duration-300">
-            <CardTitle className="text-center text-blue-600">
-              Implementation
-            </CardTitle>
-            <div className="text-center my-4">
-              <div className="text-5xl font-bold text-blue-600 mb-2">
+          </div>
+
+          <div className="bg-gradient-to-br from-blue-500/20 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-8 text-center">
+            <h3 className="text-xl font-bold mb-6">Implementation</h3>
+            <div className="mb-6 p-4 bg-blue-900/30 rounded-lg">
+              <div className="text-5xl font-bold text-blue-300 mb-2">
                 $25-75K
               </div>
-              <div className="text-slate-700">One-Time Setup</div>
+              <div className="text-sm text-gray-400">One-Time Setup</div>
             </div>
-          </Card>
-          <Card className="bg-gradient-to-br from-amber-50 via-amber-100 to-amber-50 border-2 border-amber-500 shadow-lg shadow-amber-500/20 hover:shadow-xl hover:shadow-amber-500/30 transition-all duration-300">
-            <CardTitle className="text-center text-amber-600">
-              White-Label SDK
-            </CardTitle>
-            <div className="text-center my-4">
-              <div className="text-5xl font-bold text-amber-600 mb-2">
+          </div>
+
+          <div className="bg-gradient-to-br from-amber-500/20 to-amber-500/5 border-2 border-amber-500/50 rounded-xl p-8 text-center">
+            <h3 className="text-xl font-bold mb-6">White-Label SDK</h3>
+            <div className="mb-6 p-4 bg-amber-900/30 rounded-lg">
+              <div className="text-5xl font-bold text-amber-300 mb-2">
                 $2-15K
               </div>
-              <div className="text-slate-600">Monthly SaaS</div>
+              <div className="text-sm text-gray-400">Monthly SaaS</div>
             </div>
-          </Card>
+          </div>
         </ThreeColumnGrid>
 
         {/* Timeline */}
