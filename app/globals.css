@@ -22,13 +22,19 @@
 }
 
 /* Presentation-specific overrides */
-html, body {
+html,
+body {
+  height: 100dvh; /* Dynamic viewport height for mobile */
   height: 100vh;
   height: -webkit-fill-available;
   overflow: hidden;
   position: fixed;
   width: 100%;
+  max-width: 100%;
   -webkit-overflow-scrolling: touch;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
 }
 
 .presentation {
@@ -44,9 +50,14 @@ html, body {
   @apply w-full absolute top-0 left-0 hidden overflow-y-auto overflow-x-hidden;
   @apply bg-gradient-to-br from-[#0a0a0a] to-[#1a1a1a] text-white;
   @apply px-20 py-[60px] pb-[120px];
+  height: 100dvh;
   height: 100vh;
   height: -webkit-fill-available;
   -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .slide.active {
@@ -59,11 +70,16 @@ html, body {
 }
 
 .slide-title {
-  @apply text-[42px] font-bold text-accent-primary mb-5;
+  @apply text-[32px] sm:text-[38px] md:text-[42px] font-bold text-accent-primary mb-5;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .slide-subtitle {
-  @apply text-xl text-text-tertiary leading-relaxed;
+  @apply text-sm sm:text-base md:text-xl text-text-tertiary leading-relaxed;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .content-container {
@@ -175,11 +191,19 @@ html, body {
   @apply fixed bottom-8 left-1/2 -translate-x-1/2 flex gap-5 items-center z-[1000];
   @apply bg-[rgba(15,23,42,0.95)] px-8 py-3 rounded-[48px];
   backdrop-filter: blur(10px);
+  safe-area-inset-bottom: env(safe-area-inset-bottom);
+  padding-bottom: max(12px, env(safe-area-inset-bottom));
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .nav-btn {
-  @apply bg-accent-primary text-white border-none px-5 py-2.5 rounded-2xl cursor-pointer;
-  @apply text-sm font-semibold transition-all duration-300 min-w-[110px];
+  @apply bg-accent-primary text-white border-none px-4 py-2.5 rounded-2xl cursor-pointer;
+  @apply text-sm font-semibold transition-all duration-300 min-w-[100px] min-h-[44px];
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
 }
 
 .nav-btn:hover:not(:disabled) {
@@ -266,13 +290,19 @@ html, body {
 
 /* Mobile (Portrait Phones) */
 @media screen and (max-width: 768px) {
-  body, .presentation, .slide {
+  body,
+  .presentation,
+  .slide {
+    height: 100dvh;
     height: 100vh;
     height: -webkit-fill-available;
   }
 
   .slide {
-    @apply px-5 py-8 pb-[100px];
+    @apply px-4 sm:px-5 py-6 sm:py-8 pb-[90px] sm:pb-[100px];
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
   }
 
   .content-container {
@@ -284,11 +314,15 @@ html, body {
   }
 
   .slide-title {
-    @apply text-2xl leading-tight;
+    @apply text-xl sm:text-2xl leading-tight;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
 
   .slide-subtitle {
-    @apply text-sm leading-snug;
+    @apply text-xs sm:text-sm leading-snug;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
 
   .three-col,
@@ -298,7 +332,8 @@ html, body {
   }
 
   .card {
-    @apply p-5 mb-4;
+    @apply p-3 sm:p-4 mb-3 sm:mb-4;
+    min-height: auto;
   }
 
   .card-title {
@@ -364,13 +399,15 @@ html, body {
   }
 
   .nav-controls {
-    @apply fixed bottom-2.5 left-1/2 -translate-x-1/2 py-2.5 px-[18px] gap-2;
+    @apply fixed bottom-2 sm:bottom-2.5 left-1/2 -translate-x-1/2 py-2 sm:py-2.5 px-3 sm:px-[18px] gap-1 sm:gap-2;
     @apply z-[1000] w-auto max-w-[95%] flex-nowrap;
+    safe-area-inset-bottom: env(safe-area-inset-bottom);
+    padding-bottom: max(8px, env(safe-area-inset-bottom));
   }
 
   .nav-btn {
-    @apply py-2 px-3 text-[11px] whitespace-nowrap min-h-10 inline-flex items-center justify-center;
-    @apply min-w-[80px] max-w-[85px];
+    @apply py-2 px-2 sm:px-3 text-[10px] sm:text-[11px] whitespace-nowrap min-h-11 inline-flex items-center justify-center;
+    @apply min-w-[75px] sm:min-w-[80px] max-w-none;
   }
 
   .slide-number {
@@ -428,15 +465,22 @@ html, body {
     -webkit-overflow-scrolling: touch;
   }
 
-  button, a, input, select, textarea {
-    @apply min-h-11 min-w-11;
+  button,
+  a,
+  input,
+  select,
+  textarea {
+    @apply min-h-12 min-w-12;
+    -webkit-user-select: none;
+    user-select: none;
   }
 
   .flex {
     @apply flex-wrap;
   }
 
-  body, html {
+  body,
+  html {
     @apply overflow-x-hidden max-w-full;
   }
 
