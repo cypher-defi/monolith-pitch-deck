@@ -1,7 +1,7 @@
-"use client";
+"use client"
 
-import NavControls from "@/components/NavControls";
-import usePresentationController from "@/hooks/usePresentationController";
+import NavControls from "@/components/NavControls"
+import usePresentationController from "@/hooks/usePresentationController"
 import {
   Slide1Cover,
   Slide2Problem,
@@ -23,12 +23,12 @@ import {
   Slide17Architecture,
   Slide18Security,
   Slide19Regulatory,
-  Slide20Projections,
-} from "@/components/slides";
+  Slide20Projections
+} from "@/components/slides"
 
 export default function Home() {
   const { currentSlide, totalSlides, nextSlide, previousSlide } =
-    usePresentationController(21);
+    usePresentationController(20)
 
   return (
     <main>
@@ -63,5 +63,5 @@ export default function Home() {
         onNext={nextSlide}
       />
     </main>
-  );
+  )
 }
