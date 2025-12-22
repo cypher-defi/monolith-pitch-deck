@@ -110,7 +110,8 @@ body {
 
 /* Card Styles */
 .card {
-  @apply bg-bg-card border-2 border-border rounded-xl p-8 transition-all duration-300;
+  @apply bg-bg-card border-2 border-[#e2e8f0]
+   rounded-xl p-8 transition-all duration-300;
 }
 
 .card:hover {
@@ -127,7 +128,7 @@ body {
 
 /* Stat Box */
 .stat-box {
-  @apply text-center bg-bg-card border-2 border-border rounded-xl py-9 px-6;
+  @apply text-center bg-bg-card border-2 border-[#e2e8f0] rounded-xl py-9 px-6;
 }
 
 .stat-number {
@@ -140,7 +141,7 @@ body {
 
 /* Info Box */
 .info-box {
-  @apply bg-bg-card rounded-xl p-8 my-8 border-2 border-border;
+  @apply bg-bg-card rounded-xl p-8 my-8 border-2 border-[#e2e8f0];
 }
 
 .info-box-title {
@@ -167,7 +168,7 @@ body {
 
 .comparison-table th,
 .comparison-table td {
-  @apply p-[18px] text-center border-b border-border;
+  @apply p-[18px] text-center border-b border-[#e2e8f0];
 }
 
 .comparison-table th {
@@ -220,7 +221,7 @@ body {
 
 /* Vault Cards */
 .vault-card {
-  @apply bg-bg-card border-[3px] border-border rounded-[18px] p-9 text-center;
+  @apply bg-bg-card border-[3px] border-[#e2e8f0] rounded-[18px] p-9 text-center;
   @apply flex flex-col w-full min-w-0 overflow-hidden;
 }
 
