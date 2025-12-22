@@ -11,7 +11,7 @@ import FourColumnGrid from "@/components/FourColumnGrid";
 
 export default function Slide20Projections() {
   return (
-    <Slide id={20} background="bg-black">
+    <Slide id={21} background="bg-black">
       <SlideContent>
         <Title size="lg" className="mb-16 text-center">
           APPENDIX D: 3-YEAR FINANCIAL PROJECTIONS

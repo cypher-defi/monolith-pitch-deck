@@ -10,7 +10,7 @@ import FourColumnGrid from "@/components/FourColumnGrid";
 
 export default function Slide12Roadmap() {
   return (
-    <Slide id={12} background="bg-black">
+    <Slide id={13} background="bg-black">
       <SlideContent>
         <Title size="lg" className="mb-16 text-center">
           12-MONTH ROADMAP

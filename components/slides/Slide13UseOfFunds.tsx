@@ -10,7 +10,7 @@ import ThreeColumnGrid from "@/components/ThreeColumnGrid";
 
 export default function Slide13UseOfFunds() {
   return (
-    <Slide id={13} background="bg-black">
+    <Slide id={14} background="bg-black">
       <SlideContent>
         <Title size="lg" className="mb-16 text-center">
           USE OF FUNDS

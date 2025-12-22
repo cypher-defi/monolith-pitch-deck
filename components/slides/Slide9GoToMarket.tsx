@@ -11,7 +11,7 @@ import TwoColumnGrid from "@/components/TwoColumnGrid";
 
 export default function Slide9GoToMarket() {
   return (
-    <Slide id={9} background="bg-black">
+    <Slide id={10} background="bg-black">
       <SlideContent>
         <Title size="lg" className="mb-16 text-center">
           GO-TO-MARKET: INSTITUTIONAL B2B

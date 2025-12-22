@@ -6,7 +6,7 @@ import Title from "@/components/Title";
 
 export default function Slide8BusinessModel() {
   return (
-    <Slide id={8} background="bg-black">
+    <Slide id={9} background="bg-black">
       <SlideContent>
         <Title size="lg" className="mb-12 text-center">
           BUSINESS MODEL: INSTITUTIONAL B2B
