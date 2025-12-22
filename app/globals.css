@@ -47,7 +47,8 @@ body {
 
 /* Slide Base */
 .slide {
-  @apply w-full absolute top-0 left-0 hidden overflow-y-auto overflow-x-hidden;
+  @apply w-full absolute top-0 left-0 hidden overflow-x-hidden;
+  /* REMOVED: overflow-y-auto - changed to overflow-hidden */
   @apply bg-gradient-to-br from-[#0a0a0a] to-[#1a1a1a] text-white;
   @apply px-20 py-[60px] pb-[120px];
   height: 100dvh;
@@ -58,6 +59,7 @@ body {
   -webkit-overflow-scrolling: touch;
   -webkit-user-select: none;
   user-select: none;
+  overflow: hidden;
 }
 
 .slide.active {
