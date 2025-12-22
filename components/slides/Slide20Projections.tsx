@@ -40,12 +40,17 @@ export default function Slide20Projections() {
                   Expenses
                 </p>
                 <p className="text-2xl font-bold text-green-400">$600K</p>
-                <p className="text-xs text-gray-500">(Seed capital)</p>
+                <div className="text-xs text-gray-400 mt-1">
+                  <div>• Insurance + Audits: $140K</div>
+                  <div>• Engineering: $300K</div>
+                  <div>• Operations: $160K</div>
+                </div>
               </div>
               <div>
                 <p className="text-gray-400 text-sm mb-2 font-medium">Net</p>
                 <p className="text-2xl font-bold text-red-400">($225K)</p>
-                <p className="text-xs text-gray-500">Investment phase</p>
+                <p className="text-xs text-gray-500">Seed capital covers gap</p>
+                <p className="text-xs text-gray-500 mt-1">Investment phase, building credibility</p>
               </div>
             </div>
           </div>
@@ -73,13 +78,18 @@ export default function Slide20Projections() {
                 <p className="text-gray-400 text-sm mb-2 font-medium">
                   Expenses
                 </p>
-                <p className="text-2xl font-bold text-green-400">$2M</p>
-                <p className="text-xs text-gray-500">(Series A capital)</p>
+                <p className="text-2xl font-bold text-green-400">$920K</p>
+                <div className="text-xs text-gray-400 mt-1">
+                  <div>• Insurance + Audits: $140K</div>
+                  <div>• Engineering: $550K</div>
+                  <div>• Operations: $230K</div>
+                </div>
               </div>
               <div>
                 <p className="text-gray-400 text-sm mb-2 font-medium">Net</p>
-                <p className="text-2xl font-bold text-red-400">($500K)</p>
-                <p className="text-xs text-gray-500">Growth phase</p>
+                <p className="text-2xl font-bold text-green-500">+$580K</p>
+                <p className="text-xs text-green-400 font-bold">✓ Profitable on customer revenue</p>
+                <p className="text-xs text-gray-500 mt-1">Break-even on operations, Series A ready</p>
               </div>
             </div>
           </div>
@@ -98,22 +108,27 @@ export default function Slide20Projections() {
                 </p>
               </div>
               <div>
-                <p className="text-slate-600 text-sm mb-2 font-medium">
+                <p className="text-gray-400 text-sm mb-2 font-medium">
                   Revenue
                 </p>
-                <p className="text-3xl font-bold text-green-600">$7.5M</p>
+                <p className="text-3xl font-bold text-green-300">$7.5M</p>
               </div>
               <div>
-                <p className="text-slate-600 text-sm mb-2 font-medium">
+                <p className="text-gray-400 text-sm mb-2 font-medium">
                   Expenses
                 </p>
-                <p className="text-2xl font-bold text-green-600">$3.5M</p>
-                <p className="text-xs text-slate-600">(Operating costs)</p>
+                <p className="text-2xl font-bold text-green-400">$2.1M</p>
+                <div className="text-xs text-gray-400 mt-1">
+                  <div>• Insurance + Audits: $400K</div>
+                  <div>• Engineering: $1M</div>
+                  <div>• Operations: $700K</div>
+                </div>
               </div>
               <div>
-                <p className="text-slate-600 text-sm mb-2 font-medium">Net</p>
-                <p className="text-2xl font-bold text-green-500">+$4M</p>
-                <p className="text-xs text-slate-600">✓ Profitable</p>
+                <p className="text-gray-400 text-sm mb-2 font-medium">Net</p>
+                <p className="text-2xl font-bold text-green-500">+$5.4M</p>
+                <p className="text-xs text-green-400 font-bold">✓ 75%+ net margin</p>
+                <p className="text-xs text-gray-500 mt-1">Series A to Series B growth capital</p>
               </div>
             </div>
           </div>

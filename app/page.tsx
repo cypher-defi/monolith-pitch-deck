@@ -10,6 +10,7 @@ import {
   Slide5Market,
   Slide6WhyNow,
   Slide7Competition,
+  Slide7_5RiskFramework,
   Slide8BusinessModel,
   Slide9GoToMarket,
   Slide10Founders,
@@ -27,11 +28,11 @@ import {
 
 export default function Home() {
   const { currentSlide, totalSlides, nextSlide, previousSlide } =
-    usePresentationController(20);
+    usePresentationController(21);
 
   return (
     <main>
-      {/* Slide Components - All 20 slides */}
+      {/* Slide Components - All 21 slides */}
       <Slide1Cover />
       <Slide2Problem />
       <Slide3Solution />
@@ -39,6 +40,7 @@ export default function Home() {
       <Slide5Market />
       <Slide6WhyNow />
       <Slide7Competition />
+      <Slide7_5RiskFramework />
       <Slide8BusinessModel />
       <Slide9GoToMarket />
       <Slide10Founders />

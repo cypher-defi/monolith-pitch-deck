@@ -8,6 +8,7 @@ export { default as Slide4HowItWorks } from "./Slide4HowItWorks";
 export { default as Slide5Market } from "./Slide5Market";
 export { default as Slide6WhyNow } from "./Slide6WhyNow";
 export { default as Slide7Competition } from "./Slide7Competition";
+export { default as Slide7_5RiskFramework } from "./Slide7_5RiskFramework";
 export { default as Slide8BusinessModel } from "./Slide8BusinessModel";
 export { default as Slide9GoToMarket } from "./Slide9GoToMarket";
 export { default as Slide10Founders } from "./Slide10Founders";

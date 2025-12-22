@@ -94,10 +94,55 @@ export default function Slide7Competition() {
                 <tr className="hover:bg-blue-500/10 transition">
                   <td className="p-4 font-semibold">Insurance Included</td>
                   <td className="p-4 text-center text-gray-300">
-                    Optional (cost extra)
+                    Optional via Nexus Mutual (you pay)
                   </td>
                   <td className="p-4 text-center text-green-400">
-                    ✓ Institutional tier
+                    ✓ InsurAce Coverage (protocol absorbs)
+                  </td>
+                </tr>
+                <tr className="hover:bg-blue-500/10 transition">
+                  <td className="p-4 font-semibold">Insurance Coverage</td>
+                  <td className="p-4 text-center text-gray-300">
+                    User selects & pays separately
+                  </td>
+                  <td className="p-4 text-center text-green-400">
+                    €15M+ smart contract exploit coverage
+                  </td>
+                </tr>
+                <tr className="hover:bg-blue-500/10 transition">
+                  <td className="p-4 font-semibold">Claims Processing</td>
+                  <td className="p-4 text-center text-gray-300">
+                    Manual, 5-10 days
+                  </td>
+                  <td className="p-4 text-center text-green-400">
+                    Automated via smart contract, 2-3 days
+                  </td>
+                </tr>
+                <tr className="hover:bg-blue-500/10 transition">
+                  <td className="p-4 font-semibold">Audit & Monitoring</td>
+                  <td className="p-4 text-center text-gray-300">
+                    Not applicable
+                  </td>
+                  <td className="p-4 text-center text-green-400">
+                    Annual audits + 24/7 monitoring
+                  </td>
+                </tr>
+                <tr className="hover:bg-blue-500/10 transition">
+                  <td className="p-4 font-semibold">Audit Firms</td>
+                  <td className="p-4 text-center text-gray-300">
+                    Not specified
+                  </td>
+                  <td className="p-4 text-center text-green-400">
+                    ✓ OpenZeppelin + Hacken
+                  </td>
+                </tr>
+                <tr className="hover:bg-blue-500/10 transition">
+                  <td className="p-4 font-semibold">Risk Transparency</td>
+                  <td className="p-4 text-center text-gray-300">
+                    User&apos;s responsibility
+                  </td>
+                  <td className="p-4 text-center text-green-400">
+                    Protocol manages, reports quarterly
                   </td>
                 </tr>
               </tbody>
@@ -111,6 +156,65 @@ export default function Slide7Competition() {
             Aave = best protocol. Monolith = managed dashboard platform with
             full compliance suite.
           </p>
+        </div>
+
+        <div className="mt-8 p-8 bg-gradient-to-br from-green-500/10 to-blue-500/10 border-2 border-green-500/30 rounded-lg">
+          <h3 className="text-2xl font-bold text-green-400 mb-6 text-center">
+            Your Assets Are Insured Against Protocol Risk
+          </h3>
+
+          <p className="text-gray-300 mb-6 text-center">
+            Unlike Aave, where you pay for optional coverage, Monolith addresses protocol risk through a three-layer approach:
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+            <div className="bg-black/30 p-6 rounded-lg border border-blue-500/30">
+              <h4 className="text-xl font-bold text-blue-400 mb-3">1. Continuous Audits</h4>
+              <p className="text-sm text-gray-300 mb-3">
+                Professional review of your vault code + each new protocol integration
+              </p>
+              <ul className="text-xs text-gray-400 space-y-1 mb-3">
+                <li>• OpenZeppelin (industry gold standard, audited Aave/Compound/Curve)</li>
+                <li>• Hacken (DeFi experts, audited Yearn/Beefy/Convex)</li>
+                <li>• Shows we take security seriously</li>
+                <li>• Does NOT prevent all exploits or 0-day vulnerabilities</li>
+              </ul>
+            </div>
+
+            <div className="bg-black/30 p-6 rounded-lg border border-green-500/30">
+              <h4 className="text-xl font-bold text-green-400 mb-3">2. Mandatory Insurance</h4>
+              <p className="text-sm text-gray-300 mb-3">
+                InsurAce protocol coverage built into your fees
+              </p>
+              <ul className="text-xs text-gray-400 space-y-1 mb-3">
+                <li>• Covers smart contract exploits (even ones audits miss)</li>
+                <li>• Covers protocol failures and stablecoin depegs</li>
+                <li>• Claims paid by third party in 2-3 days</li>
+                <li>• This is where actual risk mitigation happens</li>
+              </ul>
+            </div>
+
+            <div className="bg-black/30 p-6 rounded-lg border border-purple-500/30">
+              <h4 className="text-xl font-bold text-purple-400 mb-3">3. Non-Custodial Design</h4>
+              <p className="text-sm text-gray-300 mb-3">
+                You control your vault, not us
+              </p>
+              <ul className="text-xs text-gray-400 space-y-1 mb-3">
+                <li>• We can&apos;t steal your funds even if we wanted to</li>
+                <li>• You can withdraw anytime without permission</li>
+                <li>• No counterparty risk with Monolith itself</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="bg-blue-900/30 p-4 rounded-lg border border-blue-500/50">
+            <p className="text-blue-300 text-sm font-semibold mb-2">Why this matters:</p>
+            <p className="text-gray-300 text-sm">
+              Millions have been lost in DeFi despite audits. Audits find bugs, but they can&apos;t prevent all exploits.
+              Insurance transfers the risk that audits can&apos;t eliminate. Together, audits + insurance + non-custodial =
+              institutional-grade risk reduction.
+            </p>
+          </div>
         </div>
       </SlideContent>
     </Slide>
