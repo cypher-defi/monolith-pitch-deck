@@ -4,6 +4,24 @@ import { useState, useEffect, useCallback } from 'react';
 
 export default function usePresentationController(totalSlides: number) {
   const [currentSlide, setCurrentSlide] = useState(1);
+  const [isClient, setIsClient] = useState(false);
+
+  // Initialize from URL on first load (client-side only)
+  useEffect(() => {
+    setIsClient(true);
+
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const slideParam = params.get('slide');
+
+      if (slideParam) {
+        const slideNum = parseInt(slideParam);
+        if (slideNum >= 1 && slideNum <= totalSlides) {
+          setCurrentSlide(slideNum);
+        }
+      }
+    }
+  }, []); // Run once on mount
 
   const goToSlide = useCallback((slideNumber: number) => {
     if (slideNumber >= 1 && slideNumber <= totalSlides) {
@@ -12,16 +30,31 @@ export default function usePresentationController(totalSlides: number) {
   }, [totalSlides]);
 
   const nextSlide = useCallback(() => {
-    if (currentSlide < totalSlides) {
-      goToSlide(currentSlide + 1);
-    }
-  }, [currentSlide, totalSlides, goToSlide]);
+    setCurrentSlide(prev => {
+      if (prev < totalSlides) {
+        return prev + 1;
+      }
+      return prev;
+    });
+  }, [totalSlides]);
 
   const previousSlide = useCallback(() => {
-    if (currentSlide > 1) {
-      goToSlide(currentSlide - 1);
+    setCurrentSlide(prev => {
+      if (prev > 1) {
+        return prev - 1;
+      }
+      return prev;
+    });
+  }, []);
+
+  // Sync URL when slide changes
+  useEffect(() => {
+    if (typeof window !== 'undefined' && isClient) {
+      const params = new URLSearchParams(window.location.search);
+      params.set('slide', currentSlide.toString());
+      window.history.replaceState({}, '', `?${params.toString()}`);
     }
-  }, [currentSlide, goToSlide]);
+  }, [currentSlide, isClient]);
 
   // Add/remove 'active' class to slides
   useEffect(() => {
