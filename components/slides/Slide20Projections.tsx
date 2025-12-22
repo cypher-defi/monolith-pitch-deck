@@ -1,170 +1,180 @@
-"use client";
+"use client"
 
-import Slide from "@/components/Slide";
-import SlideContent from "@/components/SlideContent";
-import Title from "@/components/Title";
-import Card from "@/components/Card";
-import CardTitle from "@/components/CardTitle";
-import CardContent from "@/components/CardContent";
-import ThreeColumnGrid from "@/components/ThreeColumnGrid";
-import FourColumnGrid from "@/components/FourColumnGrid";
+import Slide from "@/components/Slide"
+import SlideContent from "@/components/SlideContent"
+import Title from "@/components/Title"
+import Card from "@/components/Card"
+import CardTitle from "@/components/CardTitle"
+import CardContent from "@/components/CardContent"
+import ThreeColumnGrid from "@/components/ThreeColumnGrid"
+import FourColumnGrid from "@/components/FourColumnGrid"
 
 export default function Slide20Projections() {
   return (
-    <Slide id={21} background="bg-black">
+    <Slide id={20} background='bg-black'>
       <SlideContent>
-        <Title size="lg" className="mb-16 text-center">
+        <Title size='lg' className='mb-16 text-center'>
           APPENDIX D: 3-YEAR FINANCIAL PROJECTIONS
         </Title>
 
-        <ThreeColumnGrid className="mb-12 gap-8">
-          <div className="bg-gradient-to-br from-blue-500/20 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-8">
-            <h3 className="text-blue-300 text-3xl mb-6 text-center font-bold">
+        <ThreeColumnGrid className='mb-12 gap-8'>
+          <div className='bg-gradient-to-br from-blue-500/20 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-8'>
+            <h3 className='text-blue-300 text-3xl mb-6 text-center font-bold'>
               Year 1
             </h3>
-            <div className="space-y-4 text-center">
+            <div className='space-y-4 text-center'>
               <div>
-                <p className="text-gray-400 text-sm mb-2 font-medium">
+                <p className='text-gray-400 text-sm mb-2 font-medium'>
                   TVL Growth
                 </p>
-                <p className="text-3xl font-bold text-yellow-400">$1M → $25M</p>
+                <p className='text-3xl font-bold text-yellow-400'>$1M → $25M</p>
               </div>
               <div>
-                <p className="text-gray-400 text-sm mb-2 font-medium">
+                <p className='text-gray-400 text-sm mb-2 font-medium'>
                   Revenue
                 </p>
-                <p className="text-3xl font-bold text-blue-300">$375K</p>
+                <p className='text-3xl font-bold text-blue-300'>$375K</p>
               </div>
               <div>
-                <p className="text-gray-400 text-sm mb-2 font-medium">
+                <p className='text-gray-400 text-sm mb-2 font-medium'>
                   Expenses
                 </p>
-                <p className="text-2xl font-bold text-green-400">$600K</p>
-                <div className="text-xs text-gray-400 mt-1">
+                <p className='text-2xl font-bold text-green-400'>$600K</p>
+                <div className='text-xs text-gray-400 mt-1'>
                   <div>• Insurance + Audits: $140K</div>
                   <div>• Engineering: $300K</div>
                   <div>• Operations: $160K</div>
                 </div>
               </div>
               <div>
-                <p className="text-gray-400 text-sm mb-2 font-medium">Net</p>
-                <p className="text-2xl font-bold text-red-400">($225K)</p>
-                <p className="text-xs text-gray-500">Seed capital covers gap</p>
-                <p className="text-xs text-gray-500 mt-1">Investment phase, building credibility</p>
+                <p className='text-gray-400 text-sm mb-2 font-medium'>Net</p>
+                <p className='text-2xl font-bold text-red-400'>($225K)</p>
+                <p className='text-xs text-gray-500'>Seed capital covers gap</p>
+                <p className='text-xs text-gray-500 mt-1'>
+                  Investment phase, building credibility
+                </p>
               </div>
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-purple-500/20 to-purple-500/5 border-2 border-purple-500/50 rounded-xl p-8">
-            <h3 className="text-purple-300 text-3xl mb-6 text-center font-bold">
+          <div className='bg-gradient-to-br from-purple-500/20 to-purple-500/5 border-2 border-purple-500/50 rounded-xl p-8'>
+            <h3 className='text-purple-300 text-3xl mb-6 text-center font-bold'>
               Year 2
             </h3>
-            <div className="space-y-4 text-center">
+            <div className='space-y-4 text-center'>
               <div>
-                <p className="text-gray-400 text-sm mb-2 font-medium">
+                <p className='text-gray-400 text-sm mb-2 font-medium'>
                   TVL Growth
                 </p>
-                <p className="text-3xl font-bold text-yellow-400">
+                <p className='text-3xl font-bold text-yellow-400'>
                   $25M → $100M
                 </p>
               </div>
               <div>
-                <p className="text-gray-400 text-sm mb-2 font-medium">
+                <p className='text-gray-400 text-sm mb-2 font-medium'>
                   Revenue
                 </p>
-                <p className="text-3xl font-bold text-purple-300">$1.5M</p>
+                <p className='text-3xl font-bold text-purple-300'>$1.5M</p>
               </div>
               <div>
-                <p className="text-gray-400 text-sm mb-2 font-medium">
+                <p className='text-gray-400 text-sm mb-2 font-medium'>
                   Expenses
                 </p>
-                <p className="text-2xl font-bold text-green-400">$920K</p>
-                <div className="text-xs text-gray-400 mt-1">
+                <p className='text-2xl font-bold text-green-400'>$920K</p>
+                <div className='text-xs text-gray-400 mt-1'>
                   <div>• Insurance + Audits: $140K</div>
                   <div>• Engineering: $550K</div>
                   <div>• Operations: $230K</div>
                 </div>
               </div>
               <div>
-                <p className="text-gray-400 text-sm mb-2 font-medium">Net</p>
-                <p className="text-2xl font-bold text-green-500">+$580K</p>
-                <p className="text-xs text-green-400 font-bold">✓ Profitable on customer revenue</p>
-                <p className="text-xs text-gray-500 mt-1">Break-even on operations, Series A ready</p>
+                <p className='text-gray-400 text-sm mb-2 font-medium'>Net</p>
+                <p className='text-2xl font-bold text-green-500'>+$580K</p>
+                <p className='text-xs text-green-400 font-bold'>
+                  ✓ Profitable on customer revenue
+                </p>
+                <p className='text-xs text-gray-500 mt-1'>
+                  Break-even on operations, Series A ready
+                </p>
               </div>
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-green-500/20 to-green-500/5 border-2 border-green-500/50 rounded-xl p-8">
-            <h3 className="text-green-300 text-3xl mb-6 text-center font-bold">
+          <div className='bg-gradient-to-br from-green-500/20 to-green-500/5 border-2 border-green-500/50 rounded-xl p-8'>
+            <h3 className='text-green-300 text-3xl mb-6 text-center font-bold'>
               Year 3
             </h3>
-            <div className="space-y-4 text-center">
+            <div className='space-y-4 text-center'>
               <div>
-                <p className="text-gray-400 text-sm mb-2 font-medium">
+                <p className='text-gray-400 text-sm mb-2 font-medium'>
                   TVL Growth
                 </p>
-                <p className="text-3xl font-bold text-yellow-400">
+                <p className='text-3xl font-bold text-yellow-400'>
                   $100M → $500M
                 </p>
               </div>
               <div>
-                <p className="text-gray-400 text-sm mb-2 font-medium">
+                <p className='text-gray-400 text-sm mb-2 font-medium'>
                   Revenue
                 </p>
-                <p className="text-3xl font-bold text-green-300">$7.5M</p>
+                <p className='text-3xl font-bold text-green-300'>$7.5M</p>
               </div>
               <div>
-                <p className="text-gray-400 text-sm mb-2 font-medium">
+                <p className='text-gray-400 text-sm mb-2 font-medium'>
                   Expenses
                 </p>
-                <p className="text-2xl font-bold text-green-400">$2.1M</p>
-                <div className="text-xs text-gray-400 mt-1">
+                <p className='text-2xl font-bold text-green-400'>$2.1M</p>
+                <div className='text-xs text-gray-400 mt-1'>
                   <div>• Insurance + Audits: $400K</div>
                   <div>• Engineering: $1M</div>
                   <div>• Operations: $700K</div>
                 </div>
               </div>
               <div>
-                <p className="text-gray-400 text-sm mb-2 font-medium">Net</p>
-                <p className="text-2xl font-bold text-green-500">+$5.4M</p>
-                <p className="text-xs text-green-400 font-bold">✓ 75%+ net margin</p>
-                <p className="text-xs text-gray-500 mt-1">Series A to Series B growth capital</p>
+                <p className='text-gray-400 text-sm mb-2 font-medium'>Net</p>
+                <p className='text-2xl font-bold text-green-500'>+$5.4M</p>
+                <p className='text-xs text-green-400 font-bold'>
+                  ✓ 75%+ net margin
+                </p>
+                <p className='text-xs text-gray-500 mt-1'>
+                  Series A to Series B growth capital
+                </p>
               </div>
             </div>
           </div>
         </ThreeColumnGrid>
 
-        <h3 className="text-2xl mb-6 text-blue-400 text-center">
+        <h3 className='text-2xl mb-6 text-blue-400 text-center'>
           Series A Target (Month 15-18)
         </h3>
-        <FourColumnGrid className="mb-8">
-          <div className="text-center">
-            <div className="text-slate-400 mb-2 text-sm">Raise</div>
-            <div className="text-4xl font-bold">$5-8M</div>
+        <FourColumnGrid className='mb-8'>
+          <div className='text-center'>
+            <div className='text-slate-400 mb-2 text-sm'>Raise</div>
+            <div className='text-4xl font-bold'>$5-8M</div>
           </div>
-          <div className="text-center">
-            <div className="text-slate-400 mb-2 text-sm">Valuation</div>
-            <div className="text-4xl font-bold">$25-35M</div>
-            <div className="text-sm text-slate-400">pre-money</div>
+          <div className='text-center'>
+            <div className='text-slate-400 mb-2 text-sm'>Valuation</div>
+            <div className='text-4xl font-bold'>$25-35M</div>
+            <div className='text-sm text-slate-400'>pre-money</div>
           </div>
-          <div className="text-center">
-            <div className="text-slate-400 mb-2 text-sm">TVL Required</div>
-            <div className="text-4xl font-bold">$50M+</div>
+          <div className='text-center'>
+            <div className='text-slate-400 mb-2 text-sm'>TVL Required</div>
+            <div className='text-4xl font-bold'>$50M+</div>
           </div>
-          <div className="text-center">
-            <div className="text-slate-400 mb-2 text-sm">Revenue</div>
-            <div className="text-4xl font-bold">$750K+</div>
-            <div className="text-sm text-slate-400">annual run-rate</div>
+          <div className='text-center'>
+            <div className='text-slate-400 mb-2 text-sm'>Revenue</div>
+            <div className='text-4xl font-bold'>$750K+</div>
+            <div className='text-sm text-slate-400'>annual run-rate</div>
           </div>
         </FourColumnGrid>
 
-        <div className="p-6 bg-blue-500/10 border-2 border-blue-500/50 rounded-lg">
-          <p className="text-blue-300 text-lg text-center">
+        <div className='p-6 bg-blue-500/10 border-2 border-blue-500/50 rounded-lg'>
+          <p className='text-blue-300 text-lg text-center'>
             Conservative projections based on comparable DeFi protocol growth
             rates and current market conditions
           </p>
         </div>
       </SlideContent>
     </Slide>
-  );
+  )
 }
