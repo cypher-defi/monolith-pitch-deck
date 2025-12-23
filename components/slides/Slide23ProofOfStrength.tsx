@@ -28,24 +28,24 @@ export default function Slide23ProofOfStrength() {
                 March 2020 (COVID Crash)
               </h3>
               <ul className='space-y-2 text-sm text-gray-300'>
-                <li className='flex items-start gap-2'>
-                  <span className='text-blue-400'>•</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-blue-400 flex-shrink-0'>•</span>
                   <span><span className='font-semibold'>ETH price:</span> $90 → $3,500</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-blue-400'>•</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-blue-400 flex-shrink-0'>•</span>
                   <span><span className='font-semibold'>Liquidations:</span> $26M in 24 hours</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-green-400'>✓</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-green-400 flex-shrink-0'>✓</span>
                   <span><span className='font-semibold'>Stability:</span> 100% uptime, zero losses</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-green-400'>✓</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-green-400 flex-shrink-0'>✓</span>
                   <span><span className='font-semibold text-green-400'>USDC yield:</span> Maintained 4-8%</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-blue-400'>•</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-blue-400 flex-shrink-0'>•</span>
                   <span><span className='font-semibold'>TVL:</span> $500M → $20B post-crisis</span>
                 </li>
               </ul>
@@ -56,24 +56,24 @@ export default function Slide23ProofOfStrength() {
                 May 2022 (Terra/LUNA Collapse)
               </h3>
               <ul className='space-y-2 text-sm text-gray-300'>
-                <li className='flex items-start gap-2'>
-                  <span className='text-red-400'>•</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-red-400 flex-shrink-0'>•</span>
                   <span><span className='font-semibold'>Market cap loss:</span> $60B evaporated</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-red-400'>•</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-red-400 flex-shrink-0'>•</span>
                   <span><span className='font-semibold'>Contagion:</span> Celsius, 3AC, Voyager failed</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-green-400'>✓</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-green-400 flex-shrink-0'>✓</span>
                   <span><span className='font-semibold text-green-400'>Aave response:</span> Zero losses</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-green-400'>✓</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-green-400 flex-shrink-0'>✓</span>
                   <span><span className='font-semibold text-green-400'>Yield:</span> 3-6% (CeFi froze)</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-purple-400'>•</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-purple-400 flex-shrink-0'>•</span>
                   <span><span className='font-semibold'>TVL:</span> Stable $10B+ (CeFi lost 80%)</span>
                 </li>
               </ul>
@@ -84,24 +84,24 @@ export default function Slide23ProofOfStrength() {
                 Nov 2022 (FTX Collapse)
               </h3>
               <ul className='space-y-2 text-sm text-gray-300'>
-                <li className='flex items-start gap-2'>
-                  <span className='text-red-400'>•</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-red-400 flex-shrink-0'>•</span>
                   <span><span className='font-semibold'>Systemic shock:</span> $32B bankruptcy</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-red-400'>•</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-red-400 flex-shrink-0'>•</span>
                   <span><span className='font-semibold'>Industry panic:</span> Mass withdrawals</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-green-400'>✓</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-green-400 flex-shrink-0'>✓</span>
                   <span><span className='font-semibold text-green-400'>Aave stability:</span> Zero downtime</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-green-400'>✓</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-green-400 flex-shrink-0'>✓</span>
                   <span><span className='font-semibold text-green-400'>USDC yield:</span> 4-6% maintained</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-red-400'>•</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-red-400 flex-shrink-0'>•</span>
                   <span><span className='font-semibold'>Exchanges:</span> Halted withdrawals</span>
                 </li>
               </ul>
@@ -163,20 +163,20 @@ export default function Slide23ProofOfStrength() {
             </p>
             <h3 className='text-lg md:text-xl font-bold mb-4 text-center'>Why?</h3>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-300'>
-              <div className='flex items-start gap-2'>
-                <span className='text-green-400'>✓</span>
+              <div className='flex gap-2' style={{alignItems: 'baseline'}}>
+                <span className='text-green-400 flex-shrink-0'>✓</span>
                 <span><span className='font-semibold'>Transparency:</span> All transactions on-chain, real-time auditing</span>
               </div>
-              <div className='flex items-start gap-2'>
-                <span className='text-green-400'>✓</span>
+              <div className='flex gap-2' style={{alignItems: 'baseline'}}>
+                <span className='text-green-400 flex-shrink-0'>✓</span>
                 <span><span className='font-semibold'>Non-custodial:</span> No Alameda-style misappropriation possible</span>
               </div>
-              <div className='flex items-start gap-2'>
-                <span className='text-green-400'>✓</span>
+              <div className='flex gap-2' style={{alignItems: 'baseline'}}>
+                <span className='text-green-400 flex-shrink-0'>✓</span>
                 <span><span className='font-semibold'>Immutable code:</span> Can't change rules mid-crisis</span>
               </div>
-              <div className='flex items-start gap-2'>
-                <span className='text-green-400'>✓</span>
+              <div className='flex gap-2' style={{alignItems: 'baseline'}}>
+                <span className='text-green-400 flex-shrink-0'>✓</span>
                 <span><span className='font-semibold'>Collateralization:</span> All loans overcollateralized 110-150%</span>
               </div>
             </div>

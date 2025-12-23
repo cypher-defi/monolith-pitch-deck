@@ -28,20 +28,20 @@ export default function Slide21CrisisComing() {
                 2008 Financial Crisis
               </h3>
               <ul className='space-y-2 text-sm text-gray-300'>
-                <li className='flex items-start gap-2'>
-                  <span className='text-red-400'>•</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-red-400 flex-shrink-0'>•</span>
                   <span>Fed cuts to near 0%</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-red-400'>•</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-red-400 flex-shrink-0'>•</span>
                   <span>Bank savings: 0.10-0.50% APY</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-red-400'>•</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-red-400 flex-shrink-0'>•</span>
                   <span>Duration: 10+ years (2008-2018)</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-red-400'>•</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-red-400 flex-shrink-0'>•</span>
                   <span>Corporate treasuries earned effectively ZERO</span>
                 </li>
               </ul>
@@ -52,20 +52,20 @@ export default function Slide21CrisisComing() {
                 2020 COVID Crisis
               </h3>
               <ul className='space-y-2 text-sm text-gray-300'>
-                <li className='flex items-start gap-2'>
-                  <span className='text-orange-400'>•</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-orange-400 flex-shrink-0'>•</span>
                   <span>Fed cuts to near 0%</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-orange-400'>•</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-orange-400 flex-shrink-0'>•</span>
                   <span>Bank savings: 0.06-0.10% APY</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-orange-400'>•</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-orange-400 flex-shrink-0'>•</span>
                   <span>Duration: 2+ years</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-orange-400'>•</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-orange-400 flex-shrink-0'>•</span>
                   <span>Same pattern repeated</span>
                 </li>
               </ul>
@@ -76,20 +76,20 @@ export default function Slide21CrisisComing() {
                 2026-2027? (Next Recession)
               </h3>
               <ul className='space-y-2 text-sm text-gray-300'>
-                <li className='flex items-start gap-2'>
-                  <span className='text-yellow-400'>•</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-yellow-400 flex-shrink-0'>•</span>
                   <span>Fed cuts to 0-0.5%</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-yellow-400'>•</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-yellow-400 flex-shrink-0'>•</span>
                   <span>Bank savings: &lt;0.50% APY</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-yellow-400'>•</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-yellow-400 flex-shrink-0'>•</span>
                   <span>Duration: Unknown</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-red-400 font-bold'>•</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-red-400 font-bold flex-shrink-0'>•</span>
                   <span className='font-bold text-red-400'>Are you prepared?</span>
                 </li>
               </ul>

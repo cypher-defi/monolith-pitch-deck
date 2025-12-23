@@ -538,8 +538,18 @@ body {
     user-select: none;
   }
 
-  .flex {
+  .flex:not(li):not(.nav-controls) {
     @apply flex-wrap;
+  }
+
+  /* Prevent list items from wrapping - keep icons inline with text */
+  li.flex {
+    flex-wrap: nowrap !important;
+  }
+
+  /* Ensure navigation controls stay in a row */
+  .nav-controls {
+    flex-wrap: nowrap !important;
   }
 
   body,

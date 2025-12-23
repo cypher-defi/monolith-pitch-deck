@@ -28,20 +28,20 @@ export default function Slide22CrisisInsurance() {
                 NORMAL TIMES (2025)
               </h3>
               <ul className='space-y-3 text-base text-gray-300'>
-                <li className='flex items-start gap-2'>
-                  <span className='text-blue-400'>•</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-blue-400 flex-shrink-0'>•</span>
                   <span><span className='font-semibold'>TradFi:</span> 3-4% (corporate bonds/MMAs)</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-blue-400'>•</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-blue-400 flex-shrink-0'>•</span>
                   <span><span className='font-semibold'>Monolith Conservative:</span> 3-5%</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-green-400'>✓</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-green-400 flex-shrink-0'>✓</span>
                   <span><span className='font-semibold'>Edge:</span> +1-2% modest outperformance</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-green-400'>✓</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-green-400 flex-shrink-0'>✓</span>
                   <span className='text-green-400 font-semibold'>Cost of insurance: $0 (you're getting paid)</span>
                 </li>
               </ul>
@@ -52,20 +52,20 @@ export default function Slide22CrisisInsurance() {
                 CRISIS TIMES (2026-2027)
               </h3>
               <ul className='space-y-3 text-base text-gray-300'>
-                <li className='flex items-start gap-2'>
-                  <span className='text-red-400'>•</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-red-400 flex-shrink-0'>•</span>
                   <span><span className='font-semibold'>TradFi:</span> 0.10-0.50% (Fed emergency cuts)</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-green-400'>•</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-green-400 flex-shrink-0'>•</span>
                   <span><span className='font-semibold'>Monolith Conservative:</span> 2-4% (protocols maintain)</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-green-400'>✓</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-green-400 flex-shrink-0'>✓</span>
                   <span><span className='font-semibold'>Edge:</span> 5-10x massive outperformance</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-green-400'>✓</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-green-400 flex-shrink-0'>✓</span>
                   <span className='text-green-400 font-bold'>This is when the hedge activates</span>
                 </li>
               </ul>
@@ -80,28 +80,40 @@ export default function Slide22CrisisInsurance() {
 
           <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
             <div className='bg-gradient-to-br from-purple-500/10 to-purple-500/5 border-2 border-purple-500/30 rounded-xl p-6'>
-              <h4 className='text-lg md:text-xl font-semibold mb-3 text-blue-400'>✓ Utilization-based pricing</h4>
+              <h4 className='text-lg md:text-xl font-semibold mb-3 text-blue-400 flex gap-2' style={{alignItems: 'baseline'}}>
+                <span className='flex-shrink-0'>✓</span>
+                <span>Utilization-based pricing</span>
+              </h4>
               <p className='text-gray-300 text-sm'>
                 Borrowing demand spikes during volatility (shorts, hedges, liquidations)
               </p>
             </div>
 
             <div className='bg-gradient-to-br from-purple-500/10 to-purple-500/5 border-2 border-purple-500/30 rounded-xl p-6'>
-              <h4 className='text-lg md:text-xl font-semibold mb-3 text-blue-400'>✓ Protocol token incentives</h4>
+              <h4 className='text-lg md:text-xl font-semibold mb-3 text-blue-400 flex gap-2' style={{alignItems: 'baseline'}}>
+                <span className='flex-shrink-0'>✓</span>
+                <span>Protocol token incentives</span>
+              </h4>
               <p className='text-gray-300 text-sm'>
                 Aave, Curve, Morpho subsidize yields independent of Fed rates
               </p>
             </div>
 
             <div className='bg-gradient-to-br from-purple-500/10 to-purple-500/5 border-2 border-purple-500/30 rounded-xl p-6'>
-              <h4 className='text-lg md:text-xl font-semibold mb-3 text-blue-400'>✓ Stablecoin accessibility premium</h4>
+              <h4 className='text-lg md:text-xl font-semibold mb-3 text-blue-400 flex gap-2' style={{alignItems: 'baseline'}}>
+                <span className='flex-shrink-0'>✓</span>
+                <span>Stablecoin accessibility premium</span>
+              </h4>
               <p className='text-gray-300 text-sm'>
                 24/7 liquidity when banks close, cross-border access when capital controls tighten
               </p>
             </div>
 
             <div className='bg-gradient-to-br from-purple-500/10 to-purple-500/5 border-2 border-purple-500/30 rounded-xl p-6'>
-              <h4 className='text-lg md:text-xl font-semibold mb-3 text-blue-400'>✓ Protocol diversification</h4>
+              <h4 className='text-lg md:text-xl font-semibold mb-3 text-blue-400 flex gap-2' style={{alignItems: 'baseline'}}>
+                <span className='flex-shrink-0'>✓</span>
+                <span>Protocol diversification</span>
+              </h4>
               <p className='text-gray-300 text-sm'>
                 No single point of failure, real-time rebalancing captures spread volatility
               </p>

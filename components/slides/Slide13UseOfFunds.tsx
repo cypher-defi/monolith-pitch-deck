@@ -32,20 +32,20 @@ export default function Slide13UseOfFunds() {
               <div className='text-5xl font-bold text-blue-300 mb-4'>$450K</div>
               <div className='text-blue-400 font-semibold mb-6'>45%</div>
               <ul className='text-left text-sm text-gray-300 space-y-2'>
-                <li className='flex items-start gap-2'>
-                  <span className='text-blue-400 mt-0.5'>✓</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-blue-400 flex-shrink-0'>✓</span>
                   <span>Smart contract dev & optimization</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-blue-400 mt-0.5'>✓</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-blue-400 flex-shrink-0'>✓</span>
                   <span>Full-stack dashboard & API</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-blue-400 mt-0.5'>✓</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-blue-400 flex-shrink-0'>✓</span>
                   <span>Cloud infrastructure & DevOps</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-blue-400 mt-0.5'>✓</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-blue-400 flex-shrink-0'>✓</span>
                   <span>Development tools & testing</span>
                 </li>
               </ul>
@@ -62,26 +62,26 @@ export default function Slide13UseOfFunds() {
               </div>
               <div className='text-green-400 font-semibold mb-6'>20%</div>
               <ul className='text-left text-sm text-gray-300 space-y-2'>
-                <li className='flex items-start gap-2'>
-                  <span className='text-green-400 mt-0.5 flex-shrink-0'>✓</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-green-400 flex-shrink-0'>✓</span>
                   <span>
                     Smart contract audits (OpenZeppelin $45K + Hacken $30K)
                   </span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-green-400 mt-0.5 flex-shrink-0'>✓</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-green-400 flex-shrink-0'>✓</span>
                   <span>Formal verification of vault accounting logic</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-green-400 mt-0.5 flex-shrink-0'>✓</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-green-400 flex-shrink-0'>✓</span>
                   <span>Security documentation & threat modeling</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-green-400 mt-0.5 flex-shrink-0'>✓</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-green-400 flex-shrink-0'>✓</span>
                   <span>Bug bounty program ($50K reserve on Immunefi)</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-green-400 mt-0.5 flex-shrink-0'>✓</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-green-400 flex-shrink-0'>✓</span>
                   <span>Insurance provider partnerships (InsurAce)</span>
                 </li>
               </ul>
@@ -98,20 +98,20 @@ export default function Slide13UseOfFunds() {
               </div>
               <div className='text-amber-400 font-semibold mb-6'>35%</div>
               <ul className='text-left text-sm text-gray-300 space-y-2'>
-                <li className='flex items-start gap-2'>
-                  <span className='text-amber-400 mt-0.5'>✓</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-amber-400 flex-shrink-0'>✓</span>
                   <span>B2B sales & business development</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-amber-400 mt-0.5'>✓</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-amber-400 flex-shrink-0'>✓</span>
                   <span>Pilot customer acquisition</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-amber-400 mt-0.5'>✓</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-amber-400 flex-shrink-0'>✓</span>
                   <span>Legal & compliance setup</span>
                 </li>
-                <li className='flex items-start gap-2'>
-                  <span className='text-amber-400 mt-0.5'>✓</span>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-amber-400 flex-shrink-0'>✓</span>
                   <span>Infrastructure & operations</span>
                 </li>
               </ul>
