@@ -31,7 +31,10 @@ export default function Slide4HowItWorks() {
               <p className="text-gray-400 text-lg leading-relaxed">
                 White-label dashboard, mobile app, or SDK—deploy to your infrastructure or ours
               </p>
-              <div className="mt-4 text-sm text-gray-500">⚡ 1 day setup</div>
+              <div className="mt-4 text-sm text-gray-500 flex items-center justify-center gap-1">
+                <Icon name="lightning" size={16} className="text-yellow-400" />
+                1 day setup
+              </div>
             </div>
 
             {/* STEP 2 */}
@@ -43,7 +46,10 @@ export default function Slide4HowItWorks() {
               <p className="text-gray-400 text-lg leading-relaxed">
                 One-click integrations to QuickBooks, Fireblocks, Bloomberg Terminal
               </p>
-              <div className="mt-4 text-sm text-gray-500">⚡ 1 week integration</div>
+              <div className="mt-4 text-sm text-gray-500 flex items-center justify-center gap-1">
+                <Icon name="lightning" size={16} className="text-yellow-400" />
+                1 week integration
+              </div>
             </div>
 
             {/* STEP 3 */}
@@ -55,7 +61,10 @@ export default function Slide4HowItWorks() {
               <p className="text-gray-400 text-lg leading-relaxed">
                 Customers deposit stablecoins and start earning yield automatically
               </p>
-              <div className="mt-4 text-sm text-gray-500">⚡ Live in 2 weeks total</div>
+              <div className="mt-4 text-sm text-gray-500 flex items-center justify-center gap-1">
+                <Icon name="lightning" size={16} className="text-yellow-400" />
+                Live in 2 weeks total
+              </div>
             </div>
           </ThreeColumnGrid>
         </div>
@@ -75,12 +84,12 @@ export default function Slide4HowItWorks() {
               <p className="text-sm text-gray-400">Deep insights into returns and risk metrics</p>
             </div>
             <div className="bg-gradient-to-br from-amber-500/20 to-amber-500/5 border-2 border-amber-500/50 rounded-xl p-6 text-center">
-              <Icon name="building" size={32} className="text-amber-400 mx-auto mb-3" />
+              <Icon name="shield" size={32} className="text-amber-400 mx-auto mb-3" />
               <h4 className="font-bold text-white mb-2">Risk Monitoring</h4>
               <p className="text-sm text-gray-400">24/7 monitoring with automated safeguards</p>
             </div>
             <div className="bg-gradient-to-br from-green-500/20 to-green-500/5 border-2 border-green-500/50 rounded-xl p-6 text-center">
-              <Icon name="document" size={32} className="text-green-400 mx-auto mb-3" />
+              <Icon name="clipboard" size={32} className="text-green-400 mx-auto mb-3" />
               <h4 className="font-bold text-white mb-2">Compliance Reporting</h4>
               <p className="text-sm text-gray-400">Automated audit trails and tax reporting</p>
             </div>

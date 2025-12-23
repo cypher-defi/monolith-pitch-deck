@@ -7,6 +7,7 @@ import Card from "@/components/Card"
 import CardTitle from "@/components/CardTitle"
 import CardContent from "@/components/CardContent"
 import FourColumnGrid from "@/components/FourColumnGrid"
+import Icon from "@/components/Icon"
 
 export default function Slide12Roadmap() {
   return (
@@ -96,7 +97,10 @@ export default function Slide12Roadmap() {
                 M6
               </div>
               <Card variant='glass' className='flex-1'>
-                <CardTitle>Pilot Customer Launch 🚀</CardTitle>
+                <CardTitle className="flex items-center gap-2">
+                  Pilot Customer Launch
+                  <Icon name="rocket" size={20} className="text-blue-400" />
+                </CardTitle>
                 <CardContent>
                   <ul className='space-y-1 text-left text-sm'>
                     <li>• Customer dashboard customization</li>

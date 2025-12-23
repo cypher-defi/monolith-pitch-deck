@@ -37,7 +37,7 @@ export default function Slide16AppendixDivider() {
 
           <div className='bg-gradient-to-br from-green-500/20 to-green-500/5 border-2 border-green-500/50 rounded-xl p-6 text-center'>
             <Icon
-              name='check'
+              name='shield'
               size={40}
               className='text-green-400 mx-auto mb-3'
             />
@@ -49,7 +49,7 @@ export default function Slide16AppendixDivider() {
 
           <div className='bg-gradient-to-br from-purple-500/20 to-purple-500/5 border-2 border-purple-500/50 rounded-xl p-6 text-center'>
             <Icon
-              name='scroll'
+              name='document'
               size={40}
               className='text-purple-400 mx-auto mb-3'
             />

@@ -44,7 +44,7 @@ export default function Slide11Demo() {
 
         <div className='grid grid-cols-2 md:grid-cols-3 gap-6 max-w-5xl mx-auto'>
           <div className='bg-gradient-to-br from-blue-500/20 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-6'>
-            <Icon name='chart' size={32} className='text-blue-400 mb-3' />
+            <Icon name='window' size={32} className='text-blue-400 mb-3' />
             <h4 className='font-bold text-white mb-2'>White-Label Dashboard</h4>
             <p className='text-sm text-gray-400'>
               Branded as their own platform
@@ -52,7 +52,7 @@ export default function Slide11Demo() {
           </div>
 
           <div className='bg-gradient-to-br from-purple-500/20 to-purple-500/5 border-2 border-purple-500/50 rounded-xl p-6'>
-            <Icon name='document' size={32} className='text-purple-400 mb-3' />
+            <Icon name='clipboard' size={32} className='text-purple-400 mb-3' />
             <h4 className='font-bold text-white mb-2'>Compliance Tooling</h4>
             <p className='text-sm text-gray-400'>
               Audit trails, tax reports, insurance
@@ -78,7 +78,7 @@ export default function Slide11Demo() {
           </div>
 
           <div className='bg-gradient-to-br from-pink-500/20 to-pink-500/5 border-2 border-pink-500/50 rounded-xl p-6'>
-            <Icon name='trending' size={32} className='text-pink-400 mb-3' />
+            <Icon name='document' size={32} className='text-pink-400 mb-3' />
             <h4 className='font-bold text-white mb-2'>Automated Reporting</h4>
             <p className='text-sm text-gray-400'>
               Daily, weekly, monthly exports
@@ -86,7 +86,7 @@ export default function Slide11Demo() {
           </div>
 
           <div className='bg-gradient-to-br from-teal-500/20 to-teal-500/5 border-2 border-teal-500/50 rounded-xl p-6'>
-            <Icon name='trending' size={32} className='text-teal-400 mb-3' />
+            <Icon name='chart' size={32} className='text-teal-400 mb-3' />
             <h4 className='font-bold text-white mb-2'>Performance Analytics</h4>
             <p className='text-sm text-gray-400'>
               Deep insights & risk metrics
