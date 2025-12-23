@@ -18,7 +18,7 @@ export default function Slide24PortfolioDiversification() {
         </Subtitle>
 
         <div className='mb-12'>
-          <h2 className='text-3xl font-bold mb-6 text-center'>
+          <h2 className='text-2xl md:text-3xl font-bold mb-6 text-center'>
             Typical Institutional Portfolio Mix
           </h2>
 
@@ -75,10 +75,10 @@ export default function Slide24PortfolioDiversification() {
         </div>
 
         <div className='mb-12'>
-          <h2 className='text-3xl font-bold mb-6 text-center'>
+          <h2 className='text-2xl md:text-3xl font-bold mb-6 text-center'>
             10% Monolith Allocation in $100M Portfolio
           </h2>
-          <p className='text-xl mb-6 text-center text-gray-300'>Crisis Scenario Comparison:</p>
+          <p className='text-lg md:text-xl mb-6 text-center text-gray-300'>Crisis Scenario Comparison:</p>
 
           <TwoColumnGrid className='gap-8 mb-6'>
             <div className='bg-gradient-to-br from-red-500/20 to-red-500/5 border-2 border-red-500/50 rounded-xl p-6'>
@@ -111,14 +111,14 @@ export default function Slide24PortfolioDiversification() {
           </TwoColumnGrid>
 
           <div className='p-6 bg-gradient-to-r from-blue-500/10 to-purple-500/10 border-2 border-blue-500/50 rounded-xl'>
-            <p className='text-xl font-semibold text-center text-blue-400'>
+            <p className='text-lg md:text-xl font-semibold text-center text-blue-400'>
               Key insight: Monolith doesn't replace equities or bonds. It replaces the cash/MMA allocation that earns nothing in crises.
             </p>
           </div>
         </div>
 
         <div className='mb-12'>
-          <h2 className='text-3xl font-bold mb-6 text-center'>
+          <h2 className='text-2xl md:text-3xl font-bold mb-6 text-center'>
             Why Monolith vs Other Crisis-Resilient Allocations
           </h2>
 
@@ -156,7 +156,7 @@ export default function Slide24PortfolioDiversification() {
         </div>
 
         <div className='bg-gradient-to-r from-blue-500/10 to-green-500/10 border-2 border-green-500/50 rounded-xl p-8'>
-          <h2 className='text-3xl font-bold mb-6 text-center'>
+          <h2 className='text-2xl md:text-3xl font-bold mb-6 text-center'>
             The Honest Pitch to Institutional Investors
           </h2>
 

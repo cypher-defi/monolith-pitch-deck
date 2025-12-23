@@ -22,7 +22,7 @@ export default function Slide14Ask() {
             <h3 className='text-blue-300 mb-6 text-sm font-bold uppercase'>
               Raise Amount
             </h3>
-            <div className='text-5xl font-bold text-blue-300'>$1-1.5M</div>
+            <div className='text-5xl font-bold text-blue-300'>$1.5-2M</div>
           </div>
 
           <div className='bg-gradient-to-br from-purple-500/20 to-purple-500/5 border-2 border-purple-500/50 rounded-xl p-8 text-center'>

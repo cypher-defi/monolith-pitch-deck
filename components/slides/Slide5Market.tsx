@@ -172,7 +172,7 @@ export default function Slide5Market() {
               </div>
 
               {/* PHASE 3: YEAR 2 */}
-              <div className="bg-gradient-to-br from-purple-900 to-purple-950 border-2 border-purple-500 rounded-xl p-6 transform scale-105 shadow-xl shadow-purple-500/20">
+              <div className="bg-gradient-to-br from-purple-900 to-purple-950 border-2 border-purple-500 rounded-xl p-6">
                 <div className="text-center mb-4">
                   <div className="inline-block px-4 py-2 bg-purple-600 rounded-full mb-3">
                     <span className="text-sm font-semibold text-white">

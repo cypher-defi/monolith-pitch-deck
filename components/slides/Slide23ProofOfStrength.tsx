@@ -18,7 +18,7 @@ export default function Slide23ProofOfStrength() {
         </Subtitle>
 
         <div className='mb-12'>
-          <h2 className='text-3xl font-bold mb-6 text-center'>
+          <h2 className='text-2xl md:text-3xl font-bold mb-6 text-center'>
             Aave: Battle-Tested Through Multiple Crises
           </h2>
 
@@ -109,7 +109,7 @@ export default function Slide23ProofOfStrength() {
           </ThreeColumnGrid>
 
           <div className='bg-gradient-to-br from-green-500/20 to-green-500/5 border-2 border-green-500/50 rounded-xl p-6 text-center'>
-            <h4 className='text-2xl font-bold mb-3 text-green-300'>Current Stats (Dec 2025)</h4>
+            <h4 className='text-xl md:text-2xl font-bold mb-3 text-green-300'>Current Stats (Dec 2025)</h4>
             <div className='grid grid-cols-2 md:grid-cols-4 gap-4 text-sm text-gray-300'>
               <div><span className='font-semibold text-green-400'>TVL:</span> $40B+ (largest DeFi protocol)</div>
               <div><span className='font-semibold text-green-400'>Uptime:</span> 99.99% since 2020</div>
@@ -120,7 +120,7 @@ export default function Slide23ProofOfStrength() {
         </div>
 
         <div className='mb-12'>
-          <h2 className='text-3xl font-bold mb-6 text-center'>
+          <h2 className='text-2xl md:text-3xl font-bold mb-6 text-center'>
             The Data: DeFi Protocols vs Traditional Institutions
           </h2>
 
@@ -158,10 +158,10 @@ export default function Slide23ProofOfStrength() {
           </div>
 
           <div className='p-6 bg-gradient-to-r from-green-500/10 to-blue-500/10 border-2 border-green-500/50 rounded-xl'>
-            <p className='text-2xl font-bold text-center text-green-400 mb-4'>
+            <p className='text-xl md:text-2xl font-bold text-center text-green-400 mb-4'>
               DeFi protocols have a BETTER track record than traditional banks over the last 4 years.
             </p>
-            <h3 className='text-xl font-bold mb-4 text-center'>Why?</h3>
+            <h3 className='text-lg md:text-xl font-bold mb-4 text-center'>Why?</h3>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-300'>
               <div className='flex items-start gap-2'>
                 <span className='text-green-400'>✓</span>
@@ -184,7 +184,7 @@ export default function Slide23ProofOfStrength() {
         </div>
 
         <div className='bg-gradient-to-r from-green-500/10 to-blue-500/10 border-2 border-blue-500/50 rounded-xl p-8'>
-          <blockquote className='text-2xl italic text-center text-gray-300 border-l-4 border-green-500 pl-6'>
+          <blockquote className='text-lg md:text-2xl italic text-center text-gray-300 border-l-4 border-green-500 pl-6'>
             "Is capital safer in a single bank at 0.5% yield... or diversified across 5 battle-tested protocols with 5+ year track records, insurance backing, and 3-4% yield?"
             <br />
             <br />
