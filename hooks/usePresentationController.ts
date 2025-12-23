@@ -75,10 +75,12 @@ export default function usePresentationController(totalSlides: number) {
       }
     })
 
-    // Add active to current slide
+    // Add active to current slide and scroll to top
     const currentElement = document.getElementById(`slide-${currentSlide}`)
     if (currentElement) {
       currentElement.classList.add("active")
+      // Reset scroll position to top when slide becomes active
+      currentElement.scrollTop = 0
     }
   }, [currentSlide])
 
@@ -102,7 +104,7 @@ export default function usePresentationController(totalSlides: number) {
 
   return {
     currentSlide,
-    totalSlides: slideIds.length,
+    totalSlides,
     nextSlide,
     previousSlide,
     goToSlide

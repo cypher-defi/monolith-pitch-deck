@@ -11,7 +11,7 @@ export default function Slide1Cover() {
       id={1}
       background='bg-gradient-to-br from-black via-zinc-900 to-black'
     >
-      <SlideContent className='text-center flex flex-col justify-center items-center min-h-screen py-12 sm:py-16 md:py-20'>
+      <SlideContent className='text-center flex flex-col justify-center items-center min-h-[calc(100dvh-12rem)] py-8 sm:py-12 md:py-16'>
         <div className='mb-8 sm:mb-12'>
           <div className='logo'>
             <div className='logo-line'></div>

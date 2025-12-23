@@ -31,7 +31,7 @@ export default function Home() {
     usePresentationController(20)
 
   return (
-    <main>
+    <main className="presentation">
       {/* Slide Components - All 21 slides */}
       <Slide1Cover />
       <Slide2Problem />

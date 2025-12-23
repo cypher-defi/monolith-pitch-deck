@@ -37,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} font-sans antialiased overflow-hidden touch-none`}
+        className={`${inter.variable} font-sans antialiased overflow-hidden`}
       >
         {children}
       </body>
