@@ -21,7 +21,7 @@ export default function Slide6WhyNow() {
           <div className="bg-gradient-to-br from-purple-500/20 to-purple-500/5 border-2 border-purple-500/50 rounded-xl p-6">
             <div className="text-center mb-4">
               <Icon
-                name="scroll"
+                name="shield"
                 size={40}
                 className="text-purple-400 mx-auto mb-3"
               />
@@ -79,7 +79,7 @@ export default function Slide6WhyNow() {
           <div className="bg-gradient-to-br from-amber-500/20 to-amber-500/5 border-2 border-amber-500/50 rounded-xl p-6">
             <div className="text-center mb-4">
               <Icon
-                name="chart"
+                name="server"
                 size={40}
                 className="text-amber-400 mx-auto mb-3"
               />

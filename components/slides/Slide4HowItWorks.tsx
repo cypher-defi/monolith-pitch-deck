@@ -74,7 +74,7 @@ export default function Slide4HowItWorks() {
           <h3 className="text-2xl font-bold text-center mb-8 text-white">What Monolith Delivers</h3>
           <FourColumnGrid className="gap-6">
             <div className="bg-gradient-to-br from-blue-500/20 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-6 text-center">
-              <Icon name="chart" size={32} className="text-blue-400 mx-auto mb-3" />
+              <Icon name="window" size={32} className="text-blue-400 mx-auto mb-3" />
               <h4 className="font-bold text-white mb-2">Portfolio Dashboard</h4>
               <p className="text-sm text-gray-400">Real-time tracking of yields and allocations</p>
             </div>
