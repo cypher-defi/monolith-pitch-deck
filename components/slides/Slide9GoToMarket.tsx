@@ -23,7 +23,7 @@ export default function Slide9GoToMarket() {
 
         <TwoColumnGrid>
           <Card variant='glass'>
-            <CardTitle>Phase 1: First Customer (Months 1-6)</CardTitle>
+            <CardTitle>Phase 1: First Customer (Month 6)</CardTitle>
             <CardContent>
               <ul className='space-y-2 text-left'>
                 <li>
@@ -48,7 +48,7 @@ export default function Slide9GoToMarket() {
                 </li>
                 <li className='mt-4 pt-4 border-t-2 border-slate-600'>
                   <strong className='text-blue-400'>
-                    Goal: 1 live customer, $20M AUM, $200K ARR
+                    Goal: Pilot Program $20M AUM → $250K revenue, -$91K profit
                   </strong>
                 </li>
               </ul>
@@ -56,7 +56,7 @@ export default function Slide9GoToMarket() {
           </Card>
 
           <Card variant='glass'>
-            <CardTitle>Phase 2: Scale to Banks (Months 6-12)</CardTitle>
+            <CardTitle>Phase 2: Scale to Banks (Month 12-15)</CardTitle>
             <CardContent>
               <ul className='space-y-2 text-left'>
                 <li>
@@ -78,7 +78,7 @@ export default function Slide9GoToMarket() {
                 </li>
                 <li className='mt-4 pt-4 border-t-2 border-slate-600'>
                   <strong className='text-blue-400'>
-                    Goal: 3 institutional partners, $100M AUM, $1M ARR
+                    Goal: 3 customers $100M AUM → $1.25M revenue, +$360K profit ✓
                   </strong>
                 </li>
               </ul>
@@ -111,7 +111,8 @@ export default function Slide9GoToMarket() {
                 </li>
                 <li className='mt-4 pt-4 border-t-2 border-slate-600'>
                   <strong className='text-blue-400'>
-                    Goal: 8-10 partners, $500M AUM, $5M ARR
+                    Goal: 5-6 customers $300-400M AUM → $3.75-5M revenue, +$2-3.3M
+                    profit
                   </strong>
                 </li>
               </ul>
@@ -132,7 +133,7 @@ export default function Slide9GoToMarket() {
                   <strong>Strategy:</strong>
                 </li>
                 <li className='pl-5'>
-                  → Proven track record: $500M+ managed, 8+ institutions served
+                  → Proven track record: $800M-1B managed, 8+ institutions served
                 </li>
                 <li className='pl-5'>
                   → Enterprise features: SLA guarantees, custom strategies,
@@ -143,7 +144,8 @@ export default function Slide9GoToMarket() {
                 </li>
                 <li className='mt-4 pt-4 border-t-2 border-slate-600'>
                   <strong className='text-blue-400'>
-                    Goal: 15-20 partners, $1.5B AUM, $15M ARR
+                    Goal: 8-10 customers $800M-1B AUM → $10-12.5M revenue,
+                    +$6-8.7M profit
                   </strong>
                 </li>
               </ul>

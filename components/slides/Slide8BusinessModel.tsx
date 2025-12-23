@@ -23,7 +23,7 @@ export default function Slide8BusinessModel() {
                 Management Fee
               </h4>
               <div className='text-4xl font-bold text-green-300 mb-2'>
-                1.0-1.5%
+                1.25%
               </div>
               <div className='text-sm text-gray-400'>Annual on AUM</div>
             </div>
@@ -101,16 +101,16 @@ export default function Slide8BusinessModel() {
                   </div>
                   <div className='flex justify-between'>
                     <span className='text-gray-300'>Sales & BD</span>
-                    <span className='text-gray-300 font-bold'>$200K/year</span>
+                    <span className='text-gray-300 font-bold'>$230K/year</span>
                   </div>
                   <div className='border-t border-gray-600 pt-2 mt-2'></div>
                   <div className='flex justify-between font-bold'>
                     <span className='text-blue-300'>Total Operating Costs</span>
-                    <span className='text-blue-300'>$860K/year</span>
+                    <span className='text-blue-300'>$890K/year</span>
                   </div>
                   <div className='flex justify-between font-bold text-lg'>
                     <span className='text-green-400'>Net Operating Margin</span>
-                    <span className='text-green-400'>$390K/year (31%)</span>
+                    <span className='text-green-400'>$360K/year (29%)</span>
                   </div>
                 </div>
               </div>
@@ -127,11 +127,11 @@ export default function Slide8BusinessModel() {
                 </div>
                 <div>
                   <div className='text-gray-400'>All-in Cost per $100M</div>
-                  <div className='text-blue-300 font-bold'>$860K</div>
+                  <div className='text-blue-300 font-bold'>$890K</div>
                 </div>
                 <div>
                   <div className='text-gray-400'>Net Profit per $100M</div>
-                  <div className='text-green-400 font-bold'>$390K</div>
+                  <div className='text-green-400 font-bold'>$360K</div>
                 </div>
                 <div>
                   <div className='text-gray-400'>Cost of Risk Management</div>
@@ -161,7 +161,7 @@ export default function Slide8BusinessModel() {
               <div className='text-sm space-y-2'>
                 <div className='text-center mb-3'>
                   <div className='text-xs text-gray-400'>
-                    First Customer (ConnectAssets)
+                    Pilot Program
                   </div>
                   <div className='text-2xl font-bold text-yellow-400'>$20M</div>
                   <div className='text-xs text-gray-400'>AUM</div>
@@ -172,11 +172,11 @@ export default function Slide8BusinessModel() {
                 </div>
                 <div className='flex justify-between text-xs'>
                   <span className='text-gray-400'>Operating Costs:</span>
-                  <span className='text-red-300'>$380K/year</span>
+                  <span className='text-red-300'>$341K/year</span>
                 </div>
                 <div className='flex justify-between text-xs font-bold border-t border-gray-600 pt-1'>
                   <span className='text-red-300'>Net:</span>
-                  <span className='text-red-300'>-$130K</span>
+                  <span className='text-red-300'>-$91K</span>
                 </div>
                 <div className='text-xs text-gray-400 text-center mt-2'>
                   Pilot, prove model
@@ -205,16 +205,16 @@ export default function Slide8BusinessModel() {
                 </div>
                 <div className='flex justify-between text-xs'>
                   <span className='text-gray-400'>Operating Costs:</span>
-                  <span className='text-blue-300'>$860K/year</span>
+                  <span className='text-blue-300'>$890K/year</span>
                 </div>
                 <div className='text-xs text-gray-500 ml-4'>
                   <div>• Insurance: $80K</div>
                   <div>• Audits: $60K</div>
-                  <div>• Other ops: $720K</div>
+                  <div>• Other ops: $750K</div>
                 </div>
                 <div className='flex justify-between text-xs font-bold border-t border-gray-600 pt-1'>
                   <span className='text-green-400'>Net:</span>
-                  <span className='text-green-400'>+$390K/year</span>
+                  <span className='text-green-400'>+$360K/year</span>
                 </div>
                 <div className='text-xs text-green-400 font-bold text-center mt-2'>
                   ✓ PROFITABLE
@@ -230,32 +230,32 @@ export default function Slide8BusinessModel() {
               <div className='text-sm space-y-2'>
                 <div className='text-center mb-3'>
                   <div className='text-xs text-gray-400'>
-                    Scale to 8-10 Partners
+                    Scale to 5-6 Partners
                   </div>
                   <div className='text-2xl font-bold text-yellow-400'>
-                    $500M
+                    $300-400M
                   </div>
                   <div className='text-xs text-gray-400'>AUM</div>
                 </div>
                 <div className='flex justify-between text-xs'>
                   <span className='text-gray-400'>Gross Revenue:</span>
-                  <span className='text-green-300'>$6.25M/year</span>
+                  <span className='text-green-300'>$3.75-5M/year</span>
                 </div>
                 <div className='flex justify-between text-xs'>
                   <span className='text-gray-400'>Operating Costs:</span>
-                  <span className='text-blue-300'>$2.1M/year</span>
+                  <span className='text-blue-300'>$1.7-2M/year</span>
                 </div>
                 <div className='text-xs text-gray-500 ml-4'>
-                  <div>• Insurance: $400K</div>
-                  <div>• Audits: $150K</div>
-                  <div>• Other ops: $1.55M</div>
+                  <div>• Insurance: $240-320K</div>
+                  <div>• Audits: $120K</div>
+                  <div>• Other ops: $1.34-1.56M</div>
                 </div>
                 <div className='flex justify-between text-xs font-bold border-t border-gray-600 pt-1'>
                   <span className='text-green-400'>Net:</span>
-                  <span className='text-green-400'>+$4.15M/year</span>
+                  <span className='text-green-400'>+$2-3.3M/year</span>
                 </div>
                 <div className='text-xs text-gray-400 text-center mt-2'>
-                  Series A ready (15x+ revenue)
+                  Series A ready
                 </div>
               </div>
             </div>
@@ -267,26 +267,26 @@ export default function Slide8BusinessModel() {
               </h4>
               <div className='text-sm space-y-2'>
                 <div className='text-center mb-3'>
-                  <div className='text-xs text-gray-400'>Enterprise Scale</div>
+                  <div className='text-xs text-gray-400'>8-10 Customers</div>
                   <div className='text-2xl font-bold text-yellow-400'>
-                    $1.5B
+                    $800M-1B
                   </div>
                   <div className='text-xs text-gray-400'>AUM</div>
                 </div>
                 <div className='flex justify-between text-xs'>
                   <span className='text-gray-400'>Gross Revenue:</span>
-                  <span className='text-green-300'>$18.75M/year</span>
+                  <span className='text-green-300'>$10-12.5M/year</span>
                 </div>
                 <div className='flex justify-between text-xs'>
                   <span className='text-gray-400'>Operating Costs:</span>
-                  <span className='text-blue-300'>$4.5M/year</span>
+                  <span className='text-blue-300'>$3.3-4.3M/year</span>
                 </div>
                 <div className='flex justify-between text-xs font-bold border-t border-gray-600 pt-1'>
                   <span className='text-green-400'>Net:</span>
-                  <span className='text-green-400'>+$14.25M/year</span>
+                  <span className='text-green-400'>+$6-8.7M/year</span>
                 </div>
                 <div className='text-xs text-gray-400 text-center mt-2'>
-                  75%+ net margin, Series B ready
+                  60-70% net margin, Series B ready
                 </div>
               </div>
             </div>

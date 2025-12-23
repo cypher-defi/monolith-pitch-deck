@@ -17,9 +17,9 @@ export default function Slide13UseOfFunds() {
         </Title>
 
         <div className='text-center mb-12'>
-          <div className='text-6xl font-bold mb-2 text-blue-400'>$1-1.5M</div>
+          <div className='text-6xl font-bold mb-2 text-blue-400'>$1.5-2M</div>
           <div className='text-slate-400 text-xl'>
-            Seed Raise Target • 18-Month Runway to $500K ARR
+            Seed Raise Target • Runway to Profitability at Month 12-15
           </div>
         </div>
 

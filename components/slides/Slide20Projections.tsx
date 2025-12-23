@@ -25,33 +25,33 @@ export default function Slide20Projections() {
             <div className='space-y-4 text-center'>
               <div>
                 <p className='text-gray-400 text-sm mb-2 font-medium'>
-                  TVL Growth
+                  AUM Growth
                 </p>
-                <p className='text-3xl font-bold text-yellow-400'>$1M → $25M</p>
+                <p className='text-3xl font-bold text-yellow-400'>$20M → $100M</p>
               </div>
               <div>
                 <p className='text-gray-400 text-sm mb-2 font-medium'>
                   Revenue
                 </p>
-                <p className='text-3xl font-bold text-blue-300'>$375K</p>
+                <p className='text-3xl font-bold text-blue-300'>$1.25M</p>
               </div>
               <div>
                 <p className='text-gray-400 text-sm mb-2 font-medium'>
                   Expenses
                 </p>
-                <p className='text-2xl font-bold text-green-400'>$600K</p>
+                <p className='text-2xl font-bold text-green-400'>$1.6M</p>
                 <div className='text-xs text-gray-400 mt-1'>
                   <div>• Insurance + Audits: $140K</div>
-                  <div>• Engineering: $300K</div>
-                  <div>• Operations: $160K</div>
+                  <div>• Engineering: $900K</div>
+                  <div>• Operations: $560K</div>
                 </div>
               </div>
               <div>
                 <p className='text-gray-400 text-sm mb-2 font-medium'>Net</p>
-                <p className='text-2xl font-bold text-red-400'>($225K)</p>
+                <p className='text-2xl font-bold text-red-400'>($350K)</p>
                 <p className='text-xs text-gray-500'>Seed capital covers gap</p>
-                <p className='text-xs text-gray-500 mt-1'>
-                  Investment phase, building credibility
+                <p className='text-xs text-green-400 font-bold mt-1'>
+                  Profitable by Month 12-15
                 </p>
               </div>
             </div>
@@ -64,37 +64,37 @@ export default function Slide20Projections() {
             <div className='space-y-4 text-center'>
               <div>
                 <p className='text-gray-400 text-sm mb-2 font-medium'>
-                  TVL Growth
+                  AUM Growth
                 </p>
                 <p className='text-3xl font-bold text-yellow-400'>
-                  $25M → $100M
+                  $100M → $300-400M
                 </p>
               </div>
               <div>
                 <p className='text-gray-400 text-sm mb-2 font-medium'>
                   Revenue
                 </p>
-                <p className='text-3xl font-bold text-purple-300'>$1.5M</p>
+                <p className='text-3xl font-bold text-purple-300'>$3.75-5M</p>
               </div>
               <div>
                 <p className='text-gray-400 text-sm mb-2 font-medium'>
                   Expenses
                 </p>
-                <p className='text-2xl font-bold text-green-400'>$920K</p>
+                <p className='text-2xl font-bold text-green-400'>$1.7-2M</p>
                 <div className='text-xs text-gray-400 mt-1'>
-                  <div>• Insurance + Audits: $140K</div>
-                  <div>• Engineering: $550K</div>
-                  <div>• Operations: $230K</div>
+                  <div>• Insurance + Audits: $240-320K</div>
+                  <div>• Engineering: $1M</div>
+                  <div>• Operations: $460-680K</div>
                 </div>
               </div>
               <div>
                 <p className='text-gray-400 text-sm mb-2 font-medium'>Net</p>
-                <p className='text-2xl font-bold text-green-500'>+$580K</p>
+                <p className='text-2xl font-bold text-green-500'>+$2-3.3M</p>
                 <p className='text-xs text-green-400 font-bold'>
-                  ✓ Profitable on customer revenue
+                  ✓ 5-6 Customers, Profitable
                 </p>
                 <p className='text-xs text-gray-500 mt-1'>
-                  Break-even on operations, Series A ready
+                  Series A ready (Month 18-20)
                 </p>
               </div>
             </div>
@@ -107,37 +107,37 @@ export default function Slide20Projections() {
             <div className='space-y-4 text-center'>
               <div>
                 <p className='text-gray-400 text-sm mb-2 font-medium'>
-                  TVL Growth
+                  AUM Growth
                 </p>
                 <p className='text-3xl font-bold text-yellow-400'>
-                  $100M → $500M
+                  $400M → $800M-1B
                 </p>
               </div>
               <div>
                 <p className='text-gray-400 text-sm mb-2 font-medium'>
                   Revenue
                 </p>
-                <p className='text-3xl font-bold text-green-300'>$7.5M</p>
+                <p className='text-3xl font-bold text-green-300'>$10-12.5M</p>
               </div>
               <div>
                 <p className='text-gray-400 text-sm mb-2 font-medium'>
                   Expenses
                 </p>
-                <p className='text-2xl font-bold text-green-400'>$2.1M</p>
+                <p className='text-2xl font-bold text-green-400'>$3.3-4.3M</p>
                 <div className='text-xs text-gray-400 mt-1'>
-                  <div>• Insurance + Audits: $400K</div>
-                  <div>• Engineering: $1M</div>
-                  <div>• Operations: $700K</div>
+                  <div>• Insurance + Audits: $640-800K</div>
+                  <div>• Engineering: $1.5M</div>
+                  <div>• Operations: $1.2-1.8M</div>
                 </div>
               </div>
               <div>
                 <p className='text-gray-400 text-sm mb-2 font-medium'>Net</p>
-                <p className='text-2xl font-bold text-green-500'>+$5.4M</p>
+                <p className='text-2xl font-bold text-green-500'>+$6-8.7M</p>
                 <p className='text-xs text-green-400 font-bold'>
-                  ✓ 75%+ net margin
+                  ✓ 8-10 Customers, 60-70% margin
                 </p>
                 <p className='text-xs text-gray-500 mt-1'>
-                  Series A to Series B growth capital
+                  Series B ready
                 </p>
               </div>
             </div>
