@@ -124,7 +124,7 @@ export default function Slide13UseOfFunds() {
             Seed Funding Covers Professional Audits & Insurance Infrastructure
           </h4>
 
-          <div className='grid grid-cols-2 gap-6 mb-4'>
+          <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 mb-4'>
             <div className='bg-black/30 p-4 rounded-lg'>
               <h5 className='text-lg font-bold text-blue-300 mb-3'>
                 Pre-Launch (Months 1-6)
@@ -170,7 +170,7 @@ export default function Slide13UseOfFunds() {
             <p className='text-sm text-gray-300 mb-3'>
               Unlike traditional software, DeFi protocols face evolving risks:
             </p>
-            <div className='grid grid-cols-2 gap-4 text-xs text-gray-300'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 text-xs text-gray-300'>
               <div>
                 <div className='font-bold text-blue-400 mb-1'>
                   1. New vulnerabilities emerge

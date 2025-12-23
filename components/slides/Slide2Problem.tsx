@@ -94,7 +94,7 @@ export default function Slide2Problem() {
                 <span>Compliance complexity</span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="text-amber-400\">✓</span>
+                <span className="text-amber-400">✓</span>
                 <span>Need white-label solution</span>
               </div>
             </div>
@@ -110,7 +110,7 @@ export default function Slide2Problem() {
               <h3 className="text-xl font-bold">Fintech Platforms</h3>
             </div>
             <div className="mb-6 p-4 bg-green-900/30 rounded-lg text-center">
-              <div className="text-4xl font-bold text-green-300\">6 Months</div>
+              <div className="text-4xl font-bold text-green-300">6 Months</div>
               <div className="text-sm text-gray-400 mt-1">Build Timeline</div>
             </div>
             <p className="text-gray-300 text-center mb-6 leading-relaxed">

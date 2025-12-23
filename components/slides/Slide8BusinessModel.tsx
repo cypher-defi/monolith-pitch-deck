@@ -57,7 +57,7 @@ export default function Slide8BusinessModel() {
           </h3>
 
           <div className='bg-gradient-to-br from-purple-500/10 to-blue-500/10 border-2 border-purple-500/30 rounded-xl p-6'>
-            <div className='grid grid-cols-2 gap-6 mb-4'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 mb-4'>
               <div>
                 <h4 className='text-lg font-bold text-green-400 mb-3'>
                   Revenue (1.25% average)
@@ -120,7 +120,7 @@ export default function Slide8BusinessModel() {
               <h5 className='text-sm font-bold text-blue-300 mb-2'>
                 Unit Economics
               </h5>
-              <div className='grid grid-cols-4 gap-4 text-center text-xs'>
+              <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 text-center text-xs'>
                 <div>
                   <div className='text-gray-400'>Gross Revenue per $100M</div>
                   <div className='text-green-300 font-bold'>$1.25M</div>
@@ -152,7 +152,7 @@ export default function Slide8BusinessModel() {
             Customer Growth & Profitability
           </h3>
 
-          <div className='grid grid-cols-4 gap-4 mb-6'>
+          <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-6'>
             {/* Month 6-9 */}
             <div className='bg-gradient-to-br from-blue-500/20 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-4'>
               <h4 className='text-lg font-bold text-blue-300 mb-3 text-center'>
