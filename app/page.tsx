@@ -23,16 +23,20 @@ import {
   Slide17Architecture,
   Slide18Security,
   Slide19Regulatory,
-  Slide20Projections
+  Slide20Projections,
+  Slide21CrisisComing,
+  Slide22CrisisInsurance,
+  Slide23ProofOfStrength,
+  Slide24PortfolioDiversification
 } from "@/components/slides"
 
 export default function Home() {
   const { currentSlide, totalSlides, nextSlide, previousSlide } =
-    usePresentationController(20)
+    usePresentationController(24)
 
   return (
     <main className="presentation">
-      {/* Slide Components - All 21 slides */}
+      {/* Slide Components - All 24 slides */}
       <Slide1Cover />
       <Slide2Problem />
       <Slide3Solution />
@@ -54,6 +58,10 @@ export default function Home() {
       <Slide18Security />
       <Slide19Regulatory />
       <Slide20Projections />
+      <Slide21CrisisComing />
+      <Slide22CrisisInsurance />
+      <Slide23ProofOfStrength />
+      <Slide24PortfolioDiversification />
 
       {/* Navigation Controls */}
       <NavControls

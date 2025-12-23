@@ -22,3 +22,7 @@ export { default as Slide17Architecture } from "./Slide17Architecture";
 export { default as Slide18Security } from "./Slide18Security";
 export { default as Slide19Regulatory } from "./Slide19Regulatory";
 export { default as Slide20Projections } from "./Slide20Projections";
+export { default as Slide21CrisisComing } from "./Slide21CrisisComing";
+export { default as Slide22CrisisInsurance } from "./Slide22CrisisInsurance";
+export { default as Slide23ProofOfStrength } from "./Slide23ProofOfStrength";
+export { default as Slide24PortfolioDiversification } from "./Slide24PortfolioDiversification";
