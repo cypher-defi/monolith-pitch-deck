@@ -63,25 +63,25 @@ export default function Slide13UseOfFunds() {
               <div className='text-green-400 font-semibold mb-6'>20%</div>
               <ul className='text-left text-sm text-gray-300 space-y-2'>
                 <li className='flex items-start gap-2'>
-                  <span className='text-green-400 mt-0.5'>✓</span>
+                  <span className='text-green-400 mt-0.5 flex-shrink-0'>✓</span>
                   <span>
                     Smart contract audits (OpenZeppelin $45K + Hacken $30K)
                   </span>
                 </li>
                 <li className='flex items-start gap-2'>
-                  <span className='text-green-400 mt-0.5'>✓</span>
+                  <span className='text-green-400 mt-0.5 flex-shrink-0'>✓</span>
                   <span>Formal verification of vault accounting logic</span>
                 </li>
                 <li className='flex items-start gap-2'>
-                  <span className='text-green-400 mt-0.5'>✓</span>
+                  <span className='text-green-400 mt-0.5 flex-shrink-0'>✓</span>
                   <span>Security documentation & threat modeling</span>
                 </li>
                 <li className='flex items-start gap-2'>
-                  <span className='text-green-400 mt-0.5'>✓</span>
+                  <span className='text-green-400 mt-0.5 flex-shrink-0'>✓</span>
                   <span>Bug bounty program ($50K reserve on Immunefi)</span>
                 </li>
                 <li className='flex items-start gap-2'>
-                  <span className='text-green-400 mt-0.5'>✓</span>
+                  <span className='text-green-400 mt-0.5 flex-shrink-0'>✓</span>
                   <span>Insurance provider partnerships (InsurAce)</span>
                 </li>
               </ul>
