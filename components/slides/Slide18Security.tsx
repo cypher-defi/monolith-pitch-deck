@@ -133,7 +133,8 @@ export default function Slide18Security() {
 
           <div className='bg-purple-900/30 p-5 rounded-lg border border-purple-500/50 mb-6'>
             <h4 className='text-lg font-bold text-purple-300 mb-3'>
-              Total Annual Security Investment: $140-160K on $100M AUM
+              Direct Security Costs: $140–160K/year (ex-infrastructure ops) on
+              $100M AUM
             </h4>
             <div className='grid grid-cols-3 gap-4 text-sm mb-3'>
               <div>
@@ -205,7 +206,10 @@ export default function Slide18Security() {
                 </h5>
                 <ul className='text-xs text-gray-400 space-y-1'>
                   <li>• Automated alerts for unusual activity</li>
-                  <li>• 30-minute incident response</li>
+                  <li>
+                    • 30-minute incident response via automated alerts + on-call
+                    protocol team
+                  </li>
                   <li>• Pause mechanism if something smells wrong</li>
                 </ul>
               </div>

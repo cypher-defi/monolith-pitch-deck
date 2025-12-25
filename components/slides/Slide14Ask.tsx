@@ -37,7 +37,7 @@ export default function Slide14Ask() {
               Runway
             </h3>
             <div className='text-5xl font-bold text-green-300'>18 months</div>
-            <div className='text-sm text-gray-400 mt-3'>Target: $500K ARR • First production AUM • Institutional pilots • Compliance & audit completion</div>
+            <div className='text-sm text-gray-400 mt-3'>to profitability and Series A readiness</div>
           </div>
         </ThreeColumnGrid>
 
@@ -61,10 +61,13 @@ export default function Slide14Ask() {
             </CardContent>
           </Card>
           <Card variant='glass'>
-            <CardTitle>Clear Series A Path</CardTitle>
+            <CardTitle>Clear Path to Profitability & Series A</CardTitle>
             <CardContent>
-              3-5 customers by Month 18. $200M-$500M TVL. $500K ARR positioning
-              for strong Series A round.
+              <strong>Month 12-15:</strong> 3 customers, $100M AUM, <strong>$1.6M ARR, profitable</strong> (+$710K profit)
+              <br /><br />
+              <strong>Month 18-24:</strong> 5-6 customers, $300-400M AUM, <strong>$3.98-4.64M ARR, Series A ready</strong>
+              <br /><br />
+              Strong unit economics: 55-65% net margins at scale
             </CardContent>
           </Card>
           <Card variant='glass'>
@@ -131,10 +134,9 @@ export default function Slide14Ask() {
 
         <div className='p-6 bg-blue-500/10 border-2 border-blue-500/50 rounded-lg mb-8'>
           <p className='text-blue-300 text-lg text-center'>
-            <strong>Investor Returns:</strong> At $500K ARR (Month 18), B2B SaaS
-            trades at 10-15x revenue. Conservative $5M exit ={" "}
+            <strong>Investor Returns:</strong> At Month 18-20, $3.98-4.64M ARR with B2B SaaS multiples (10-15x revenue) = $40-70M valuation potential.{" "}
             <span className='text-green-400 font-bold'>
-              5-10x equity return
+              8-14x return on $5M post-money
             </span>
             . PLUS customer revenue stream from your own stablecoin yield ={" "}
             <span className='text-green-400 font-bold'>dual payoff</span>.
