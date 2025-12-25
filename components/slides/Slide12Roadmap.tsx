@@ -124,7 +124,7 @@ export default function Slide12Roadmap() {
                     <li>• Onboard 2nd & 3rd customers</li>
                     <li>• Build case studies & refine sales</li>
                     <li>
-                      • <strong>Target:</strong> 3 customers, $100M AUM, $1M ARR
+                      • <strong>Target:</strong> 3 customers, $100M AUM, $1.6M ARR
                     </li>
                   </ul>
                 </CardContent>
@@ -156,16 +156,16 @@ export default function Slide12Roadmap() {
           </Card>
           <Card className='bg-gradient-to-br from-purple-50 via-purple-100 to-purple-50 border-2 border-purple-500 shadow-lg shadow-purple-500/20 hover:shadow-xl hover:shadow-purple-500/30 transition-all duration-300 hover:-translate-y-1'>
             <div className='text-center'>
-              <div className='text-5xl font-bold text-purple-600 mb-2'>$1M</div>
+              <div className='text-5xl font-bold text-purple-600 mb-2'>$1.6M</div>
               <div className='text-slate-700 font-medium'>ARR</div>
             </div>
           </Card>
           <Card className='bg-gradient-to-br from-amber-50 via-amber-100 to-amber-50 border-2 border-amber-500 shadow-lg shadow-amber-500/20 hover:shadow-xl hover:shadow-amber-500/30 transition-all duration-300 hover:-translate-y-1'>
             <div className='text-center'>
-              <div className='text-4xl font-bold text-amber-600 mb-2'>
-                Series A
+              <div className='text-3xl font-bold text-amber-600 mb-2'>
+                Profitable
               </div>
-              <div className='text-slate-700 font-medium'>Ready</div>
+              <div className='text-slate-700 font-medium'>Month 12-15</div>
             </div>
           </Card>
         </FourColumnGrid>

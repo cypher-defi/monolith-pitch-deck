@@ -8,6 +8,7 @@ import Card from "@/components/Card"
 import CardTitle from "@/components/CardTitle"
 import CardContent from "@/components/CardContent"
 import TwoColumnGrid from "@/components/TwoColumnGrid"
+import Icon from "@/components/Icon"
 
 export default function Slide9GoToMarket() {
   return (
@@ -26,12 +27,15 @@ export default function Slide9GoToMarket() {
           </h3>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-4 text-center'>
             <div>
+              <Icon name='building' size={32} className='text-purple-400 mx-auto mb-3' />
               <div className='text-sm text-gray-300 font-semibold'>Mid-size funds & crypto-native corporates</div>
             </div>
             <div>
+              <Icon name='dollar' size={32} className='text-blue-400 mx-auto mb-3' />
               <div className='text-sm text-gray-300 font-semibold'>Treasury teams holding stablecoin balances</div>
             </div>
             <div>
+              <Icon name='users' size={32} className='text-green-400 mx-auto mb-3' />
               <div className='text-sm text-gray-300 font-semibold'>Partnerships with custodians and fintech infrastructure providers</div>
             </div>
           </div>
@@ -64,7 +68,7 @@ export default function Slide9GoToMarket() {
                 </li>
                 <li className='mt-4 pt-4 border-t-2 border-slate-600'>
                   <strong className='text-blue-400'>
-                    Goal: Pilot Program $20M AUM → $250K revenue, -$91K profit
+                    Goal: Pilot Program $10-20M AUM → $238K revenue, -$103K profit
                   </strong>
                 </li>
               </ul>
@@ -94,7 +98,7 @@ export default function Slide9GoToMarket() {
                 </li>
                 <li className='mt-4 pt-4 border-t-2 border-slate-600'>
                   <strong className='text-blue-400'>
-                    Goal: 3 customers $100M AUM → $1.25M revenue, +$360K profit ✓
+                    Goal: 3 customers $100M AUM → $1.6M revenue, +$710K profit ✓
                   </strong>
                 </li>
               </ul>
@@ -127,7 +131,7 @@ export default function Slide9GoToMarket() {
                 </li>
                 <li className='mt-4 pt-4 border-t-2 border-slate-600'>
                   <strong className='text-blue-400'>
-                    Goal: 5-6 customers $300-400M AUM → $3.75-5M revenue, +$2-3.3M
+                    Goal: 5-6 customers $300-400M AUM → $3.98-4.64M revenue, +$2.18-2.84M
                     profit
                   </strong>
                 </li>
@@ -160,8 +164,8 @@ export default function Slide9GoToMarket() {
                 </li>
                 <li className='mt-4 pt-4 border-t-2 border-slate-600'>
                   <strong className='text-blue-400'>
-                    Goal: 8-10 customers $800M-1B AUM → $10-12.5M revenue,
-                    +$6-8.7M profit
+                    Goal: 8-10 customers $800M-1B AUM → $10.6-11.3M revenue,
+                    +$6.6-7.3M profit
                   </strong>
                 </li>
               </ul>

@@ -94,7 +94,7 @@ export default function Slide6WhyNow() {
               </li>
               <li className='flex items-start gap-2'>
                 <span className='text-purple-400 mt-0.5'>✓</span>
-                <span>Institutional confidence ↑</span>
+                <span>High institutional confidence</span>
               </li>
             </ul>
           </div>

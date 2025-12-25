@@ -151,15 +151,26 @@ export default function Slide13UseOfFunds() {
                 <li>
                   • InsurAce insurance premium (0.08% of TVL):
                   <ul className='ml-4 mt-1 text-xs text-gray-400'>
-                    <li>→ Year 1 ($25M TVL): $20K</li>
-                    <li>→ Year 2 ($100M TVL): $80K</li>
-                    <li>→ Year 3 ($500M TVL): $400K</li>
+                    <li>→ Month 6-9 Pilot ($10-20M TVL): $8-16K</li>
+                    <li>→ Month 12-15 / Year 1 ($100M TVL): $80K</li>
+                    <li>→ Year 2 ($300-400M TVL): $240-320K</li>
+                    <li>→ Year 3 ($800M-1B TVL): $640-800K</li>
                   </ul>
                 </li>
                 <li>
                   • Continuous monitoring infrastructure (embedded in ops)
                 </li>
               </ul>
+              <div className='mt-4 pt-3 border-t border-purple-500/30'>
+                <div className='text-sm font-bold text-purple-300 mb-2'>
+                  Total Annual Security Investment:
+                </div>
+                <ul className='text-xs text-gray-400 space-y-1'>
+                  <li>→ Year 1: ~$140K (on $100M AUM)</li>
+                  <li>→ Year 2: ~$360-440K (on $300-400M AUM)</li>
+                  <li>→ Year 3: ~$790-950K (on $800M-1B AUM)</li>
+                </ul>
+              </div>
             </div>
           </div>
 
@@ -214,8 +225,8 @@ export default function Slide13UseOfFunds() {
             </p>
             <p className='text-xs text-gray-400 mt-2 text-center'>
               The $200K Seed covers launch security setup. Year 1+
-              insurance/audits come from your 1.25% management fees (built into
-              operating cost structure shown in Slide 9).
+              insurance/audits come from tiered management fees (1.75% → 0.85%
+              based on AUM, shown in Slide 8).
             </p>
           </div>
         </div>
