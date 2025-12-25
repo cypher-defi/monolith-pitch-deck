@@ -3,6 +3,7 @@
 import Slide from "@/components/Slide"
 import SlideContent from "@/components/SlideContent"
 import Title from "@/components/Title"
+import Icon from "@/components/Icon"
 
 export default function Slide8BusinessModel() {
   return (
@@ -11,6 +12,26 @@ export default function Slide8BusinessModel() {
         <Title size='lg' className='mb-12 text-center'>
           BUSINESS MODEL: INSTITUTIONAL B2B
         </Title>
+
+        <div className='max-w-5xl mx-auto mb-12 p-6 bg-gradient-to-r from-green-500/10 to-blue-500/10 border-2 border-green-500/50 rounded-xl'>
+          <h3 className='text-xl font-bold text-center mb-3 text-green-300'>
+            Defensive Economics
+          </h3>
+          <div className='grid grid-cols-1 md:grid-cols-3 gap-4 text-center'>
+            <div>
+              <Icon name='trending' size={24} className='text-green-400 mx-auto mb-2' />
+              <div className='text-sm text-gray-300'>Revenue scales with AUM, not trading volume</div>
+            </div>
+            <div>
+              <Icon name='shield' size={24} className='text-green-400 mx-auto mb-2' />
+              <div className='text-sm text-gray-300'>Performs well in flat or declining markets</div>
+            </div>
+            <div>
+              <Icon name='check' size={24} className='text-green-400 mx-auto mb-2' />
+              <div className='text-sm text-gray-300'>Yield demand increases during crises</div>
+            </div>
+          </div>
+        </div>
 
         {/* Revenue Model */}
         <div className='mb-10'>

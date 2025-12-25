@@ -106,7 +106,7 @@ export default function Slide7Competition() {
                     User selects & pays separately
                   </td>
                   <td className='p-4 text-center text-green-400'>
-                    €15M+ smart contract exploit coverage
+                    ✓ Insurance coverage scales with AUM (100% coverage)
                   </td>
                 </tr>
                 <tr className='hover:bg-blue-500/10 transition'>
@@ -115,7 +115,7 @@ export default function Slide7Competition() {
                     Manual, 5-10 days
                   </td>
                   <td className='p-4 text-center text-green-400'>
-                    Automated via smart contract, 2-3 days
+                    ✓ Automated via smart contract, 2-3 days
                   </td>
                 </tr>
                 <tr className='hover:bg-blue-500/10 transition'>
@@ -124,7 +124,7 @@ export default function Slide7Competition() {
                     Not applicable
                   </td>
                   <td className='p-4 text-center text-green-400'>
-                    Annual audits + 24/7 monitoring
+                    ✓ Annual audits + 24/7 monitoring
                   </td>
                 </tr>
                 <tr className='hover:bg-blue-500/10 transition'>
@@ -142,7 +142,7 @@ export default function Slide7Competition() {
                     User&apos;s responsibility
                   </td>
                   <td className='p-4 text-center text-green-400'>
-                    Protocol manages, reports quarterly
+                    ✓ Protocol manages, reports quarterly
                   </td>
                 </tr>
               </tbody>
@@ -151,11 +151,43 @@ export default function Slide7Competition() {
         </div>
 
         <div className='mt-12 p-6 bg-blue-500/10 border-2 border-blue-500/50 rounded-lg'>
-          <p className='text-blue-300 text-lg text-center font-medium'>
-            We're not competing on yield—we compete on operational excellence.
-            Aave = best protocol. Monolith = managed dashboard platform with
-            full compliance suite.
-          </p>
+          <h3 className='text-xl font-bold text-center mb-4 text-blue-300'>
+            Why Monolith Wins
+          </h3>
+          <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mb-6'>
+            <div className='text-center'>
+              <div className='text-sm font-semibold text-gray-300 mb-2'>
+                Protocols (Aave, Compound)
+              </div>
+              <div className='text-xs text-gray-400'>
+                Built for crypto-native users • No enterprise workflows • No
+                compliance abstraction
+              </div>
+            </div>
+            <div className='text-center'>
+              <div className='text-sm font-semibold text-gray-300 mb-2'>
+                TradFi Alternatives
+              </div>
+              <div className='text-xs text-gray-400'>
+                Slow, opaque, low-yield • Limited access to on-chain yield
+              </div>
+            </div>
+            <div className='text-center'>
+              <div className='text-sm font-semibold text-green-300 mb-2'>
+                Monolith Advantage ✓
+              </div>
+              <div className='text-xs text-gray-400'>
+                Institutional UX + DeFi performance • Compliance-aware
+                architecture • Risk-curated yield exposure
+              </div>
+            </div>
+          </div>
+          <div className='pt-6 border-t border-blue-500/30'>
+            <p className='text-lg text-green-300 font-bold text-center'>
+              Moat: operational trust, integration depth, and institutional
+              distribution.
+            </p>
+          </div>
         </div>
 
         <div className='mt-8 p-8 bg-gradient-to-br from-green-500/10 to-blue-500/10 border-2 border-green-500/30 rounded-lg'>

@@ -21,7 +21,7 @@ export default function Slide1Cover() {
 
         <Title className='mb-4 sm:mb-6 text-blue-400'>MONOLITH</Title>
         <Subtitle size='lg' className='mb-6 sm:mb-8'>
-          Institutional DeFi Infrastructure
+          Institutional Yield Infrastructure for Stable Assets
         </Subtitle>
 
         <div className='w-32 sm:w-40 md:w-48 h-0.5 bg-blue-400/30 my-12 sm:my-16'></div>
@@ -30,7 +30,8 @@ export default function Slide1Cover() {
           size='md'
           className='text-slate-300 leading-relaxed max-w-2xl'
         >
-          B2B2C Yield Infrastructure for Banks & Corporate Treasurers
+          Turning idle stablecoin reserves into predictable yield - especially
+          when markets break.
         </Subtitle>
 
         <p className='text-slate-600 mt-16 sm:mt-20 text-base sm:text-lg'>

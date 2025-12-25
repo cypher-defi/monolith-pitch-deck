@@ -17,9 +17,34 @@ export default function Slide3Solution() {
         <Title size="lg" className="mb-12 text-center">
           INTRODUCING MONOLITH
         </Title>
-        <Subtitle size="md" className="mb-16 text-center text-blue-300">
-          The managed platform that turns idle stablecoins into revenue
+        <Subtitle size="md" className="mb-8 text-center text-blue-300">
+          Institutional-grade yield infrastructure
         </Subtitle>
+
+        <div className='max-w-4xl mx-auto mb-12 p-6 bg-gradient-to-r from-green-500/10 to-blue-500/10 border-2 border-green-500/50 rounded-xl'>
+          <p className='text-white text-lg font-semibold text-center mb-4'>
+            Monolith allows institutions to:
+          </p>
+          <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mb-4'>
+            <div className='text-center'>
+              <Icon name='shield' size={28} className='text-green-400 mx-auto mb-2' />
+              <div className='text-sm text-gray-300'>Deploy stablecoin reserves into curated DeFi yield strategies</div>
+            </div>
+            <div className='text-center'>
+              <Icon name='check' size={28} className='text-green-400 mx-auto mb-2' />
+              <div className='text-sm text-gray-300'>Maintain full custody control, transparent risk exposure, enterprise reporting</div>
+            </div>
+            <div className='text-center'>
+              <Icon name='trending' size={28} className='text-green-400 mx-auto mb-2' />
+              <div className='text-sm text-gray-300'>Earn 4–6% net yield on idle capital</div>
+            </div>
+          </div>
+          <div className='mt-6 pt-6 border-t border-green-500/30 text-center'>
+            <p className='text-lg text-green-300 font-bold'>
+              Not a speculative DeFi product — a cash management and yield layer.
+            </p>
+          </div>
+        </div>
 
         {/* THREE CUSTOMER ARCHETYPES */}
         <ThreeColumnGrid className="gap-8 mb-16">
@@ -107,7 +132,7 @@ export default function Slide3Solution() {
               </div>
               <div className="text-sm text-gray-400 mt-1">SERVICE</div>
             </div>
-            <p className="text-gray-300 text-center mb-6 leading-relaxed">
+            <p className="text-gray-300 text-left mb-6 leading-relaxed">
               Custom strategies, dedicated account manager, 24/7 monitoring for
               $50M+ portfolios.
             </p>

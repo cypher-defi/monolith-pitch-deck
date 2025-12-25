@@ -22,7 +22,7 @@ export default function Slide14Ask() {
             <h3 className='text-blue-300 mb-6 text-sm font-bold uppercase'>
               Raise Amount
             </h3>
-            <div className='text-5xl font-bold text-blue-300'>$1.5-2M</div>
+            <div className='text-5xl font-bold text-blue-300'>$1-1.5M</div>
           </div>
 
           <div className='bg-gradient-to-br from-purple-500/20 to-purple-500/5 border-2 border-purple-500/50 rounded-xl p-8 text-center'>
@@ -34,10 +34,10 @@ export default function Slide14Ask() {
 
           <div className='bg-gradient-to-br from-green-500/20 to-green-500/5 border-2 border-green-500/50 rounded-xl p-8 text-center'>
             <h3 className='text-green-300 mb-6 text-sm font-bold uppercase'>
-              Use of Funds
+              Runway
             </h3>
             <div className='text-5xl font-bold text-green-300'>18 months</div>
-            <div className='text-sm text-gray-400 mt-3'>to $500K ARR</div>
+            <div className='text-sm text-gray-400 mt-3'>Target: $500K ARR • First production AUM • Institutional pilots • Compliance & audit completion</div>
           </div>
         </ThreeColumnGrid>
 
@@ -129,7 +129,7 @@ export default function Slide14Ask() {
           </table>
         </div>
 
-        <div className='p-6 bg-blue-500/10 border-2 border-blue-500/50 rounded-lg'>
+        <div className='p-6 bg-blue-500/10 border-2 border-blue-500/50 rounded-lg mb-8'>
           <p className='text-blue-300 text-lg text-center'>
             <strong>Investor Returns:</strong> At $500K ARR (Month 18), B2B SaaS
             trades at 10-15x revenue. Conservative $5M exit ={" "}
@@ -138,6 +138,18 @@ export default function Slide14Ask() {
             </span>
             . PLUS customer revenue stream from your own stablecoin yield ={" "}
             <span className='text-green-400 font-bold'>dual payoff</span>.
+          </p>
+        </div>
+
+        <div className='max-w-4xl mx-auto p-8 bg-gradient-to-r from-green-500/10 via-blue-500/10 to-purple-500/10 border-2 border-green-500/50 rounded-xl'>
+          <h3 className='text-2xl font-bold text-center mb-6 text-green-300'>
+            A Hedge for the Next Economic Cycle
+          </h3>
+          <p className='text-white text-lg text-center mb-4'>
+            When markets are volatile, capital looks for safety — and yield.
+          </p>
+          <p className='text-gray-300 text-center'>
+            Monolith sits at the intersection of stable assets, institutional trust, and predictable income.
           </p>
         </div>
       </SlideContent>

@@ -16,10 +16,26 @@ export default function Slide9GoToMarket() {
         <Title size='lg' className='mb-16 text-center'>
           GO-TO-MARKET: INSTITUTIONAL B2B
         </Title>
-        <Subtitle size='md' className='mb-12 text-center'>
-          Direct sales to banks, corporate treasurers, asset/fund managers, and
-          fintechs—they bring distribution
+        <Subtitle size='md' className='mb-8 text-center'>
+          Focused wedge strategy targeting institutional stablecoin holders
         </Subtitle>
+
+        <div className='max-w-5xl mx-auto mb-12 p-6 bg-gradient-to-r from-purple-500/10 to-blue-500/10 border-2 border-purple-500/50 rounded-xl'>
+          <h3 className='text-xl font-bold text-center mb-4 text-purple-300'>
+            Target Wedge
+          </h3>
+          <div className='grid grid-cols-1 md:grid-cols-3 gap-4 text-center'>
+            <div>
+              <div className='text-sm text-gray-300 font-semibold'>Mid-size funds & crypto-native corporates</div>
+            </div>
+            <div>
+              <div className='text-sm text-gray-300 font-semibold'>Treasury teams holding stablecoin balances</div>
+            </div>
+            <div>
+              <div className='text-sm text-gray-300 font-semibold'>Partnerships with custodians and fintech infrastructure providers</div>
+            </div>
+          </div>
+        </div>
 
         <TwoColumnGrid>
           <Card variant='glass'>
