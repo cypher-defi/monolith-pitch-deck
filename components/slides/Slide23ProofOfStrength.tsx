@@ -162,24 +162,24 @@ export default function Slide23ProofOfStrength() {
               DeFi protocols have a BETTER track record than traditional banks over the last 4 years.
             </p>
             <h3 className='text-lg md:text-xl font-bold mb-4 text-center'>Why?</h3>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-300'>
-              <div className='flex gap-2' style={{alignItems: 'baseline'}}>
+            <ul className='grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-300'>
+              <li className='flex gap-2' style={{alignItems: 'baseline'}}>
                 <span className='text-green-400 flex-shrink-0'>✓</span>
                 <span><span className='font-semibold'>Transparency:</span> All transactions on-chain, real-time auditing</span>
-              </div>
-              <div className='flex gap-2' style={{alignItems: 'baseline'}}>
+              </li>
+              <li className='flex gap-2' style={{alignItems: 'baseline'}}>
                 <span className='text-green-400 flex-shrink-0'>✓</span>
                 <span><span className='font-semibold'>Non-custodial:</span> No Alameda-style misappropriation possible</span>
-              </div>
-              <div className='flex gap-2' style={{alignItems: 'baseline'}}>
+              </li>
+              <li className='flex gap-2' style={{alignItems: 'baseline'}}>
                 <span className='text-green-400 flex-shrink-0'>✓</span>
                 <span><span className='font-semibold'>Immutable code:</span> Can't change rules mid-crisis</span>
-              </div>
-              <div className='flex gap-2' style={{alignItems: 'baseline'}}>
+              </li>
+              <li className='flex gap-2' style={{alignItems: 'baseline'}}>
                 <span className='text-green-400 flex-shrink-0'>✓</span>
                 <span><span className='font-semibold'>Collateralization:</span> All loans overcollateralized 110-150%</span>
-              </div>
-            </div>
+              </li>
+            </ul>
           </div>
         </div>
 

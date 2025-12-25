@@ -37,7 +37,9 @@ export default function Slide14Ask() {
               Runway
             </h3>
             <div className='text-5xl font-bold text-green-300'>18 months</div>
-            <div className='text-sm text-gray-400 mt-3'>to profitability and Series A readiness</div>
+            <div className='text-sm text-gray-400 mt-3'>
+              to profitability and Series A readiness
+            </div>
           </div>
         </ThreeColumnGrid>
 
@@ -63,10 +65,14 @@ export default function Slide14Ask() {
           <Card variant='glass'>
             <CardTitle>Clear Path to Profitability & Series A</CardTitle>
             <CardContent>
-              <strong>Month 12-15:</strong> 3 customers, $100M AUM, <strong>$1.6M ARR, profitable</strong> (+$710K profit)
-              <br /><br />
-              <strong>Month 18-24:</strong> 5-6 customers, $300-400M AUM, <strong>$3.98-4.64M ARR, Series A ready</strong>
-              <br /><br />
+              <strong>Month 12-15:</strong> 3 customers, $100M AUM,{" "}
+              <strong>$1.6M ARR, profitable</strong> (+$710K profit)
+              <br />
+              <br />
+              <strong>Month 18-24:</strong> 5-6 customers, $300-400M AUM,{" "}
+              <strong>$3.98-4.64M ARR, Series A ready</strong>
+              <br />
+              <br />
               Strong unit economics: 55-65% net margins at scale
             </CardContent>
           </Card>
@@ -134,7 +140,9 @@ export default function Slide14Ask() {
 
         <div className='p-6 bg-blue-500/10 border-2 border-blue-500/50 rounded-lg mb-8'>
           <p className='text-blue-300 text-lg text-center'>
-            <strong>Investor Returns:</strong> At Month 18-20, $3.98-4.64M ARR with B2B SaaS multiples (10-15x revenue) = $40-70M valuation potential.{" "}
+            <strong>Investor Returns:</strong> At Month 18-20, $3.98-4.64M ARR
+            with B2B SaaS multiples (10-15x revenue) = $40-70M valuation
+            potential.{" "}
             <span className='text-green-400 font-bold'>
               8-14x return on $5M post-money
             </span>
@@ -148,10 +156,11 @@ export default function Slide14Ask() {
             A Hedge for the Next Economic Cycle
           </h3>
           <p className='text-white text-lg text-center mb-4'>
-            When markets are volatile, capital looks for safety — and yield.
+            When markets are volatile, capital looks for safety - and yield.
           </p>
           <p className='text-gray-300 text-center'>
-            Monolith sits at the intersection of stable assets, institutional trust, and predictable income.
+            Monolith sits at the intersection of stable assets, institutional
+            trust, and predictable income.
           </p>
         </div>
       </SlideContent>

@@ -36,15 +36,15 @@ export default function Slide2Problem() {
           </p>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-4 text-center'>
             <div>
-              <Icon name='trending' size={24} className='text-red-400 mx-auto mb-2' />
+              <Icon name='warning' size={24} className='text-red-400 mx-auto mb-2' />
               <div className='text-sm text-gray-300'>Risk appetite collapses</div>
             </div>
             <div>
-              <Icon name='trending' size={24} className='text-red-400 mx-auto mb-2' />
+              <Icon name='trending-down' size={24} className='text-red-400 mx-auto mb-2' />
               <div className='text-sm text-gray-300'>Equity & credit markets underperform</div>
             </div>
             <div>
-              <Icon name='trending' size={24} className='text-red-400 mx-auto mb-2' />
+              <Icon name='dollar' size={24} className='text-red-400 mx-auto mb-2' />
               <div className='text-sm text-gray-300'>Institutions move to cash — but cash does not yield</div>
             </div>
           </div>

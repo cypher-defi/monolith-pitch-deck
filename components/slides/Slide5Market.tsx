@@ -140,7 +140,7 @@ export default function Slide5Market() {
                     <span className='text-amber-400'>$341K</span>
                   </div>
                   <div className='flex justify-between pt-2 border-t border-slate-700 font-bold'>
-                    <span className='text-red-400'>Net:</span>
+                    <span className='text-red-400'>Net Profit:</span>
                     <span className='text-red-400'>-$103K</span>
                   </div>
                   <div className='text-center text-gray-500 mt-2 italic'>
@@ -184,7 +184,7 @@ export default function Slide5Market() {
                     <span className='text-amber-400'>$650K</span>
                   </div>
                   <div className='flex justify-between pt-2 border-t border-amber-800 font-bold'>
-                    <span className='text-green-400'>Net:</span>
+                    <span className='text-green-400'>Net Profit:</span>
                     <span className='text-green-400'>+$75K ✓</span>
                   </div>
                   <div className='text-center text-gray-400 mt-2 italic'>
