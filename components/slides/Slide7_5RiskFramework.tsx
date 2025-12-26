@@ -6,7 +6,7 @@ import Title from "@/components/Title"
 
 export default function Slide7_5RiskFramework() {
   return (
-    <Slide id={7.5} background='bg-black'>
+    <Slide id={10} background='bg-black'>
       <SlideContent>
         <Title size='lg' className='mb-12 text-center'>
           RISK FRAMEWORK: HOW WE EARN INSTITUTIONAL TRUST
@@ -102,7 +102,7 @@ export default function Slide7_5RiskFramework() {
               </li>
               <li>• Claims processed in 2-3 days by third party</li>
               <li>
-                • Premium included in 1.25% fee (you don&apos;t pay extra)
+                • Premium included in management fee (you don&apos;t pay extra)
               </li>
             </ul>
 

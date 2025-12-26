@@ -7,7 +7,7 @@ import Icon from "@/components/Icon"
 
 export default function Slide8BusinessModel() {
   return (
-    <Slide id={8} background='bg-black'>
+    <Slide id={11} background='bg-black'>
       <SlideContent>
         <Title size='lg' className='mb-12 text-center'>
           BUSINESS MODEL: INSTITUTIONAL B2B
@@ -44,11 +44,11 @@ export default function Slide8BusinessModel() {
                 Management Fee
               </h4>
               <div className='text-4xl font-bold text-green-300 mb-2'>
-                1.25%*
+                1.25-1.75%*
               </div>
               <div className='text-sm text-gray-400'>Annual on AUM</div>
               <div className='text-xs text-gray-500 mt-2'>
-                *Blended average rate across AUM tiers. Actual rate: 1.75% ($0-25M) down to 0.85% ($250M+). See tiered pricing table below.
+                *Tier-dependent: Conservative 1.25%, Balanced 1.50%, Aggressive 1.75% (before volume discounts)
               </div>
             </div>
 
@@ -173,176 +173,275 @@ export default function Slide8BusinessModel() {
                 Insurance + audits enables 2-week deployment vs 6-month build •
                 Justifies premium positioning vs Yearn/Beefy
                 <br/>
-                <span className='text-amber-300'>Note: Revenue remains constant regardless of vault tier selected (management fee based on AUM size only). Higher-yield tiers (Balanced/Aggressive) have incrementally higher insurance costs but same revenue.</span>
+                <span className='text-amber-300'>Note: Revenue scales with both AUM volume AND vault tier selection. Higher-yield tiers command premium management fees (Balanced +0.25%, Aggressive +0.50%) to offset higher insurance costs and operational complexity.</span>
               </p>
             </div>
           </div>
         </div>
 
-        {/* Revenue Model: Tiered Pricing */}
+        {/* Revenue Model: Tier + Volume Pricing */}
         <div>
           <h3 className='text-2xl font-bold text-green-400 mb-6 text-center'>
-            Revenue Model: Tiered Pricing
+            Revenue Model: Tier + Volume Pricing
           </h3>
 
-          <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8'>
-            {/* Management Fee Table */}
-            <div className='bg-gradient-to-br from-green-500/10 to-green-500/5 border-2 border-green-500/50 rounded-xl p-6'>
-              <h4 className='text-lg font-bold text-green-300 mb-4 text-center'>
-                Management Fee (Annual)
+          {/* THREE TIER PRICING TABLES */}
+          <div className='grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8'>
+            {/* CONSERVATIVE TIER */}
+            <div className='bg-gradient-to-br from-blue-500/10 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-6'>
+              <h4 className='text-lg font-bold text-blue-300 mb-4 text-center'>
+                Conservative Tier Pricing (Base)
               </h4>
               <div className='overflow-x-auto'>
-                <table className='w-full text-sm'>
+                <table className='w-full text-xs'>
                   <thead>
-                    <tr className='border-b border-green-500/30'>
+                    <tr className='border-b border-blue-500/30'>
                       <th className='text-left py-2 text-gray-300'>AUM Tier</th>
                       <th className='text-center py-2 text-gray-300'>Fee</th>
-                      <th className='text-right py-2 text-gray-300'>Example Revenue</th>
+                      <th className='text-right py-2 text-gray-300'>Example</th>
                     </tr>
                   </thead>
-                  <tbody className='divide-y divide-green-500/20'>
+                  <tbody className='divide-y divide-blue-500/20'>
                     <tr>
                       <td className='py-2 text-gray-300'>$0-25M</td>
-                      <td className='text-center text-green-400 font-bold'>1.75%</td>
-                      <td className='text-right text-green-400'>$438K on $25M</td>
+                      <td className='text-center text-blue-400 font-bold'>1.75%</td>
+                      <td className='text-right text-blue-400'>$438K/yr</td>
                     </tr>
                     <tr>
                       <td className='py-2 text-gray-300'>$25-50M</td>
-                      <td className='text-center text-green-400 font-bold'>1.50%</td>
-                      <td className='text-right text-green-400'>$750K on $50M</td>
+                      <td className='text-center text-blue-400 font-bold'>1.50%</td>
+                      <td className='text-right text-blue-400'>$750K/yr</td>
                     </tr>
                     <tr>
                       <td className='py-2 text-gray-300'>$50-100M</td>
-                      <td className='text-center text-green-400 font-bold'>1.25%</td>
-                      <td className='text-right text-green-400'>$1.25M on $100M</td>
+                      <td className='text-center text-blue-400 font-bold'>1.25%</td>
+                      <td className='text-right text-blue-400'>$1.25M/yr</td>
                     </tr>
                     <tr>
                       <td className='py-2 text-gray-300'>$100-250M</td>
-                      <td className='text-center text-green-400 font-bold'>1.00%</td>
-                      <td className='text-right text-green-400'>$2M on $200M</td>
+                      <td className='text-center text-blue-400 font-bold'>1.00%</td>
+                      <td className='text-right text-blue-400'>$2M/yr</td>
                     </tr>
                     <tr>
                       <td className='py-2 text-gray-300'>$250M+</td>
-                      <td className='text-center text-green-400 font-bold'>0.85%</td>
-                      <td className='text-right text-green-400'>$2.55M on $300M</td>
+                      <td className='text-center text-blue-400 font-bold'>0.85%</td>
+                      <td className='text-right text-blue-400'>$2.55M/yr</td>
                     </tr>
                   </tbody>
                 </table>
               </div>
             </div>
 
-            {/* Implementation Fee Table */}
-            <div className='bg-gradient-to-br from-blue-500/10 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-6'>
-              <h4 className='text-lg font-bold text-blue-300 mb-4 text-center'>
-                Implementation Fee (One-Time)
+            {/* BALANCED TIER */}
+            <div className='bg-gradient-to-br from-purple-500/10 to-purple-500/5 border-2 border-purple-500/50 rounded-xl p-6'>
+              <h4 className='text-lg font-bold text-purple-300 mb-4 text-center'>
+                Balanced Tier (+0.25% premium)
               </h4>
-              <div className='mb-4'>
-                <div className='flex justify-between items-center border-b border-blue-500/30 pb-2 mb-3 text-sm'>
-                  <span className='text-gray-300 font-semibold'>AUM at Launch</span>
-                  <span className='text-gray-300 font-semibold'>Fee</span>
-                </div>
-                <div className='space-y-2 text-sm'>
-                  <div className='flex justify-between gap-3 items-center'>
-                    <span className='text-gray-300 flex-1 text-left'>$5-10M</span>
-                    <span className='text-blue-400 font-bold whitespace-nowrap'>$75K</span>
-                  </div>
-                  <div className='flex justify-between gap-3 items-center'>
-                    <span className='text-gray-300 flex-1 text-left'>$10-25M</span>
-                    <span className='text-blue-400 font-bold whitespace-nowrap'>$50K</span>
-                  </div>
-                  <div className='flex justify-between gap-3 items-center'>
-                    <span className='text-gray-300 flex-1 text-left'>$25-50M</span>
-                    <span className='text-blue-400 font-bold whitespace-nowrap'>$35K</span>
-                  </div>
-                  <div className='flex justify-between gap-3 items-center'>
-                    <span className='text-gray-300 flex-1 text-left'>$50M+</span>
-                    <span className='text-green-400 font-bold whitespace-nowrap'>FREE ✓</span>
-                  </div>
-                </div>
+              <div className='overflow-x-auto'>
+                <table className='w-full text-xs'>
+                  <thead>
+                    <tr className='border-b border-purple-500/30'>
+                      <th className='text-left py-2 text-gray-300'>AUM Tier</th>
+                      <th className='text-center py-2 text-gray-300'>Fee</th>
+                      <th className='text-right py-2 text-gray-300'>Example</th>
+                    </tr>
+                  </thead>
+                  <tbody className='divide-y divide-purple-500/20'>
+                    <tr>
+                      <td className='py-2 text-gray-300'>$0-25M</td>
+                      <td className='text-center text-purple-400 font-bold'>2.00%</td>
+                      <td className='text-right text-purple-400'>$500K/yr</td>
+                    </tr>
+                    <tr>
+                      <td className='py-2 text-gray-300'>$25-50M</td>
+                      <td className='text-center text-purple-400 font-bold'>1.75%</td>
+                      <td className='text-right text-purple-400'>$875K/yr</td>
+                    </tr>
+                    <tr>
+                      <td className='py-2 text-gray-300'>$50-100M</td>
+                      <td className='text-center text-purple-400 font-bold'>1.50%</td>
+                      <td className='text-right text-purple-400'>$1.5M/yr</td>
+                    </tr>
+                    <tr>
+                      <td className='py-2 text-gray-300'>$100-250M</td>
+                      <td className='text-center text-purple-400 font-bold'>1.25%</td>
+                      <td className='text-right text-purple-400'>$2.5M/yr</td>
+                    </tr>
+                    <tr>
+                      <td className='py-2 text-gray-300'>$250M+</td>
+                      <td className='text-center text-purple-400 font-bold'>1.10%</td>
+                      <td className='text-right text-purple-400'>$3.3M/yr</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
-              <div className='bg-amber-900/30 p-3 rounded-lg border border-amber-500/30'>
-                <div className='text-xs text-gray-300 text-center'>
-                  <span className='font-bold text-amber-400'>White-Label SDK:</span> $2-15K/month (optional)
-                </div>
+            </div>
+
+            {/* AGGRESSIVE TIER */}
+            <div className='bg-gradient-to-br from-amber-500/10 to-amber-500/5 border-2 border-amber-500/50 rounded-xl p-6'>
+              <h4 className='text-lg font-bold text-amber-300 mb-4 text-center'>
+                Aggressive Tier (+0.50% premium)
+              </h4>
+              <div className='overflow-x-auto'>
+                <table className='w-full text-xs'>
+                  <thead>
+                    <tr className='border-b border-amber-500/30'>
+                      <th className='text-left py-2 text-gray-300'>AUM Tier</th>
+                      <th className='text-center py-2 text-gray-300'>Fee</th>
+                      <th className='text-right py-2 text-gray-300'>Example</th>
+                    </tr>
+                  </thead>
+                  <tbody className='divide-y divide-amber-500/20'>
+                    <tr>
+                      <td className='py-2 text-gray-300'>$0-25M</td>
+                      <td className='text-center text-amber-400 font-bold'>2.25%</td>
+                      <td className='text-right text-amber-400'>$563K/yr</td>
+                    </tr>
+                    <tr>
+                      <td className='py-2 text-gray-300'>$25-50M</td>
+                      <td className='text-center text-amber-400 font-bold'>2.00%</td>
+                      <td className='text-right text-amber-400'>$1M/yr</td>
+                    </tr>
+                    <tr>
+                      <td className='py-2 text-gray-300'>$50-100M</td>
+                      <td className='text-center text-amber-400 font-bold'>1.75%</td>
+                      <td className='text-right text-amber-400'>$1.75M/yr</td>
+                    </tr>
+                    <tr>
+                      <td className='py-2 text-gray-300'>$100-250M</td>
+                      <td className='text-center text-amber-400 font-bold'>1.50%</td>
+                      <td className='text-right text-amber-400'>$3M/yr</td>
+                    </tr>
+                    <tr>
+                      <td className='py-2 text-gray-300'>$250M+</td>
+                      <td className='text-center text-amber-400 font-bold'>1.35%</td>
+                      <td className='text-right text-amber-400'>$4.05M/yr</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
 
-          {/* Volume Incentive Examples */}
-          <h4 className='text-xl font-bold text-purple-400 mb-4 text-center'>
-            Volume Incentive Examples
-          </h4>
-          <div className='grid grid-cols-1 md:grid-cols-3 gap-4 mb-6'>
-            <div className='bg-gradient-to-br from-blue-500/10 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-4'>
-              <h5 className='text-sm font-bold text-blue-300 mb-3 text-center'>
-                Small Deployment ($25M)
-              </h5>
-              <div className='space-y-2 text-xs'>
-                <div className='flex justify-between'>
-                  <span className='text-gray-400'>Management Fee:</span>
-                  <span className='text-white'>1.50% = $375K/year</span>
+          {/* IMPLEMENTATION FEE & WHITE-LABEL */}
+          <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8'>
+            <div className='bg-gradient-to-br from-green-500/10 to-green-500/5 border-2 border-green-500/50 rounded-xl p-6'>
+              <h4 className='text-lg font-bold text-green-300 mb-4 text-center'>
+                Implementation Fee (One-Time)
+              </h4>
+              <div className='space-y-2 text-sm'>
+                <div className='flex justify-between gap-3'>
+                  <span className='text-gray-300'>$5-10M:</span>
+                  <span className='text-green-400 font-bold'>$75K</span>
                 </div>
-                <div className='flex justify-between'>
-                  <span className='text-gray-400'>Implementation:</span>
-                  <span className='text-white'>$50K</span>
+                <div className='flex justify-between gap-3'>
+                  <span className='text-gray-300'>$10-25M:</span>
+                  <span className='text-green-400 font-bold'>$50K</span>
                 </div>
-                <div className='flex justify-between font-bold border-t border-blue-500/30 pt-2 mt-2'>
-                  <span className='text-blue-400'>Year 1 Total:</span>
-                  <span className='text-blue-400'>$425K</span>
+                <div className='flex justify-between gap-3'>
+                  <span className='text-gray-300'>$25-50M:</span>
+                  <span className='text-green-400 font-bold'>$35K</span>
+                </div>
+                <div className='flex justify-between gap-3'>
+                  <span className='text-gray-300'>$50M+:</span>
+                  <span className='text-green-400 font-bold'>FREE ✓</span>
                 </div>
               </div>
+              <p className='text-xs text-gray-500 mt-3 text-center'>
+                *Same across all tiers
+              </p>
             </div>
 
-            <div className='bg-gradient-to-br from-purple-500/10 to-purple-500/5 border-2 border-purple-500/50 rounded-xl p-4'>
-              <h5 className='text-sm font-bold text-purple-300 mb-3 text-center'>
-                Mid-Scale Deployment ($50M)
-              </h5>
-              <div className='space-y-2 text-xs'>
-                <div className='flex justify-between'>
-                  <span className='text-gray-400'>Management Fee:</span>
-                  <span className='text-white'>1.25% = $625K/year</span>
-                </div>
-                <div className='flex justify-between'>
-                  <span className='text-gray-400'>Implementation:</span>
-                  <span className='text-green-400 font-bold'>$0 (waived)</span>
-                </div>
-                <div className='flex justify-between font-bold border-t border-purple-500/30 pt-2 mt-2'>
-                  <span className='text-purple-400'>Year 1 Total:</span>
-                  <span className='text-purple-400'>$625K</span>
-                </div>
-                <div className='text-xs text-green-400 text-center mt-2'>
-                  Savings: $50K implementation fee waived
-                </div>
+            <div className='bg-gradient-to-br from-blue-500/10 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-6'>
+              <h4 className='text-lg font-bold text-blue-300 mb-4 text-center'>
+                White-Label SDK
+              </h4>
+              <div className='text-center'>
+                <div className='text-4xl font-bold text-blue-300 mb-2'>$2-15K/month</div>
+                <div className='text-sm text-gray-400'>Optional SaaS add-on</div>
               </div>
+              <p className='text-xs text-gray-500 mt-3 text-center'>
+                *Same across all tiers
+              </p>
+            </div>
+          </div>
+
+          {/* TIER PRICING JUSTIFICATION */}
+          <div className='mb-8 bg-gradient-to-r from-blue-500/10 via-purple-500/10 to-amber-500/10 border-2 border-blue-500/50 rounded-xl p-6'>
+            <h4 className='text-xl font-bold text-white mb-4 text-center'>
+              Tier Pricing Justification
+            </h4>
+            <p className='text-sm text-gray-300 text-center mb-4'>
+              <strong className='text-blue-400'>Why tiered pricing makes sense:</strong>
+            </p>
+
+            <div className='overflow-x-auto'>
+              <table className='w-full text-xs'>
+                <thead>
+                  <tr className='border-b border-blue-500/30'>
+                    <th className='text-left py-2 px-2 text-gray-300'>Factor</th>
+                    <th className='text-center py-2 px-2 text-blue-300'>Conservative</th>
+                    <th className='text-center py-2 px-2 text-purple-300'>Balanced</th>
+                    <th className='text-center py-2 px-2 text-amber-300'>Aggressive</th>
+                    <th className='text-right py-2 px-2 text-green-300'>Fee Differential</th>
+                  </tr>
+                </thead>
+                <tbody className='divide-y divide-blue-500/20'>
+                  <tr>
+                    <td className='py-2 px-2 text-gray-300'>Target Yield</td>
+                    <td className='text-center text-blue-400'>5-8%</td>
+                    <td className='text-center text-purple-400'>8-12%</td>
+                    <td className='text-center text-amber-400'>12-22%</td>
+                    <td className='text-right text-green-400 text-xs'>Higher yield = higher fee</td>
+                  </tr>
+                  <tr>
+                    <td className='py-2 px-2 text-gray-300'>Leverage Used</td>
+                    <td className='text-center text-blue-400'>0x</td>
+                    <td className='text-center text-purple-400'>1.5x max</td>
+                    <td className='text-center text-amber-400'>2x max</td>
+                    <td className='text-right text-green-400 text-xs'>More complexity = higher fee</td>
+                  </tr>
+                  <tr>
+                    <td className='py-2 px-2 text-gray-300'>Rebalancing</td>
+                    <td className='text-center text-blue-400'>Monthly</td>
+                    <td className='text-center text-purple-400'>Weekly</td>
+                    <td className='text-center text-amber-400'>Daily</td>
+                    <td className='text-right text-green-400 text-xs'>More active = higher fee</td>
+                  </tr>
+                  <tr>
+                    <td className='py-2 px-2 text-gray-300'>Insurance Cost</td>
+                    <td className='text-center text-blue-400'>0.08% TVL</td>
+                    <td className='text-center text-purple-400'>0.10% TVL</td>
+                    <td className='text-center text-amber-400'>0.12% TVL</td>
+                    <td className='text-right text-green-400 text-xs'>Higher cost = higher fee</td>
+                  </tr>
+                  <tr>
+                    <td className='py-2 px-2 text-gray-300'>Liquidity</td>
+                    <td className='text-center text-blue-400'>48 hours</td>
+                    <td className='text-center text-purple-400'>72 hours</td>
+                    <td className='text-center text-amber-400'>5-7 days</td>
+                    <td className='text-right text-green-400 text-xs'>More risk = higher fee</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
 
-            <div className='bg-gradient-to-br from-green-500/10 to-green-500/5 border-2 border-green-500/50 rounded-xl p-4'>
-              <h5 className='text-sm font-bold text-green-300 mb-3 text-center'>
-                Enterprise Deployment ($100M)
-              </h5>
-              <div className='space-y-2 text-xs'>
-                <div className='flex justify-between'>
-                  <span className='text-gray-400'>Management Fee:</span>
-                  <span className='text-white'>1.00% = $1M/year</span>
-                </div>
-                <div className='flex justify-between'>
-                  <span className='text-gray-400'>Implementation:</span>
-                  <span className='text-green-400 font-bold'>$0 (waived)</span>
-                </div>
-                <div className='flex justify-between font-bold border-t border-green-500/30 pt-2 mt-2'>
-                  <span className='text-green-400'>Year 1 Total:</span>
-                  <span className='text-green-400'>$1M</span>
-                </div>
-                <div className='text-xs text-green-400 text-center mt-2'>
-                  Savings: 43% lower rate vs small tier + $75K implementation waived
-                </div>
-              </div>
+            <div className='mt-4 pt-4 border-t border-blue-500/30'>
+              <p className='text-xs text-gray-300 text-center'>
+                <strong className='text-white'>Customer value proposition:</strong>
+                <br/>
+                • Conservative clients pay less (1.25%) because we deliver lower yields (5-8%)
+                <br/>
+                • Aggressive clients pay more (1.75%) but earn dramatically higher yields (12-22%)
+                <br/>
+                • <strong className='text-green-400'>Net result: All customers profit substantially vs current 0% yields</strong>
+              </p>
             </div>
           </div>
 
           <div className='bg-purple-900/30 p-4 rounded-lg border border-purple-500/50'>
             <p className='text-purple-300 text-sm text-center'>
-              ✓ Pricing rewards scale while maintaining 60-70% net margins at all tiers
+              ✓ Pricing rewards both volume scale AND tier optimization while maintaining 50-65% net margins
             </p>
           </div>
         </div>

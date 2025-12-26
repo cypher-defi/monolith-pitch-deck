@@ -12,7 +12,7 @@ import Icon from "@/components/Icon"
 
 export default function Slide9GoToMarket() {
   return (
-    <Slide id={9} background='bg-black'>
+    <Slide id={12} background='bg-black'>
       <SlideContent>
         <Title size='lg' className='mb-16 text-center'>
           GO-TO-MARKET: INSTITUTIONAL B2B
@@ -184,7 +184,15 @@ export default function Slide9GoToMarket() {
 
         <div className='mt-6 p-4 bg-gray-800/30 border border-gray-700 rounded-lg'>
           <p className='text-xs text-gray-400 text-center'>
-            *Revenue projections based on Conservative vault tier adoption across all customers. Actual revenue may be higher if customers adopt Balanced or Aggressive vault tiers, though all projections assume Conservative tier (most conservative estimate).
+            *Revenue projections assume 100% Conservative tier adoption (base case). Tier mix provides 12-25% revenue upside:
+            <br/>
+            • 70% Cons / 20% Bal / 10% Agg = +12% revenue
+            <br/>
+            • 50% Cons / 30% Bal / 20% Agg = +25% revenue
+            <br/>
+            <span className='text-gray-500'>
+            Higher-yield tiers command premium fees (Balanced +0.25%, Aggressive +0.50%) while incurring only incremental insurance costs (+0.02-0.04% TVL).
+            </span>
           </p>
         </div>
       </SlideContent>

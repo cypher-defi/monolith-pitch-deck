@@ -11,7 +11,7 @@ import FourColumnGrid from "@/components/FourColumnGrid"
 
 export default function Slide14Ask() {
   return (
-    <Slide id={14} background='bg-black'>
+    <Slide id={17} background='bg-black'>
       <SlideContent>
         <Title size='lg' className='mb-16 text-center'>
           THE ASK
@@ -144,6 +144,11 @@ export default function Slide14Ask() {
                 </tbody>
               </table>
             </div>
+            <p className='text-xs text-gray-400 mt-3 text-center'>
+              *Conservative tier charges 1.25% management fee (example: $100M AUM = $1.25M annual fee)
+              <br/>
+              Net to investor after fees: 6% - 1.25% = <strong className='text-blue-400'>4.75% actual yield</strong>
+            </p>
           </div>
 
           {/* BALANCED TIER */}
@@ -187,6 +192,11 @@ export default function Slide14Ask() {
                 </tbody>
               </table>
             </div>
+            <p className='text-xs text-gray-400 mt-3 text-center'>
+              *Balanced tier charges 1.50% management fee (example: $100M AUM = $1.50M annual fee)
+              <br/>
+              Net to investor after fees: 10% - 1.50% = <strong className='text-purple-400'>8.50% actual yield</strong>
+            </p>
           </div>
 
           {/* AGGRESSIVE TIER */}
@@ -230,6 +240,11 @@ export default function Slide14Ask() {
                 </tbody>
               </table>
             </div>
+            <p className='text-xs text-gray-400 mt-3 text-center'>
+              *Aggressive tier charges 1.75% management fee (example: $100M AUM = $1.75M annual fee)
+              <br/>
+              Net to investor after fees: 17% - 1.75% = <strong className='text-amber-400'>15.25% actual yield</strong>
+            </p>
           </div>
         </div>
 
@@ -250,27 +265,53 @@ export default function Slide14Ask() {
         {/* EXAMPLE */}
         <div className='max-w-4xl mx-auto p-6 bg-gradient-to-br from-green-500/10 to-green-500/5 border-2 border-green-500/50 rounded-xl mb-8'>
           <h4 className='text-lg font-bold text-green-300 mb-3 text-center'>
-            Conservative Example:
+            Balanced Tier Example:
           </h4>
           <p className='text-gray-300 text-sm text-center mb-4'>
             Investor contributes $500K to seed round + deploys $25M to Balanced tier.
           </p>
-          <div className='grid grid-cols-1 md:grid-cols-2 gap-4 text-sm'>
+
+          <div className='space-y-3 text-sm mb-4'>
+            <div className='bg-purple-900/20 p-3 rounded-lg border border-purple-500/30'>
+              <div className='flex justify-between items-center'>
+                <span className='text-gray-300'>Management fee:</span>
+                <span className='text-white'>$25M × 1.75% (small AUM tier) = <strong className='text-purple-400'>$437.5K/year</strong></span>
+              </div>
+            </div>
+            <div className='bg-blue-900/20 p-3 rounded-lg border border-blue-500/30'>
+              <div className='flex justify-between items-center'>
+                <span className='text-gray-300'>Gross yield:</span>
+                <span className='text-white'>$25M × 10% = <strong className='text-blue-400'>$2.5M/year</strong></span>
+              </div>
+            </div>
+            <div className='bg-green-900/20 p-3 rounded-lg border border-green-500/30'>
+              <div className='flex justify-between items-center'>
+                <span className='text-gray-300'>Net yield after fees:</span>
+                <span className='text-white'>$2.5M - $437.5K = <strong className='text-green-400'>$2.06M/year</strong></span>
+              </div>
+            </div>
+          </div>
+
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-4 text-sm mb-4'>
+            <div className='bg-purple-900/20 p-4 rounded-lg border border-purple-500/30'>
+              <div className='text-purple-400 font-bold mb-2'>Yield returns (18 months):</div>
+              <div className='text-white'>$2.06M × 1.5 years = <span className='text-green-400'>$3.09M</span></div>
+            </div>
             <div className='bg-blue-900/20 p-4 rounded-lg border border-blue-500/30'>
               <div className='text-blue-400 font-bold mb-2'>Equity value at Series A (Month 18-20):</div>
               <div className='text-white'>$500K → $4-7M <span className='text-green-400'>(8-14x)</span></div>
             </div>
-            <div className='bg-purple-900/20 p-4 rounded-lg border border-purple-500/30'>
-              <div className='text-purple-400 font-bold mb-2'>Yield returns (18 months):</div>
-              <div className='text-white'>$25M × 10% × 1.5 years = <span className='text-green-400'>$3.75M</span></div>
-            </div>
           </div>
+
           <div className='mt-4 pt-4 border-t border-green-500/30 text-center'>
             <p className='text-green-300 text-lg font-bold'>
-              Total return: $7.75-10.75M on $500K cash + $25M deployed capital
+              Total return: $7.09-10.09M on $500K cash + $25M deployed capital
             </p>
             <p className='text-gray-400 text-sm mt-2'>
-              Cash-on-cash ROI: <span className='text-green-400 font-bold'>15-21x in 18 months</span>
+              Cash-on-cash ROI: <span className='text-green-400 font-bold'>14-20x in 18 months</span>
+            </p>
+            <p className='text-xs text-gray-500 mt-3'>
+              Note: Investor pays management fee but still captures 8.5% net yield vs 0% current yield on stablecoins.
             </p>
           </div>
         </div>

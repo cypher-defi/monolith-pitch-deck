@@ -9,7 +9,7 @@ import Icon from "@/components/Icon"
 export default function Slide15ThankYou() {
   return (
     <Slide
-      id={15}
+      id={18}
       background='bg-gradient-to-br from-black via-zinc-900 to-black'
     >
       <SlideContent className='text-center flex flex-col justify-center items-center min-h-[calc(100vh-180px)]'>

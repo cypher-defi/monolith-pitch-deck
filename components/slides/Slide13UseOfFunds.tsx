@@ -7,7 +7,7 @@ import FourColumnGrid from "@/components/FourColumnGrid"
 
 export default function Slide13UseOfFunds() {
   return (
-    <Slide id={13} background='bg-black'>
+    <Slide id={16} background='bg-black'>
       <SlideContent>
         <Title size='lg' className='mb-12 text-center'>
           USE OF FUNDS

@@ -8,7 +8,7 @@ import Icon from "@/components/Icon"
 
 export default function Slide5Market() {
   return (
-    <Slide id={5} background='bg-black'>
+    <Slide id={7} background='bg-black'>
       <SlideContent>
         <Title size='lg' className='mb-12 text-center'>
           MARKET SIZE & OPPORTUNITY
@@ -99,9 +99,17 @@ export default function Slide5Market() {
           <h3 className='text-3xl font-bold text-center mb-4'>
             Revenue Growth: Tiered Pricing Model
           </h3>
-          <p className='text-center text-gray-400 mb-10 text-lg'>
-            Volume incentives encourage larger allocations while maintaining
-            profitability
+          <p className='text-center text-gray-400 mb-4 text-lg'>
+            Volume incentives + tier-based pricing create scalable unit economics
+          </p>
+          <div className='text-center text-sm text-gray-300 mb-8 max-w-4xl mx-auto'>
+            <p className='mb-2'><strong className='text-blue-400'>Pricing Structure:</strong></p>
+            <p>• <strong>Conservative tier:</strong> 1.25% base (volume discounts: 1.75% → 0.75%)</p>
+            <p>• <strong>Balanced tier:</strong> 1.50% base (volume discounts: 2.00% → 1.00%)</p>
+            <p>• <strong>Aggressive tier:</strong> 1.75% base (volume discounts: 2.25% → 1.25%)</p>
+          </div>
+          <p className='text-center text-gray-400 mb-10 text-base'>
+            <strong className='text-white'>Conservative Tier Projections (Base Case):</strong>
           </p>
 
           <div className='max-w-7xl mx-auto'>
@@ -332,13 +340,89 @@ export default function Slide5Market() {
             </div>
           </div>
 
+          {/* TIER MIX UPSIDE SCENARIOS */}
+          <div className='max-w-7xl mx-auto mt-8 p-6 bg-gradient-to-r from-blue-500/10 via-purple-500/10 to-amber-500/10 border-2 border-blue-500/50 rounded-xl'>
+            <h4 className='text-xl font-bold text-center text-white mb-6'>
+              Tier Mix Upside Scenarios
+            </h4>
+
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mb-4'>
+              {/* SCENARIO 1: 100% Conservative */}
+              <div className='bg-blue-900/30 border border-blue-500/50 rounded-lg p-4'>
+                <h5 className='text-sm font-bold text-blue-300 mb-3 text-center'>
+                  Scenario 1: 100% Conservative (Base Case)
+                </h5>
+                <div className='space-y-2 text-xs text-gray-300'>
+                  <div className='flex justify-between'>
+                    <span>Year 1 Revenue:</span>
+                    <span className='text-white font-bold'>$1.25M</span>
+                  </div>
+                  <div className='flex justify-between'>
+                    <span>Year 2 Revenue:</span>
+                    <span className='text-white font-bold'>$3.75M</span>
+                  </div>
+                  <div className='flex justify-between'>
+                    <span>Year 3 Revenue:</span>
+                    <span className='text-white font-bold'>$9.75M</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* SCENARIO 2: 70/20/10 */}
+              <div className='bg-purple-900/30 border border-purple-500/50 rounded-lg p-4'>
+                <h5 className='text-sm font-bold text-purple-300 mb-3 text-center'>
+                  Scenario 2: 70% Cons / 20% Bal / 10% Agg (Likely)
+                </h5>
+                <div className='space-y-2 text-xs text-gray-300'>
+                  <div className='flex justify-between'>
+                    <span>Year 1 Revenue:</span>
+                    <span className='text-white font-bold'>$1.4M <span className='text-green-400'>(+12%)</span></span>
+                  </div>
+                  <div className='flex justify-between'>
+                    <span>Year 2 Revenue:</span>
+                    <span className='text-white font-bold'>$4.2M <span className='text-green-400'>(+12%)</span></span>
+                  </div>
+                  <div className='flex justify-between'>
+                    <span>Year 3 Revenue:</span>
+                    <span className='text-white font-bold'>$10.9M <span className='text-green-400'>(+12%)</span></span>
+                  </div>
+                </div>
+              </div>
+
+              {/* SCENARIO 3: 50/30/20 */}
+              <div className='bg-amber-900/30 border border-amber-500/50 rounded-lg p-4'>
+                <h5 className='text-sm font-bold text-amber-300 mb-3 text-center'>
+                  Scenario 3: 50% Cons / 30% Bal / 20% Agg (Optimistic)
+                </h5>
+                <div className='space-y-2 text-xs text-gray-300'>
+                  <div className='flex justify-between'>
+                    <span>Year 1 Revenue:</span>
+                    <span className='text-white font-bold'>$1.56M <span className='text-green-400'>(+25%)</span></span>
+                  </div>
+                  <div className='flex justify-between'>
+                    <span>Year 2 Revenue:</span>
+                    <span className='text-white font-bold'>$4.69M <span className='text-green-400'>(+25%)</span></span>
+                  </div>
+                  <div className='flex justify-between'>
+                    <span>Year 3 Revenue:</span>
+                    <span className='text-white font-bold'>$12.2M <span className='text-green-400'>(+25%)</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <p className='text-center text-xs text-gray-400 mt-4'>
+              ✓ Pricing rewards both volume scale AND tier optimization while maintaining 50-65% net margins
+              <br/>
+              ✓ All base projections use Conservative tier (most conservative revenue estimate)
+            </p>
+          </div>
+
           {/* FOOTNOTE */}
           <div className='max-w-7xl mx-auto mt-6 p-4 bg-gray-800/30 border border-gray-700 rounded-lg'>
             <p className='text-xs text-gray-400 text-center'>
-              ✓ Pricing rewards scale while maintaining 60-70% net margins at all tiers
-              <br/>
               <span className='text-gray-500'>
-                *Revenue projections based on Conservative vault tier adoption. All customers assumed to use Conservative tier (5-8% yields) regardless of AUM size. Actual revenue same across all vault tiers since management fee is based on AUM size, not vault tier selected.
+                *Base case projections assume 100% Conservative tier adoption. Tier mix optimization provides 12-25% revenue upside with minimal cost increase (only incremental insurance premiums).
               </span>
             </p>
           </div>

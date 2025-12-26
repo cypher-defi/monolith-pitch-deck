@@ -11,7 +11,7 @@ import Icon from "@/components/Icon"
 
 export default function Slide10Founders() {
   return (
-    <Slide id={10} background='bg-black'>
+    <Slide id={13} background='bg-black'>
       <SlideContent>
         <Title size='lg' className='mb-16 text-center'>
           THE FOUNDERS: Built Different

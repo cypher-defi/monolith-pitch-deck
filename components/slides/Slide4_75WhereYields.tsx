@@ -9,7 +9,7 @@ import Icon from "@/components/Icon"
 
 export default function Slide4_75WhereYields() {
   return (
-    <Slide id={4.75} background='bg-gradient-to-br from-black via-blue-950/20 to-black'>
+    <Slide id={6} background='bg-gradient-to-br from-black via-blue-950/20 to-black'>
       <SlideContent>
         <Title size='lg' className='mb-12 text-center'>
           WHERE YIELDS COME FROM

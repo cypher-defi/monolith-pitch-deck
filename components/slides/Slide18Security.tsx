@@ -7,7 +7,7 @@ import Subtitle from "@/components/Subtitle"
 
 export default function Slide18Security() {
   return (
-    <Slide id={18} background='bg-black'>
+    <Slide id={21} background='bg-black'>
       <SlideContent>
         <Title size='lg' className='mb-12 text-center'>
           APPENDIX B: SECURITY FRAMEWORK

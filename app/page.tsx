@@ -34,11 +34,11 @@ import {
 
 export default function Home() {
   const { currentSlide, totalSlides, nextSlide, previousSlide } =
-    usePresentationController(26)
+    usePresentationController(27)
 
   return (
     <main className="presentation">
-      {/* Slide Components - All 26 slides */}
+      {/* Slide Components - All 27 slides */}
       <Slide1Cover />
       <Slide2Problem />
       <Slide3Solution />
