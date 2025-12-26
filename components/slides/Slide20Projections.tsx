@@ -190,12 +190,172 @@ export default function Slide20Projections() {
           </div>
         </FourColumnGrid>
 
-        <div className='p-6 bg-blue-500/10 border-2 border-blue-500/50 rounded-lg'>
+        <div className='p-6 bg-blue-500/10 border-2 border-blue-500/50 rounded-lg mb-8'>
           <p className='text-blue-300 text-lg text-center'>
             Projections assume conservative institutional adoption. Security,
             audit, and insurance costs scale linearly with AUM; monitoring
             infrastructure is embedded in core operating expenses.
           </p>
+        </div>
+
+        {/* TIER MIX SCENARIO ANALYSIS */}
+        <div className='max-w-6xl mx-auto'>
+          <h3 className='text-2xl font-bold text-center mb-6 text-white'>
+            Revenue Scenario Analysis: Impact of Tier Mix
+          </h3>
+
+          <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mb-6'>
+            {/* BASE CASE */}
+            <div className='bg-gradient-to-br from-blue-500/10 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-6'>
+              <h4 className='text-lg font-bold text-blue-300 mb-4 text-center'>
+                Base Case (100% Conservative Tier)
+              </h4>
+              <div className='space-y-3 text-sm text-gray-300'>
+                <div className='flex justify-between'>
+                  <span>Year 1:</span>
+                  <span className='font-bold text-blue-400'>$1.25M revenue</span>
+                </div>
+                <div className='flex justify-between'>
+                  <span>Year 2:</span>
+                  <span className='font-bold text-blue-400'>$3.75M revenue</span>
+                </div>
+                <div className='flex justify-between'>
+                  <span>Year 3:</span>
+                  <span className='font-bold text-blue-400'>$10M revenue</span>
+                </div>
+              </div>
+              <div className='mt-4 pt-4 border-t border-blue-500/30 text-center text-xs text-gray-400'>
+                As shown in projections above
+              </div>
+            </div>
+
+            {/* LIKELY CASE */}
+            <div className='bg-gradient-to-br from-purple-500/10 to-purple-500/5 border-2 border-purple-500/50 rounded-xl p-6'>
+              <h4 className='text-lg font-bold text-purple-300 mb-4 text-center'>
+                Likely Case (60% Cons, 30% Bal, 10% Agg)
+              </h4>
+              <div className='space-y-3 text-sm text-gray-300'>
+                <div className='flex justify-between'>
+                  <span>Year 1:</span>
+                  <span className='font-bold text-purple-400'>$1.44M revenue <span className='text-green-400'>(+15%)</span></span>
+                </div>
+                <div className='flex justify-between'>
+                  <span>Year 2:</span>
+                  <span className='font-bold text-purple-400'>$4.31M revenue <span className='text-green-400'>(+15%)</span></span>
+                </div>
+                <div className='flex justify-between'>
+                  <span>Year 3:</span>
+                  <span className='font-bold text-purple-400'>$11.5M revenue <span className='text-green-400'>(+15%)</span></span>
+                </div>
+              </div>
+              <div className='mt-4 pt-4 border-t border-purple-500/30 text-center text-xs text-gray-400'>
+                Likely with tier mix adoption
+              </div>
+            </div>
+
+            {/* BEST CASE */}
+            <div className='bg-gradient-to-br from-green-500/10 to-green-500/5 border-2 border-green-500/50 rounded-xl p-6'>
+              <h4 className='text-lg font-bold text-green-300 mb-4 text-center'>
+                Best Case (40% Cons, 40% Bal, 20% Agg)
+              </h4>
+              <div className='space-y-3 text-sm text-gray-300'>
+                <div className='flex justify-between'>
+                  <span>Year 1:</span>
+                  <span className='font-bold text-green-400'>$1.69M revenue <span className='text-green-400'>(+35%)</span></span>
+                </div>
+                <div className='flex justify-between'>
+                  <span>Year 2:</span>
+                  <span className='font-bold text-green-400'>$5.06M revenue <span className='text-green-400'>(+35%)</span></span>
+                </div>
+                <div className='flex justify-between'>
+                  <span>Year 3:</span>
+                  <span className='font-bold text-green-400'>$13.5M revenue <span className='text-green-400'>(+35%)</span></span>
+                </div>
+              </div>
+              <div className='mt-4 pt-4 border-t border-green-500/30 text-center text-xs text-gray-400'>
+                With aggressive tier mix optimization
+              </div>
+            </div>
+          </div>
+
+          {/* IMPORTANT NOTE ON VAULT TIER SELECTION */}
+          <div className='p-6 bg-blue-900/20 border-2 border-blue-500/50 rounded-xl mb-8'>
+            <h4 className='text-lg font-bold text-blue-300 mb-3 text-center'>
+              Important Note on Vault Tier Selection
+            </h4>
+            <div className='space-y-3 text-sm text-gray-300'>
+              <div>
+                <span className='font-bold text-blue-400'>Management fees are based on AUM size, not vault tier:</span>
+                <ul className='ml-4 mt-1 text-xs text-gray-400'>
+                  <li>• Tiered pricing: 1.75% ($0-25M) → 1.25% ($50-100M) → 0.85% ($250M+)</li>
+                  <li>• Customer chooses vault tier (Conservative, Balanced, Aggressive) based on risk appetite</li>
+                  <li>• Revenue to Monolith is SAME regardless of which vault tier customer selects</li>
+                </ul>
+              </div>
+              <div>
+                <span className='font-bold text-blue-400'>All projections assume Conservative vault tier (5-8% yields):</span>
+                <ul className='ml-4 mt-1 text-xs text-gray-400'>
+                  <li>• Most conservative estimates for customer satisfaction and retention</li>
+                  <li>• Customers earning 5-8% yields have lower expectations than 12-22%</li>
+                  <li>• Reduces performance pressure and execution risk</li>
+                </ul>
+              </div>
+              <div>
+                <span className='font-bold text-blue-400'>If customers adopt higher-yield tiers:</span>
+                <ul className='ml-4 mt-1 text-xs text-gray-400'>
+                  <li>• Revenue: SAME (fee based on AUM, not tier)</li>
+                  <li>• Costs: Slightly higher insurance premiums (Balanced +0.02%, Aggressive +0.04% of TVL)</li>
+                  <li>• Net impact: Marginally lower margins but higher customer satisfaction if higher yields delivered</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* INSURANCE COST SCALING */}
+          <h4 className='text-xl font-bold text-center mb-4 text-white'>
+            Insurance Cost Scaling by Tier Mix
+          </h4>
+
+          <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
+            <div className='bg-gradient-to-br from-blue-500/10 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-4'>
+              <div className='text-center mb-3'>
+                <div className='text-blue-300 font-bold text-lg'>Year 1 ($100M AUM, 100% Conservative)</div>
+              </div>
+              <div className='text-sm text-gray-300'>
+                Insurance: <span className='text-blue-400 font-bold'>$80K</span> (0.08% of TVL)
+              </div>
+            </div>
+
+            <div className='bg-gradient-to-br from-purple-500/10 to-purple-500/5 border-2 border-purple-500/50 rounded-xl p-4'>
+              <div className='text-center mb-3'>
+                <div className='text-purple-300 font-bold text-lg'>Year 2 ($300-400M AUM, Mixed Tier Example)</div>
+              </div>
+              <div className='text-xs text-gray-300 space-y-1'>
+                <div>Conservative ($200M): $160K (0.08%)</div>
+                <div>Balanced ($120M): $120K (0.10%)</div>
+                <div>Aggressive ($40M): $48K (0.12%)</div>
+                <div className='pt-2 border-t border-purple-500/30 font-bold text-purple-400'>Total: $328K</div>
+              </div>
+            </div>
+
+            <div className='bg-gradient-to-br from-green-500/10 to-green-500/5 border-2 border-green-500/50 rounded-xl p-4'>
+              <div className='text-center mb-3'>
+                <div className='text-green-300 font-bold text-lg'>Year 3 ($800M-1B AUM, Mixed Tier Example)</div>
+              </div>
+              <div className='text-xs text-gray-300 space-y-1'>
+                <div>Conservative ($360M): $288K (0.08%)</div>
+                <div>Balanced ($360M): $360K (0.10%)</div>
+                <div>Aggressive ($180M): $216K (0.12%)</div>
+                <div className='pt-2 border-t border-green-500/30 font-bold text-green-400'>Total: $864K</div>
+              </div>
+            </div>
+          </div>
+
+          <div className='mt-4 p-4 bg-amber-900/20 border border-amber-500/30 rounded-lg'>
+            <p className='text-xs text-amber-300 text-center'>
+              *Insurance costs scale with both AUM growth and tier mix adoption. Higher-yield tiers have higher insurance costs but generate same revenue (fee based on AUM, not tier). All projections assume Conservative tier for conservative estimates.
+            </p>
+          </div>
         </div>
       </SlideContent>
     </Slide>

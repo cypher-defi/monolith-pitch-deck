@@ -181,6 +181,12 @@ export default function Slide9GoToMarket() {
             over time
           </p>
         </div>
+
+        <div className='mt-6 p-4 bg-gray-800/30 border border-gray-700 rounded-lg'>
+          <p className='text-xs text-gray-400 text-center'>
+            *Revenue projections based on Conservative vault tier adoption across all customers. Actual revenue may be higher if customers adopt Balanced or Aggressive vault tiers, though all projections assume Conservative tier (most conservative estimate).
+          </p>
+        </div>
       </SlideContent>
     </Slide>
   )

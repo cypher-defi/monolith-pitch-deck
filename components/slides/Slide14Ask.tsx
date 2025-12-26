@@ -37,8 +37,12 @@ export default function Slide14Ask() {
               Runway
             </h3>
             <div className='text-5xl font-bold text-green-300'>18 months</div>
-            <div className='text-sm text-gray-400 mt-3'>
-              to profitability and Series A readiness
+            <div className='text-xs text-gray-400 mt-3'>
+              Operating profitable at Month 12-15 ($100M AUM, 3 customers, $1.6M ARR).
+              <br/>
+              Cash flow positive through Month 18 with seed runway buffer.
+              <br/>
+              Series A ready Month 18-20.
             </div>
           </div>
         </ThreeColumnGrid>
@@ -90,65 +94,185 @@ export default function Slide14Ask() {
         </h3>
 
         <p className='text-slate-300 text-center mb-6 text-sm'>
-          Investors allocate stablecoins to Monolith to earn 5% yield. The yield
-          directly pays back your $1M seed investment.
+          Investors can deploy stablecoins to Monolith vaults while holding equity, creating dual payback streams.*
+          <br/>
+          <span className='text-xs text-gray-500'>
+            *Example scenarios based on Conservative tier (5-8% yield). Balanced tier (8-12%) and Aggressive tier (12-22%) accelerate payback significantly.
+          </span>
         </p>
 
-        <div className='overflow-x-auto mb-12'>
-          <table className='comparison-table'>
-            <thead>
-              <tr className='border-b-2 border-slate-700'>
-                <th className='p-4'>Stablecoin Allocation</th>
-                <th className='p-4'>Current Yield</th>
-                <th className='p-4'>With Monolith (5%)</th>
-                <th className='p-4'>Annual Yield</th>
-                <th className='p-4'>Payback of $1M Seed</th>
-              </tr>
-            </thead>
-            <tbody className='divide-y divide-slate-700'>
-              <tr>
-                <td className='p-4 font-semibold text-green-500'>$20M</td>
-                <td className='p-4'>$0</td>
-                <td className='p-4 text-green-500 font-bold'>5%</td>
-                <td className='p-4 text-green-500 font-bold'>$1M/year</td>
-                <td className='p-4 text-green-500 font-bold'>12 months</td>
-              </tr>
-              <tr>
-                <td className='p-4 font-semibold text-blue-500'>$100M</td>
-                <td className='p-4'>$0</td>
-                <td className='p-4 text-blue-500 font-bold'>5%</td>
-                <td className='p-4 text-blue-500 font-bold'>$5M/year</td>
-                <td className='p-4 text-blue-500 font-bold'>2.4 months</td>
-              </tr>
-              <tr>
-                <td className='p-4 font-semibold text-amber-500'>$300M</td>
-                <td className='p-4'>$0</td>
-                <td className='p-4 text-amber-500 font-bold'>5%</td>
-                <td className='p-4 text-amber-500 font-bold'>$15M/year</td>
-                <td className='p-4 text-amber-500 font-bold'>24 days</td>
-              </tr>
-              <tr>
-                <td className='p-4 font-semibold text-purple-500'>$500M</td>
-                <td className='p-4'>$0</td>
-                <td className='p-4 text-purple-500 font-bold'>5%</td>
-                <td className='p-4 text-purple-500 font-bold'>$25M/year</td>
-                <td className='p-4 text-purple-500 font-bold'>14 days</td>
-              </tr>
-            </tbody>
-          </table>
+        {/* THREE TIER SCENARIOS */}
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mb-8'>
+          {/* CONSERVATIVE TIER */}
+          <div className='bg-gradient-to-br from-blue-500/10 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-6'>
+            <h4 className='text-lg font-bold text-blue-300 mb-4 text-center'>
+              Conservative Tier (5-8% Net Yield)
+            </h4>
+            <div className='overflow-x-auto'>
+              <table className='w-full text-xs'>
+                <thead>
+                  <tr className='border-b border-blue-500/30'>
+                    <th className='p-2 text-left text-gray-400'>Allocation</th>
+                    <th className='p-2 text-left text-gray-400'>Current</th>
+                    <th className='p-2 text-left text-gray-400'>Yield</th>
+                    <th className='p-2 text-left text-gray-400'>Annual</th>
+                    <th className='p-2 text-left text-gray-400'>Payback</th>
+                  </tr>
+                </thead>
+                <tbody className='divide-y divide-blue-500/20 text-gray-300'>
+                  <tr>
+                    <td className='p-2'>$20M</td>
+                    <td className='p-2'>$0</td>
+                    <td className='p-2 text-blue-400'>6% avg</td>
+                    <td className='p-2'>$1.2M/yr</td>
+                    <td className='p-2 text-green-400'>10 mo</td>
+                  </tr>
+                  <tr>
+                    <td className='p-2'>$50M</td>
+                    <td className='p-2'>$0</td>
+                    <td className='p-2 text-blue-400'>6% avg</td>
+                    <td className='p-2'>$3M/yr</td>
+                    <td className='p-2 text-green-400'>4 mo</td>
+                  </tr>
+                  <tr>
+                    <td className='p-2'>$100M</td>
+                    <td className='p-2'>$0</td>
+                    <td className='p-2 text-blue-400'>6% avg</td>
+                    <td className='p-2'>$6M/yr</td>
+                    <td className='p-2 text-green-400'>2 mo</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          {/* BALANCED TIER */}
+          <div className='bg-gradient-to-br from-purple-500/10 to-purple-500/5 border-2 border-purple-500/50 rounded-xl p-6'>
+            <h4 className='text-lg font-bold text-purple-300 mb-4 text-center'>
+              Balanced Tier (8-12% Net Yield)
+            </h4>
+            <div className='overflow-x-auto'>
+              <table className='w-full text-xs'>
+                <thead>
+                  <tr className='border-b border-purple-500/30'>
+                    <th className='p-2 text-left text-gray-400'>Allocation</th>
+                    <th className='p-2 text-left text-gray-400'>Current</th>
+                    <th className='p-2 text-left text-gray-400'>Yield</th>
+                    <th className='p-2 text-left text-gray-400'>Annual</th>
+                    <th className='p-2 text-left text-gray-400'>Payback</th>
+                  </tr>
+                </thead>
+                <tbody className='divide-y divide-purple-500/20 text-gray-300'>
+                  <tr>
+                    <td className='p-2'>$20M</td>
+                    <td className='p-2'>$0</td>
+                    <td className='p-2 text-purple-400'>10% avg</td>
+                    <td className='p-2'>$2M/yr</td>
+                    <td className='p-2 text-green-400'>6 mo</td>
+                  </tr>
+                  <tr>
+                    <td className='p-2'>$50M</td>
+                    <td className='p-2'>$0</td>
+                    <td className='p-2 text-purple-400'>10% avg</td>
+                    <td className='p-2'>$5M/yr</td>
+                    <td className='p-2 text-green-400'>2.4 mo</td>
+                  </tr>
+                  <tr>
+                    <td className='p-2'>$100M</td>
+                    <td className='p-2'>$0</td>
+                    <td className='p-2 text-purple-400'>10% avg</td>
+                    <td className='p-2'>$10M/yr</td>
+                    <td className='p-2 text-green-400'>36 days</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          {/* AGGRESSIVE TIER */}
+          <div className='bg-gradient-to-br from-amber-500/10 to-amber-500/5 border-2 border-amber-500/50 rounded-xl p-6'>
+            <h4 className='text-lg font-bold text-amber-300 mb-4 text-center'>
+              Aggressive Tier (12-22% Net Yield)
+            </h4>
+            <div className='overflow-x-auto'>
+              <table className='w-full text-xs'>
+                <thead>
+                  <tr className='border-b border-amber-500/30'>
+                    <th className='p-2 text-left text-gray-400'>Allocation</th>
+                    <th className='p-2 text-left text-gray-400'>Current</th>
+                    <th className='p-2 text-left text-gray-400'>Yield</th>
+                    <th className='p-2 text-left text-gray-400'>Annual</th>
+                    <th className='p-2 text-left text-gray-400'>Payback</th>
+                  </tr>
+                </thead>
+                <tbody className='divide-y divide-amber-500/20 text-gray-300'>
+                  <tr>
+                    <td className='p-2'>$20M</td>
+                    <td className='p-2'>$0</td>
+                    <td className='p-2 text-amber-400'>17% avg</td>
+                    <td className='p-2'>$3.4M/yr</td>
+                    <td className='p-2 text-green-400'>3.5 mo</td>
+                  </tr>
+                  <tr>
+                    <td className='p-2'>$50M</td>
+                    <td className='p-2'>$0</td>
+                    <td className='p-2 text-amber-400'>17% avg</td>
+                    <td className='p-2'>$8.5M/yr</td>
+                    <td className='p-2 text-green-400'>42 days</td>
+                  </tr>
+                  <tr>
+                    <td className='p-2'>$100M</td>
+                    <td className='p-2'>$0</td>
+                    <td className='p-2 text-amber-400'>17% avg</td>
+                    <td className='p-2'>$17M/yr</td>
+                    <td className='p-2 text-green-400'>21 days</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
 
-        <div className='p-6 bg-blue-500/10 border-2 border-blue-500/50 rounded-lg mb-8'>
-          <p className='text-blue-300 text-lg text-center'>
-            <strong>Investor Returns:</strong> At Month 18-20, $3.98-4.64M ARR
-            with B2B SaaS multiples (10-15x revenue) = $40-70M valuation
-            potential.{" "}
-            <span className='text-green-400 font-bold'>
-              8-14x return on $5M post-money
-            </span>
-            . PLUS customer revenue stream from your own stablecoin yield ={" "}
-            <span className='text-green-400 font-bold'>dual payoff</span>.
+        {/* INVESTOR RETURNS */}
+        <div className='p-6 bg-blue-500/10 border-2 border-blue-500/50 rounded-lg mb-6'>
+          <p className='text-blue-300 text-base text-center mb-4'>
+            <strong>Investor Returns from Equity:</strong>
           </p>
+          <p className='text-gray-300 text-sm text-center'>
+            At Month 18-20: $3.98-4.64M ARR with B2B SaaS multiples (10-15x revenue) = $40-70M valuation potential.
+            <br/>
+            <span className='text-green-400 font-bold text-lg'>8-14x return on $4-5M pre-money</span> from equity alone.
+            <br/>
+            <span className='text-purple-400 font-bold'>PLUS: Customer yield stream</span> from deployed capital = dual payoff mechanism.
+          </p>
+        </div>
+
+        {/* EXAMPLE */}
+        <div className='max-w-4xl mx-auto p-6 bg-gradient-to-br from-green-500/10 to-green-500/5 border-2 border-green-500/50 rounded-xl mb-8'>
+          <h4 className='text-lg font-bold text-green-300 mb-3 text-center'>
+            Conservative Example:
+          </h4>
+          <p className='text-gray-300 text-sm text-center mb-4'>
+            Investor contributes $500K to seed round + deploys $25M to Balanced tier.
+          </p>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-4 text-sm'>
+            <div className='bg-blue-900/20 p-4 rounded-lg border border-blue-500/30'>
+              <div className='text-blue-400 font-bold mb-2'>Equity value at Series A (Month 18-20):</div>
+              <div className='text-white'>$500K → $4-7M <span className='text-green-400'>(8-14x)</span></div>
+            </div>
+            <div className='bg-purple-900/20 p-4 rounded-lg border border-purple-500/30'>
+              <div className='text-purple-400 font-bold mb-2'>Yield returns (18 months):</div>
+              <div className='text-white'>$25M × 10% × 1.5 years = <span className='text-green-400'>$3.75M</span></div>
+            </div>
+          </div>
+          <div className='mt-4 pt-4 border-t border-green-500/30 text-center'>
+            <p className='text-green-300 text-lg font-bold'>
+              Total return: $7.75-10.75M on $500K cash + $25M deployed capital
+            </p>
+            <p className='text-gray-400 text-sm mt-2'>
+              Cash-on-cash ROI: <span className='text-green-400 font-bold'>15-21x in 18 months</span>
+            </p>
+          </div>
         </div>
 
         <div className='max-w-4xl mx-auto p-8 bg-gradient-to-r from-green-500/10 via-blue-500/10 to-purple-500/10 border-2 border-green-500/50 rounded-xl'>

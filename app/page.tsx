@@ -7,6 +7,8 @@ import {
   Slide2Problem,
   Slide3Solution,
   Slide4HowItWorks,
+  Slide4_5ThreeTierVault,
+  Slide4_75WhereYields,
   Slide5Market,
   Slide6WhyNow,
   Slide7Competition,
@@ -32,15 +34,17 @@ import {
 
 export default function Home() {
   const { currentSlide, totalSlides, nextSlide, previousSlide } =
-    usePresentationController(24)
+    usePresentationController(26)
 
   return (
     <main className="presentation">
-      {/* Slide Components - All 24 slides */}
+      {/* Slide Components - All 26 slides */}
       <Slide1Cover />
       <Slide2Problem />
       <Slide3Solution />
       <Slide4HowItWorks />
+      <Slide4_5ThreeTierVault />
+      <Slide4_75WhereYields />
       <Slide5Market />
       <Slide6WhyNow />
       <Slide7Competition />

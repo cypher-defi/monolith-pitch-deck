@@ -54,7 +54,10 @@ export default function Slide3Solution() {
                 className='text-green-400 mx-auto mb-2'
               />
               <div className='text-sm text-gray-300'>
-                Earn 4–6% net yield on idle capital
+                Earn 5–22% net yield on idle capital*
+              </div>
+              <div className='text-xs text-gray-500 mt-1'>
+                *Yield depends on vault tier selection (Conservative, Balanced, or Aggressive)
               </div>
             </div>
           </div>
@@ -79,12 +82,16 @@ export default function Slide3Solution() {
               <h3 className='text-xl font-bold'>Corporate Treasurers</h3>
             </div>
             <div className='mb-6 p-4 bg-blue-900/30 rounded-lg text-center'>
-              <div className='text-4xl font-bold text-blue-300'>4.5-5.5%</div>
+              <div className='text-4xl font-bold text-blue-300'>5-8%</div>
               <div className='text-sm text-gray-400 mt-1'>NET APY</div>
+              <div className='text-xs text-gray-500 mt-1'>(Conservative tier)</div>
             </div>
-            <p className='text-gray-300 text-center mb-6 leading-relaxed'>
+            <p className='text-gray-300 text-center mb-4 leading-relaxed'>
               Deploy our managed dashboard for their treasury team. Get yield on
               $5-50M in idle stablecoins.
+            </p>
+            <p className='text-gray-400 text-center text-sm mb-6'>
+              Up to 12-22% with Balanced/Aggressive tiers
             </p>
             <div className='space-y-2 text-sm text-gray-400'>
               <div className='flex items-center gap-2'>
@@ -116,9 +123,11 @@ export default function Slide3Solution() {
               <div className='text-3xl font-bold text-purple-300'>2 Weeks</div>
               <div className='text-sm text-gray-400 mt-1'>TO MARKET</div>
             </div>
-            <p className='text-gray-300 text-center mb-6 leading-relaxed'>
-              Embed our SDK or white-label dashboard into your app. Offer
-              stablecoin yields to customers.
+            <p className='text-gray-300 text-center mb-4 leading-relaxed'>
+              Embed our SDK or white-label dashboard into your app. Offer 5-22% stablecoin yields to customers.*
+            </p>
+            <p className='text-gray-400 text-center text-xs mb-6'>
+              *Yield tier customizable per your client risk profile
             </p>
             <div className='space-y-2 text-sm text-gray-400'>
               <div className='flex items-center gap-2'>
@@ -136,7 +145,7 @@ export default function Slide3Solution() {
             </div>
           </div>
 
-          {/* ENTERPRISE CLIENTS */}
+          {/* REGIONAL BANKS */}
           <div className='bg-gradient-to-br from-amber-500/20 to-amber-500/5 border-2 border-amber-500/50 rounded-xl p-8'>
             <div className='text-center mb-6'>
               <Icon
@@ -144,7 +153,7 @@ export default function Slide3Solution() {
                 size={40}
                 className='text-amber-400 mx-auto mb-3'
               />
-              <h3 className='text-xl font-bold'>Enterprise Clients</h3>
+              <h3 className='text-xl font-bold'>Regional Banks</h3>
             </div>
             <div className='mb-6 p-4 bg-amber-900/30 rounded-lg text-center'>
               <div className='text-3xl font-bold text-amber-300'>
@@ -152,9 +161,9 @@ export default function Slide3Solution() {
               </div>
               <div className='text-sm text-gray-400 mt-1'>SERVICE</div>
             </div>
-            <p className='text-gray-300 text-left mb-6 leading-relaxed'>
+            <p className='text-gray-300 text-left mb-4 leading-relaxed'>
               Custom strategies, dedicated account manager, 24/7 monitoring for
-              $50M+ portfolios.
+              $50M+ portfolios. Yields: 5-22% depending on tier selection.
             </p>
             <div className='space-y-2 text-sm text-gray-400'>
               <div className='flex items-center gap-2'>

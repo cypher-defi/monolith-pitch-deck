@@ -25,8 +25,10 @@ export default function Slide2Problem() {
         <Subtitle size='md' className='mb-8 text-center'>
           This capital earns 0–1%, even during inflationary or crisis periods
           <span className='block text-xl text-gray-400 mt-2'>
-            $93B in institutional stablecoins earning 0% • DeFi offers 4-6% APY
-            safely
+            $93B in institutional stablecoins earning 0% • DeFi offers 5-22% APY across institutional risk tiers
+          </span>
+          <span className='block text-sm text-gray-500 mt-1'>
+            *Conservative tier: 5-8% | Balanced tier: 8-12% | Aggressive tier: 12-22%
           </span>
         </Subtitle>
 

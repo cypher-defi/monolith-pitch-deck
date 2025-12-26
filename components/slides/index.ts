@@ -5,6 +5,8 @@ export { default as Slide1Cover } from "./Slide1Cover";
 export { default as Slide2Problem } from "./Slide2Problem";
 export { default as Slide3Solution } from "./Slide3Solution";
 export { default as Slide4HowItWorks } from "./Slide4HowItWorks";
+export { default as Slide4_5ThreeTierVault } from "./Slide4_5ThreeTierVault";
+export { default as Slide4_75WhereYields } from "./Slide4_75WhereYields";
 export { default as Slide5Market } from "./Slide5Market";
 export { default as Slide6WhyNow } from "./Slide6WhyNow";
 export { default as Slide7Competition } from "./Slide7Competition";

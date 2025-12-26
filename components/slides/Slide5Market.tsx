@@ -42,7 +42,10 @@ export default function Slide5Market() {
                 What They're Earning
               </div>
               <div className='text-sm text-gray-500'>
-                vs 4-15% available in DeFi
+                vs 5-22% available in DeFi*
+              </div>
+              <div className='text-xs text-gray-600 mt-1'>
+                *Across Conservative (5-8%), Balanced (8-12%), and Aggressive (12-22%) tiers
               </div>
             </div>
           </ThreeColumnGrid>
@@ -69,7 +72,7 @@ export default function Slide5Market() {
               </div>
               <div className='text-center'>
                 <div className='text-4xl font-bold text-green-400 mb-2'>
-                  4-15%
+                  5-22%
                 </div>
                 <div className='text-sm text-gray-400 mb-3'>
                   DeFi Opportunity
@@ -327,6 +330,17 @@ export default function Slide5Market() {
                 </div>
               </div>
             </div>
+          </div>
+
+          {/* FOOTNOTE */}
+          <div className='max-w-7xl mx-auto mt-6 p-4 bg-gray-800/30 border border-gray-700 rounded-lg'>
+            <p className='text-xs text-gray-400 text-center'>
+              ✓ Pricing rewards scale while maintaining 60-70% net margins at all tiers
+              <br/>
+              <span className='text-gray-500'>
+                *Revenue projections based on Conservative vault tier adoption. All customers assumed to use Conservative tier (5-8% yields) regardless of AUM size. Actual revenue same across all vault tiers since management fee is based on AUM size, not vault tier selected.
+              </span>
+            </p>
           </div>
         </div>
 

@@ -44,9 +44,12 @@ export default function Slide8BusinessModel() {
                 Management Fee
               </h4>
               <div className='text-4xl font-bold text-green-300 mb-2'>
-                1.25%
+                1.25%*
               </div>
               <div className='text-sm text-gray-400'>Annual on AUM</div>
+              <div className='text-xs text-gray-500 mt-2'>
+                *Blended average rate across AUM tiers. Actual rate: 1.75% ($0-25M) down to 0.85% ($250M+). See tiered pricing table below.
+              </div>
             </div>
 
             <div className='bg-gradient-to-br from-blue-500/20 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-6 text-center'>
@@ -104,9 +107,12 @@ export default function Slide8BusinessModel() {
                 <div className='space-y-2 text-sm'>
                   <div className='flex justify-between gap-3'>
                     <span className='text-gray-300 flex-1 text-left'>
-                      Insurance (InsurAce, 0.08% of TVL)
+                      Insurance (InsurAce, tier-dependent)**
                     </span>
-                    <span className='text-gray-300 font-bold whitespace-nowrap'>$80K/year</span>
+                    <span className='text-gray-300 font-bold whitespace-nowrap'>$80-120K/year</span>
+                  </div>
+                  <div className='text-xs text-gray-500 ml-4'>
+                    **Conservative: 0.08% | Balanced: 0.10% | Aggressive: 0.12% of TVL
                   </div>
                   <div className='flex justify-between gap-3'>
                     <span className='text-gray-300 flex-1 text-left'>
@@ -158,12 +164,16 @@ export default function Slide8BusinessModel() {
                 </div>
                 <div>
                   <div className='text-gray-400'>Cost of Risk Management</div>
-                  <div className='text-purple-300 font-bold'>$140K</div>
+                  <div className='text-purple-300 font-bold'>$140-180K*</div>
                 </div>
               </div>
               <p className='text-xs text-gray-400 mt-3 text-center'>
+                *Varies by vault tier: Conservative ($140K), Balanced ($160K), Aggressive ($180K)
+                <br/>
                 Insurance + audits enables 2-week deployment vs 6-month build •
                 Justifies premium positioning vs Yearn/Beefy
+                <br/>
+                <span className='text-amber-300'>Note: Revenue remains constant regardless of vault tier selected (management fee based on AUM size only). Higher-yield tiers (Balanced/Aggressive) have incrementally higher insurance costs but same revenue.</span>
               </p>
             </div>
           </div>

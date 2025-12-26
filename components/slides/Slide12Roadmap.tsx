@@ -49,8 +49,9 @@ export default function Slide12Roadmap() {
                 <CardTitle>Smart Contracts + Core Dashboards</CardTitle>
                 <CardContent>
                   <ul className='space-y-1 text-left text-sm'>
-                    <li>• ERC-4626 vault development + audit</li>
-                    <li>• Portfolio & Performance dashboards</li>
+                    <li>• Three-tier ERC-4626 vault system development (Conservative, Balanced, Aggressive)</li>
+                    <li>• Smart contract audits: OpenZeppelin + Hacken (3 vaults)</li>
+                    <li>• Portfolio & Performance dashboards with tier selector</li>
                     <li>• White-label customization system</li>
                   </ul>
                 </CardContent>
@@ -105,6 +106,7 @@ export default function Slide12Roadmap() {
                   <ul className='space-y-1 text-left text-sm'>
                     <li>• Customer dashboard customization</li>
                     <li>• Mainnet deployment + onboarding</li>
+                    <li>• Launch with Conservative tier (Balanced tier M8, Aggressive tier M10)</li>
                     <li>• Go-live with $5-20M AUM</li>
                   </ul>
                 </CardContent>

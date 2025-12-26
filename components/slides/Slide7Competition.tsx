@@ -92,12 +92,21 @@ export default function Slide7Competition() {
                   </td>
                 </tr>
                 <tr className='hover:bg-blue-500/10 transition'>
+                  <td className='p-4 font-semibold'>Yield Optimization</td>
+                  <td className='p-4 text-center text-gray-300'>
+                    User manages manually
+                  </td>
+                  <td className='p-4 text-center text-green-400'>
+                    ✓ Automated tier-based optimization (5-22%)
+                  </td>
+                </tr>
+                <tr className='hover:bg-blue-500/10 transition'>
                   <td className='p-4 font-semibold'>Insurance Included</td>
                   <td className='p-4 text-center text-gray-300'>
                     Optional via Nexus Mutual (you pay)
                   </td>
                   <td className='p-4 text-center text-green-400'>
-                    ✓ InsurAce Coverage (protocol absorbs)
+                    ✓ InsurAce Coverage (premium included in mgmt fee)
                   </td>
                 </tr>
                 <tr className='hover:bg-blue-500/10 transition'>
