@@ -428,6 +428,126 @@ export default function Slide5Market() {
           </div>
         </div>
 
+        {/* UNIT ECONOMICS */}
+        <div className='max-w-6xl mx-auto mb-16'>
+          <div className='bg-gradient-to-r from-blue-500/10 to-purple-500/10 border-2 border-blue-500/50 rounded-xl p-8'>
+            <h4 className='text-2xl font-bold text-center text-white mb-6'>
+              Unit Economics (Per Institutional Client)
+            </h4>
+            <div className='max-w-4xl mx-auto'>
+              <table className='w-full text-sm'>
+                <thead>
+                  <tr className='border-b border-blue-500/30'>
+                    <th className='p-3 text-left text-gray-400'>Metric</th>
+                    <th className='p-3 text-left text-gray-400'>Assumption (Target Range)</th>
+                  </tr>
+                </thead>
+                <tbody className='divide-y divide-blue-500/20'>
+                  <tr>
+                    <td className='p-3 text-gray-300'>Avg Client AUM</td>
+                    <td className='p-3 text-white font-semibold'>$25–50M</td>
+                  </tr>
+                  <tr>
+                    <td className='p-3 text-gray-300'>Avg Fee (blended)</td>
+                    <td className='p-3 text-white font-semibold'>0.75–1.25%</td>
+                  </tr>
+                  <tr>
+                    <td className='p-3 text-gray-300'>Annual Revenue / Client</td>
+                    <td className='p-3 text-green-400 font-bold'>$190k–$500k</td>
+                  </tr>
+                  <tr>
+                    <td className='p-3 text-gray-300'>Gross Margin</td>
+                    <td className='p-3 text-white font-semibold'>70–85%</td>
+                  </tr>
+                  <tr>
+                    <td className='p-3 text-gray-300'>Client Acquisition Cost (CAC)</td>
+                    <td className='p-3 text-white font-semibold'>$60k–$120k</td>
+                  </tr>
+                  <tr>
+                    <td className='p-3 text-gray-300'>Payback Period</td>
+                    <td className='p-3 text-green-400 font-bold'>6–9 months</td>
+                  </tr>
+                  <tr>
+                    <td className='p-3 text-gray-300'>Annual Churn (initial cohorts)</td>
+                    <td className='p-3 text-green-400 font-bold'>&lt;5%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p className='text-center text-xs text-gray-400 mt-6'>
+              High-value, low-churn institutional infrastructure model with strong unit economics
+            </p>
+          </div>
+        </div>
+
+        {/* SCENARIO SENSITIVITY ANALYSIS */}
+        <div className='max-w-7xl mx-auto mb-16'>
+          <div className='bg-gradient-to-r from-purple-500/10 to-green-500/10 border-2 border-purple-500/50 rounded-xl p-8'>
+            <h4 className='text-2xl font-bold text-center text-white mb-6'>
+              Scenario Sensitivity (Year 2)
+            </h4>
+            <div className='overflow-x-auto'>
+              <table className='w-full text-sm'>
+                <thead>
+                  <tr className='border-b-2 border-purple-500/30'>
+                    <th className='p-4 text-left text-gray-400'>Metric</th>
+                    <th className='p-4 text-center text-red-300'>Conservative</th>
+                    <th className='p-4 text-center text-blue-300'>Base Case</th>
+                    <th className='p-4 text-center text-green-300'>Aggressive</th>
+                  </tr>
+                </thead>
+                <tbody className='divide-y divide-purple-500/20'>
+                  <tr>
+                    <td className='p-4 text-gray-300'>Clients Live</td>
+                    <td className='p-4 text-center text-white'>6</td>
+                    <td className='p-4 text-center text-white font-bold'>12</td>
+                    <td className='p-4 text-center text-white'>20</td>
+                  </tr>
+                  <tr>
+                    <td className='p-4 text-gray-300'>Avg AUM / Client</td>
+                    <td className='p-4 text-center text-white'>$20M</td>
+                    <td className='p-4 text-center text-white font-bold'>$35M</td>
+                    <td className='p-4 text-center text-white'>$50M</td>
+                  </tr>
+                  <tr>
+                    <td className='p-4 text-gray-300'>Total AUM</td>
+                    <td className='p-4 text-center text-white'>$120M</td>
+                    <td className='p-4 text-center text-white font-bold'>$420M</td>
+                    <td className='p-4 text-center text-white'>$1B</td>
+                  </tr>
+                  <tr>
+                    <td className='p-4 text-gray-300'>Blended Fee</td>
+                    <td className='p-4 text-center text-white'>0.75%</td>
+                    <td className='p-4 text-center text-white font-bold'>1.0%</td>
+                    <td className='p-4 text-center text-white'>1.25%</td>
+                  </tr>
+                  <tr className='bg-blue-900/20'>
+                    <td className='p-4 text-gray-300 font-bold'>Annual Revenue</td>
+                    <td className='p-4 text-center text-red-300 font-bold'>$0.9M</td>
+                    <td className='p-4 text-center text-blue-300 font-bold'>$4.2M</td>
+                    <td className='p-4 text-center text-green-300 font-bold'>$12.5M</td>
+                  </tr>
+                  <tr>
+                    <td className='p-4 text-gray-300'>EBITDA Margin</td>
+                    <td className='p-4 text-center text-white'>20%</td>
+                    <td className='p-4 text-center text-white font-bold'>40%</td>
+                    <td className='p-4 text-center text-white'>55%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div className='mt-6 p-4 bg-green-900/20 border border-green-500/30 rounded-lg'>
+              <p className='text-center text-sm text-gray-300'>
+                <strong className='text-green-400'>Downside survivability:</strong> Even at 6 clients / $120M AUM, we reach profitability with 20% EBITDA margin
+                <br/>
+                <strong className='text-blue-400'>Base case:</strong> 12 clients / $420M AUM delivers strong 40% margins and $4.2M ARR
+                <br/>
+                <strong className='text-purple-400'>Upside potential:</strong> 20 clients / $1B AUM reaches 55% margins with $12.5M ARR
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* WHY US - THE MOAT */}
         <div className='max-w-5xl mx-auto'>
           <div className='bg-gradient-to-r from-green-500/10 via-blue-500/10 to-purple-500/10 border-2 border-green-500/50 rounded-xl p-8'>

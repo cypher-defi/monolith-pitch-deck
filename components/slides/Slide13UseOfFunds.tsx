@@ -21,18 +21,22 @@ export default function Slide13UseOfFunds() {
         </div>
 
         <FourColumnGrid className='mb-12 gap-6'>
-          {/* ENGINEERING */}
+          {/* PRODUCT ENGINEERING */}
           <div className='bg-gradient-to-br from-blue-500/20 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-6'>
             <div className='text-center'>
               <h3 className='text-blue-300 mb-3 text-lg font-bold'>
-                Engineering
+                Product Engineering
               </h3>
-              <div className='text-5xl font-bold text-blue-300 mb-2'>$350K</div>
-              <div className='text-blue-400 font-semibold mb-4'>23%</div>
+              <div className='text-5xl font-bold text-blue-300 mb-2'>$450K</div>
+              <div className='text-blue-400 font-semibold mb-4'>30%</div>
               <ul className='text-left text-xs text-gray-300 space-y-1.5'>
                 <li className='flex gap-2' style={{alignItems: 'baseline'}}>
                   <span className='text-blue-400 flex-shrink-0'>✓</span>
-                  <span>Three-tier vault system development (Conservative, Balanced, Aggressive)</span>
+                  <span>Three-tier ERC-4626 vault system (Conservative, Balanced, Aggressive)</span>
+                </li>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-blue-400 flex-shrink-0'>✓</span>
+                  <span>Smart contract audits: OpenZeppelin + Hacken ($225K)</span>
                 </li>
                 <li className='flex gap-2' style={{alignItems: 'baseline'}}>
                   <span className='text-blue-400 flex-shrink-0'>✓</span>
@@ -40,63 +44,57 @@ export default function Slide13UseOfFunds() {
                 </li>
                 <li className='flex gap-2' style={{alignItems: 'baseline'}}>
                   <span className='text-blue-400 flex-shrink-0'>✓</span>
-                  <span>Cloud infrastructure & DevOps (AWS/Vercel)</span>
+                  <span>White-label customization system</span>
                 </li>
                 <li className='flex gap-2' style={{alignItems: 'baseline'}}>
                   <span className='text-blue-400 flex-shrink-0'>✓</span>
-                  <span>Development tools & comprehensive testing</span>
+                  <span>Comprehensive testing & bug bounty ($50K)</span>
                 </li>
               </ul>
             </div>
           </div>
 
-          {/* SECURITY, AUDIT & INSURANCE */}
-          <div className='bg-gradient-to-br from-red-500/20 to-red-500/5 border-2 border-red-500/50 rounded-xl p-6'>
+          {/* COMPLIANCE/LEGAL */}
+          <div className='bg-gradient-to-br from-amber-500/20 to-amber-500/5 border-2 border-amber-500/50 rounded-xl p-6'>
             <div className='text-center'>
-              <h3 className='text-red-300 mb-3 text-lg font-bold'>
-                Security, Audit & Insurance
+              <h3 className='text-amber-300 mb-3 text-lg font-bold'>
+                Compliance/Legal
               </h3>
-              <div className='text-5xl font-bold text-red-300 mb-2'>$400K</div>
-              <div className='text-red-400 font-semibold mb-4'>27%</div>
+              <div className='text-5xl font-bold text-amber-300 mb-2'>$300K</div>
+              <div className='text-amber-400 font-semibold mb-4'>20%</div>
               <ul className='text-left text-xs text-gray-300 space-y-1.5'>
                 <li className='flex gap-2' style={{alignItems: 'baseline'}}>
-                  <span className='text-red-400 flex-shrink-0'>✓</span>
-                  <span>Smart contract audits: $225K</span>
-                </li>
-                <li className='text-xs text-gray-400 ml-4'>
-                  - OpenZeppelin audit (3 vaults): $135K
-                </li>
-                <li className='text-xs text-gray-400 ml-4'>
-                  - Hacken audit (3 vaults): $90K
+                  <span className='text-amber-400 flex-shrink-0'>✓</span>
+                  <span>Legal entity setup (offshore + US structure)</span>
                 </li>
                 <li className='flex gap-2' style={{alignItems: 'baseline'}}>
-                  <span className='text-red-400 flex-shrink-0'>✓</span>
-                  <span>Formal verification of vault accounting logic: $30K</span>
+                  <span className='text-amber-400 flex-shrink-0'>✓</span>
+                  <span>Securities counsel & regulatory compliance</span>
                 </li>
                 <li className='flex gap-2' style={{alignItems: 'baseline'}}>
-                  <span className='text-red-400 flex-shrink-0'>✓</span>
-                  <span>Security documentation & threat modeling: $20K</span>
+                  <span className='text-amber-400 flex-shrink-0'>✓</span>
+                  <span>Terms of service, privacy policy, disclosures</span>
                 </li>
                 <li className='flex gap-2' style={{alignItems: 'baseline'}}>
-                  <span className='text-red-400 flex-shrink-0'>✓</span>
-                  <span>Bug bounty program ($50K reserve on Immunefi): $50K</span>
+                  <span className='text-amber-400 flex-shrink-0'>✓</span>
+                  <span>InsurAce partnership & integration ($75K)</span>
                 </li>
                 <li className='flex gap-2' style={{alignItems: 'baseline'}}>
-                  <span className='text-red-400 flex-shrink-0'>✓</span>
-                  <span>Insurance provider partnerships (InsurAce integration): $75K</span>
+                  <span className='text-amber-400 flex-shrink-0'>✓</span>
+                  <span>Formal verification & security documentation</span>
                 </li>
               </ul>
             </div>
           </div>
 
-          {/* OPERATIONS & SALES */}
+          {/* SALES & GTM */}
           <div className='bg-gradient-to-br from-green-500/20 to-green-500/5 border-2 border-green-500/50 rounded-xl p-6'>
             <div className='text-center'>
               <h3 className='text-green-300 mb-3 text-lg font-bold'>
-                Operations & Sales
+                Sales & GTM
               </h3>
-              <div className='text-5xl font-bold text-green-300 mb-2'>$250K</div>
-              <div className='text-green-400 font-semibold mb-4'>17%</div>
+              <div className='text-5xl font-bold text-green-300 mb-2'>$200K</div>
+              <div className='text-green-400 font-semibold mb-4'>13%</div>
               <ul className='text-left text-xs text-gray-300 space-y-1.5'>
                 <li className='flex gap-2' style={{alignItems: 'baseline'}}>
                   <span className='text-green-400 flex-shrink-0'>✓</span>
@@ -104,32 +102,36 @@ export default function Slide13UseOfFunds() {
                 </li>
                 <li className='flex gap-2' style={{alignItems: 'baseline'}}>
                   <span className='text-green-400 flex-shrink-0'>✓</span>
-                  <span>Pilot customer acquisition</span>
-                </li>
-                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
-                  <span className='text-green-400 flex-shrink-0'>✓</span>
-                  <span>Legal entity setup & compliance infrastructure</span>
+                  <span>Pilot customer acquisition (3-5 target clients)</span>
                 </li>
                 <li className='flex gap-2' style={{alignItems: 'baseline'}}>
                   <span className='text-green-400 flex-shrink-0'>✓</span>
                   <span>Marketing & brand development</span>
                 </li>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-green-400 flex-shrink-0'>✓</span>
+                  <span>Conference attendance & institutional outreach</span>
+                </li>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-green-400 flex-shrink-0'>✓</span>
+                  <span>Sales collateral & demo materials</span>
+                </li>
               </ul>
             </div>
           </div>
 
-          {/* RUNWAY RESERVE */}
+          {/* INFRASTRUCTURE OPS */}
           <div className='bg-gradient-to-br from-purple-500/20 to-purple-500/5 border-2 border-purple-500/50 rounded-xl p-6'>
             <div className='text-center'>
               <h3 className='text-purple-300 mb-3 text-lg font-bold'>
-                Runway Reserve
+                Infrastructure Ops
               </h3>
-              <div className='text-5xl font-bold text-purple-300 mb-2'>$500K</div>
-              <div className='text-purple-400 font-semibold mb-4'>33%</div>
+              <div className='text-5xl font-bold text-purple-300 mb-2'>$550K</div>
+              <div className='text-purple-400 font-semibold mb-4'>37%</div>
               <ul className='text-left text-xs text-gray-300 space-y-1.5'>
                 <li className='flex gap-2' style={{alignItems: 'baseline'}}>
                   <span className='text-purple-400 flex-shrink-0'>✓</span>
-                  <span>18-month operational buffer to profitability</span>
+                  <span>18-month operational runway to profitability</span>
                 </li>
                 <li className='flex gap-2' style={{alignItems: 'baseline'}}>
                   <span className='text-purple-400 flex-shrink-0'>✓</span>
@@ -137,11 +139,15 @@ export default function Slide13UseOfFunds() {
                 </li>
                 <li className='flex gap-2' style={{alignItems: 'baseline'}}>
                   <span className='text-purple-400 flex-shrink-0'>✓</span>
-                  <span>Infrastructure costs (AWS, monitoring, tools): $120K</span>
+                  <span>Cloud infrastructure (AWS, Vercel, databases): $100K</span>
                 </li>
                 <li className='flex gap-2' style={{alignItems: 'baseline'}}>
                   <span className='text-purple-400 flex-shrink-0'>✓</span>
-                  <span>Contingency fund for market conditions: $164K</span>
+                  <span>24/7 monitoring (Tenderly, alerts, DevOps): $70K</span>
+                </li>
+                <li className='flex gap-2' style={{alignItems: 'baseline'}}>
+                  <span className='text-purple-400 flex-shrink-0'>✓</span>
+                  <span>Contingency fund & market buffer: $164K</span>
                 </li>
               </ul>
             </div>

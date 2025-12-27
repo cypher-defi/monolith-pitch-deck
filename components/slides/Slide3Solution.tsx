@@ -21,6 +21,12 @@ export default function Slide3Solution() {
           Institutional-grade yield infrastructure
         </Subtitle>
 
+        <div className='max-w-4xl mx-auto mb-12 p-4 bg-gradient-to-r from-blue-500/10 to-blue-500/5 border border-blue-500/30 rounded-lg'>
+          <p className='text-center text-gray-300 text-base'>
+            Positioned as a <strong className='text-white'>cash-plus alternative</strong>, bridging traditional treasury instruments and conservative on-chain strategies.
+          </p>
+        </div>
+
         <div className='max-w-4xl mx-auto mb-12 p-6 bg-gradient-to-r from-green-500/10 to-blue-500/10 border-2 border-green-500/50 rounded-xl'>
           <p className='text-white text-lg font-semibold text-center mb-4'>
             Monolith allows institutions to:

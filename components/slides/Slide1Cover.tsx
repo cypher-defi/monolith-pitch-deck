@@ -30,8 +30,9 @@ export default function Slide1Cover() {
           size='md'
           className='text-slate-300 leading-relaxed max-w-2xl'
         >
-          Turning idle stablecoin reserves into predictable yield - especially
-          when markets break.
+          Bank-grade risk management for on-chain yield
+          <br />
+          Turning idle stablecoin reserves into predictable returns when markets fail
         </Subtitle>
 
         <p className='text-slate-600 mt-16 sm:mt-20 text-base sm:text-lg'>

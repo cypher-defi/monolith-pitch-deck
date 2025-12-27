@@ -32,6 +32,42 @@ export default function Slide2Problem() {
           </span>
         </Subtitle>
 
+        <div className='max-w-5xl mx-auto mb-12 p-6 bg-gradient-to-r from-blue-500/10 to-purple-500/10 border-2 border-blue-500/50 rounded-xl'>
+          <h3 className='text-lg font-bold text-blue-300 text-center mb-4'>
+            Market Validation (Institutional Sources)
+          </h3>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-300'>
+            <div className='flex gap-2' style={{alignItems: 'baseline'}}>
+              <span className='text-blue-400 flex-shrink-0'>•</span>
+              <span>
+                Total stablecoin market capitalization reached <strong className='text-white'>~$300B in Sept 2025</strong>, a 75% increase YoY. Stablecoins are increasingly used for corporate treasury operations and cross-border payments
+                <span className='text-xs text-gray-500 block mt-1'>Source: Morgan Stanley</span>
+              </span>
+            </div>
+            <div className='flex gap-2' style={{alignItems: 'baseline'}}>
+              <span className='text-blue-400 flex-shrink-0'>•</span>
+              <span>
+                Institutions deployed approximately <strong className='text-white'>$47.3B into stablecoin yield strategies</strong> in Q3 2025, with conservative allocators favoring over-collateralized lending earning 4.1%-4.7% yields
+                <span className='text-xs text-gray-500 block mt-1'>Source: Stablecoin Insider</span>
+              </span>
+            </div>
+            <div className='flex gap-2' style={{alignItems: 'baseline'}}>
+              <span className='text-blue-400 flex-shrink-0'>•</span>
+              <span>
+                Regulatory uncertainty dropped from 85% to 25% and compliance issues from 74% to 18% since 2023. <strong className='text-white'>75% of firms report customer demand</strong> for stablecoin-based products
+                <span className='text-xs text-gray-500 block mt-1'>Source: Ainvest Report</span>
+              </span>
+            </div>
+            <div className='flex gap-2' style={{alignItems: 'baseline'}}>
+              <span className='text-blue-400 flex-shrink-0'>•</span>
+              <span>
+                USDC — one of the most regulated stablecoins — had a market cap of <strong className='text-white'>~$77B in late 2025</strong> and continues to expand across institutional and enterprise users
+                <span className='text-xs text-gray-500 block mt-1'>Source: StableCoin.com / Circle</span>
+              </span>
+            </div>
+          </div>
+        </div>
+
         <div className='max-w-4xl mx-auto mb-12 p-6 bg-gradient-to-r from-red-500/10 to-amber-500/10 border-2 border-red-500/50 rounded-xl'>
           <p className='text-white text-lg font-semibold text-center mb-4'>
             In economic downturns, the problem worsens:
