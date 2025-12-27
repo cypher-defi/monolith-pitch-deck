@@ -22,8 +22,11 @@ export default function Slide3Solution() {
         </Subtitle>
 
         <div className='max-w-4xl mx-auto mb-12 p-4 bg-gradient-to-r from-blue-500/10 to-blue-500/5 border border-blue-500/30 rounded-lg'>
-          <p className='text-center text-gray-300 text-base'>
+          <p className='text-center text-gray-300 text-base mb-3'>
             Positioned as a <strong className='text-white'>cash-plus alternative</strong>, bridging traditional treasury instruments and conservative on-chain strategies.
+          </p>
+          <p className='text-center text-sm text-blue-400 font-semibold'>
+            Monolith does not manufacture yield—it standardizes access, risk controls, and reporting across existing on-chain yield sources.
           </p>
         </div>
 
@@ -68,11 +71,25 @@ export default function Slide3Solution() {
               </div>
             </div>
           </div>
-          <div className='mt-6 pt-6 border-t border-green-500/30 text-center'>
-            <p className='text-lg text-green-300 font-bold'>
-              Not a speculative DeFi product - a cash management and yield
-              layer.
-            </p>
+          <div className='mt-6 pt-6 border-t border-green-500/30'>
+            <div className='grid grid-cols-2 gap-8 max-w-4xl mx-auto'>
+              <div className='text-left'>
+                <p className='text-sm font-bold text-red-400 mb-3'>Monolith is NOT:</p>
+                <ul className='text-xs text-gray-400 space-y-2'>
+                  <li>✗ A yield aggregator for retail</li>
+                  <li>✗ A DeFi fund</li>
+                  <li>✗ A promise of outperformance</li>
+                </ul>
+              </div>
+              <div className='text-left'>
+                <p className='text-sm font-bold text-green-400 mb-3'>Monolith IS:</p>
+                <ul className='text-xs text-gray-300 space-y-2'>
+                  <li>✓ An institutional execution layer</li>
+                  <li>✓ A compliance-aware yield infrastructure</li>
+                  <li>✓ A bridge between capital allocators and on-chain markets</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
 

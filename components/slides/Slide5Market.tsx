@@ -463,7 +463,7 @@ export default function Slide5Market() {
                     <td className='p-3 text-white font-semibold'>70–85%</td>
                   </tr>
                   <tr>
-                    <td className='p-3 text-gray-300'>Client Acquisition Cost (CAC)</td>
+                    <td className='p-3 text-gray-300'>Client Acquisition Cost (Enterprise BD)</td>
                     <td className='p-3 text-white font-semibold'>$60k–$120k</td>
                   </tr>
                   <tr>
@@ -482,6 +482,9 @@ export default function Slide5Market() {
             </p>
             <p className='text-center text-xs font-semibold text-blue-400 mt-4'>
               AUM growth is driven by a small number of large institutional clients ($20-50M+ per allocation) rather than high client volume.
+            </p>
+            <p className='text-center text-xs text-gray-500 mt-2'>
+              CAC includes legal onboarding, sales cycles, integrations, and relationship management—not paid marketing.
             </p>
             <p className='text-center text-xs italic text-gray-500 mt-2'>
               Note: Tier range reflects strategic vault design and risk tolerance, not guaranteed returns. All yields subject to market conditions and protocol performance.

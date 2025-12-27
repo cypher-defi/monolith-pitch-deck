@@ -19,11 +19,14 @@ export default function Slide2Problem() {
         </Title>
         <div className='mb-8 text-center'>
           <p className='text-gray-400 text-base'>
-            Institutions are sitting on massive idle capital
+            Institutional capital is parked in low-efficiency instruments
+          </p>
+          <p className='text-sm text-gray-500 mt-3 max-w-3xl mx-auto'>
+            This capital is not idle by choice—it is parked in low-efficiency instruments due to liquidity, regulatory, and operational constraints.
           </p>
         </div>
         <Subtitle size='md' className='mb-8 text-center'>
-          This capital earns 0–1%, even during inflationary or crisis periods
+          Result: Capital earns 0–1%, even during inflationary or crisis periods
           <span className='block text-xl text-gray-400 mt-2'>
             $93B in institutional stablecoins earning 0% • DeFi offers 5-22% APY across institutional risk tiers
           </span>
