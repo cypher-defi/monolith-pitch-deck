@@ -11,7 +11,7 @@ import FourColumnGrid from "@/components/FourColumnGrid"
 
 export default function Slide14Ask() {
   return (
-    <Slide id={17} background='bg-black'>
+    <Slide id={18} background='bg-black'>
       <SlideContent>
         <Title size='lg' className='mb-16 text-center'>
           THE ASK

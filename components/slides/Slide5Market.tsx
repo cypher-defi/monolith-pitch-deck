@@ -107,6 +107,9 @@ export default function Slide5Market() {
             <p>• <strong>Conservative tier:</strong> 1.25% base (volume discounts: 1.75% → 0.75%)</p>
             <p>• <strong>Balanced tier:</strong> 1.50% base (volume discounts: 2.00% → 1.00%)</p>
             <p>• <strong>Aggressive tier:</strong> 1.75% base (volume discounts: 2.25% → 1.25%)</p>
+            <p className='mt-4 text-xs text-gray-500 italic'>
+              Financial model uses blended fee assumption across client tiers, skewed toward conservative allocations.
+            </p>
           </div>
           <p className='text-center text-gray-400 mb-10 text-base'>
             <strong className='text-white'>Conservative Tier Projections (Base Case):</strong>
@@ -476,6 +479,12 @@ export default function Slide5Market() {
             </div>
             <p className='text-center text-xs text-gray-400 mt-6'>
               High-value, low-churn institutional infrastructure model with strong unit economics
+            </p>
+            <p className='text-center text-xs font-semibold text-blue-400 mt-4'>
+              AUM growth is driven by a small number of large institutional clients ($20-50M+ per allocation) rather than high client volume.
+            </p>
+            <p className='text-center text-xs italic text-gray-500 mt-2'>
+              Note: Tier range reflects strategic vault design and risk tolerance, not guaranteed returns. All yields subject to market conditions and protocol performance.
             </p>
           </div>
         </div>

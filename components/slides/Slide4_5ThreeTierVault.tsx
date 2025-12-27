@@ -36,31 +36,19 @@ export default function Slide4_5ThreeTierVault() {
             </div>
 
             <div className='mb-6'>
-              <h4 className='text-lg font-bold text-blue-300 mb-3'>Target:</h4>
-              <p className='text-gray-300 text-sm leading-relaxed'>
-                Capital preservation + predictable yield
-              </p>
-            </div>
-
-            <div className='mb-6'>
-              <h4 className='text-lg font-bold text-blue-300 mb-3'>Strategy:</h4>
-              <div className='space-y-2 text-sm text-gray-300'>
-                <div>• Aave V3 USDC Lending (40%): 5.0% APY</div>
-                <div>• Morpho USDC Vaults (40%): 6-8% APY</div>
-                <div>• Curve 3Pool LP (20%): 2-4% APY</div>
-              </div>
-            </div>
-
-            <div className='mb-6'>
-              <h4 className='text-lg font-bold text-blue-300 mb-3'>Risk Management:</h4>
+              <h4 className='text-base font-bold text-blue-300 mb-3'>Key Characteristics:</h4>
               <div className='space-y-2 text-sm text-gray-300'>
                 <div className='flex items-start gap-2'>
                   <span className='text-blue-400 mt-1'>✓</span>
-                  <span>Zero leverage</span>
+                  <span>Capital preservation + predictable yield</span>
                 </div>
                 <div className='flex items-start gap-2'>
                   <span className='text-blue-400 mt-1'>✓</span>
-                  <span>Battle-tested protocols only (Aave: $40B TVL, 5+ years zero failures)</span>
+                  <span>Zero leverage, battle-tested protocols only</span>
+                </div>
+                <div className='flex items-start gap-2'>
+                  <span className='text-blue-400 mt-1'>✓</span>
+                  <span>Aave V3, Morpho, Curve diversification</span>
                 </div>
                 <div className='flex items-start gap-2'>
                   <span className='text-blue-400 mt-1'>✓</span>
@@ -91,39 +79,23 @@ export default function Slide4_5ThreeTierVault() {
             </div>
 
             <div className='mb-6'>
-              <h4 className='text-lg font-bold text-purple-300 mb-3'>Target:</h4>
-              <p className='text-gray-300 text-sm leading-relaxed'>
-                Attractive yields with institutional-grade risk management
-              </p>
-            </div>
-
-            <div className='mb-6'>
-              <h4 className='text-lg font-bold text-purple-300 mb-3'>Strategy:</h4>
+              <h4 className='text-base font-bold text-purple-300 mb-3'>Key Characteristics:</h4>
               <div className='space-y-2 text-sm text-gray-300'>
-                <div>• Morpho Max Yield Vault (50%): 10.8% APY (Coinbase-integrated)</div>
-                <div>• Curve Stablecoin LPs + CRV (30%): 8-11% APY</div>
-                <div>• Aave V3 Efficiency Mode (20%): 7-9% APY</div>
-              </div>
-            </div>
-
-            <div className='mb-6'>
-              <h4 className='text-lg font-bold text-purple-300 mb-3'>Risk Management:</h4>
-              <div className='space-y-2 text-sm text-gray-300'>
+                <div className='flex items-start gap-2'>
+                  <span className='text-purple-400 mt-1'>✓</span>
+                  <span>Attractive yields with institutional risk management</span>
+                </div>
                 <div className='flex items-start gap-2'>
                   <span className='text-purple-400 mt-1'>✓</span>
                   <span>Selective leverage (max 1.5x)</span>
                 </div>
                 <div className='flex items-start gap-2'>
                   <span className='text-purple-400 mt-1'>✓</span>
-                  <span>Protocol diversification across 3 platforms</span>
+                  <span>Morpho, Curve, Aave diversification</span>
                 </div>
                 <div className='flex items-start gap-2'>
                   <span className='text-purple-400 mt-1'>✓</span>
-                  <span>Weekly rebalancing optimization</span>
-                </div>
-                <div className='flex items-start gap-2'>
-                  <span className='text-purple-400 mt-1'>✓</span>
-                  <span>72-hour liquidity target</span>
+                  <span>72-hour liquidity, weekly rebalancing</span>
                 </div>
               </div>
             </div>
@@ -150,35 +122,23 @@ export default function Slide4_5ThreeTierVault() {
             </div>
 
             <div className='mb-6'>
-              <h4 className='text-lg font-bold text-amber-300 mb-3'>Target:</h4>
-              <p className='text-gray-300 text-sm leading-relaxed'>
-                Maximum yield for sophisticated DeFi-native institutions
-              </p>
-            </div>
-
-            <div className='mb-6'>
-              <h4 className='text-lg font-bold text-amber-300 mb-3'>Strategy:</h4>
-              <div className='space-y-2 text-sm text-gray-300'>
-                <div>• Leveraged Morpho Strategies (40%): 15-18% APY</div>
-                <div>• Curve CRV-Boosted Pools (35%): 15-32% APY (iUSD/USDC: 38%, USDC/USDU: 32.9%)</div>
-                <div>• Convex Yield Optimization (25%): 20-30% APY</div>
-              </div>
-            </div>
-
-            <div className='mb-6'>
-              <h4 className='text-lg font-bold text-amber-300 mb-3'>Risk Management:</h4>
+              <h4 className='text-base font-bold text-amber-300 mb-3'>Key Characteristics:</h4>
               <div className='space-y-2 text-sm text-gray-300'>
                 <div className='flex items-start gap-2'>
                   <span className='text-amber-400 mt-1'>✓</span>
-                  <span>Maximum leverage: 2x with automated deleveraging</span>
+                  <span>Maximum yield for DeFi-native institutions</span>
                 </div>
                 <div className='flex items-start gap-2'>
                   <span className='text-amber-400 mt-1'>✓</span>
-                  <span>Active liquidation threshold monitoring</span>
+                  <span>Maximum leverage: 2x with auto-deleveraging</span>
                 </div>
                 <div className='flex items-start gap-2'>
                   <span className='text-amber-400 mt-1'>✓</span>
-                  <span>5-7 day liquidity (higher risk = longer redemption)</span>
+                  <span>Morpho, Curve CRV-boosted, Convex optimization</span>
+                </div>
+                <div className='flex items-start gap-2'>
+                  <span className='text-amber-400 mt-1'>✓</span>
+                  <span>5-7 day liquidity, active monitoring</span>
                 </div>
               </div>
             </div>
@@ -192,8 +152,14 @@ export default function Slide4_5ThreeTierVault() {
 
         {/* FOOTER NOTE */}
         <div className='max-w-6xl mx-auto p-6 bg-gradient-to-r from-green-500/10 to-blue-500/10 border-2 border-green-500/50 rounded-xl'>
-          <p className='text-center text-gray-300 text-sm'>
+          <p className='text-center text-gray-300 text-sm mb-3'>
             <span className='font-bold text-green-400'>All vaults:</span> Non-custodial + InsurAce protocol coverage + 24/7 monitoring + Quarterly audits
+          </p>
+          <p className='text-center text-xs text-blue-400 font-semibold mb-2'>
+            Conservative tier is the core institutional allocation. Balanced and Aggressive tiers are optional, client-mandated strategies.
+          </p>
+          <p className='text-center text-xs text-gray-500 italic'>
+            Detailed protocol allocations and waterfall strategies available in Appendix
           </p>
         </div>
       </SlideContent>

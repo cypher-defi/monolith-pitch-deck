@@ -19,6 +19,7 @@ import {
   Slide11Demo,
   Slide12Roadmap,
   Slide13UseOfFunds,
+  Slide13_5WhyInvestNow,
   Slide14Ask,
   Slide15ThankYou,
   Slide16AppendixDivider,
@@ -34,11 +35,11 @@ import {
 
 export default function Home() {
   const { currentSlide, totalSlides, nextSlide, previousSlide } =
-    usePresentationController(27)
+    usePresentationController(28)
 
   return (
     <main className="presentation">
-      {/* Slide Components - All 27 slides */}
+      {/* Slide Components - All 28 slides */}
       <Slide1Cover />
       <Slide2Problem />
       <Slide3Solution />
@@ -55,6 +56,7 @@ export default function Home() {
       <Slide11Demo />
       <Slide12Roadmap />
       <Slide13UseOfFunds />
+      <Slide13_5WhyInvestNow />
       <Slide14Ask />
       <Slide15ThankYou />
       <Slide16AppendixDivider />

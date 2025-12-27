@@ -8,7 +8,7 @@ import ThreeColumnGrid from "@/components/ThreeColumnGrid"
 
 export default function Slide21CrisisComing() {
   return (
-    <Slide id={24} background='bg-black'>
+    <Slide id={25} background='bg-black'>
       <SlideContent>
         <Title size='lg' className='mb-8 text-center'>
           THE COMING TREASURY CRISIS

@@ -63,7 +63,8 @@ export default function Slide3Solution() {
                 Earn 5–22% net yield on idle capital*
               </div>
               <div className='text-xs text-gray-500 mt-1'>
-                *Yield depends on vault tier selection (Conservative, Balanced, or Aggressive)
+                *Yield depends on vault tier selection:<br/>
+                Core (Conservative 5-8%) | Enhanced (Balanced 8-12%) | Opportunistic (Aggressive 12-22%)
               </div>
             </div>
           </div>

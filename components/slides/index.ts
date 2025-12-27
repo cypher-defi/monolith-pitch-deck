@@ -17,6 +17,7 @@ export { default as Slide10Founders } from "./Slide10Founders";
 export { default as Slide11Demo } from "./Slide11Demo";
 export { default as Slide12Roadmap } from "./Slide12Roadmap";
 export { default as Slide13UseOfFunds } from "./Slide13UseOfFunds";
+export { default as Slide13_5WhyInvestNow } from "./Slide13_5WhyInvestNow";
 export { default as Slide14Ask } from "./Slide14Ask";
 export { default as Slide15ThankYou } from "./Slide15ThankYou";
 export { default as Slide16AppendixDivider } from "./Slide16AppendixDivider";

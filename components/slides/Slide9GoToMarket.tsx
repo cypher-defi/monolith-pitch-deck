@@ -175,10 +175,12 @@ export default function Slide9GoToMarket() {
 
         <div className='mt-8 p-6 bg-blue-500/10 border-2 border-blue-500/50 rounded-lg'>
           <p className='text-blue-300 text-lg text-center'>
-            <strong>Zero CAC:</strong> Institutions come to us •{" "}
+            <strong>Inbound-assisted enterprise sales:</strong> Demand driven by yield scarcity and regulatory clarity, but enterprise onboarding requires relationship-driven sales, compliance review, and integration support •{" "}
             <strong>Sticky revenue:</strong> &lt;5% churn vs 30-50% retail •{" "}
-            <strong>Compound growth:</strong> Each partner grows their deposits
-            over time
+            <strong>Compound growth:</strong> Each partner grows their deposits over time
+          </p>
+          <p className='text-sm text-gray-400 text-center mt-3'>
+            Sales motion remains consultative, reflected in conservative CAC assumptions ($60K-$120K per client)
           </p>
         </div>
 

@@ -9,7 +9,7 @@ import FourColumnGrid from "@/components/FourColumnGrid"
 
 export default function Slide17Architecture() {
   return (
-    <Slide id={20} background='bg-black'>
+    <Slide id={21} background='bg-black'>
       <SlideContent>
         <Title size='lg' className='mb-16 text-center'>
           APPENDIX A: B2B WHITE-LABEL ARCHITECTURE
