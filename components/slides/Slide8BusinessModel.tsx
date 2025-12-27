@@ -34,42 +34,42 @@ export default function Slide8BusinessModel() {
         </div>
 
         {/* Revenue Model */}
-        <div className='mb-10'>
-          <h3 className='text-2xl font-bold text-blue-400 mb-6 text-center'>
+        <div className='mb-8 md:mb-10'>
+          <h3 className='text-xl md:text-2xl font-bold text-blue-400 mb-4 md:mb-6 text-center'>
             Revenue Model
           </h3>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6'>
-            <div className='bg-gradient-to-br from-green-500/20 to-green-500/5 border-2 border-green-500/50 rounded-xl p-6 text-center'>
-              <h4 className='text-lg font-bold mb-3 text-green-300'>
+            <div className='bg-gradient-to-br from-green-500/20 to-green-500/5 border-2 border-green-500/50 rounded-xl p-4 md:p-6 text-center'>
+              <h4 className='text-base md:text-lg font-bold mb-2 md:mb-3 text-green-300'>
                 Management Fee
               </h4>
-              <div className='text-4xl font-bold text-green-300 mb-2'>
+              <div className='text-2xl md:text-4xl font-bold text-green-300 mb-2'>
                 1.25-1.75%*
               </div>
-              <div className='text-sm text-gray-400'>Annual on AUM</div>
-              <div className='text-xs text-gray-500 mt-2'>
+              <div className='text-xs md:text-sm text-gray-400'>Annual on AUM</div>
+              <div className='text-[10px] md:text-xs text-gray-500 mt-2'>
                 *Tier-dependent: Conservative 1.25%, Balanced 1.50%, Aggressive 1.75% (before volume discounts)
               </div>
             </div>
 
-            <div className='bg-gradient-to-br from-blue-500/20 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-6 text-center'>
-              <h4 className='text-lg font-bold mb-3 text-blue-300'>
+            <div className='bg-gradient-to-br from-blue-500/20 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-4 md:p-6 text-center'>
+              <h4 className='text-base md:text-lg font-bold mb-2 md:mb-3 text-blue-300'>
                 Implementation
               </h4>
-              <div className='text-4xl font-bold text-blue-300 mb-2'>
+              <div className='text-2xl md:text-4xl font-bold text-blue-300 mb-2'>
                 $25-75K
               </div>
-              <div className='text-sm text-gray-400'>One-Time Setup</div>
+              <div className='text-xs md:text-sm text-gray-400'>One-Time Setup</div>
             </div>
 
-            <div className='bg-gradient-to-br from-amber-500/20 to-amber-500/5 border-2 border-amber-500/50 rounded-xl p-6 text-center'>
-              <h4 className='text-lg font-bold mb-3 text-amber-300'>
+            <div className='bg-gradient-to-br from-amber-500/20 to-amber-500/5 border-2 border-amber-500/50 rounded-xl p-4 md:p-6 text-center'>
+              <h4 className='text-base md:text-lg font-bold mb-2 md:mb-3 text-amber-300'>
                 White-Label SDK
               </h4>
-              <div className='text-4xl font-bold text-amber-300 mb-2'>
+              <div className='text-2xl md:text-4xl font-bold text-amber-300 mb-2'>
                 $2-15K
               </div>
-              <div className='text-sm text-gray-400'>Monthly SaaS</div>
+              <div className='text-xs md:text-sm text-gray-400'>Monthly SaaS</div>
             </div>
           </div>
         </div>
@@ -181,51 +181,51 @@ export default function Slide8BusinessModel() {
 
         {/* Revenue Model: Tier + Volume Pricing */}
         <div>
-          <h3 className='text-2xl font-bold text-green-400 mb-6 text-center'>
+          <h3 className='text-lg md:text-2xl font-bold text-green-400 mb-4 md:mb-6 text-center'>
             Revenue Model: Tier + Volume Pricing
           </h3>
 
           {/* THREE TIER PRICING TABLES */}
-          <div className='grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8'>
+          <div className='grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 mb-6 md:mb-8'>
             {/* CONSERVATIVE TIER */}
-            <div className='bg-gradient-to-br from-blue-500/10 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-6'>
-              <h4 className='text-lg font-bold text-blue-300 mb-4 text-center'>
+            <div className='bg-gradient-to-br from-blue-500/10 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-4 md:p-6'>
+              <h4 className='text-base md:text-lg font-bold text-blue-300 mb-3 md:mb-4 text-center'>
                 Conservative Tier Pricing (Base)
               </h4>
-              <div className='overflow-x-auto'>
-                <table className='w-full text-xs'>
+              <div className='text-center'>
+                <table className='w-full text-[10px] md:text-xs mx-auto [&_th]:text-center [&_td]:text-center md:[&_th:first-child]:text-left md:[&_td:first-child]:text-left md:[&_th:last-child]:text-right md:[&_td:last-child]:text-right'>
                   <thead>
                     <tr className='border-b border-blue-500/30'>
-                      <th className='text-left py-2 text-gray-300'>AUM Tier</th>
-                      <th className='text-center py-2 text-gray-300'>Fee</th>
-                      <th className='text-right py-2 text-gray-300'>Example</th>
+                      <th className='py-1.5 md:py-2 px-1 text-gray-300 w-1/3'>AUM Tier</th>
+                      <th className='py-1.5 md:py-2 px-1 text-gray-300 w-1/3'>Fee</th>
+                      <th className='py-1.5 md:py-2 px-1 text-gray-300 w-1/3'>Example</th>
                     </tr>
                   </thead>
                   <tbody className='divide-y divide-blue-500/20'>
                     <tr>
-                      <td className='py-2 text-gray-300'>$0-25M</td>
-                      <td className='text-center text-blue-400 font-bold'>1.75%</td>
-                      <td className='text-right text-blue-400'>$438K/yr</td>
+                      <td className='py-1.5 md:py-2 px-1 text-gray-300'>$0-25M</td>
+                      <td className='py-1.5 md:py-2 px-1 text-blue-400 font-bold'>1.75%</td>
+                      <td className='py-1.5 md:py-2 px-1 text-blue-400'>$438K/yr</td>
                     </tr>
                     <tr>
-                      <td className='py-2 text-gray-300'>$25-50M</td>
-                      <td className='text-center text-blue-400 font-bold'>1.50%</td>
-                      <td className='text-right text-blue-400'>$750K/yr</td>
+                      <td className='py-1.5 md:py-2 px-1 text-gray-300'>$25-50M</td>
+                      <td className='py-1.5 md:py-2 px-1 text-blue-400 font-bold'>1.50%</td>
+                      <td className='py-1.5 md:py-2 px-1 text-blue-400'>$750K/yr</td>
                     </tr>
                     <tr>
-                      <td className='py-2 text-gray-300'>$50-100M</td>
-                      <td className='text-center text-blue-400 font-bold'>1.25%</td>
-                      <td className='text-right text-blue-400'>$1.25M/yr</td>
+                      <td className='py-1.5 md:py-2 px-1 text-gray-300'>$50-100M</td>
+                      <td className='py-1.5 md:py-2 px-1 text-blue-400 font-bold'>1.25%</td>
+                      <td className='py-1.5 md:py-2 px-1 text-blue-400'>$1.25M/yr</td>
                     </tr>
                     <tr>
-                      <td className='py-2 text-gray-300'>$100-250M</td>
-                      <td className='text-center text-blue-400 font-bold'>1.00%</td>
-                      <td className='text-right text-blue-400'>$2M/yr</td>
+                      <td className='py-1.5 md:py-2 px-1 text-gray-300'>$100-250M</td>
+                      <td className='py-1.5 md:py-2 px-1 text-blue-400 font-bold'>1.00%</td>
+                      <td className='py-1.5 md:py-2 px-1 text-blue-400'>$2M/yr</td>
                     </tr>
                     <tr>
-                      <td className='py-2 text-gray-300'>$250M+</td>
-                      <td className='text-center text-blue-400 font-bold'>0.85%</td>
-                      <td className='text-right text-blue-400'>$2.55M/yr</td>
+                      <td className='py-1.5 md:py-2 px-1 text-gray-300'>$250M+</td>
+                      <td className='py-1.5 md:py-2 px-1 text-blue-400 font-bold'>0.85%</td>
+                      <td className='py-1.5 md:py-2 px-1 text-blue-400'>$2.55M/yr</td>
                     </tr>
                   </tbody>
                 </table>
@@ -233,44 +233,44 @@ export default function Slide8BusinessModel() {
             </div>
 
             {/* BALANCED TIER */}
-            <div className='bg-gradient-to-br from-purple-500/10 to-purple-500/5 border-2 border-purple-500/50 rounded-xl p-6'>
-              <h4 className='text-lg font-bold text-purple-300 mb-4 text-center'>
+            <div className='bg-gradient-to-br from-purple-500/10 to-purple-500/5 border-2 border-purple-500/50 rounded-xl p-4 md:p-6'>
+              <h4 className='text-base md:text-lg font-bold text-purple-300 mb-3 md:mb-4 text-center'>
                 Balanced Tier (+0.25% premium)
               </h4>
-              <div className='overflow-x-auto'>
-                <table className='w-full text-xs'>
+              <div className='text-center'>
+                <table className='w-full text-[10px] md:text-xs mx-auto [&_th]:text-center [&_td]:text-center md:[&_th:first-child]:text-left md:[&_td:first-child]:text-left md:[&_th:last-child]:text-right md:[&_td:last-child]:text-right'>
                   <thead>
                     <tr className='border-b border-purple-500/30'>
-                      <th className='text-left py-2 text-gray-300'>AUM Tier</th>
-                      <th className='text-center py-2 text-gray-300'>Fee</th>
-                      <th className='text-right py-2 text-gray-300'>Example</th>
+                      <th className='py-1.5 md:py-2 px-1 text-gray-300 w-1/3'>AUM Tier</th>
+                      <th className='py-1.5 md:py-2 px-1 text-gray-300 w-1/3'>Fee</th>
+                      <th className='py-1.5 md:py-2 px-1 text-gray-300 w-1/3'>Example</th>
                     </tr>
                   </thead>
                   <tbody className='divide-y divide-purple-500/20'>
                     <tr>
-                      <td className='py-2 text-gray-300'>$0-25M</td>
-                      <td className='text-center text-purple-400 font-bold'>2.00%</td>
-                      <td className='text-right text-purple-400'>$500K/yr</td>
+                      <td className='py-1.5 md:py-2 px-1 text-gray-300'>$0-25M</td>
+                      <td className='py-1.5 md:py-2 px-1 text-purple-400 font-bold'>2.00%</td>
+                      <td className='py-1.5 md:py-2 px-1 text-purple-400'>$500K/yr</td>
                     </tr>
                     <tr>
-                      <td className='py-2 text-gray-300'>$25-50M</td>
-                      <td className='text-center text-purple-400 font-bold'>1.75%</td>
-                      <td className='text-right text-purple-400'>$875K/yr</td>
+                      <td className='py-1.5 md:py-2 px-1 text-gray-300'>$25-50M</td>
+                      <td className='py-1.5 md:py-2 px-1 text-purple-400 font-bold'>1.75%</td>
+                      <td className='py-1.5 md:py-2 px-1 text-purple-400'>$875K/yr</td>
                     </tr>
                     <tr>
-                      <td className='py-2 text-gray-300'>$50-100M</td>
-                      <td className='text-center text-purple-400 font-bold'>1.50%</td>
-                      <td className='text-right text-purple-400'>$1.5M/yr</td>
+                      <td className='py-1.5 md:py-2 px-1 text-gray-300'>$50-100M</td>
+                      <td className='py-1.5 md:py-2 px-1 text-purple-400 font-bold'>1.50%</td>
+                      <td className='py-1.5 md:py-2 px-1 text-purple-400'>$1.5M/yr</td>
                     </tr>
                     <tr>
-                      <td className='py-2 text-gray-300'>$100-250M</td>
-                      <td className='text-center text-purple-400 font-bold'>1.25%</td>
-                      <td className='text-right text-purple-400'>$2.5M/yr</td>
+                      <td className='py-1.5 md:py-2 px-1 text-gray-300'>$100-250M</td>
+                      <td className='py-1.5 md:py-2 px-1 text-purple-400 font-bold'>1.25%</td>
+                      <td className='py-1.5 md:py-2 px-1 text-purple-400'>$2.5M/yr</td>
                     </tr>
                     <tr>
-                      <td className='py-2 text-gray-300'>$250M+</td>
-                      <td className='text-center text-purple-400 font-bold'>1.10%</td>
-                      <td className='text-right text-purple-400'>$3.3M/yr</td>
+                      <td className='py-1.5 md:py-2 px-1 text-gray-300'>$250M+</td>
+                      <td className='py-1.5 md:py-2 px-1 text-purple-400 font-bold'>1.10%</td>
+                      <td className='py-1.5 md:py-2 px-1 text-purple-400'>$3.3M/yr</td>
                     </tr>
                   </tbody>
                 </table>
@@ -278,44 +278,44 @@ export default function Slide8BusinessModel() {
             </div>
 
             {/* AGGRESSIVE TIER */}
-            <div className='bg-gradient-to-br from-amber-500/10 to-amber-500/5 border-2 border-amber-500/50 rounded-xl p-6'>
-              <h4 className='text-lg font-bold text-amber-300 mb-4 text-center'>
+            <div className='bg-gradient-to-br from-amber-500/10 to-amber-500/5 border-2 border-amber-500/50 rounded-xl p-4 md:p-6'>
+              <h4 className='text-base md:text-lg font-bold text-amber-300 mb-3 md:mb-4 text-center'>
                 Aggressive Tier (+0.50% premium)
               </h4>
-              <div className='overflow-x-auto'>
-                <table className='w-full text-xs'>
+              <div className='text-center'>
+                <table className='w-full text-[10px] md:text-xs mx-auto [&_th]:text-center [&_td]:text-center md:[&_th:first-child]:text-left md:[&_td:first-child]:text-left md:[&_th:last-child]:text-right md:[&_td:last-child]:text-right'>
                   <thead>
                     <tr className='border-b border-amber-500/30'>
-                      <th className='text-left py-2 text-gray-300'>AUM Tier</th>
-                      <th className='text-center py-2 text-gray-300'>Fee</th>
-                      <th className='text-right py-2 text-gray-300'>Example</th>
+                      <th className='py-1.5 md:py-2 px-1 text-gray-300 w-1/3'>AUM Tier</th>
+                      <th className='py-1.5 md:py-2 px-1 text-gray-300 w-1/3'>Fee</th>
+                      <th className='py-1.5 md:py-2 px-1 text-gray-300 w-1/3'>Example</th>
                     </tr>
                   </thead>
                   <tbody className='divide-y divide-amber-500/20'>
                     <tr>
-                      <td className='py-2 text-gray-300'>$0-25M</td>
-                      <td className='text-center text-amber-400 font-bold'>2.25%</td>
-                      <td className='text-right text-amber-400'>$563K/yr</td>
+                      <td className='py-1.5 md:py-2 px-1 text-gray-300'>$0-25M</td>
+                      <td className='py-1.5 md:py-2 px-1 text-amber-400 font-bold'>2.25%</td>
+                      <td className='py-1.5 md:py-2 px-1 text-amber-400'>$563K/yr</td>
                     </tr>
                     <tr>
-                      <td className='py-2 text-gray-300'>$25-50M</td>
-                      <td className='text-center text-amber-400 font-bold'>2.00%</td>
-                      <td className='text-right text-amber-400'>$1M/yr</td>
+                      <td className='py-1.5 md:py-2 px-1 text-gray-300'>$25-50M</td>
+                      <td className='py-1.5 md:py-2 px-1 text-amber-400 font-bold'>2.00%</td>
+                      <td className='py-1.5 md:py-2 px-1 text-amber-400'>$1M/yr</td>
                     </tr>
                     <tr>
-                      <td className='py-2 text-gray-300'>$50-100M</td>
-                      <td className='text-center text-amber-400 font-bold'>1.75%</td>
-                      <td className='text-right text-amber-400'>$1.75M/yr</td>
+                      <td className='py-1.5 md:py-2 px-1 text-gray-300'>$50-100M</td>
+                      <td className='py-1.5 md:py-2 px-1 text-amber-400 font-bold'>1.75%</td>
+                      <td className='py-1.5 md:py-2 px-1 text-amber-400'>$1.75M/yr</td>
                     </tr>
                     <tr>
-                      <td className='py-2 text-gray-300'>$100-250M</td>
-                      <td className='text-center text-amber-400 font-bold'>1.50%</td>
-                      <td className='text-right text-amber-400'>$3M/yr</td>
+                      <td className='py-1.5 md:py-2 px-1 text-gray-300'>$100-250M</td>
+                      <td className='py-1.5 md:py-2 px-1 text-amber-400 font-bold'>1.50%</td>
+                      <td className='py-1.5 md:py-2 px-1 text-amber-400'>$3M/yr</td>
                     </tr>
                     <tr>
-                      <td className='py-2 text-gray-300'>$250M+</td>
-                      <td className='text-center text-amber-400 font-bold'>1.35%</td>
-                      <td className='text-right text-amber-400'>$4.05M/yr</td>
+                      <td className='py-1.5 md:py-2 px-1 text-gray-300'>$250M+</td>
+                      <td className='py-1.5 md:py-2 px-1 text-amber-400 font-bold'>1.35%</td>
+                      <td className='py-1.5 md:py-2 px-1 text-amber-400'>$4.05M/yr</td>
                     </tr>
                   </tbody>
                 </table>
@@ -324,9 +324,9 @@ export default function Slide8BusinessModel() {
           </div>
 
           {/* IMPLEMENTATION FEE & WHITE-LABEL */}
-          <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8'>
-            <div className='bg-gradient-to-br from-green-500/10 to-green-500/5 border-2 border-green-500/50 rounded-xl p-6'>
-              <h4 className='text-lg font-bold text-green-300 mb-4 text-center'>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 mb-6 md:mb-8'>
+            <div className='bg-gradient-to-br from-green-500/10 to-green-500/5 border-2 border-green-500/50 rounded-xl p-4 md:p-6'>
+              <h4 className='text-base md:text-lg font-bold text-green-300 mb-3 md:mb-4 text-center'>
                 Implementation Fee (One-Time)
               </h4>
               <div className='space-y-2 text-sm'>
@@ -352,13 +352,13 @@ export default function Slide8BusinessModel() {
               </p>
             </div>
 
-            <div className='bg-gradient-to-br from-blue-500/10 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-6'>
-              <h4 className='text-lg font-bold text-blue-300 mb-4 text-center'>
+            <div className='bg-gradient-to-br from-blue-500/10 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-4 md:p-6'>
+              <h4 className='text-base md:text-lg font-bold text-blue-300 mb-3 md:mb-4 text-center'>
                 White-Label SDK
               </h4>
               <div className='text-center'>
-                <div className='text-4xl font-bold text-blue-300 mb-2'>$2-15K/month</div>
-                <div className='text-sm text-gray-400'>Optional SaaS add-on</div>
+                <div className='text-2xl md:text-4xl font-bold text-blue-300 mb-2'>$2-15K/month</div>
+                <div className='text-xs md:text-sm text-gray-400'>Optional SaaS add-on</div>
               </div>
               <p className='text-xs text-gray-500 mt-3 text-center'>
                 *Same across all tiers
@@ -367,11 +367,11 @@ export default function Slide8BusinessModel() {
           </div>
 
           {/* TIER PRICING JUSTIFICATION */}
-          <div className='mb-8 bg-gradient-to-r from-blue-500/10 via-purple-500/10 to-amber-500/10 border-2 border-blue-500/50 rounded-xl p-6'>
-            <h4 className='text-xl font-bold text-white mb-4 text-center'>
+          <div className='mb-6 md:mb-8 bg-gradient-to-r from-blue-500/10 via-purple-500/10 to-amber-500/10 border-2 border-blue-500/50 rounded-xl p-4 md:p-6'>
+            <h4 className='text-lg md:text-xl font-bold text-white mb-3 md:mb-4 text-center'>
               Tier Pricing Justification
             </h4>
-            <p className='text-sm text-gray-300 text-center mb-4'>
+            <p className='text-xs md:text-sm text-gray-300 text-center mb-3 md:mb-4'>
               <strong className='text-blue-400'>Why tiered pricing makes sense:</strong>
             </p>
 

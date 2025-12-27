@@ -204,81 +204,81 @@ export default function Slide20Projections() {
             Revenue Scenario Analysis: Impact of Tier Mix
           </h3>
 
-          <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mb-6'>
+          <div className='grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 mb-6'>
             {/* BASE CASE */}
-            <div className='bg-gradient-to-br from-blue-500/10 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-6'>
-              <h4 className='text-lg font-bold text-blue-300 mb-4 text-center'>
+            <div className='bg-gradient-to-br from-blue-500/10 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-4 md:p-6'>
+              <h4 className='text-base md:text-lg font-bold text-blue-300 mb-3 md:mb-4 text-center'>
                 Base Case (100% Conservative Tier)
               </h4>
-              <div className='space-y-2 text-xs text-gray-300'>
+              <div className='space-y-2 text-xs text-gray-300 text-center md:text-left'>
                 <div>
                   <div className='font-bold text-blue-400'>Year 1 ($100M AUM):</div>
-                  <div className='ml-2'>$100M @ 1.25% avg = $1.25M</div>
+                  <div className='md:ml-2'>$100M @ 1.25% avg = $1.25M</div>
                 </div>
                 <div>
                   <div className='font-bold text-blue-400'>Year 2 ($350M AUM):</div>
-                  <div className='ml-2'>$350M @ 1.0% avg = $3.5M</div>
+                  <div className='md:ml-2'>$350M @ 1.0% avg = $3.5M</div>
                 </div>
                 <div>
                   <div className='font-bold text-blue-400'>Year 3 ($900M AUM):</div>
-                  <div className='ml-2'>$900M @ 0.95% avg = $8.55M</div>
+                  <div className='md:ml-2'>$900M @ 0.95% avg = $8.55M</div>
                 </div>
               </div>
-              <div className='mt-4 pt-4 border-t border-blue-500/30 text-center text-xs text-gray-400'>
+              <div className='mt-3 md:mt-4 pt-3 md:pt-4 border-t border-blue-500/30 text-center text-xs text-gray-400'>
                 As shown in projections above
               </div>
             </div>
 
             {/* LIKELY CASE */}
-            <div className='bg-gradient-to-br from-purple-500/10 to-purple-500/5 border-2 border-purple-500/50 rounded-xl p-6'>
-              <h4 className='text-lg font-bold text-purple-300 mb-4 text-center'>
+            <div className='bg-gradient-to-br from-purple-500/10 to-purple-500/5 border-2 border-purple-500/50 rounded-xl p-4 md:p-6'>
+              <h4 className='text-base md:text-lg font-bold text-purple-300 mb-3 md:mb-4 text-center'>
                 Likely Case (70% Cons / 20% Bal / 10% Agg)
               </h4>
-              <div className='space-y-2 text-xs text-gray-300'>
+              <div className='space-y-2 text-xs text-gray-300 text-center md:text-left'>
                 <div>
                   <div className='font-bold text-purple-400'>Year 1: $1.4M (+12%)</div>
-                  <div className='ml-2 text-gray-500'>Cons $70M @ 1.25% = $875K</div>
-                  <div className='ml-2 text-gray-500'>Bal $20M @ 1.75% = $350K</div>
-                  <div className='ml-2 text-gray-500'>Agg $10M @ 2.00% = $200K</div>
+                  <div className='md:ml-2 text-gray-500'>Cons $70M @ 1.25% = $875K</div>
+                  <div className='md:ml-2 text-gray-500'>Bal $20M @ 1.75% = $350K</div>
+                  <div className='md:ml-2 text-gray-500'>Agg $10M @ 2.00% = $200K</div>
                 </div>
                 <div>
                   <div className='font-bold text-purple-400'>Year 2: $3.92M (+12%)</div>
-                  <div className='ml-2 text-gray-500'>Cons $245M @ 1.0% = $2.45M</div>
-                  <div className='ml-2 text-gray-500'>Bal $70M @ 1.50% = $1.05M</div>
-                  <div className='ml-2 text-gray-500'>Agg $35M @ 1.75% = $437.5K</div>
+                  <div className='md:ml-2 text-gray-500'>Cons $245M @ 1.0% = $2.45M</div>
+                  <div className='md:ml-2 text-gray-500'>Bal $70M @ 1.50% = $1.05M</div>
+                  <div className='md:ml-2 text-gray-500'>Agg $35M @ 1.75% = $437.5K</div>
                 </div>
                 <div>
                   <div className='font-bold text-purple-400'>Year 3: $9.58M (+12%)</div>
-                  <div className='ml-2 text-gray-500'>Cons $630M @ 0.95% = $5.99M</div>
-                  <div className='ml-2 text-gray-500'>Bal $180M @ 1.20% = $2.16M</div>
-                  <div className='ml-2 text-gray-500'>Agg $90M @ 1.50% = $1.35M</div>
+                  <div className='md:ml-2 text-gray-500'>Cons $630M @ 0.95% = $5.99M</div>
+                  <div className='md:ml-2 text-gray-500'>Bal $180M @ 1.20% = $2.16M</div>
+                  <div className='md:ml-2 text-gray-500'>Agg $90M @ 1.50% = $1.35M</div>
                 </div>
               </div>
             </div>
 
             {/* OPTIMISTIC CASE */}
-            <div className='bg-gradient-to-br from-green-500/10 to-green-500/5 border-2 border-green-500/50 rounded-xl p-6'>
-              <h4 className='text-lg font-bold text-green-300 mb-4 text-center'>
+            <div className='bg-gradient-to-br from-green-500/10 to-green-500/5 border-2 border-green-500/50 rounded-xl p-4 md:p-6'>
+              <h4 className='text-base md:text-lg font-bold text-green-300 mb-3 md:mb-4 text-center'>
                 Optimistic Case (50% Cons / 30% Bal / 20% Agg)
               </h4>
-              <div className='space-y-2 text-xs text-gray-300'>
+              <div className='space-y-2 text-xs text-gray-300 text-center md:text-left'>
                 <div>
                   <div className='font-bold text-green-400'>Year 1: $1.56M (+25%)</div>
-                  <div className='ml-2 text-gray-500'>Cons $50M @ 1.25% = $625K</div>
-                  <div className='ml-2 text-gray-500'>Bal $30M @ 1.75% = $525K</div>
-                  <div className='ml-2 text-gray-500'>Agg $20M @ 2.00% = $400K</div>
+                  <div className='md:ml-2 text-gray-500'>Cons $50M @ 1.25% = $625K</div>
+                  <div className='md:ml-2 text-gray-500'>Bal $30M @ 1.75% = $525K</div>
+                  <div className='md:ml-2 text-gray-500'>Agg $20M @ 2.00% = $400K</div>
                 </div>
                 <div>
                   <div className='font-bold text-green-400'>Year 2: $4.38M (+25%)</div>
-                  <div className='ml-2 text-gray-500'>Cons $175M @ 1.0% = $1.75M</div>
-                  <div className='ml-2 text-gray-500'>Bal $105M @ 1.50% = $1.58M</div>
-                  <div className='ml-2 text-gray-500'>Agg $70M @ 1.50% = $1.05M</div>
+                  <div className='md:ml-2 text-gray-500'>Cons $175M @ 1.0% = $1.75M</div>
+                  <div className='md:ml-2 text-gray-500'>Bal $105M @ 1.50% = $1.58M</div>
+                  <div className='md:ml-2 text-gray-500'>Agg $70M @ 1.50% = $1.05M</div>
                 </div>
                 <div>
                   <div className='font-bold text-green-400'>Year 3: $10.69M (+25%)</div>
-                  <div className='ml-2 text-gray-500'>Cons $450M @ 0.95% = $4.28M</div>
-                  <div className='ml-2 text-gray-500'>Bal $270M @ 1.20% = $3.24M</div>
-                  <div className='ml-2 text-gray-500'>Agg $180M @ 1.35% = $2.43M</div>
+                  <div className='md:ml-2 text-gray-500'>Cons $450M @ 0.95% = $4.28M</div>
+                  <div className='md:ml-2 text-gray-500'>Bal $270M @ 1.20% = $3.24M</div>
+                  <div className='md:ml-2 text-gray-500'>Agg $180M @ 1.35% = $2.43M</div>
                 </div>
               </div>
             </div>

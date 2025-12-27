@@ -566,32 +566,32 @@ export default function Slide5Market() {
             <h4 className='text-2xl font-bold text-center text-white mb-6'>
               Why Institutions Can't Do This Without Us
             </h4>
-            <div className='grid grid-cols-3 gap-6 text-center mb-6'>
-              <div>
+            <div className='grid grid-cols-3 gap-6 mb-6'>
+              <div className='flex items-center gap-3'>
                 <Icon
                   name='x'
                   size={32}
-                  className='text-red-400 mx-auto mb-3'
+                  className='text-red-400 flex-shrink-0'
                 />
                 <div className='text-sm text-gray-300'>
                   No in-house DeFi expertise
                 </div>
               </div>
-              <div>
+              <div className='flex items-center gap-3'>
                 <Icon
                   name='x'
                   size={32}
-                  className='text-red-400 mx-auto mb-3'
+                  className='text-red-400 flex-shrink-0'
                 />
                 <div className='text-sm text-gray-300'>
                   6-12 months to build compliance
                 </div>
               </div>
-              <div>
+              <div className='flex items-center gap-3'>
                 <Icon
                   name='x'
                   size={32}
-                  className='text-red-400 mx-auto mb-3'
+                  className='text-red-400 flex-shrink-0'
                 />
                 <div className='text-sm text-gray-300'>
                   Can't evaluate protocol risk
