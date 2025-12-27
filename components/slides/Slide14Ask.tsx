@@ -38,7 +38,7 @@ export default function Slide14Ask() {
             </h3>
             <div className='text-5xl font-bold text-green-300'>18 months</div>
             <div className='text-xs text-gray-400 mt-3'>
-              Operating profitable at Month 12-15 ($100M AUM, 3 customers, $1.6M ARR).
+              Operating profitable at Month 12-15 ($100M AUM, 3 customers, $1.54M ARR).
               <br/>
               Cash flow positive through Month 18 with seed runway buffer.
               <br/>
@@ -70,14 +70,14 @@ export default function Slide14Ask() {
             <CardTitle>Clear Path to Profitability & Series A</CardTitle>
             <CardContent>
               <strong>Month 12-15:</strong> 3 customers, $100M AUM,{" "}
-              <strong>$1.6M ARR, profitable</strong> (+$710K profit)
+              <strong>$1.54M ARR, profitable</strong> (+$650K profit)
               <br />
               <br />
               <strong>Month 18-24:</strong> 5-6 customers, $300-400M AUM,{" "}
-              <strong>$3.98-4.64M ARR, Series A ready</strong>
+              <strong>$3.54-4.58M ARR, Series A ready</strong>
               <br />
               <br />
-              Strong unit economics: 55-65% net margins at scale
+              Strong unit economics: 87-90% gross margins, 49-61% operating margins at scale
             </CardContent>
           </Card>
           <Card variant='glass'>
@@ -254,9 +254,9 @@ export default function Slide14Ask() {
             <strong>Investor Returns from Equity:</strong>
           </p>
           <p className='text-gray-300 text-sm text-center'>
-            At Month 18-20: $3.98-4.64M ARR with B2B SaaS multiples (10-15x revenue) = $40-70M valuation potential.
+            At Month 18-20: $3.54-4.58M ARR with B2B SaaS multiples (10-15x revenue) = $35-69M valuation potential.
             <br/>
-            <span className='text-green-400 font-bold text-lg'>8-14x return on $4-5M pre-money</span> from equity alone.
+            <span className='text-green-400 font-bold text-lg'>7-14x return on $4-5M pre-money</span> from equity alone.
             <br/>
             <span className='text-purple-400 font-bold'>PLUS: Customer yield stream</span> from deployed capital = dual payoff mechanism.
           </p>

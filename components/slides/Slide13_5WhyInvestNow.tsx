@@ -73,7 +73,7 @@ export default function Slide13_5WhyInvestNow() {
                   Significant Revenue Potential Even in Conservative Scenarios
                 </h3>
                 <p className='text-gray-300 text-xs md:text-sm leading-relaxed'>
-                  Breakeven at $40-50M AUM (9-12 months). Year 2: $300-400M AUM = $4M ARR with 55-61% margins. Downside survivability at 6 clients / $120M AUM with 20% EBITDA.
+                  Breakeven at $40-50M AUM (9-12 months). Year 2: $300-400M AUM = $3.54-4.58M ARR with 49-61% operating margins. Downside survivability at 6 clients / $120M AUM with 20% EBITDA.
                 </p>
               </div>
             </div>

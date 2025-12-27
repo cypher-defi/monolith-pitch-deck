@@ -81,99 +81,100 @@ export default function Slide8BusinessModel() {
           </h3>
 
           <div className='bg-gradient-to-br from-purple-500/10 to-blue-500/10 border-2 border-purple-500/30 rounded-xl p-6'>
-            <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 mb-4 lg:items-end'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 mb-4'>
               <div className='flex flex-col'>
                 <h4 className='text-lg font-bold text-green-400 mb-3'>
-                  Revenue (1.25% average)
+                  Revenue Per $100M AUM
                 </h4>
-                <div className='bg-green-900/30 p-4 rounded-lg mb-4 lg:mb-0'>
+                <div className='bg-green-900/30 p-4 rounded-lg mb-2'>
                   <div className='text-3xl font-bold text-green-300'>
-                    $1.25M/year
+                    $1.44M/year
                   </div>
-                  <div className='text-sm text-gray-400'>Management Fee</div>
-                </div>
-                <div className='bg-green-900/40 p-4 rounded-lg border-2 border-green-500/40 mt-auto'>
-                  <div className='flex justify-between gap-3 items-center'>
-                    <span className='text-green-400 font-bold text-base flex-1 text-left'>Net Operating Margin</span>
-                    <span className='text-green-400 font-bold text-xl whitespace-nowrap'>$360K/year (29%)</span>
-                  </div>
+                  <div className='text-sm text-gray-400'>Management Fee (1.44% avg on tiered pricing)</div>
                 </div>
               </div>
 
               <div className='flex flex-col'>
                 <h4 className='text-lg font-bold text-blue-400 mb-3'>
-                  Operating Costs Breakdown
+                  Cost Structure
                 </h4>
                 <div className='space-y-2 text-sm'>
-                  <div className='flex justify-between gap-3'>
+                  <div className='text-xs font-bold text-purple-300 mb-2'>COST OF REVENUE (Direct Costs):</div>
+                  <div className='flex justify-between gap-3 ml-2'>
                     <span className='text-gray-300 flex-1 text-left'>
-                      Insurance (InsurAce, tier-dependent)**
+                      Insurance (tier-dependent)**
                     </span>
-                    <span className='text-gray-300 font-bold whitespace-nowrap'>$80-120K/year</span>
+                    <span className='text-gray-300 font-bold whitespace-nowrap'>$80-120K</span>
                   </div>
                   <div className='text-xs text-gray-500 ml-4'>
-                    **Conservative: 0.08% | Balanced: 0.10% | Aggressive: 0.12% of TVL
+                    **Conservative: 0.08% | Balanced: 0.10% | Aggressive: 0.12%
                   </div>
-                  <div className='flex justify-between gap-3'>
+                  <div className='flex justify-between gap-3 ml-2'>
                     <span className='text-gray-300 flex-1 text-left'>
-                      Recurring Audits (new integrations, quarterly)
+                      Audits & Security
                     </span>
-                    <span className='text-gray-300 font-bold whitespace-nowrap'>$60K/year</span>
+                    <span className='text-gray-300 font-bold whitespace-nowrap'>$60K</span>
                   </div>
-                  <div className='flex justify-between gap-3'>
+                  <div className='flex justify-between gap-3 font-semibold ml-2 pt-1 border-t border-purple-500/30'>
+                    <span className='text-purple-300 flex-1 text-left'>Total Cost of Revenue</span>
+                    <span className='text-purple-300 whitespace-nowrap'>$140-180K</span>
+                  </div>
+                  <div className='flex justify-between gap-3 font-bold bg-purple-900/30 p-2 rounded'>
+                    <span className='text-green-400 flex-1 text-left'>Gross Profit</span>
+                    <span className='text-green-400 whitespace-nowrap'>$1.26-1.30M</span>
+                  </div>
+                  <div className='text-xs text-green-400 text-right font-semibold'>87-90% Gross Margin</div>
+
+                  <div className='text-xs font-bold text-blue-300 mb-2 mt-4'>OPERATING EXPENSES (Platform Costs):</div>
+                  <div className='flex justify-between gap-3 ml-2'>
                     <span className='text-gray-300 flex-1 text-left'>
-                      24/7 Monitoring & Infrastructure
+                      Monitoring & Infrastructure
                     </span>
-                    <span className='text-gray-300 font-bold whitespace-nowrap'>$120K/year</span>
+                    <span className='text-gray-300 font-bold whitespace-nowrap'>$120K</span>
                   </div>
-                  <div className='flex justify-between gap-3'>
+                  <div className='flex justify-between gap-3 ml-2'>
                     <span className='text-gray-300 flex-1 text-left'>
                       Engineering & Platform Ops
                     </span>
-                    <span className='text-gray-300 font-bold whitespace-nowrap'>$400K/year</span>
+                    <span className='text-gray-300 font-bold whitespace-nowrap'>$400K</span>
                   </div>
-                  <div className='flex justify-between gap-3'>
+                  <div className='flex justify-between gap-3 ml-2'>
                     <span className='text-gray-300 flex-1 text-left'>Sales & BD</span>
-                    <span className='text-gray-300 font-bold whitespace-nowrap'>$230K/year</span>
+                    <span className='text-gray-300 font-bold whitespace-nowrap'>$230K</span>
                   </div>
-                  <div className='border-t border-gray-600 pt-2 mt-2'></div>
-                  <div className='flex justify-between gap-3 font-bold'>
-                    <span className='text-blue-300 flex-1 text-left'>Total Operating Costs</span>
-                    <span className='text-blue-300 whitespace-nowrap'>$890K/year</span>
+                  <div className='flex justify-between gap-3 font-semibold ml-2 pt-1 border-t border-blue-500/30'>
+                    <span className='text-blue-300 flex-1 text-left'>Total Operating Expenses</span>
+                    <span className='text-blue-300 whitespace-nowrap'>$750K</span>
                   </div>
+                  <div className='flex justify-between gap-3 font-bold bg-green-900/40 p-2 rounded border-2 border-green-500/40'>
+                    <span className='text-green-400 flex-1 text-left'>Operating Profit</span>
+                    <span className='text-green-400 whitespace-nowrap'>$510-550K</span>
+                  </div>
+                  <div className='text-xs text-green-400 text-right font-semibold'>35-38% Operating Margin</div>
                 </div>
               </div>
             </div>
 
             <div className='bg-blue-900/30 p-4 rounded-lg mt-4'>
-              <h5 className='text-sm font-bold text-blue-300 mb-2'>
-                Unit Economics
+              <h5 className='text-sm font-bold text-blue-300 mb-3'>
+                Why This Model Works
               </h5>
-              <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 text-center text-xs'>
-                <div>
-                  <div className='text-gray-400'>Gross Revenue per $100M</div>
-                  <div className='text-green-300 font-bold'>$1.25M</div>
+              <div className='text-xs text-gray-300 space-y-2'>
+                <div className='flex gap-2'>
+                  <span className='text-green-400'>✓</span>
+                  <span><strong className='text-green-400'>87-90% Gross Margin</strong> shows capital-efficient core product (revenue minus direct costs of insurance + audits)</span>
                 </div>
-                <div>
-                  <div className='text-gray-400'>All-in Cost per $100M</div>
-                  <div className='text-blue-300 font-bold'>$890K</div>
+                <div className='flex gap-2'>
+                  <span className='text-blue-400'>✓</span>
+                  <span><strong className='text-blue-400'>35-38% Operating Margin</strong> at $100M AUM improves to 42% at Month 12-15, then 49-61% at Year 2 as platform costs spread across more customers</span>
                 </div>
-                <div>
-                  <div className='text-gray-400'>Net Profit per $100M</div>
-                  <div className='text-green-400 font-bold'>$360K</div>
-                </div>
-                <div>
-                  <div className='text-gray-400'>Cost of Risk Management</div>
-                  <div className='text-purple-300 font-bold'>$140-180K*</div>
+                <div className='flex gap-2'>
+                  <span className='text-purple-400'>✓</span>
+                  <span><strong className='text-purple-400'>Fixed platform costs + variable direct costs</strong> = healthy SaaS economics with improving leverage</span>
                 </div>
               </div>
-              <p className='text-xs text-gray-400 mt-3 text-center'>
-                *Varies by vault tier: Conservative ($140K), Balanced ($160K), Aggressive ($180K)
-                <br/>
-                Insurance + audits enables 2-week deployment vs 6-month build •
-                Justifies premium positioning vs Yearn/Beefy
-                <br/>
-                <span className='text-amber-300'>Note: Revenue scales with both AUM volume AND vault tier selection. Higher-yield tiers command premium management fees (Balanced +0.25%, Aggressive +0.50%) to offset higher insurance costs and operational complexity.</span>
+              <p className='text-xs text-amber-300 mt-3 text-center border-t border-amber-500/30 pt-3'>
+                Note: Revenue scales with both AUM volume AND vault tier selection. Higher-yield tiers command premium management fees (Balanced +0.25%, Aggressive +0.50%) to offset higher insurance costs.
               </p>
             </div>
           </div>
@@ -441,7 +442,7 @@ export default function Slide8BusinessModel() {
 
           <div className='bg-purple-900/30 p-4 rounded-lg border border-purple-500/50'>
             <p className='text-purple-300 text-sm text-center'>
-              ✓ Pricing rewards both volume scale AND tier optimization while maintaining 50-65% net margins
+              ✓ Pricing rewards both volume scale AND tier optimization while maintaining 87-90% gross margins and improving operating margins (42% → 49-61%)
             </p>
           </div>
         </div>

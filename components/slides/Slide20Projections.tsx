@@ -83,26 +83,26 @@ export default function Slide20Projections() {
                 <p className='text-gray-400 text-sm mb-2 font-medium'>
                   Revenue
                 </p>
-                <p className='text-3xl font-bold text-purple-300'>$3.75–5M</p>
+                <p className='text-3xl font-bold text-purple-300'>$3.54–4.58M</p>
               </div>
 
               <div>
                 <p className='text-gray-400 text-sm mb-2 font-medium'>
                   Expenses
                 </p>
-                <p className='text-2xl font-bold text-green-400'>$1.7–2M</p>
+                <p className='text-2xl font-bold text-green-400'>$1.8M</p>
                 <div className='text-xs text-gray-400 mt-1'>
                   <div>
-                    • Security (AUM-scaled): $240–320K (on $300–400M AUM)
+                    • Security (AUM-scaled): $280–360K (on $300–400M AUM)
                   </div>
                   <div>• Engineering: $1M</div>
-                  <div>• Operations & Infrastructure: $460–680K</div>
+                  <div>• Operations & Infrastructure: $520–740K</div>
                 </div>
               </div>
 
               <div>
                 <p className='text-gray-400 text-sm mb-2 font-medium'>Net</p>
-                <p className='text-2xl font-bold text-green-500'>+$2–3.3M</p>
+                <p className='text-2xl font-bold text-green-500'>+$1.74–2.78M</p>
                 <p className='text-xs text-green-400 font-bold'>
                   ✓ 5–6 Customers, Profitable
                 </p>
@@ -133,28 +133,28 @@ export default function Slide20Projections() {
                 <p className='text-gray-400 text-sm mb-2 font-medium'>
                   Revenue
                 </p>
-                <p className='text-3xl font-bold text-green-300'>$10–12.5M</p>
+                <p className='text-3xl font-bold text-green-300'>$7.72–9.30M</p>
               </div>
 
               <div>
                 <p className='text-gray-400 text-sm mb-2 font-medium'>
                   Expenses
                 </p>
-                <p className='text-2xl font-bold text-green-400'>$3.3–4.3M</p>
+                <p className='text-2xl font-bold text-green-400'>$4.0M</p>
                 <div className='text-xs text-gray-400 mt-1'>
                   <div>
-                    • Security (AUM-scaled): $640–800K (on $800M–1B AUM)
+                    • Security (AUM-scaled): $720–960K (on $800M–1B AUM)
                   </div>
                   <div>• Engineering: $1.5M</div>
-                  <div>• Operations & Infrastructure: $1.2–1.8M</div>
+                  <div>• Operations & Infrastructure: $1.54–2.04M</div>
                 </div>
               </div>
 
               <div>
                 <p className='text-gray-400 text-sm mb-2 font-medium'>Net</p>
-                <p className='text-2xl font-bold text-green-500'>+$6–8.7M</p>
+                <p className='text-2xl font-bold text-green-500'>+$3.72–5.30M</p>
                 <p className='text-xs text-green-400 font-bold'>
-                  ✓ 8–10 Customers, 60–70% margin
+                  ✓ 8–10 Customers, 48–57% margin
                 </p>
                 <p className='text-xs text-gray-500 mt-1'>Series B ready</p>
               </div>
@@ -290,7 +290,7 @@ export default function Slide20Projections() {
               <br/>
               • Conservative: 0.08% TVL • Balanced: 0.10% TVL (+0.02%) • Aggressive: 0.12% TVL (+0.04%)
               <br/>
-              • Example: $100M Balanced vs Conservative = +$20K insurance cost, +$250K revenue = <strong className='text-green-400'>+$230K net margin improvement</strong>
+              • Example: $100M Balanced vs Conservative = +$20K insurance cost, +$250K revenue = <strong className='text-green-400'>+$230K operating profit improvement</strong>
             </p>
           </div>
 
@@ -381,7 +381,7 @@ export default function Slide20Projections() {
 
           <div className='mt-4 p-4 bg-amber-900/20 border border-amber-500/30 rounded-lg mb-8'>
             <p className='text-xs text-amber-300 text-center'>
-              *Insurance costs scale with both AUM growth and tier mix adoption. Higher-yield tiers have higher insurance costs (+0.02-0.04% TVL) but generate premium management fees (+0.25-0.50%). Net margin improvement from tier mix uplift.
+              *Insurance costs scale with both AUM growth and tier mix adoption. Higher-yield tiers have higher insurance costs (+0.02-0.04% TVL) but generate premium management fees (+0.25-0.50%). Operating profit improvement from tier mix uplift.
             </p>
           </div>
 
@@ -474,7 +474,7 @@ export default function Slide20Projections() {
               <br/>
               <span className='text-white'>• Customers win:</span> All tiers deliver massive value vs 0% current yields
               <br/>
-              <span className='text-white'>• Monolith wins:</span> Higher-yield tiers generate significantly higher profit margins
+              <span className='text-white'>• Monolith wins:</span> Higher-yield tiers generate significantly higher operating profits (87-90% gross margins maintained)
               <br/>
               <span className='text-white'>• Premium fees (+0.25-0.50%) more than offset incremental costs (+$20-40K)</span>
               <br/>

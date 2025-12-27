@@ -227,7 +227,7 @@ export default function Slide5Market() {
                   </div>
                   <div className='flex justify-between'>
                     <span className='text-gray-300'>Mgmt Fees:</span>
-                    <span className='text-blue-400'>$1.5M</span>
+                    <span className='text-blue-400'>$1.44M</span>
                   </div>
                   <div className='flex justify-between'>
                     <span className='text-gray-300'>Implementation:</span>
@@ -235,7 +235,7 @@ export default function Slide5Market() {
                   </div>
                   <div className='flex justify-between font-semibold'>
                     <span className='text-gray-300'>Total Revenue:</span>
-                    <span className='text-blue-400'>$1.6M</span>
+                    <span className='text-blue-400'>$1.54M</span>
                   </div>
                   <div className='flex justify-between'>
                     <span className='text-gray-300'>Operating Costs:</span>
@@ -243,10 +243,10 @@ export default function Slide5Market() {
                   </div>
                   <div className='flex justify-between pt-2 border-t border-blue-800 font-bold'>
                     <span className='text-green-400'>Net Profit:</span>
-                    <span className='text-green-400'>+$710K ✓</span>
+                    <span className='text-green-400'>+$650K ✓</span>
                   </div>
                   <div className='text-center text-green-400 mt-2 italic'>
-                    44% margin
+                    42% margin
                   </div>
                 </div>
               </div>
@@ -267,32 +267,32 @@ export default function Slide5Market() {
                   </div>
                 </div>
                 <div className='border-t border-purple-800 pt-4 mt-4 space-y-2 text-xs'>
-                  <div className='flex justify-between'>
+                  <div className='flex justify-between items-baseline gap-2'>
                     <span className='text-gray-300'>Customers:</span>
-                    <span className='text-white'>5-6</span>
+                    <span className='text-white whitespace-nowrap'>5-6</span>
                   </div>
-                  <div className='flex justify-between'>
+                  <div className='flex justify-between items-baseline gap-2'>
                     <span className='text-gray-300'>Mgmt Fees:</span>
-                    <span className='text-blue-400'>$3.88-4.5M</span>
+                    <span className='text-blue-400 whitespace-nowrap'>$3.44-4.44M</span>
                   </div>
-                  <div className='flex justify-between'>
+                  <div className='flex justify-between items-baseline gap-2'>
                     <span className='text-gray-300'>Implementation:</span>
-                    <span className='text-white'>$105-140K</span>
+                    <span className='text-white whitespace-nowrap'>$105-140K</span>
                   </div>
-                  <div className='flex justify-between font-semibold'>
+                  <div className='flex justify-between items-baseline gap-2 font-semibold'>
                     <span className='text-gray-300'>Total Revenue:</span>
-                    <span className='text-blue-400'>$3.98-4.64M</span>
+                    <span className='text-blue-400 whitespace-nowrap'>$3.54-4.58M</span>
                   </div>
-                  <div className='flex justify-between'>
+                  <div className='flex justify-between items-baseline gap-2'>
                     <span className='text-gray-300'>Operating Costs:</span>
-                    <span className='text-amber-400'>$1.8M</span>
+                    <span className='text-amber-400 whitespace-nowrap'>$1.8M</span>
                   </div>
-                  <div className='flex justify-between pt-2 border-t border-purple-800 font-bold'>
+                  <div className='flex justify-between items-baseline gap-2 pt-2 border-t border-purple-800 font-bold'>
                     <span className='text-green-400'>Net Profit:</span>
-                    <span className='text-green-400'>+$2.18-2.84M</span>
+                    <span className='text-green-400 whitespace-nowrap'>+$1.74-2.78M</span>
                   </div>
                   <div className='text-center text-green-400 mt-2 italic'>
-                    55-61% margin
+                    49-61% margin
                   </div>
                 </div>
               </div>
@@ -311,32 +311,32 @@ export default function Slide5Market() {
                   <div className='text-sm text-gray-300'>AUM - At Scale</div>
                 </div>
                 <div className='border-t border-green-800 pt-4 mt-4 space-y-2 text-xs'>
-                  <div className='flex justify-between'>
+                  <div className='flex justify-between items-baseline gap-2'>
                     <span className='text-gray-300'>Customers:</span>
-                    <span className='text-white'>8-10</span>
+                    <span className='text-white whitespace-nowrap'>8-10</span>
                   </div>
-                  <div className='flex justify-between'>
+                  <div className='flex justify-between items-baseline gap-2'>
                     <span className='text-gray-300'>Mgmt Fees:</span>
-                    <span className='text-blue-400'>$10.5-11.1M</span>
+                    <span className='text-blue-400 whitespace-nowrap'>$7.62-9.13M</span>
                   </div>
-                  <div className='flex justify-between'>
+                  <div className='flex justify-between items-baseline gap-2'>
                     <span className='text-gray-300'>Implementation:</span>
-                    <span className='text-white'>$105-175K</span>
+                    <span className='text-white whitespace-nowrap'>$105-175K</span>
                   </div>
-                  <div className='flex justify-between font-semibold'>
+                  <div className='flex justify-between items-baseline gap-2 font-semibold'>
                     <span className='text-gray-300'>Total Revenue:</span>
-                    <span className='text-blue-400'>$10.6-11.3M</span>
+                    <span className='text-blue-400 whitespace-nowrap'>$7.72-9.30M</span>
                   </div>
-                  <div className='flex justify-between'>
+                  <div className='flex justify-between items-baseline gap-2'>
                     <span className='text-gray-300'>Operating Costs:</span>
-                    <span className='text-amber-400'>$4M</span>
+                    <span className='text-amber-400 whitespace-nowrap'>$4M</span>
                   </div>
-                  <div className='flex justify-between pt-2 border-t border-green-800 font-bold'>
+                  <div className='flex justify-between items-baseline gap-2 pt-2 border-t border-green-800 font-bold'>
                     <span className='text-green-400'>Net Profit:</span>
-                    <span className='text-green-400'>+$6.6-7.3M</span>
+                    <span className='text-green-400 whitespace-nowrap'>+$3.72-5.30M</span>
                   </div>
                   <div className='text-center text-green-400 mt-2 italic'>
-                    62-65% margin
+                    48-57% margin
                   </div>
                 </div>
               </div>
@@ -415,7 +415,7 @@ export default function Slide5Market() {
             </div>
 
             <p className='text-center text-xs text-gray-400 mt-4'>
-              ✓ Pricing rewards both volume scale AND tier optimization while maintaining 50-65% net margins
+              ✓ Pricing rewards both volume scale AND tier optimization while maintaining 87-90% gross margins
               <br/>
               ✓ All base projections use Conservative tier (most conservative revenue estimate)
             </p>
@@ -550,11 +550,11 @@ export default function Slide5Market() {
             </div>
             <div className='mt-6 p-4 bg-green-900/20 border border-green-500/30 rounded-lg'>
               <p className='text-center text-sm text-gray-300'>
-                <strong className='text-green-400'>Downside survivability:</strong> Even at 6 clients / $120M AUM, we reach profitability with 20% EBITDA margin
+                <strong className='text-green-400'>Downside survivability:</strong> Even at 6 clients / $120M AUM, we reach profitability with 20% operating margin
                 <br/>
-                <strong className='text-blue-400'>Base case:</strong> 12 clients / $420M AUM delivers strong 40% margins and $4.2M ARR
+                <strong className='text-blue-400'>Base case:</strong> 12 clients / $420M AUM delivers strong 49-61% operating margins and $3.54-4.58M ARR
                 <br/>
-                <strong className='text-purple-400'>Upside potential:</strong> 20 clients / $1B AUM reaches 55% margins with $12.5M ARR
+                <strong className='text-purple-400'>Upside potential:</strong> 20 clients / $1B AUM reaches 48-57% operating margins with $7.72-9.30M ARR
               </p>
             </div>
           </div>
