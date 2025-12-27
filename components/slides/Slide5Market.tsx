@@ -157,8 +157,8 @@ export default function Slide5Market() {
                     <span className='text-red-400'>Net Profit:</span>
                     <span className='text-red-400'>-$103K</span>
                   </div>
-                  <div className='text-center text-gray-500 mt-2 italic'>
-                    Pilot validation phase
+                  <div className='text-center text-gray-500 mt-2 italic text-[10px]'>
+                    Small, planned pilot loss; breakeven comes quickly as we scale
                   </div>
                 </div>
               </div>
