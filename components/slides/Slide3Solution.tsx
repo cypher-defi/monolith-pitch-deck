@@ -10,12 +10,12 @@ import Icon from "@/components/Icon"
 export default function Slide3Solution() {
   return (
     <Slide
-      id={3}
+      id={11}
       background='bg-gradient-to-br from-black via-blue-950/20 to-black'
     >
       <SlideContent>
         <Title size='lg' className='mb-12 text-center'>
-          INTRODUCING MONOLITH
+          APPENDIX A: INTRODUCING MONOLITH
         </Title>
         <Subtitle size='md' className='mb-8 text-center text-blue-300'>
           Institutional-grade yield infrastructure

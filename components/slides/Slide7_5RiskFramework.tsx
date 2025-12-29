@@ -8,7 +8,7 @@ import ThreeColumnGrid from "@/components/ThreeColumnGrid"
 
 export default function Slide7_5RiskFramework() {
   return (
-    <Slide id={10} background='bg-black'>
+    <Slide id={6} background='bg-black'>
       <SlideContent>
         <Title size='lg' className='mb-4 md:mb-8 text-center'>
           SAFETY & RISK MANAGEMENT

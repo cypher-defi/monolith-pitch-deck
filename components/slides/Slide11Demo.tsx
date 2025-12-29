@@ -12,12 +12,12 @@ import Icon from "@/components/Icon"
 export default function Slide11Demo() {
   return (
     <Slide
-      id={14}
+      id={19}
       background='bg-gradient-to-br from-black via-zinc-900 to-black'
     >
       <SlideContent className='text-center flex flex-col justify-center items-center min-h-[calc(100vh-180px)]'>
         <Title size='lg' className='mb-16 text-center'>
-          MANAGED DASHBOARD PLATFORM
+          APPENDIX C-4: MANAGED DASHBOARD PLATFORM
         </Title>
 
         <Subtitle size='md' className='mb-10 text-center text-slate-300'>

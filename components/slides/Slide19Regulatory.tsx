@@ -7,10 +7,10 @@ import Subtitle from "@/components/Subtitle"
 
 export default function Slide19Regulatory() {
   return (
-    <Slide id={23} background='bg-black'>
+    <Slide id={24} background='bg-black'>
       <SlideContent>
         <Title size='lg' className='mb-16 text-center'>
-          APPENDIX C: REGULATORY STRATEGY
+          APPENDIX D-3: REGULATORY STRATEGY
         </Title>
         <Subtitle size='sm' className='mb-12 text-center'>
           Jurisdiction Options Under Consideration

@@ -8,7 +8,7 @@ import Icon from "@/components/Icon"
 
 export default function Slide5Market() {
   return (
-    <Slide id={7} background='bg-black'>
+    <Slide id={5} background='bg-black'>
       <SlideContent>
         <Title size='lg' className='mb-12 text-center'>
           MARKET SIZE & OPPORTUNITY

@@ -7,10 +7,10 @@ import Subtitle from "@/components/Subtitle"
 
 export default function Slide18Security() {
   return (
-    <Slide id={22} background='bg-black'>
+    <Slide id={23} background='bg-black'>
       <SlideContent>
         <Title size='lg' className='mb-12 text-center'>
-          APPENDIX B: SECURITY FRAMEWORK
+          APPENDIX D-2: SECURITY FRAMEWORK
         </Title>
         <Subtitle size='sm' className='mb-8 text-center'>
           Non-custodial architecture + multi-layer security approach

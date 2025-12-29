@@ -8,90 +8,88 @@ import TwoColumnGrid from "@/components/TwoColumnGrid"
 
 export default function Slide22CrisisInsurance() {
   return (
-    <Slide id={26} background='bg-black'>
+    <Slide id={27} background='bg-black'>
       <SlideContent>
         <Title size='lg' className='mb-8 text-center'>
-          CRISIS INSURANCE WITH POSITIVE CARRY
+          APPENDIX E-2: DIFFERENT CORRELATION WITH POSITIVE CARRY
         </Title>
         <Subtitle size='md' className='mb-12 text-center'>
-          The only treasury strategy that pays you to hold it
+          DeFi yields don't track Fed policy - offering portfolio diversification during rate easing cycles
         </Subtitle>
 
         <div className='mb-12'>
           <h2 className='text-2xl md:text-3xl font-bold mb-6 text-center'>
-            The Asymmetric Payoff
+            Performance Across Different Market Environments
           </h2>
 
           <TwoColumnGrid className='gap-8 mb-8'>
             <div className='bg-gradient-to-br from-blue-500/20 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-8'>
               <h3 className='text-xl md:text-2xl font-bold mb-4 text-blue-300 text-center'>
-                NORMAL TIMES (2025)
-              </h3>
-              <ul className='space-y-3 text-base text-gray-300'>
-                <li className='flex gap-2' style={{ alignItems: "baseline" }}>
-                  <span className='text-blue-400 flex-shrink-0'>•</span>
-                  <span>
-                    <span className='font-semibold'>TradFi:</span> 3-4%
-                    (corporate bonds/MMAs)
-                  </span>
-                </li>
-                <li className='flex gap-2' style={{ alignItems: "baseline" }}>
-                  <span className='text-blue-400 flex-shrink-0'>•</span>
-                  <span>
-                    <span className='font-semibold'>
-                      Monolith Conservative:
-                    </span>{" "}
-                    3-5%
-                  </span>
-                </li>
-                <li className='flex gap-2' style={{ alignItems: "baseline" }}>
-                  <span className='text-green-400 flex-shrink-0'>✓</span>
-                  <span>
-                    <span className='font-semibold'>Edge:</span> +1-2% modest
-                    outperformance
-                  </span>
-                </li>
-                <li className='flex gap-2' style={{ alignItems: "baseline" }}>
-                  <span className='text-green-400 flex-shrink-0'>✓</span>
-                  <span className='text-green-400 font-semibold'>
-                    Cost of insurance: $0 (you're getting paid)
-                  </span>
-                </li>
-              </ul>
-            </div>
-
-            <div className='bg-gradient-to-br from-green-500/20 to-green-500/5 border-2 border-green-500/50 rounded-xl p-8'>
-              <h3 className='text-xl md:text-2xl font-bold mb-4 text-green-300 text-center'>
-                CRISIS TIMES (2026-2027)
+                FED EASING (2020)
               </h3>
               <ul className='space-y-3 text-base text-gray-300'>
                 <li className='flex gap-2' style={{ alignItems: "baseline" }}>
                   <span className='text-red-400 flex-shrink-0'>•</span>
                   <span>
-                    <span className='font-semibold'>TradFi:</span> 0.10-0.50%
-                    (Fed emergency cuts)
+                    <span className='font-semibold'>TradFi:</span> 0.06-0.10%
+                    (MMAs/savings)
                   </span>
                 </li>
                 <li className='flex gap-2' style={{ alignItems: "baseline" }}>
                   <span className='text-green-400 flex-shrink-0'>•</span>
                   <span>
                     <span className='font-semibold'>
-                      Monolith Conservative:
+                      DeFi Protocols:
                     </span>{" "}
-                    2-4% (protocols maintain)
+                    4-8% (Aave, Compound)
                   </span>
                 </li>
                 <li className='flex gap-2' style={{ alignItems: "baseline" }}>
                   <span className='text-green-400 flex-shrink-0'>✓</span>
                   <span>
-                    <span className='font-semibold'>Edge:</span> 5-10x massive
-                    outperformance
+                    <span className='font-semibold'>Result:</span> 10-50x outperformance
                   </span>
                 </li>
                 <li className='flex gap-2' style={{ alignItems: "baseline" }}>
-                  <span className='text-green-400 flex-shrink-0'>✓</span>
-                  <span className='text-green-400 font-bold'>
-                    This is when the hedge activates
+                  <span className='text-blue-400 flex-shrink-0'>•</span>
+                  <span className='text-blue-400 font-semibold'>
+                    Utilization pricing independent of Fed rates
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <div className='bg-gradient-to-br from-amber-500/20 to-amber-500/5 border-2 border-amber-500/50 rounded-xl p-8'>
+              <h3 className='text-xl md:text-2xl font-bold mb-4 text-amber-300 text-center'>
+                FED HIKING (2022)
+              </h3>
+              <ul className='space-y-3 text-base text-gray-300'>
+                <li className='flex gap-2' style={{ alignItems: "baseline" }}>
+                  <span className='text-green-400 flex-shrink-0'>•</span>
+                  <span>
+                    <span className='font-semibold'>TradFi:</span> 4-5%
+                    (MMAs/corporate bonds)
+                  </span>
+                </li>
+                <li className='flex gap-2' style={{ alignItems: "baseline" }}>
+                  <span className='text-red-400 flex-shrink-0'>•</span>
+                  <span>
+                    <span className='font-semibold'>
+                      DeFi Protocols:
+                    </span>{" "}
+                    2-8% (compressed during crypto winter)
+                  </span>
+                </li>
+                <li className='flex gap-2' style={{ alignItems: "baseline" }}>
+                  <span className='text-amber-400 flex-shrink-0'>✓</span>
+                  <span>
+                    <span className='font-semibold'>Result:</span> TradFi outperformed
+                  </span>
+                </li>
+                <li className='flex gap-2' style={{ alignItems: "baseline" }}>
+                  <span className='text-amber-400 flex-shrink-0'>•</span>
+                  <span className='text-amber-400 font-semibold'>
+                    Different correlation, not always better
                   </span>
                 </li>
               </ul>
@@ -101,7 +99,7 @@ export default function Slide22CrisisInsurance() {
 
         <div className='mb-12'>
           <h2 className='text-2xl md:text-3xl font-bold mb-6 text-center'>
-            Why Monolith Maintains Yields in Crises
+            Why DeFi Yields Can Diverge from Fed Policy
           </h2>
 
           <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
@@ -166,50 +164,49 @@ export default function Slide22CrisisInsurance() {
           <TwoColumnGrid className='gap-8'>
             <div>
               <h3 className='text-lg md:text-xl font-semibold mb-4 text-blue-300'>
-                Normal Scenario (2025-2026)
+                Fed Easing Scenario (2020 example)
               </h3>
               <div className='space-y-2 text-sm text-gray-300'>
                 <p>
-                  Traditional MMA: $20M × 0.5-1% ={" "}
-                  <span className='font-semibold'>$100-200K annually</span>
+                  Traditional MMA: $20M × 0.06% ={" "}
+                  <span className='font-semibold'>$12K annually</span>
                 </p>
                 <p>
-                  Monolith Conservative: $20M × 3-5% ={" "}
+                  DeFi Protocols: $20M × 4-6% ={" "}
                   <span className='font-semibold text-green-400'>
-                    $600K-$1M annually
+                    $800K-$1.2M annually
                   </span>
                 </p>
                 <p className='text-lg md:text-xl font-bold text-green-400 mt-4'>
-                  Outperformance: +$400-800K per year
+                  Outperformance: +$788K-$1.19M per year
                 </p>
               </div>
             </div>
 
             <div>
-              <h3 className='text-lg md:text-xl font-semibold mb-4 text-green-300'>
-                Crisis Scenario (2026-2027)
+              <h3 className='text-lg md:text-xl font-semibold mb-4 text-amber-300'>
+                Fed Hiking Scenario (2022 example)
               </h3>
               <div className='space-y-2 text-sm text-gray-300'>
                 <p>
-                  Traditional MMA: $20M × 0.10-0.50% ={" "}
-                  <span className='font-semibold'>$20-100K annually</span>
+                  Traditional MMA: $20M × 4-5% ={" "}
+                  <span className='font-semibold text-green-400'>$800K-$1M annually</span>
                 </p>
                 <p>
-                  Monolith Conservative: $20M × 2-4% ={" "}
-                  <span className='font-semibold text-green-400'>
-                    $400-800K annually
+                  DeFi Protocols: $20M × 2-6% ={" "}
+                  <span className='font-semibold'>
+                    $400K-$1.2M annually
                   </span>
                 </p>
-                <p className='text-lg md:text-xl font-bold text-green-400 mt-4'>
-                  Outperformance: +$300-700K per year
+                <p className='text-lg md:text-xl font-bold text-amber-400 mt-4'>
+                  TradFi competitive or better
                 </p>
               </div>
             </div>
           </TwoColumnGrid>
 
-          <blockquote className='mt-8 text-lg md:text-xl italic text-gray-300 border-l-4 border-green-500 pl-6 text-center'>
-            "It's not speculation - it's crisis insurance that happens to have
-            positive carry."
+          <blockquote className='mt-8 text-lg md:text-xl italic text-gray-300 border-l-4 border-blue-500 pl-6 text-center'>
+            "Different correlation profile - performs best during Fed easing + crypto market activity, compresses during traditional economic strength."
           </blockquote>
         </div>
       </SlideContent>

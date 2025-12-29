@@ -7,10 +7,10 @@ import Icon from "@/components/Icon"
 
 export default function Slide13_5WhyInvestNow() {
   return (
-    <Slide id={17} background='bg-gradient-to-br from-black via-blue-950/30 to-black'>
+    <Slide id={21} background='bg-gradient-to-br from-black via-blue-950/30 to-black'>
       <SlideContent>
         <Title size='lg' className='mb-6 md:mb-8 text-center'>
-          WHY INVEST NOW
+          APPENDIX C-6: WHY INVEST NOW
         </Title>
 
         <p className='text-gray-300 text-base md:text-xl text-center mb-8 md:mb-16 max-w-4xl mx-auto'>

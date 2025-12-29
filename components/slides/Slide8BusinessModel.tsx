@@ -7,10 +7,10 @@ import Icon from "@/components/Icon"
 
 export default function Slide8BusinessModel() {
   return (
-    <Slide id={11} background='bg-black'>
+    <Slide id={16} background='bg-black'>
       <SlideContent>
         <Title size='lg' className='mb-12 text-center'>
-          BUSINESS MODEL: INSTITUTIONAL B2B
+          APPENDIX C: BUSINESS MODEL - INSTITUTIONAL B2B
         </Title>
 
         <div className='max-w-5xl mx-auto mb-12 p-6 bg-gradient-to-r from-green-500/10 to-blue-500/10 border-2 border-green-500/50 rounded-xl'>

@@ -12,10 +12,10 @@ import Icon from "@/components/Icon"
 
 export default function Slide9GoToMarket() {
   return (
-    <Slide id={12} background='bg-black'>
+    <Slide id={17} background='bg-black'>
       <SlideContent>
         <Title size='lg' className='mb-16 text-center'>
-          GO-TO-MARKET: INSTITUTIONAL B2B
+          APPENDIX C-2: GO-TO-MARKET - INSTITUTIONAL B2B
         </Title>
         <Subtitle size='md' className='mb-8 text-center'>
           Focused wedge strategy targeting institutional stablecoin holders

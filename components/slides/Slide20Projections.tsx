@@ -8,10 +8,10 @@ import FourColumnGrid from "@/components/FourColumnGrid"
 
 export default function Slide20Projections() {
   return (
-    <Slide id={24} background='bg-black'>
+    <Slide id={25} background='bg-black'>
       <SlideContent>
         <Title size='lg' className='mb-16 text-center'>
-          APPENDIX D: 3-YEAR FINANCIAL PROJECTIONS
+          APPENDIX D-4: 3-YEAR FINANCIAL PROJECTIONS
         </Title>
 
         <ThreeColumnGrid className='mb-12 gap-8'>

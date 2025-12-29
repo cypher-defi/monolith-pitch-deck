@@ -6,10 +6,10 @@ import Title from "@/components/Title"
 
 export default function Slide7_75DeFiRiskComparison() {
   return (
-    <Slide id={11} background='bg-black'>
+    <Slide id={15} background='bg-black'>
       <SlideContent>
         <Title size='lg' className='mb-6 text-center'>
-          LENDING RISK: TRADFI VS DEFI
+          APPENDIX B-3: LENDING RISK - TRADFI VS DEFI
         </Title>
 
         <p className='text-gray-300 text-sm md:text-base text-center mb-8'>
@@ -118,6 +118,63 @@ export default function Slide7_75DeFiRiskComparison() {
                 <span><strong className='text-white'>Governance controls:</strong> Multi-sig kill-switches</span>
               </div>
             </div>
+          </div>
+        </div>
+
+        {/* INSTITUTIONAL RISK CONTEXT: DEFI VS TRADFI */}
+        <div className='max-w-6xl mx-auto mb-6'>
+          <h3 className='text-xl font-bold text-center mb-4 text-white'>
+            Institutional Risk Context: Monolith DeFi vs TradFi Alternatives
+          </h3>
+          <div className='overflow-x-auto'>
+            <table className='w-full text-xs md:text-sm border-collapse'>
+              <thead>
+                <tr className='border-b-2 border-purple-500'>
+                  <th className='p-3 text-left text-gray-400 font-bold'>Risk Type</th>
+                  <th className='p-3 text-left text-blue-300 font-bold'>TradFi (Bonds, CLOs, Private Credit)</th>
+                  <th className='p-3 text-left text-green-300 font-bold'>Monolith DeFi (Conservative Vault)</th>
+                  <th className='p-3 text-left text-purple-300 font-bold'>Investor Takeaway</th>
+                </tr>
+              </thead>
+              <tbody className='text-gray-300'>
+                <tr className='border-b border-gray-700'>
+                  <td className='p-3 text-gray-400 font-semibold'>Counterparty</td>
+                  <td className='p-3 text-amber-400'>Single issuer</td>
+                  <td className='p-3 text-green-400'>Diversified across protocols</td>
+                  <td className='p-3 text-xs'>No single point of failure</td>
+                </tr>
+                <tr className='border-b border-gray-700 bg-gray-900/30'>
+                  <td className='p-3 text-gray-400 font-semibold'>Liquidity</td>
+                  <td className='p-3 text-amber-400'>Weeks/months, gates in crisis</td>
+                  <td className='p-3 text-green-400'>48-72h guaranteed</td>
+                  <td className='p-3 text-xs'>Immediate exit vs long lock-ups</td>
+                </tr>
+                <tr className='border-b border-gray-700'>
+                  <td className='p-3 text-gray-400 font-semibold'>Transparency</td>
+                  <td className='p-3'>Quarterly reports</td>
+                  <td className='p-3 text-green-400'>Real-time on-chain</td>
+                  <td className='p-3 text-xs'>See positions 24/7</td>
+                </tr>
+                <tr className='border-b border-gray-700 bg-gray-900/30'>
+                  <td className='p-3 text-gray-400 font-semibold'>Custody</td>
+                  <td className='p-3 text-amber-400'>Broker/bank holds, rehypothecation possible</td>
+                  <td className='p-3 text-green-400'>Non-custodial</td>
+                  <td className='p-3 text-xs'>You control the assets</td>
+                </tr>
+                <tr className='border-b border-gray-700'>
+                  <td className='p-3 text-gray-400 font-semibold'>Default / Credit Risk</td>
+                  <td className='p-3 text-red-400'>Bankruptcy = 100% loss</td>
+                  <td className='p-3 text-green-400'>Auto-liquidation if thresholds breached</td>
+                  <td className='p-3 text-xs'>Code enforces rules, not promises</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div className='mt-4 p-3 bg-purple-900/20 border border-purple-500/30 rounded-lg'>
+            <p className='text-xs md:text-sm text-center text-purple-300 leading-tight'>
+              <strong>DeFi swaps opaque credit risk for transparent, measurable smart contract risk.</strong> All exposures are observable and mitigated continuously.
+            </p>
           </div>
         </div>
 

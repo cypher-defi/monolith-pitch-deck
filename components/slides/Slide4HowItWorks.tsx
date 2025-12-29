@@ -10,10 +10,10 @@ import Icon from "@/components/Icon"
 
 export default function Slide4HowItWorks() {
   return (
-    <Slide id={4} background='bg-black'>
+    <Slide id={12} background='bg-black'>
       <SlideContent>
         <Title size='lg' className='mb-12 text-center'>
-          HOW MONOLITH WORKS
+          APPENDIX A-2: HOW MONOLITH WORKS
         </Title>
         <Subtitle size='md' className='mb-16 text-center'>
           White-label infrastructure that takes institutions from 0 to live in 2

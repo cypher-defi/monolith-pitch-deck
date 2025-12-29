@@ -8,18 +8,18 @@ import ThreeColumnGrid from "@/components/ThreeColumnGrid"
 
 export default function Slide23ProofOfStrength() {
   return (
-    <Slide id={27} background='bg-black'>
+    <Slide id={28} background='bg-black'>
       <SlideContent>
         <Title size='lg' className='mb-8 text-center'>
-          PROOF OF STRENGTH: PROTOCOL RESILIENCE
+          APPENDIX E-3: PROTOCOL RESILIENCE - BATTLE-TESTED INFRASTRUCTURE
         </Title>
         <Subtitle size='md' className='mb-12 text-center'>
-          Empirical evidence that our infrastructure survived real crises
+          Empirical evidence of protocol stability through multiple market cycles
         </Subtitle>
 
         <div className='mb-12'>
           <h2 className='text-2xl md:text-3xl font-bold mb-6 text-center'>
-            Aave: Battle-Tested Through Multiple Crises
+            Aave: Battle-Tested Through Multiple Market Cycles
           </h2>
 
           <ThreeColumnGrid className='gap-6 mb-8'>
@@ -42,7 +42,7 @@ export default function Slide23ProofOfStrength() {
                 </li>
                 <li className='flex gap-2' style={{alignItems: 'baseline'}}>
                   <span className='text-green-400 flex-shrink-0'>✓</span>
-                  <span><span className='font-semibold text-green-400'>USDC yield:</span> Maintained 4-8%</span>
+                  <span><span className='font-semibold text-green-400'>USDC yield:</span> 4-8% (during crypto bull cycle)</span>
                 </li>
                 <li className='flex gap-2' style={{alignItems: 'baseline'}}>
                   <span className='text-blue-400 flex-shrink-0'>•</span>
@@ -70,7 +70,7 @@ export default function Slide23ProofOfStrength() {
                 </li>
                 <li className='flex gap-2' style={{alignItems: 'baseline'}}>
                   <span className='text-green-400 flex-shrink-0'>✓</span>
-                  <span><span className='font-semibold text-green-400'>Yield:</span> 3-6% (CeFi froze)</span>
+                  <span><span className='font-semibold text-green-400'>Yield:</span> 3-6% maintained (CeFi froze)</span>
                 </li>
                 <li className='flex gap-2' style={{alignItems: 'baseline'}}>
                   <span className='text-purple-400 flex-shrink-0'>•</span>
@@ -159,9 +159,9 @@ export default function Slide23ProofOfStrength() {
 
           <div className='p-6 bg-gradient-to-r from-green-500/10 to-blue-500/10 border-2 border-green-500/50 rounded-xl'>
             <p className='text-xl md:text-2xl font-bold text-center text-green-400 mb-4'>
-              DeFi protocols have a BETTER track record than traditional banks over the last 4 years.
+              Battle-tested DeFi protocols have maintained uptime and solvency through multiple market cycles.
             </p>
-            <h3 className='text-lg md:text-xl font-bold mb-4 text-center'>Why?</h3>
+            <h3 className='text-lg md:text-xl font-bold mb-4 text-center'>Why DeFi Protocol Resilience?</h3>
             <ul className='grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-300'>
               <li className='flex gap-2' style={{alignItems: 'baseline'}}>
                 <span className='text-green-400 flex-shrink-0'>✓</span>
@@ -173,7 +173,7 @@ export default function Slide23ProofOfStrength() {
               </li>
               <li className='flex gap-2' style={{alignItems: 'baseline'}}>
                 <span className='text-green-400 flex-shrink-0'>✓</span>
-                <span><span className='font-semibold'>Immutable code:</span> Can't change rules mid-crisis</span>
+                <span><span className='font-semibold'>Immutable code:</span> Predictable execution</span>
               </li>
               <li className='flex gap-2' style={{alignItems: 'baseline'}}>
                 <span className='text-green-400 flex-shrink-0'>✓</span>
@@ -185,10 +185,10 @@ export default function Slide23ProofOfStrength() {
 
         <div className='bg-gradient-to-r from-green-500/10 to-blue-500/10 border-2 border-blue-500/50 rounded-xl p-8'>
           <blockquote className='text-lg md:text-2xl italic text-center text-gray-300 border-l-4 border-green-500 pl-6'>
-            "Is capital safer in a single bank at 0.5% yield... or diversified across 5 battle-tested protocols with 5+ year track records, insurance backing, and 3-4% yield?"
+            "Diversification across 5 battle-tested protocols with 5+ year track records, insurance backing, and different correlation to traditional markets."
             <br />
             <br />
-            <span className='text-green-400 font-bold not-italic'>The data suggests the latter is actually lower risk AND higher return.</span>
+            <span className='text-green-400 font-bold not-italic'>Different risk profile, different return drivers - complementary to traditional allocations.</span>
           </blockquote>
         </div>
       </SlideContent>

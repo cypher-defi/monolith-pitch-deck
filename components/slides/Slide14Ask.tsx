@@ -11,7 +11,7 @@ import FourColumnGrid from "@/components/FourColumnGrid"
 
 export default function Slide14Ask() {
   return (
-    <Slide id={18} background='bg-black'>
+    <Slide id={8} background='bg-black'>
       <SlideContent>
         <Title size='lg' className='mb-16 text-center'>
           THE ASK
@@ -318,14 +318,16 @@ export default function Slide14Ask() {
 
         <div className='max-w-4xl mx-auto p-8 bg-gradient-to-r from-green-500/10 via-blue-500/10 to-purple-500/10 border-2 border-green-500/50 rounded-xl'>
           <h3 className='text-2xl font-bold text-center mb-6 text-green-300'>
-            A Hedge for the Next Economic Cycle
+            Portfolio Diversification with Different Correlation
           </h3>
           <p className='text-white text-lg text-center mb-4'>
-            When markets are volatile, capital looks for safety - and yield.
+            Monolith offers transparent risk premiums that don't track Fed policy.
           </p>
-          <p className='text-gray-300 text-center'>
-            Monolith sits at the intersection of stable assets, institutional
-            trust, and predictable income.
+          <p className='text-gray-300 text-center mb-4'>
+            When traditional yields collapse (2020: banks paid 0.06%), DeFi protocols maintained 4-8% through utilization-based pricing.
+          </p>
+          <p className='text-amber-300 text-sm text-center'>
+            <strong>Honest disclosure:</strong> During traditional economic strength (2022 Fed hiking), TradFi outperformed. Monolith is diversification, not a safe haven for all volatility.
           </p>
         </div>
       </SlideContent>

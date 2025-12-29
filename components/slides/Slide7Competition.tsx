@@ -6,10 +6,10 @@ import Title from "@/components/Title"
 
 export default function Slide7Competition() {
   return (
-    <Slide id={9} background='bg-black'>
+    <Slide id={14} background='bg-black'>
       <SlideContent>
         <Title size='lg' className='mb-16 text-center'>
-          WHY INSTITUTIONS CHOOSE US OVER AAVE
+          APPENDIX B-2: WHY INSTITUTIONS CHOOSE US OVER AAVE
         </Title>
 
         <div className='max-w-5xl mx-auto mb-12'>

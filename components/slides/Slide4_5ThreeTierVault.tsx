@@ -9,7 +9,7 @@ import Icon from "@/components/Icon"
 
 export default function Slide4_5ThreeTierVault() {
   return (
-    <Slide id={5} background='bg-black'>
+    <Slide id={3} background='bg-black'>
       <SlideContent>
         <Title size='lg' className='mb-6 md:mb-12 text-center'>
           THREE-TIER VAULT STRATEGY

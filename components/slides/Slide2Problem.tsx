@@ -73,22 +73,25 @@ export default function Slide2Problem() {
 
         <div className='max-w-4xl mx-auto mb-12 p-6 bg-gradient-to-r from-red-500/10 to-amber-500/10 border-2 border-red-500/50 rounded-xl'>
           <p className='text-white text-lg font-semibold text-center mb-4'>
-            In economic downturns, the problem worsens:
+            When Fed policy forces low rates, traditional yields collapse:
           </p>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-4 text-center'>
             <div>
               <Icon name='warning' size={24} className='text-red-400 mx-auto mb-2' />
-              <div className='text-sm text-gray-300'>Risk appetite collapses</div>
+              <div className='text-sm text-gray-300'>Fed easing (2020): MMAs paid 0.06%</div>
             </div>
             <div>
-              <Icon name='trending-down' size={24} className='text-red-400 mx-auto mb-2' />
-              <div className='text-sm text-gray-300'>Equity & credit markets underperform</div>
+              <Icon name='trending-down' size={24} className='text-amber-400 mx-auto mb-2' />
+              <div className='text-sm text-gray-300'>DeFi maintained 4-8% through utilization pricing</div>
             </div>
             <div>
-              <Icon name='dollar' size={24} className='text-red-400 mx-auto mb-2' />
-              <div className='text-sm text-gray-300'>Institutions move to cash — but cash does not yield</div>
+              <Icon name='dollar' size={24} className='text-blue-400 mx-auto mb-2' />
+              <div className='text-sm text-gray-300'>Different correlation = portfolio diversification</div>
             </div>
           </div>
+          <p className='text-amber-300 text-xs text-center mt-4'>
+            <strong>Note:</strong> During Fed hiking cycles (2022), traditional yields can outperform DeFi. Monolith offers diversification, not protection from all volatility.
+          </p>
         </div>
 
         <ThreeColumnGrid className='gap-8 mb-16'>
