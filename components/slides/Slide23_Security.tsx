@@ -47,22 +47,22 @@ export default function Slide23_Security() {
               </h5>
               <ul className="text-sm text-gray-300 space-y-2">
                 <li>
-                  • <strong className="text-white">Coverage capacity:</strong> Up to purchased coverage amount per vault tier (target: $10-15M+ as AUM scales)
+                  • <strong className="text-white">Coverage Capacity:</strong> $10-15M base per vault tier; can scale with dedicated staking pool coordination for larger allocations
                 </li>
                 <li>
-                  • <strong className="text-white">What's covered:</strong> Smart contract exploits on specified protocols (Aave, Morpho, Curve)
+                  • <strong className="text-white">What's Covered:</strong> Smart contract exploits (e.g., Euler Finance-style attacks), protocol design failures, stablecoin depegs {'>'}5% from peg
                 </li>
                 <li>
-                  • <strong className="text-white">What's NOT covered:</strong> Oracle failures, economic exploits, governance attacks, protocol insolvency
+                  • <strong className="text-white">What's NOT Covered:</strong> Normal market losses, yield shortfalls, impermanent loss, liquidations from leverage
                 </li>
                 <li>
-                  • <strong className="text-white">Claims process:</strong> Governed by claim assessors (independent member vote); typical 7-14 day assessment
+                  • <strong className="text-white">Claims Process:</strong> Member-voted assessment (minimum 3-day voting period); typical payout within 7-14 days total
                 </li>
                 <li>
-                  • <strong className="text-white">Premium:</strong> ~0.08-0.15% of coverage amount annually (~$80-150K on $100M AUM)
+                  • <strong className="text-white">Premium:</strong> 0.08-0.12% of coverage amount annually; bundled into management fees
                 </li>
                 <li>
-                  • <strong className="text-white">Track record:</strong> Nexus Mutual has paid out $15M+ in claims since 2019; proven claims process
+                  • <strong className="text-white">Track Record:</strong> $18M+ in claims validated and paid since 2019; $190M+ in capital reserves; has never denied legitimate smart contract failure claims
                 </li>
               </ul>
               <div className="mt-4 p-3 bg-amber-900/30 border border-amber-500/30 rounded">
@@ -184,14 +184,15 @@ export default function Slide23_Security() {
 
               <div className="bg-black/30 p-4 rounded-lg">
                 <h5 className="text-md font-bold text-green-400 mb-2">
-                  2. Protocol insurance = Partial risk transfer
+                  2. Protocol insurance = Partial risk transfer (not elimination)
                 </h5>
                 <ul className="text-xs text-gray-400 space-y-1">
-                  <li>• Smart contract exploits: covered up to purchased amount</li>
-                  <li>• Protocol-level failures: case-by-case assessment</li>
-                  <li>• Claims governed by independent assessors</li>
-                  <li>• Coverage caps + exclusions apply</li>
-                  <li>• Reduces tail risk, doesn't eliminate it</li>
+                  <li>• Smart contract exploits: covered up to purchased coverage amount</li>
+                  <li>• Protocol-level failures: case-by-case assessment by members</li>
+                  <li>• Stablecoin depegs: covered above specified threshold (e.g., &gt;5% deviation)</li>
+                  <li>• Claims governed by independent assessor voting (transparent, 7-14 day timeline)</li>
+                  <li>• Coverage caps apply: if vault exceeds insurance capacity, payouts scale proportionally</li>
+                  <li>• This is institutional-grade risk transfer: complementary to audits, not a replacement for them</li>
                 </ul>
               </div>
 
@@ -327,6 +328,76 @@ export default function Slide23_Security() {
             professionally audited, continuously monitored, and insured. Your
             keys, your shares, your vault, your control.
           </p>
+        </div>
+
+        {/* Insurance vs Investment Risk Section */}
+        <div className="mt-8">
+          <h3 className="text-2xl mb-6 text-amber-400 font-bold">
+            Insurance vs Investment Risk: What's Covered and Not Covered
+          </h3>
+
+          <p className="text-sm text-gray-300 mb-6">
+            Understanding the boundaries of insurance protection is critical for institutional partners.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+            <div className="bg-gradient-to-br from-green-500/10 to-green-500/5 border-2 border-green-500/30 rounded-lg p-5">
+              <h4 className="text-lg font-bold text-green-400 mb-4">
+                What Insurance Protects Against (Tail Risks)
+              </h4>
+              <ul className="text-sm text-gray-300 space-y-2">
+                <li>✓ Smart contract code bugs that slip through audits</li>
+                <li>✓ Economic design flaws (e.g., Euler Finance&apos;s vulnerability)</li>
+                <li>✓ Oracle manipulation or failure</li>
+                <li>✓ Governance attacks (malicious voting changes)</li>
+                <li>✓ Stablecoin depeg events</li>
+              </ul>
+            </div>
+
+            <div className="bg-gradient-to-br from-red-500/10 to-red-500/5 border-2 border-red-500/30 rounded-lg p-5">
+              <h4 className="text-lg font-bold text-red-400 mb-4">
+                What Insurance Does NOT Protect Against (Normal Investment Risks)
+              </h4>
+              <ul className="text-sm text-gray-300 space-y-2">
+                <li>✗ Normal market volatility and yield fluctuations</li>
+                <li>✗ Leverage liquidations from market moves</li>
+                <li>✗ Impermanent loss in liquidity provision</li>
+                <li>✗ Regulatory action against underlying protocols</li>
+                <li>✗ Network congestion or operational delays</li>
+                <li>✗ Honest mistakes in strategy execution (within agreed parameters)</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="bg-blue-900/30 p-5 rounded-lg border border-blue-500/50 mb-6">
+            <h4 className="text-lg font-bold text-blue-300 mb-3">
+              Why This Distinction Matters
+            </h4>
+            <p className="text-sm text-gray-300 mb-3">
+              Insurance is a backstop against catastrophic protocol failure, not a guarantee of positive returns. In TradFi, asset managers carry liability insurance (protects the manager from lawsuits), not asset protection insurance (would be cost-prohibitive). Monolith is unusual in providing explicit protocol-level insurance because the risks are different—code can fail in ways audits don&apos;t catch. This is why Yearn, Beefy, and Convex all use insurance: it&apos;s the institutional standard for DeFi asset management.
+            </p>
+          </div>
+
+          <div className="bg-gradient-to-r from-amber-500/10 to-red-500/10 border-2 border-amber-500/50 rounded-lg p-6">
+            <h4 className="text-lg font-bold text-amber-300 mb-4">
+              Example: Euler Finance (March 2023)
+            </h4>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div>
+                <ul className="text-sm text-gray-300 space-y-2">
+                  <li>• Protocol was audited by Certora and Omniscia</li>
+                  <li>• Both audits passed without major findings</li>
+                  <li>• Yet $196M was lost due to a donate function vulnerability</li>
+                </ul>
+              </div>
+              <div>
+                <ul className="text-sm text-gray-300 space-y-2">
+                  <li>• Nexus Mutual paid $3.3M in claims to affected users</li>
+                  <li>• This is precisely what insurance is designed to cover</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </SlideContent>
     </Slide>

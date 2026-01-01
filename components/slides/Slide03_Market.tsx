@@ -132,28 +132,28 @@ export default function Slide03_Market() {
                       YEAR 1
                     </span>
                   </div>
-                  <div className="text-5xl font-bold text-white mb-3">$50M</div>
+                  <div className="text-5xl font-bold text-white mb-3">$100M</div>
                   <div className="text-lg text-amber-300 font-semibold mb-2">
                     Breakeven
                   </div>
                   <div className="text-sm text-gray-400">
-                    2-3 clients @ ~$20M each
+                    3-4 clients @ ~$30M each
                   </div>
                 </div>
                 <div className="border-t border-amber-700 pt-6 space-y-3">
                   <div className="flex justify-between items-center">
                     <span className="text-gray-300">Revenue:</span>
-                    <span className="text-white font-bold text-lg">$725K</span>
+                    <span className="text-white font-bold text-lg">$1.54M</span>
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="text-gray-300">Net Profit:</span>
                     <span className="text-green-400 font-bold text-lg">
-                      +$75K
+                      Break-even
                     </span>
                   </div>
                   <div className="text-center pt-4 border-t border-amber-800">
                     <span className="text-amber-300 font-semibold">
-                      Operating Breakeven ✓
+                      Month 12-15 ✓
                     </span>
                   </div>
                 </div>
@@ -185,12 +185,12 @@ export default function Slide03_Market() {
                   <div className="flex justify-between items-center">
                     <span className="text-gray-300">Net Profit:</span>
                     <span className="text-green-400 font-bold text-lg">
-                      +$800K
+                      +$700K
                     </span>
                   </div>
                   <div className="text-center pt-4 border-t border-blue-800">
                     <span className="text-blue-300 font-semibold">
-                      48% Margin
+                      42% Margin
                     </span>
                   </div>
                 </div>
@@ -222,12 +222,12 @@ export default function Slide03_Market() {
                   <div className="flex justify-between items-center">
                     <span className="text-gray-300">Net Profit:</span>
                     <span className="text-green-400 font-bold text-lg">
-                      +$1.6M
+                      +$1.92M
                     </span>
                   </div>
                   <div className="text-center pt-4 border-t border-green-800">
                     <span className="text-green-300 font-semibold">
-                      40% Margin
+                      48% Margin
                     </span>
                   </div>
                 </div>

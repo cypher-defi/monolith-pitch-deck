@@ -101,30 +101,48 @@ export default function Slide14_Competition() {
                   </td>
                 </tr>
                 <tr className="hover:bg-blue-500/10 transition">
-                  <td className="p-4 font-semibold">Insurance Included</td>
+                  <td className="p-4 font-semibold">Protocol Insurance</td>
                   <td className="p-4 text-center text-gray-300">
-                    Optional via Nexus Mutual (you pay)
+                    Optional via Nexus Mutual (you buy separately)
                   </td>
                   <td className="p-4 text-center text-green-400">
-                    ✓ Nexus Mutual coverage (premium included in mgmt fee)
+                    ✓ Nexus Mutual included (premium in mgmt fee)
+                  </td>
+                </tr>
+                <tr className="hover:bg-blue-500/10 transition">
+                  <td className="p-4 font-semibold">Coverage Type</td>
+                  <td className="p-4 text-center text-gray-300">
+                    User chooses any protocol
+                  </td>
+                  <td className="p-4 text-center text-green-400">
+                    ✓ Curated protocols only (Aave, Morpho, Curve)
                   </td>
                 </tr>
                 <tr className="hover:bg-blue-500/10 transition">
                   <td className="p-4 font-semibold">Coverage Amount</td>
                   <td className="p-4 text-center text-gray-300">
-                    User selects & pays separately
+                    Up to available underwriting capacity; you manage limits
                   </td>
                   <td className="p-4 text-center text-green-400">
-                    ✓ Target: $10-15M+ per tier (scales with AUM)
+                    ✓ Determined per vault tier (~$10-15M base); scales with staking
+                  </td>
+                </tr>
+                <tr className="hover:bg-blue-500/10 transition">
+                  <td className="p-4 font-semibold">What's Covered</td>
+                  <td className="p-4 text-center text-gray-300">
+                    Community-voted (you manage claims)
+                  </td>
+                  <td className="p-4 text-center text-green-400">
+                    ✓ Smart contract exploits, protocol failures, stablecoin depegs
                   </td>
                 </tr>
                 <tr className="hover:bg-blue-500/10 transition">
                   <td className="p-4 font-semibold">Claims Process</td>
                   <td className="p-4 text-center text-gray-300">
-                    Self-managed, varies by protocol
+                    Member assessment (7+ days)
                   </td>
                   <td className="p-4 text-center text-green-400">
-                    ✓ Managed by us; claim assessor governed (7-14 days)
+                    ✓ Professional assessment (7-14 days) + guaranteed payout
                   </td>
                 </tr>
                 <tr className="hover:bg-blue-500/10 transition">
@@ -233,17 +251,17 @@ export default function Slide14_Competition() {
 
             <div className="bg-black/30 p-6 rounded-lg border border-green-500/30">
               <h4 className="text-xl font-bold text-green-400 mb-3">
-                2. Mandatory Insurance
+                2. Mandatory Insurance (Nexus Mutual)
               </h4>
               <p className="text-sm text-gray-300 mb-3">
-                InsurAce protocol coverage built into your fees
+                Nexus Mutual protocol coverage built into your fees
               </p>
               <ul className="text-xs text-gray-400 space-y-1 mb-3">
                 <li>
                   • Covers smart contract exploits (even ones audits miss)
                 </li>
                 <li>• Covers protocol failures and stablecoin depegs</li>
-                <li>• Claims paid by third party in 2-3 days</li>
+                <li>• Claims assessed and paid within 7-14 days by independent insurer</li>
                 <li>• This is where actual risk mitigation happens</li>
               </ul>
             </div>

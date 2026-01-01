@@ -132,7 +132,7 @@ export default function Slide7_5RiskFramework() {
                 className="text-green-400 mx-auto mb-2 md:mb-4"
               />
               <h3 className="text-lg md:text-2xl font-bold text-green-300">
-                Third-Party Insurance
+                Third-Party Insurance (Nexus Mutual)
               </h3>
             </div>
 
@@ -140,32 +140,38 @@ export default function Slide7_5RiskFramework() {
               <div className="flex gap-2 items-start">
                 <span className="text-green-400 flex-shrink-0 mt-0.5">✓</span>
                 <span className="leading-tight">
-                  <strong className="text-white">Coverage capacity:</strong> Nexus Mutual provides up to purchased coverage amount (scales with AUM)
+                  <strong className="text-white">Coverage Capacity:</strong> Up to available pool capacity (typically $10-15M per vault tier) for smart contract exploits, protocol failures, and stablecoin depegs
                 </span>
               </div>
               <div className="flex gap-2 items-start">
                 <span className="text-green-400 flex-shrink-0 mt-0.5">✓</span>
                 <span className="leading-tight">
-                  <strong className="text-white">Covers:</strong> Smart contract exploits, protocol failures (specific conditions apply)
+                  <strong className="text-white">Assessment:</strong> Member-voted claims (transparent, no corporate gatekeeping—unlike traditional insurance)
                 </span>
               </div>
               <div className="flex gap-2 items-start">
                 <span className="text-green-400 flex-shrink-0 mt-0.5">✓</span>
                 <span className="leading-tight">
-                  <strong className="text-white">Claims:</strong> Governed by claim assessors; typical processing 7-14 days
+                  <strong className="text-white">Track Record:</strong> $18M+ in claims paid since 2019; $190M+ in capital reserves backing coverage
                 </span>
               </div>
               <div className="flex gap-2 items-start">
                 <span className="text-green-400 flex-shrink-0 mt-0.5">✓</span>
                 <span className="leading-tight">
-                  <strong className="text-white">Cost:</strong> Premium ~0.08-0.15% annually, bundled into management fee
+                  <strong className="text-white">Claims Timeline:</strong> Assessed within 7-14 days; paid by independent insurer (not Monolith)
+                </span>
+              </div>
+              <div className="flex gap-2 items-start">
+                <span className="text-green-400 flex-shrink-0 mt-0.5">✓</span>
+                <span className="leading-tight">
+                  <strong className="text-white">Cost:</strong> Premium ~0.08-0.12% annually, bundled into management fee
                 </span>
               </div>
             </div>
 
             <div className="bg-amber-900/30 p-3 md:p-4 rounded-lg border border-amber-500/30">
               <p className="text-center text-amber-300 font-semibold text-sm md:text-base leading-tight">
-                Risk transfer, not risk elimination—coverage subject to claim validation
+                <strong>Risk Transfer, Not Risk Elimination:</strong> Insurance covers catastrophic protocol failures that audits miss (e.g., Euler Finance's $196M loss despite professional audits). It does NOT cover normal market volatility, yield shortfalls, or impermanent loss.
               </p>
             </div>
           </div>

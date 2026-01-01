@@ -117,11 +117,11 @@ export default function Slide05_ThreeTierVaults() {
                 </div>
               </div>
               <div className="mt-3 bg-gray-800/70 rounded-lg p-3 border-2 border-gray-700/50">
-                <div className="text-xs md:text-sm text-gray-300 text-center font-medium">
+                <div className="text-xs text-gray-300 text-center font-medium">
                   <span className="text-white font-bold">vs TradFi:</span> HY
                   Bonds 6-8% | CLOs 7-10%
                 </div>
-                <div className="text-xs md:text-sm text-purple-300 text-center mt-1.5 font-semibold">
+                <div className="text-xs text-purple-300 text-center mt-1.5 font-semibold">
                   ⚡ Better liquidity + transparency
                 </div>
               </div>

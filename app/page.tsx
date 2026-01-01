@@ -31,11 +31,13 @@ import {
   Slide27_ProofOfStrength,
   Slide28_PortfolioDiversification,
   Slide29_InvestorYieldScenarios,
+  Slide30_InstitutionalInsurance,
+  Slide31_InstitutionalInsuranceFAQ,
 } from "@/components/slides";
 
 export default function Home() {
   const { currentSlide, totalSlides, nextSlide, previousSlide } =
-    usePresentationController(29);
+    usePresentationController(31);
 
   return (
     <main className="presentation">
@@ -70,6 +72,8 @@ export default function Home() {
       <Slide27_ProofOfStrength />
       <Slide28_PortfolioDiversification />
       <Slide29_InvestorYieldScenarios />
+      <Slide30_InstitutionalInsurance />
+      <Slide31_InstitutionalInsuranceFAQ />
 
       {/* Navigation Controls */}
       <NavControls

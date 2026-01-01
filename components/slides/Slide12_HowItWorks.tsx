@@ -14,7 +14,7 @@ export default function Slide12_HowItWorks() {
     <Slide id={10} background="bg-black">
       <SlideContent>
         <Title size="lg" className="mb-12 text-center">
-          APPENDIX A-2: HOW MONOLITH WORKS
+          APPENDIX A: HOW MONOLITH WORKS
         </Title>
         <Subtitle size="md" className="mb-16 text-center">
           White-label infrastructure that takes institutions from 0 to live in 2
@@ -171,7 +171,7 @@ export default function Slide12_HowItWorks() {
                     Fractional reserve or unsecured
                   </td>
                   <td className="py-3 px-4 bg-green-500/10 text-white">
-                    150%+ over-collateralized lending
+                    Over-collateralized: borrowers post $100 to borrow max $70-75
                   </td>
                 </tr>
                 <tr className="border-b border-gray-700">

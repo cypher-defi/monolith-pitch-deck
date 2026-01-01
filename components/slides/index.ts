@@ -32,3 +32,5 @@ export { default as Slide26_CrisisInsurance } from "./Slide27_CrisisInsurance";
 export { default as Slide27_ProofOfStrength } from "./Slide28_ProofOfStrength";
 export { default as Slide28_PortfolioDiversification } from "./Slide29_PortfolioDiversification";
 export { default as Slide29_InvestorYieldScenarios } from "./Slide30_InvestorYieldScenarios";
+export { default as Slide30_InstitutionalInsurance } from "./Slide31_InstitutionalInsurance";
+export { default as Slide31_InstitutionalInsuranceFAQ } from "./Slide32_InstitutionalInsuranceFAQ";
