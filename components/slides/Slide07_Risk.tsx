@@ -140,36 +140,32 @@ export default function Slide7_5RiskFramework() {
               <div className="flex gap-2 items-start">
                 <span className="text-green-400 flex-shrink-0 mt-0.5">✓</span>
                 <span className="leading-tight">
-                  <strong className="text-white">100% coverage:</strong> Every
-                  dollar insured by established DeFi insurer
+                  <strong className="text-white">Coverage capacity:</strong> Nexus Mutual provides up to purchased coverage amount (scales with AUM)
                 </span>
               </div>
               <div className="flex gap-2 items-start">
                 <span className="text-green-400 flex-shrink-0 mt-0.5">✓</span>
                 <span className="leading-tight">
-                  <strong className="text-white">Covers:</strong> Hacks, smart
-                  contract failures, stablecoin failures
+                  <strong className="text-white">Covers:</strong> Smart contract exploits, protocol failures (specific conditions apply)
                 </span>
               </div>
               <div className="flex gap-2 items-start">
                 <span className="text-green-400 flex-shrink-0 mt-0.5">✓</span>
                 <span className="leading-tight">
-                  <strong className="text-white">Fast claims:</strong> 2-3 day
-                  processing by independent party
+                  <strong className="text-white">Claims:</strong> Governed by claim assessors; typical processing 7-14 days
                 </span>
               </div>
               <div className="flex gap-2 items-start">
                 <span className="text-green-400 flex-shrink-0 mt-0.5">✓</span>
                 <span className="leading-tight">
-                  <strong className="text-white">Cost:</strong> Premium bundled
-                  into management fee (no separate charge)
+                  <strong className="text-white">Cost:</strong> Premium ~0.08-0.15% annually, bundled into management fee
                 </span>
               </div>
             </div>
 
-            <div className="bg-green-900/30 p-3 md:p-4 rounded-lg border border-green-500/30">
-              <p className="text-center text-green-300 font-semibold text-sm md:text-base leading-tight">
-                Similar to FDIC protection—you get paid back
+            <div className="bg-amber-900/30 p-3 md:p-4 rounded-lg border border-amber-500/30">
+              <p className="text-center text-amber-300 font-semibold text-sm md:text-base leading-tight">
+                Risk transfer, not risk elimination—coverage subject to claim validation
               </p>
             </div>
           </div>

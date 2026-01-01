@@ -225,7 +225,7 @@ export default function Slide04_Solution() {
                     Credit risk + FDIC ($250K limit)
                   </td>
                   <td className="py-3 px-4 text-gray-300">
-                    Smart contract + Protocol insurance
+                    Smart contract + Nexus Mutual (capped)
                   </td>
                 </tr>
                 <tr className="border-b border-gray-700">

@@ -204,7 +204,7 @@ export default function Slide12_HowItWorks() {
                     FDIC $250K per account
                   </td>
                   <td className="py-3 px-4 text-gray-300">
-                    Protocol insurance (partial coverage)
+                    Nexus Mutual (capped to purchased amount)
                   </td>
                 </tr>
               </tbody>

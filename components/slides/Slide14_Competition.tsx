@@ -106,25 +106,25 @@ export default function Slide14_Competition() {
                     Optional via Nexus Mutual (you pay)
                   </td>
                   <td className="p-4 text-center text-green-400">
-                    ✓ InsurAce Coverage (premium included in mgmt fee)
+                    ✓ Nexus Mutual coverage (premium included in mgmt fee)
                   </td>
                 </tr>
                 <tr className="hover:bg-blue-500/10 transition">
-                  <td className="p-4 font-semibold">Insurance Coverage</td>
+                  <td className="p-4 font-semibold">Coverage Amount</td>
                   <td className="p-4 text-center text-gray-300">
                     User selects & pays separately
                   </td>
                   <td className="p-4 text-center text-green-400">
-                    ✓ Insurance coverage scales with AUM (100% coverage)
+                    ✓ Target: $10-15M+ per tier (scales with AUM)
                   </td>
                 </tr>
                 <tr className="hover:bg-blue-500/10 transition">
-                  <td className="p-4 font-semibold">Claims Processing</td>
+                  <td className="p-4 font-semibold">Claims Process</td>
                   <td className="p-4 text-center text-gray-300">
-                    Manual, 5-10 days
+                    Self-managed, varies by protocol
                   </td>
                   <td className="p-4 text-center text-green-400">
-                    ✓ Automated via smart contract, 2-3 days
+                    ✓ Managed by us; claim assessor governed (7-14 days)
                   </td>
                 </tr>
                 <tr className="hover:bg-blue-500/10 transition">

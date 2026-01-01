@@ -496,10 +496,10 @@ export default function Slide05_ThreeTierVaults() {
             </div>
             <div className="bg-blue-900/30 border border-blue-500/40 rounded-lg p-3 text-center">
               <div className="text-blue-400 font-bold text-xs md:text-sm mb-1">
-                InsurAce Coverage
+                Nexus Mutual
               </div>
               <div className="text-gray-400 text-[10px] md:text-xs">
-                Protocol insurance
+                Protocol coverage (capped)
               </div>
             </div>
             <div className="bg-purple-900/30 border border-purple-500/40 rounded-lg p-3 text-center">

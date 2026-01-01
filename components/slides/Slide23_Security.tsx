@@ -43,25 +43,33 @@ export default function Slide23_Security() {
 
             <div className="bg-black/30 p-5 rounded-lg mb-5">
               <h5 className="text-lg font-bold text-blue-300 mb-3">
-                InsurAce Protocol Coverage (Decentralized Insurance)
+                Nexus Mutual Protocol Coverage (Decentralized Insurance)
               </h5>
               <ul className="text-sm text-gray-300 space-y-2">
-                <li>• $15M+ coverage per vault tier (scales with AUM)</li>
                 <li>
-                  • Covers: Smart contract exploits, protocol failures,
-                  stablecoin depegs
+                  • <strong className="text-white">Coverage capacity:</strong> Up to purchased coverage amount per vault tier (target: $10-15M+ as AUM scales)
                 </li>
                 <li>
-                  • Claims processed in 2-3 days (automated via smart contract)
+                  • <strong className="text-white">What's covered:</strong> Smart contract exploits on specified protocols (Aave, Morpho, Curve)
                 </li>
                 <li>
-                  • Premium: 0.08-0.12% of TVL annually (~$80-120K on $100M)
+                  • <strong className="text-white">What's NOT covered:</strong> Oracle failures, economic exploits, governance attacks, protocol insolvency
                 </li>
                 <li>
-                  • Industry standard: Used by Yearn, Beefy, Convex
-                  (battle-tested)
+                  • <strong className="text-white">Claims process:</strong> Governed by claim assessors (independent member vote); typical 7-14 day assessment
+                </li>
+                <li>
+                  • <strong className="text-white">Premium:</strong> ~0.08-0.15% of coverage amount annually (~$80-150K on $100M AUM)
+                </li>
+                <li>
+                  • <strong className="text-white">Track record:</strong> Nexus Mutual has paid out $15M+ in claims since 2019; proven claims process
                 </li>
               </ul>
+              <div className="mt-4 p-3 bg-amber-900/30 border border-amber-500/30 rounded">
+                <p className="text-xs text-amber-300">
+                  <strong>Important:</strong> Coverage is capped to purchased amount. If total vault assets exceed coverage (e.g., $100M vault with $15M coverage), payouts would be proportional. This is risk transfer, not risk elimination.
+                </p>
+              </div>
             </div>
 
             <div className="bg-black/30 p-5 rounded-lg">
@@ -176,14 +184,14 @@ export default function Slide23_Security() {
 
               <div className="bg-black/30 p-4 rounded-lg">
                 <h5 className="text-md font-bold text-green-400 mb-2">
-                  2. Professional insurance = Risk transfer
+                  2. Protocol insurance = Partial risk transfer
                 </h5>
                 <ul className="text-xs text-gray-400 space-y-1">
-                  <li>• If exploit happens: insured</li>
-                  <li>• If protocol fails: insured</li>
-                  <li>• If stablecoin depegs: insured</li>
-                  <li>• Claims paid by third party, not us</li>
-                  <li>• This is the actual protection</li>
+                  <li>• Smart contract exploits: covered up to purchased amount</li>
+                  <li>• Protocol-level failures: case-by-case assessment</li>
+                  <li>• Claims governed by independent assessors</li>
+                  <li>• Coverage caps + exclusions apply</li>
+                  <li>• Reduces tail risk, doesn't eliminate it</li>
                 </ul>
               </div>
 
