@@ -79,7 +79,7 @@ export default function Slide21_WhyInvestNow() {
                 </h3>
                 <p className="text-gray-300 text-xs md:text-sm leading-relaxed">
                   Aave ($40B TVL, 5+ years zero failures), Morpho (Coinbase
-                  partnership), Ondo ($1.4B RWAs), InsurAce coverage.
+                  partnership), Ondo ($1.4B RWAs), Nexus Mutual insurance.
                   Battle-tested protocols + institutional insurance available
                   now.
                 </p>
@@ -100,9 +100,8 @@ export default function Slide21_WhyInvestNow() {
                   Significant Revenue Potential Even in Conservative Scenarios
                 </h3>
                 <p className="text-gray-300 text-xs md:text-sm leading-relaxed">
-                  Breakeven at $100M AUM (Month 12-15). Year 2: $300-400M AUM
-                  = $3.54-4.58M ARR with 49-61% operating margins. Downside
-                  survivability at 6 clients / $120M AUM with 20% EBITDA.
+                  Operating breakeven at $60-80M AUM (Month 12). Series A ready at Month 18-20 with $150M+ AUM
+                  = $2.1-2.3M ARR. Year 2-3: $300-400M AUM with 49-61% operating margins on $3.5-4.6M ARR.
                 </p>
               </div>
             </div>

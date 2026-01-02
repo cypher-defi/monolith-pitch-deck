@@ -24,41 +24,57 @@ export default function Slide25_Projections() {
             <div className="space-y-4 text-center">
               <div>
                 <p className="text-gray-400 text-sm mb-2 font-medium">
-                  AUM Growth
+                  AUM Growth Trajectory
                 </p>
                 <p className="text-3xl font-bold text-yellow-400">
-                  $20M → $100M
+                  $0M → $60M
+                </p>
+                <p className="text-xs text-gray-400 mt-1">
+                  Q1: $0-10M pilot | Q4: $60M (3 customers)
                 </p>
               </div>
 
               <div>
                 <p className="text-gray-400 text-sm mb-2 font-medium">
-                  Revenue
+                  Annual Revenue
                 </p>
-                <p className="text-3xl font-bold text-blue-300">$1.25M</p>
+                <p className="text-3xl font-bold text-blue-300">~$450K</p>
+                <p className="text-xs text-gray-400 mt-1">
+                  Phased: $0.5K/mo early → $75K/mo by Month 12
+                </p>
               </div>
 
               <div>
                 <p className="text-gray-400 text-sm mb-2 font-medium">
-                  Expenses
+                  Annual Operating Expenses
                 </p>
-                <p className="text-2xl font-bold text-green-400">$1.6M</p>
+                <p className="text-2xl font-bold text-amber-400">~$850K</p>
                 <div className="text-xs text-gray-400 mt-1">
                   <div>
-                    • Security (Insurance + Audits): $140K (at $100M AUM)
+                    • Months 1-6: $66K/mo ($396K total)
                   </div>
-                  <div>• Engineering: $900K</div>
-                  <div>• Operations & Infrastructure: $560K</div>
+                  <div>• Months 7-12: $70K/mo ($420K total)</div>
+                  <div className="text-amber-300 mt-1">• Controlled burn rate, scales with traction</div>
                 </div>
               </div>
 
               <div>
-                <p className="text-gray-400 text-sm mb-2 font-medium">Net</p>
-                <p className="text-2xl font-bold text-red-400">($350K)</p>
-                <p className="text-xs text-gray-500">Seed capital covers gap</p>
-                <p className="text-xs text-green-400 font-bold mt-1">
-                  Profitable by Month 12–15
+                <p className="text-gray-400 text-sm mb-2 font-medium">Annual Operating Result</p>
+                <p className="text-2xl font-bold text-red-400">~($400K) loss managed</p>
+                <p className="text-xs text-gray-500 mt-1">Seed capital covers gap</p>
+                <p className="text-xs text-green-400 font-bold mt-2">
+                  ✓ Operating breakeven by Month 12
                 </p>
+              </div>
+
+              <div className="pt-4 border-t border-blue-500/30">
+                <p className="text-xs text-blue-300 font-bold mb-2">Year 1 Key Achievements:</p>
+                <div className="text-[10px] text-gray-400 space-y-1">
+                  <div>• Product launch & first customer pilot (Month 3-6)</div>
+                  <div>• 2nd and 3rd customers onboarded (Month 7-12)</div>
+                  <div>• Reached operating breakeven at $60M AUM</div>
+                  <div>• Burn rate controlled via phased spending</div>
+                </div>
               </div>
             </div>
           </div>
@@ -72,47 +88,64 @@ export default function Slide25_Projections() {
             <div className="space-y-4 text-center">
               <div>
                 <p className="text-gray-400 text-sm mb-2 font-medium">
-                  AUM Growth
+                  AUM Growth Trajectory
                 </p>
                 <p className="text-3xl font-bold text-yellow-400">
-                  $100M → $300–400M
+                  $60M → $150M+
+                </p>
+                <p className="text-xs text-gray-400 mt-1">
+                  Month 13-18: $80-120M | Month 19-24: $150-200M
                 </p>
               </div>
 
               <div>
                 <p className="text-gray-400 text-sm mb-2 font-medium">
-                  Revenue
+                  Annual Revenue
                 </p>
                 <p className="text-3xl font-bold text-purple-300">
-                  $3.54–4.58M
+                  $2.1-2.3M
+                </p>
+                <p className="text-xs text-gray-400 mt-1">
+                  Months 13-18: ~$900K | Months 19-24: ~$1.4M
                 </p>
               </div>
 
               <div>
                 <p className="text-gray-400 text-sm mb-2 font-medium">
-                  Expenses
+                  Annual Operating Expenses
                 </p>
-                <p className="text-2xl font-bold text-green-400">$1.8M</p>
+                <p className="text-2xl font-bold text-amber-400">~$1.08M</p>
                 <div className="text-xs text-gray-400 mt-1">
                   <div>
-                    • Security (AUM-scaled): $280–360K (on $300–400M AUM)
+                    • Months 13-18: $83K/mo ($498K total)
                   </div>
-                  <div>• Engineering: $1M</div>
-                  <div>• Operations & Infrastructure: $520–740K</div>
+                  <div>• Months 19-24: $97K/mo ($582K total)</div>
+                  <div className="text-amber-300 mt-1">• Phased spending tied to revenue progress</div>
                 </div>
               </div>
 
               <div>
-                <p className="text-gray-400 text-sm mb-2 font-medium">Net</p>
+                <p className="text-gray-400 text-sm mb-2 font-medium">Annual Operating Result</p>
                 <p className="text-2xl font-bold text-green-500">
-                  +$1.74–2.78M
+                  +$1.0-1.2M profit
                 </p>
-                <p className="text-xs text-green-400 font-bold">
-                  ✓ 5–6 Customers, Profitable
+                <p className="text-xs text-green-400 font-bold mt-1">
+                  ✓ Operating profitable with strong unit economics
                 </p>
                 <p className="text-xs text-gray-500 mt-1">
-                  Series A ready (Month 18–20)
+                  Series A ready at Month 18-20
                 </p>
+              </div>
+
+              <div className="pt-4 border-t border-purple-500/30">
+                <p className="text-xs text-purple-300 font-bold mb-2">Year 2 Key Achievements:</p>
+                <div className="text-[10px] text-gray-400 space-y-1">
+                  <div>• Operating profitability sustained (Months 13+)</div>
+                  <div>• 4th and 5th customers onboarded</div>
+                  <div>• Series A readiness metrics achieved ($150M+ AUM)</div>
+                  <div>• 49-61% operating margins demonstrated</div>
+                  <div>• Clear unit economics story for institutional investors</div>
+                </div>
               </div>
             </div>
           </div>
@@ -126,73 +159,89 @@ export default function Slide25_Projections() {
             <div className="space-y-4 text-center">
               <div>
                 <p className="text-gray-400 text-sm mb-2 font-medium">
-                  AUM Growth
+                  AUM Growth Trajectory
                 </p>
                 <p className="text-3xl font-bold text-yellow-400">
-                  $400M → $800M–1B
+                  $150M → $300-400M
+                </p>
+                <p className="text-xs text-gray-400 mt-1">
+                  Post Series A growth phase
                 </p>
               </div>
 
               <div>
                 <p className="text-gray-400 text-sm mb-2 font-medium">
-                  Revenue
+                  Annual Revenue
                 </p>
-                <p className="text-3xl font-bold text-green-300">$7.72–9.30M</p>
+                <p className="text-3xl font-bold text-green-300">$3.5-4.6M</p>
+                <p className="text-xs text-gray-400 mt-1">
+                  10-15x SaaS revenue multiple
+                </p>
               </div>
 
               <div>
                 <p className="text-gray-400 text-sm mb-2 font-medium">
-                  Expenses
+                  Annual Operating Expenses
                 </p>
-                <p className="text-2xl font-bold text-green-400">$4.0M</p>
+                <p className="text-2xl font-bold text-amber-400">~$1.8M</p>
                 <div className="text-xs text-gray-400 mt-1">
                   <div>
-                    • Security (AUM-scaled): $720–960K (on $800M–1B AUM)
+                    • Post-Series A hiring (sales, engineering)
                   </div>
-                  <div>• Engineering: $1.5M</div>
-                  <div>• Operations & Infrastructure: $1.54–2.04M</div>
+                  <div>• AUM-scaled security & insurance</div>
+                  <div className="text-amber-300 mt-1">• Operating leverage continues to improve</div>
                 </div>
               </div>
 
               <div>
-                <p className="text-gray-400 text-sm mb-2 font-medium">Net</p>
+                <p className="text-gray-400 text-sm mb-2 font-medium">Annual Operating Result</p>
                 <p className="text-2xl font-bold text-green-500">
-                  +$3.72–5.30M
+                  +$1.7-2.8M profit
                 </p>
                 <p className="text-xs text-green-400 font-bold">
-                  ✓ 8–10 Customers, 48–57% margin
+                  ✓ 5-6 Customers, 49-61% margin
                 </p>
                 <p className="text-xs text-gray-500 mt-1">Series B ready</p>
+              </div>
+
+              <div className="pt-4 border-t border-green-500/30">
+                <p className="text-xs text-green-300 font-bold mb-2">Year 3 Key Achievements:</p>
+                <div className="text-[10px] text-gray-400 space-y-1">
+                  <div>• Series A deployed for growth</div>
+                  <div>• 5-6 anchor customers with proven retention</div>
+                  <div>• Operating margins demonstrate scaling efficiency</div>
+                  <div>• Clear path to Series B with strong unit economics</div>
+                </div>
               </div>
             </div>
           </div>
         </ThreeColumnGrid>
 
         <h3 className="text-2xl mb-6 text-blue-400 text-center">
-          Series A Target (Month 15–18)
+          Series A Target (Month 18-20)
         </h3>
 
         <FourColumnGrid className="mb-8">
           <div className="text-center">
             <div className="text-slate-400 mb-2 text-sm">Raise</div>
-            <div className="text-4xl font-bold">$5–8M</div>
+            <div className="text-4xl font-bold">$5-8M</div>
           </div>
 
           <div className="text-center">
             <div className="text-slate-400 mb-2 text-sm">Valuation</div>
-            <div className="text-4xl font-bold">$25–35M</div>
-            <div className="text-sm text-slate-400">pre-money</div>
+            <div className="text-4xl font-bold">$35-69M</div>
+            <div className="text-sm text-slate-400">pre-money (10-15x ARR)</div>
           </div>
 
           <div className="text-center">
-            <div className="text-slate-400 mb-2 text-sm">TVL Required</div>
-            <div className="text-4xl font-bold">$50M+</div>
+            <div className="text-slate-400 mb-2 text-sm">AUM Required</div>
+            <div className="text-4xl font-bold">$150M+</div>
           </div>
 
           <div className="text-center">
             <div className="text-slate-400 mb-2 text-sm">Revenue</div>
-            <div className="text-4xl font-bold">$750K+</div>
-            <div className="text-sm text-slate-400">annual run-rate</div>
+            <div className="text-4xl font-bold">$2.1-2.3M</div>
+            <div className="text-sm text-slate-400">ARR with strong unit economics</div>
           </div>
         </FourColumnGrid>
 

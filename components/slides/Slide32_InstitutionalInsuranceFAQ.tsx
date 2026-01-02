@@ -90,22 +90,22 @@ export default function Slide32_InstitutionalInsuranceFAQ() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
           <div className="bg-gradient-to-br from-purple-500/10 to-purple-500/5 border-2 border-purple-500/30 rounded-lg p-4">
             <h3 className="text-lg mb-2 text-purple-400 font-bold">
-              Q3: "Why Nexus Mutual Instead of InsurAce?"
+              Q3: "Why Nexus Mutual Instead of Other DeFi Insurers?"
             </h3>
             <div className="mb-3">
-              <h4 className="text-sm font-bold text-purple-300 mb-1">1. Active vs Inactive</h4>
+              <h4 className="text-sm font-bold text-purple-300 mb-1">1. Proven Track Record</h4>
               <ul className="text-xs text-gray-300 space-y-1">
-                <li>• InsurAce paused data collection in May 2025</li>
-                <li>• Nexus Mutual actively prices and underwrites coverage</li>
-                <li>• We need an active insurer, not a paused one</li>
+                <li>• Nexus Mutual: $18M+ paid claims, $190M+ reserves, 5+ years of operation</li>
+                <li>• Active pricing and underwriting (not paused or inactive)</li>
+                <li>• Largest DeFi insurance provider with most transparent claims history</li>
               </ul>
             </div>
             <div>
-              <h4 className="text-sm font-bold text-purple-300 mb-1">2. Track Record vs Potential</h4>
+              <h4 className="text-sm font-bold text-purple-300 mb-1">2. Institutional Requirements</h4>
               <ul className="text-xs text-gray-300 space-y-1">
-                <li>• Nexus Mutual: $18M+ paid claims, $190M+ reserves, 5+ years of operation</li>
-                <li>• InsurAce: Newer, less proven, unclear current status</li>
-                <li>• For institutional capital, we choose proven over promising</li>
+                <li>• For institutional capital, we prioritize proven reliability over newer alternatives</li>
+                <li>• Member-voted claims create accountability and transparency</li>
+                <li>• Clear track record with verifiable on-chain claim payments</li>
               </ul>
             </div>
           </div>
@@ -148,7 +148,7 @@ export default function Slide32_InstitutionalInsuranceFAQ() {
             <div className="mb-2">
               <h4 className="text-sm font-bold text-blue-300 mb-1">2. We don&apos;t have single-provider risk</h4>
               <ul className="text-xs text-gray-300 space-y-1">
-                <li>• We can add secondary insurance (e.g., InsurAce for stablecoin depegs)</li>
+                <li>• We can add secondary insurance layers (e.g., protocol-specific coverage)</li>
                 <li>• We diversify across protocols (Aave, Morpho, Curve)</li>
                 <li>• Protocol failure ≠ Insurance failure</li>
               </ul>

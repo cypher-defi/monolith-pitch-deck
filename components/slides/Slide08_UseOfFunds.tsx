@@ -37,9 +37,9 @@ export default function Slide08_InvestmentOpportunity() {
             <h3 className="text-green-300 mb-3 text-xs font-bold uppercase">
               Runway
             </h3>
-            <div className="text-4xl font-bold text-green-300">18 months</div>
+            <div className="text-4xl font-bold text-green-300">20-24 months</div>
             <div className="text-xs text-gray-400 mt-2">
-              Profitable at Month 12-15
+              Operating breakeven at Month 12
             </div>
           </div>
         </ThreeColumnGrid>
@@ -100,7 +100,7 @@ export default function Slide08_InvestmentOpportunity() {
                 </li>
                 <li className="flex gap-2" style={{ alignItems: "baseline" }}>
                   <span className="text-amber-400 flex-shrink-0">✓</span>
-                  <span>InsurAce partnership</span>
+                  <span>Insurance & audit setup</span>
                 </li>
               </ul>
             </div>
@@ -224,11 +224,10 @@ export default function Slide08_InvestmentOpportunity() {
           <Card variant="glass">
             <CardTitle>Clear Path to Profitability</CardTitle>
             <CardContent>
-              <strong>Month 12-15:</strong> Profitable with 3 customers, $100M
-              AUM, $1.54M ARR.
+              <strong>Month 12:</strong> Operating breakeven at $60-80M AUM, ~$75K MRR.
               <br />
-              <strong>Month 18-24:</strong> Series A ready with $3.5-4.6M ARR,
-              strong unit economics (87-90% gross margins).
+              <strong>Month 18-20:</strong> Series A ready with $150M+ AUM, $2.1-2.3M ARR,
+              strong unit economics with phased spend management.
             </CardContent>
           </Card>
           <Card variant="glass">

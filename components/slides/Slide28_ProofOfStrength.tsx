@@ -8,7 +8,7 @@ import ThreeColumnGrid from "@/components/ThreeColumnGrid";
 
 export default function Slide28_ProofOfStrength() {
   return (
-    <Slide id={26} background="bg-black">
+    <Slide id={27} background="bg-black">
       <SlideContent>
         <Title size="lg" className="mb-8 text-center">
           APPENDIX E-3: PROTOCOL RESILIENCE - BATTLE-TESTED INFRASTRUCTURE

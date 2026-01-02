@@ -119,41 +119,41 @@ export default function Slide03_Market() {
                 existing clients expanding allocations
               </span>{" "}
               as they see consistent performance.
+              <br />
+              <span className="text-amber-400 font-semibold">Operating expenses scale responsibly with revenue progress.</span>
             </p>
           </div>
 
           <div className="max-w-6xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {/* MILESTONE 1: BREAKEVEN */}
+              {/* MILESTONE 1: OPERATING BREAKEVEN */}
               <div className="bg-gradient-to-br from-amber-900 to-amber-950 border-2 border-amber-500 rounded-xl p-8">
                 <div className="text-center mb-6">
                   <div className="inline-block px-4 py-2 bg-amber-700 rounded-full mb-4">
                     <span className="text-sm font-semibold text-white">
-                      YEAR 1
+                      MONTH 12
                     </span>
                   </div>
-                  <div className="text-5xl font-bold text-white mb-3">$100M</div>
+                  <div className="text-5xl font-bold text-white mb-3">$60-80M</div>
                   <div className="text-lg text-amber-300 font-semibold mb-2">
-                    Breakeven
+                    Operating Breakeven
                   </div>
                   <div className="text-sm text-gray-400">
-                    3-4 clients @ ~$30M each
+                    2-3 clients @ ~$25-30M each
                   </div>
                 </div>
                 <div className="border-t border-amber-700 pt-6 space-y-3">
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-300">Revenue:</span>
-                    <span className="text-white font-bold text-lg">$1.54M</span>
+                    <span className="text-gray-300">Monthly Revenue:</span>
+                    <span className="text-white font-bold text-lg">~$75K</span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-300">Net Profit:</span>
-                    <span className="text-green-400 font-bold text-lg">
-                      Break-even
-                    </span>
+                    <span className="text-gray-300">Monthly OpEx:</span>
+                    <span className="text-white font-bold text-lg">~$70K</span>
                   </div>
                   <div className="text-center pt-4 border-t border-amber-800">
                     <span className="text-amber-300 font-semibold">
-                      Month 12-15 ✓
+                      Revenue covers ops ✓
                     </span>
                   </div>
                 </div>
@@ -164,33 +164,33 @@ export default function Slide03_Market() {
                 <div className="text-center mb-6">
                   <div className="inline-block px-4 py-2 bg-blue-600 rounded-full mb-4">
                     <span className="text-sm font-semibold text-white">
-                      YEAR 2
+                      MONTH 18-20
                     </span>
                   </div>
                   <div className="text-5xl font-bold text-white mb-3">
-                    $150M
+                    $150M+
                   </div>
                   <div className="text-lg text-blue-300 font-semibold mb-2">
-                    Profitable & Scalable
+                    Series A Ready
                   </div>
                   <div className="text-sm text-gray-400">
-                    4-5 clients @ ~$30M avg
+                    4-5 clients @ ~$35M avg
                   </div>
                 </div>
                 <div className="border-t border-blue-700 pt-6 space-y-3">
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-300">Revenue:</span>
-                    <span className="text-white font-bold text-lg">$1.65M</span>
+                    <span className="text-gray-300">ARR:</span>
+                    <span className="text-white font-bold text-lg">$2.1-2.3M</span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-300">Net Profit:</span>
+                    <span className="text-gray-300">Runway Remaining:</span>
                     <span className="text-green-400 font-bold text-lg">
-                      +$700K
+                      4-8 months
                     </span>
                   </div>
                   <div className="text-center pt-4 border-t border-blue-800">
                     <span className="text-blue-300 font-semibold">
-                      42% Margin
+                      Strong unit economics ✓
                     </span>
                   </div>
                 </div>
@@ -201,33 +201,33 @@ export default function Slide03_Market() {
                 <div className="text-center mb-6">
                   <div className="inline-block px-4 py-2 bg-green-600 rounded-full mb-4">
                     <span className="text-sm font-semibold text-white">
-                      YEAR 3
+                      YEAR 2-3
                     </span>
                   </div>
                   <div className="text-5xl font-bold text-white mb-3">
-                    $400M
+                    $300-400M
                   </div>
                   <div className="text-lg text-green-300 font-semibold mb-2">
-                    Series A Ready
+                    Profitable & Scaling
                   </div>
                   <div className="text-sm text-gray-400">
-                    6-8 clients @ ~$55M avg
+                    6-8 clients @ ~$50M avg
                   </div>
                 </div>
                 <div className="border-t border-green-700 pt-6 space-y-3">
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-300">Revenue:</span>
-                    <span className="text-white font-bold text-lg">$4M</span>
+                    <span className="text-gray-300">ARR:</span>
+                    <span className="text-white font-bold text-lg">$3.5-4.6M</span>
                   </div>
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-300">Net Profit:</span>
+                    <span className="text-gray-300">Operating Margin:</span>
                     <span className="text-green-400 font-bold text-lg">
-                      +$1.92M
+                      49-61%
                     </span>
                   </div>
                   <div className="text-center pt-4 border-t border-green-800">
                     <span className="text-green-300 font-semibold">
-                      48% Margin
+                      Series B trajectory ✓
                     </span>
                   </div>
                 </div>
