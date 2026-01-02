@@ -6,9 +6,9 @@ export default function usePresentationController(totalSlides: number) {
   const [currentSlide, setCurrentSlide] = useState(1)
   const [isClient, setIsClient] = useState(false)
 
-  // List of all slide IDs (1-29)
+  // List of all slide IDs (1-32)
   const slideIds = [
-    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
+    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32
   ]
 
   // Initialize from URL on first load (client-side only)
@@ -94,7 +94,7 @@ export default function usePresentationController(totalSlides: number) {
       } else if (e.key === "Home") {
         goToSlide(1)
       } else if (e.key === "End") {
-        goToSlide(29)
+        goToSlide(32)
       }
     }
 

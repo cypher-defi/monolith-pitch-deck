@@ -12,7 +12,7 @@ import Icon from "@/components/Icon";
 
 export default function Slide17_GoToMarket() {
   return (
-    <Slide id={15} background="bg-black">
+    <Slide id={16} background="bg-black">
       <SlideContent>
         <Title size="lg" className="mb-16 text-center">
           APPENDIX C-2: GO-TO-MARKET - INSTITUTIONAL B2B

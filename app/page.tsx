@@ -11,6 +11,7 @@ import {
   Slide06_WhereYields,
   Slide07_Risk,
   Slide08_InvestmentOpportunity,
+  Slide09_ThankYou,
   Slide10_AppendixDivider,
   Slide11_HowItWorks,
   Slide12_WhyNow,
@@ -51,8 +52,9 @@ export default function Home() {
       <Slide06_WhereYields />
       <Slide07_Risk />
       <Slide08_InvestmentOpportunity />
+      <Slide09_ThankYou />
 
-      {/* APPENDIX - 20 slides */}
+      {/* APPENDIX - 23 slides */}
       <Slide10_AppendixDivider />
       <Slide11_HowItWorks />
       <Slide12_WhyNow />

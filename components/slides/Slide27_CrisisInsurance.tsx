@@ -8,7 +8,7 @@ import TwoColumnGrid from "@/components/TwoColumnGrid";
 
 export default function Slide27_CrisisInsurance() {
   return (
-    <Slide id={26} background="bg-black">
+    <Slide id={27} background="bg-black">
       <SlideContent>
         <Title size="lg" className="mb-8 text-center">
           APPENDIX E-2: DIFFERENT CORRELATION WITH POSITIVE CARRY

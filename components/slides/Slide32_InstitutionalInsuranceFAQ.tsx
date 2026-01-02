@@ -6,7 +6,7 @@ import Title from "@/components/Title";
 
 export default function Slide32_InstitutionalInsuranceFAQ() {
   return (
-    <Slide id={31} background="bg-black">
+    <Slide id={32} background="bg-black">
       <SlideContent>
         <Title size="lg" className="mb-6 text-center">
           APPENDIX E: INSTITUTIONAL INVESTOR FAQs ON INSURANCE

@@ -8,7 +8,7 @@ import ThreeColumnGrid from "@/components/ThreeColumnGrid";
 
 export default function Slide26_CrisisComing() {
   return (
-    <Slide id={25} background="bg-black">
+    <Slide id={26} background="bg-black">
       <SlideContent>
         <Title size="lg" className="mb-8 text-center">
           APPENDIX E: DEFI YIELDS DURING FED EASING CYCLES

@@ -7,7 +7,7 @@ import Icon from "@/components/Icon";
 
 export default function Slide16_BusinessModel() {
   return (
-    <Slide id={14} background="bg-black">
+    <Slide id={15} background="bg-black">
       <SlideContent>
         <Title size="lg" className="mb-12 text-center">
           APPENDIX C: BUSINESS MODEL - INSTITUTIONAL B2B

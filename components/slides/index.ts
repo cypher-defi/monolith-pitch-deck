@@ -9,7 +9,7 @@ export { default as Slide05_ThreeTierVaults } from "./Slide05_ThreeTierVaults";
 export { default as Slide06_WhereYields } from "./Slide06_WhereYields";
 export { default as Slide07_Risk } from "./Slide07_Risk";
 export { default as Slide08_InvestmentOpportunity } from "./Slide08_UseOfFunds";
-export { default as Slide09_ThankYou } from "./Slide10_ThankYou";
+export { default as Slide09_ThankYou } from "./Slide09_ThankYou";
 
 // APPENDIX - Supporting details and evidence
 export { default as Slide10_AppendixDivider } from "./Slide11_AppendixDivider";

@@ -8,7 +8,7 @@ import TwoColumnGrid from "@/components/TwoColumnGrid";
 
 export default function Slide29_PortfolioDiversification() {
   return (
-    <Slide id={28} background="bg-black">
+    <Slide id={29} background="bg-black">
       <SlideContent>
         <Title size="lg" className="mb-8 text-center">
           APPENDIX E-4: MONOLITH IN A DIVERSIFIED PORTFOLIO

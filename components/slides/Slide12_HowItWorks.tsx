@@ -11,7 +11,7 @@ import Icon from "@/components/Icon";
 
 export default function Slide12_HowItWorks() {
   return (
-    <Slide id={10} background="bg-black">
+    <Slide id={11} background="bg-black">
       <SlideContent>
         <Title size="lg" className="mb-12 text-center">
           APPENDIX A: HOW MONOLITH WORKS

@@ -6,7 +6,7 @@ import Title from "@/components/Title";
 
 export default function Slide31_InstitutionalInsurance() {
   return (
-    <Slide id={30} background="bg-black">
+    <Slide id={31} background="bg-black">
       <SlideContent>
         <Title size="lg" className="mb-8 text-center">
           APPENDIX D: INSTITUTIONAL INSURANCE - MONOLITH VS TRADFI

@@ -6,7 +6,7 @@ import Title from "@/components/Title";
 
 export default function Slide26_CashRunway() {
   return (
-    <Slide id={24} background="bg-black">
+    <Slide id={25} background="bg-black">
       <SlideContent>
         <Title size="lg" className="mb-8 text-center">
           APPENDIX D-5: CASH RUNWAY & PROFITABILITY MILESTONES

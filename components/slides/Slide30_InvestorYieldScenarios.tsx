@@ -6,7 +6,7 @@ import Title from "@/components/Title";
 
 export default function Slide30_InvestorYieldScenarios() {
   return (
-    <Slide id={29} background="bg-black">
+    <Slide id={30} background="bg-black">
       <SlideContent>
         <Title size="lg" className="mb-12 text-center">
           APPENDIX: INVESTOR YIELD SCENARIOS

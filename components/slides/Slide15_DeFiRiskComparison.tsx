@@ -6,7 +6,7 @@ import Title from "@/components/Title";
 
 export default function Slide15_DeFiRiskComparison() {
   return (
-    <Slide id={13} background="bg-black">
+    <Slide id={14} background="bg-black">
       <SlideContent>
         <Title size="lg" className="mb-6 text-center">
           APPENDIX B-3: LENDING RISK - TRADFI VS DEFI

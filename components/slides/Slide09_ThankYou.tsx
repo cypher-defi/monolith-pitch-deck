@@ -6,10 +6,10 @@ import Title from "@/components/Title";
 import Subtitle from "@/components/Subtitle";
 import Icon from "@/components/Icon";
 
-export default function Slide15ThankYou() {
+export default function Slide09ThankYou() {
   return (
     <Slide
-      id={10}
+      id={9}
       background="bg-gradient-to-br from-black via-zinc-900 to-black"
     >
       <SlideContent className="text-center flex flex-col justify-center items-center min-h-[calc(100vh-180px)]">

@@ -6,7 +6,7 @@ import Title from "@/components/Title";
 
 export default function Slide14_Competition() {
   return (
-    <Slide id={12} background="bg-black">
+    <Slide id={13} background="bg-black">
       <SlideContent>
         <Title size="lg" className="mb-16 text-center">
           APPENDIX B-2: WHY INSTITUTIONS CHOOSE US OVER AAVE

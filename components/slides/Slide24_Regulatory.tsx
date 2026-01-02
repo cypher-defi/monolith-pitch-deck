@@ -7,7 +7,7 @@ import Subtitle from "@/components/Subtitle";
 
 export default function Slide24_Regulatory() {
   return (
-    <Slide id={22} background="bg-black">
+    <Slide id={23} background="bg-black">
       <SlideContent>
         <Title size="lg" className="mb-16 text-center">
           APPENDIX D-3: REGULATORY STRATEGY

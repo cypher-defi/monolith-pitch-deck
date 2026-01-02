@@ -11,7 +11,7 @@ import Icon from "@/components/Icon";
 
 export default function Slide13_WhyNow() {
   return (
-    <Slide id={11} background="bg-black">
+    <Slide id={12} background="bg-black">
       <SlideContent>
         <Title size="lg" className="mb-12 text-center">
           APPENDIX B: WHY NOW?
