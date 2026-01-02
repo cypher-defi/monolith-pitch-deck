@@ -101,8 +101,7 @@ export default function Slide11_AppendixDivider() {
                 </h3>
                 <p className="text-xs text-gray-400 leading-relaxed">
                   Learn: Why Aave has never been hacked • Smart contract risk =
-                  operational risk, not credit risk • Insurance options
-                  available
+                  operational risk, not credit risk • Insurance options available (e.g., Nexus Mutual)
                 </p>
               </div>
             </div>
@@ -121,7 +120,7 @@ export default function Slide11_AppendixDivider() {
                   E. Business Model & Unit Economics
                 </h3>
                 <p className="text-xs text-gray-400 leading-relaxed">
-                  Learn: Revenue structure (1.25-1.75% management fees) • CAC
+                  Learn: Revenue structure (tiered by vault type and AUM: $0–25M / $25–100M / $100M+) • CAC
                   payback in &lt;12 months • SaaS-like margins (87% gross,
                   49-61% operating)
                 </p>
@@ -182,7 +181,7 @@ export default function Slide11_AppendixDivider() {
                   H. Investor Yield Scenarios (Your Upside)
                 </h3>
                 <p className="text-xs text-gray-400 leading-relaxed">
-                  Learn: Detailed ROI modeling across 3 tiers • Example: How
+                  Learn: Detailed ROI modeling across 3 tiers • Includes step-by-step leverage example • Example: How
                   $500K equity + $25M deployed = 14-20x in 18 months
                 </p>
               </div>
