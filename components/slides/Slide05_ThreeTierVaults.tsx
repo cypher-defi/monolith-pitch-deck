@@ -598,8 +598,7 @@ export default function Slide05_ThreeTierVaults() {
                     Conservative (5–8%)
                   </div>
                   <div className='text-gray-400'>
-                    No leverage. Capital preservation-focused. High liquidity
-                    with rapid exit under normal market conditions.
+                    No leverage. Capital preservation-focused. Same-day to short-term liquidity under normal market conditions.
                   </div>
                 </div>
                 <div className='text-center'>
@@ -608,7 +607,7 @@ export default function Slide05_ThreeTierVaults() {
                   </div>
                   <div className='text-gray-400'>
                     Moderate leverage (up to ~1.5×). Yield enhancement with
-                    strict risk controls. Periodic liquidity.
+                    strict risk controls. Periodic liquidity under normal conditions.
                   </div>
                 </div>
                 <div className='text-center'>
@@ -617,9 +616,16 @@ export default function Slide05_ThreeTierVaults() {
                   </div>
                   <div className='text-gray-400'>
                     Higher leverage (up to ~2×). Maximum yield, higher
-                    sensitivity. Longer liquidity windows.
+                    sensitivity. Longer liquidity windows acceptable.
                   </div>
                 </div>
+              </div>
+
+              {/* Liquidity Footnote */}
+              <div className='mt-4 pt-3 border-t border-slate-500/30'>
+                <p className='text-[10px] text-gray-400 italic text-center'>
+                  *Liquidity timelines depend on market conditions. Under stress, withdrawal windows may extend across all tiers.
+                </p>
               </div>
             </div>
 

@@ -51,55 +51,337 @@ export default function Slide16_BusinessModel() {
           </div>
         </div>
 
-        {/* Revenue Model */}
+        {/* CLIENT PROFILE & REVENUE STREAMS */}
         <div className="mb-8 md:mb-10">
           <h3 className="text-xl md:text-2xl font-bold text-blue-400 mb-4 md:mb-6 text-center">
-            Revenue Model
+            Client Profile & Revenue Streams
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
-            <div className="bg-gradient-to-br from-green-500/20 to-green-500/5 border-2 border-green-500/50 rounded-xl p-4 md:p-6 text-center">
-              <h4 className="text-base md:text-lg font-bold mb-2 md:mb-3 text-green-300">
-                Management Fee
-              </h4>
-              <div className="text-2xl md:text-4xl font-bold text-green-300 mb-2">
-                1.25-1.75%*
+          
+          {/* Client Profile */}
+          <div className="bg-gradient-to-br from-blue-500/10 to-purple-500/10 border-2 border-blue-500/30 rounded-xl p-6 mb-6">
+            <h4 className="text-lg font-bold text-blue-300 mb-4 text-center">Target Client Profile</h4>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
+              <div>
+                <div className="text-gray-400 font-semibold mb-2">Who we serve:</div>
+                <div className="text-gray-300 space-y-1.5 text-xs">
+                  <div className="flex gap-2">
+                    <span className="text-blue-400">•</span>
+                    <span>Institutional allocators (family offices, RIAs, crypto funds)</span>
+                  </div>
+                  <div className="flex gap-2">
+                    <span className="text-blue-400">•</span>
+                    <span>Treasury managers at crypto-native businesses</span>
+                  </div>
+                  <div className="flex gap-2">
+                    <span className="text-blue-400">•</span>
+                    <span>Average client AUM: <strong className="text-white">$30M</strong></span>
+                  </div>
+                </div>
               </div>
-              <div className="text-xs md:text-sm text-gray-400">
-                Annual on AUM
+              <div>
+                <div className="text-gray-400 font-semibold mb-2">Revenue Streams:</div>
+                <div className="text-gray-300 space-y-1.5 text-xs">
+                  <div className="flex gap-2">
+                    <span className="text-green-400">•</span>
+                    <span><strong className="text-green-300">Management fees:</strong> 1.0-2.0% annually on AUM</span>
+                  </div>
+                  <div className="flex gap-2">
+                    <span className="text-green-400">•</span>
+                    <span><strong className="text-green-300">Implementation fees:</strong> $50k-$100k one-time</span>
+                  </div>
+                  <div className="flex gap-2">
+                    <span className="text-green-400">•</span>
+                    <span><strong className="text-green-300">White-label SDK:</strong> Optional for clients wanting custom UIs</span>
+                  </div>
+                </div>
               </div>
-              <div className="text-[10px] md:text-xs text-gray-500 mt-2">
-                *Tier-dependent: Conservative 1.25%, Balanced 1.50%, Aggressive
-                1.75% (before volume discounts)
+            </div>
+          </div>
+
+          {/* Fee Structure Table - AUM-Based Tiered Pricing */}
+          <div className="bg-gradient-to-br from-purple-500/10 to-blue-500/10 border-2 border-purple-500/30 rounded-xl p-6">
+            <h4 className="text-lg font-bold text-purple-300 mb-4 text-center">Fee Structure: AUM-Based Tiered Pricing</h4>
+
+            <div className="bg-amber-900/20 border border-amber-500/30 rounded-lg p-3 mb-4">
+              <p className="text-xs text-amber-300 text-center">
+                <strong>Volume-based pricing:</strong> Larger allocations receive lower % fees. Base case modeling uses <strong>$30M avg client size</strong> to calculate projections.
+              </p>
+            </div>
+
+            <div className="overflow-x-auto">
+              <table className="w-full text-xs">
+                <thead>
+                  <tr className="border-b-2 border-purple-500/50">
+                    <th className="py-3 px-3 text-left text-purple-300 font-bold">Tier</th>
+                    <th className="py-3 px-3 text-center text-purple-300 font-bold">AUM $0-25M</th>
+                    <th className="py-3 px-3 text-center text-purple-300 font-bold">AUM $25-100M</th>
+                    <th className="py-3 px-3 text-center text-purple-300 font-bold">AUM $100M+</th>
+                    <th className="py-3 px-3 text-center text-purple-300 font-bold">Modeled Base Case*</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-purple-500/20">
+                  <tr className="hover:bg-purple-500/5">
+                    <td className="py-3 px-3 text-gray-300 font-semibold">Conservative</td>
+                    <td className="py-3 px-3 text-center text-gray-400">1.50%</td>
+                    <td className="py-3 px-3 text-center text-white font-bold">1.25%</td>
+                    <td className="py-3 px-3 text-center text-gray-400">0.85%</td>
+                    <td className="py-3 px-3 text-center text-green-400 font-bold bg-green-900/20">1.25%</td>
+                  </tr>
+                  <tr className="hover:bg-purple-500/5">
+                    <td className="py-3 px-3 text-gray-300 font-semibold">Balanced<br/><span className="text-[10px] text-gray-500">(+0.25%)</span></td>
+                    <td className="py-3 px-3 text-center text-gray-400">1.75%</td>
+                    <td className="py-3 px-3 text-center text-white font-bold">1.50%</td>
+                    <td className="py-3 px-3 text-center text-gray-400">1.10%</td>
+                    <td className="py-3 px-3 text-center text-green-400 font-bold bg-green-900/20">1.50%</td>
+                  </tr>
+                  <tr className="hover:bg-purple-500/5">
+                    <td className="py-3 px-3 text-gray-300 font-semibold">Aggressive<br/><span className="text-[10px] text-gray-500">(+0.50%)</span></td>
+                    <td className="py-3 px-3 text-center text-gray-400">2.00%</td>
+                    <td className="py-3 px-3 text-center text-white font-bold">1.75%</td>
+                    <td className="py-3 px-3 text-center text-gray-400">1.35%</td>
+                    <td className="py-3 px-3 text-center text-green-400 font-bold bg-green-900/20">1.75%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div className="mt-4 pt-4 border-t border-purple-500/30 space-y-2">
+              <p className="text-[10px] text-gray-400 italic text-center">
+                *<strong>Modeled Base Case Fee:</strong> Fee used in all financial projections. Assumes $30M average client AUM (falls in $25-100M tier).
+              </p>
+              <p className="text-[10px] text-gray-400 italic text-center">
+                Tiered pricing ensures larger clients pay lower % fees. Balanced/Aggressive tiers add 0.25–0.50% premium for higher risk/leverage exposure.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* CLIENT GROWTH ASSUMPTIONS */}
+        <div className="mb-8 md:mb-10">
+          <h3 className="text-xl md:text-2xl font-bold text-cyan-400 mb-4 md:mb-6 text-center">
+            Client Growth Assumptions
+          </h3>
+          
+          <div className="bg-gradient-to-br from-cyan-500/10 to-blue-500/10 border-2 border-cyan-500/30 rounded-xl p-6">
+            <div className="overflow-x-auto">
+              <table className="w-full text-xs">
+                <thead>
+                  <tr className="border-b-2 border-cyan-500/50">
+                    <th className="py-3 px-3 text-left text-cyan-300 font-bold">Year</th>
+                    <th className="py-3 px-3 text-center text-cyan-300 font-bold">New Clients</th>
+                    <th className="py-3 px-3 text-center text-cyan-300 font-bold">Avg AUM per Client</th>
+                    <th className="py-3 px-3 text-center text-cyan-300 font-bold">Total AUM</th>
+                    <th className="py-3 px-3 text-center text-cyan-300 font-bold">Notes</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-cyan-500/20">
+                  <tr className="hover:bg-cyan-500/5">
+                    <td className="py-3 px-3 text-gray-300 font-semibold">Year 1</td>
+                    <td className="py-3 px-3 text-center text-white">3</td>
+                    <td className="py-3 px-3 text-center text-white">$30M</td>
+                    <td className="py-3 px-3 text-center text-green-400 font-bold">$90M</td>
+                    <td className="py-3 px-3 text-center text-gray-400 text-[10px]">Pilot + early adopters</td>
+                  </tr>
+                  <tr className="hover:bg-cyan-500/5">
+                    <td className="py-3 px-3 text-gray-300 font-semibold">Year 2</td>
+                    <td className="py-3 px-3 text-center text-white">11</td>
+                    <td className="py-3 px-3 text-center text-white">$30M</td>
+                    <td className="py-3 px-3 text-center text-green-400 font-bold">$330M</td>
+                    <td className="py-3 px-3 text-center text-gray-400 text-[10px]">Reference selling accelerates</td>
+                  </tr>
+                  <tr className="hover:bg-cyan-500/5">
+                    <td className="py-3 px-3 text-gray-300 font-semibold">Year 3</td>
+                    <td className="py-3 px-3 text-center text-white">26</td>
+                    <td className="py-3 px-3 text-center text-white">$30M</td>
+                    <td className="py-3 px-3 text-center text-green-400 font-bold">$780M</td>
+                    <td className="py-3 px-3 text-center text-gray-400 text-[10px]">Market leadership emerging</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        {/* REVENUE PROJECTIONS (BASE CASE) */}
+        <div className="mb-8 md:mb-10">
+          <h3 className="text-xl md:text-2xl font-bold text-green-400 mb-4 md:mb-6 text-center">
+            Revenue Projections (Base Case: Conservative Tier Only)
+          </h3>
+          
+          <div className="bg-gradient-to-br from-green-500/10 to-blue-500/10 border-2 border-green-500/30 rounded-xl p-6 mb-6">
+            <div className="bg-amber-900/20 border border-amber-500/30 rounded-lg p-4 mb-6">
+              <p className="text-xs text-amber-300 text-center">
+                <strong>Base case assumes 100% Conservative tier adoption at 1.25% fee</strong> (assuming $30M avg client AUM in the $25-100M tier). If clients choose Balanced (1.50%) or Aggressive (1.75%) tiers, revenue scales proportionally higher.
+              </p>
+            </div>
+
+            <div className="overflow-x-auto">
+              <table className="w-full text-xs">
+                <thead>
+                  <tr className="border-b-2 border-green-500/50">
+                    <th className="py-3 px-3 text-left text-green-300 font-bold">Year</th>
+                    <th className="py-3 px-3 text-center text-green-300 font-bold">Total AUM</th>
+                    <th className="py-3 px-3 text-center text-green-300 font-bold">Avg Fee*</th>
+                    <th className="py-3 px-3 text-center text-green-300 font-bold">Mgmt Revenue</th>
+                    <th className="py-3 px-3 text-center text-green-300 font-bold">Impl Fees**</th>
+                    <th className="py-3 px-3 text-center text-green-300 font-bold">Total Revenue</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-green-500/20">
+                  <tr className="hover:bg-green-500/5">
+                    <td className="py-3 px-3 text-gray-300 font-semibold">Year 1</td>
+                    <td className="py-3 px-3 text-center text-white">$90M</td>
+                    <td className="py-3 px-3 text-center text-blue-400">1.25%</td>
+                    <td className="py-3 px-3 text-center text-green-400">$1.125M</td>
+                    <td className="py-3 px-3 text-center text-purple-400">$225K</td>
+                    <td className="py-3 px-3 text-center text-green-400 font-bold">$1.35M</td>
+                  </tr>
+                  <tr className="hover:bg-green-500/5">
+                    <td className="py-3 px-3 text-gray-300 font-semibold">Year 2</td>
+                    <td className="py-3 px-3 text-center text-white">$330M</td>
+                    <td className="py-3 px-3 text-center text-blue-400">1.18%***</td>
+                    <td className="py-3 px-3 text-center text-green-400">$3.9M</td>
+                    <td className="py-3 px-3 text-center text-purple-400">$600K</td>
+                    <td className="py-3 px-3 text-center text-green-400 font-bold">$4.5M</td>
+                  </tr>
+                  <tr className="hover:bg-green-500/5">
+                    <td className="py-3 px-3 text-gray-300 font-semibold">Year 3</td>
+                    <td className="py-3 px-3 text-center text-white">$780M</td>
+                    <td className="py-3 px-3 text-center text-blue-400">1.07%***</td>
+                    <td className="py-3 px-3 text-center text-green-400">$8.35M</td>
+                    <td className="py-3 px-3 text-center text-purple-400">$1.125M</td>
+                    <td className="py-3 px-3 text-center text-green-400 font-bold">$9.475M</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div className="mt-4 pt-4 border-t border-green-500/30 space-y-1.5">
+              <p className="text-[10px] text-gray-400 italic text-center">
+                *Base case: 1.25% Conservative tier for $25-100M AUM clients (avg $30M per client)
+              </p>
+              <p className="text-[10px] text-gray-400 italic text-center">
+                **Implementation fees: $75k avg × new clients per year. One-time setup revenue.
+              </p>
+              <p className="text-[10px] text-gray-400 italic text-center">
+                ***Blended average fee decreases as larger clients qualify for volume discounts (see tiered pricing table)
+              </p>
+            </div>
+          </div>
+
+          {/* TIER MIX SENSITIVITY */}
+          <div className="bg-gradient-to-br from-purple-500/10 to-pink-500/10 border-2 border-purple-500/30 rounded-xl p-6">
+            <h4 className="text-lg font-bold text-purple-300 mb-4 text-center">
+              Tier Mix Sensitivity (Year 2 Example)
+            </h4>
+            <div className="overflow-x-auto">
+              <table className="w-full text-xs">
+                <thead>
+                  <tr className="border-b-2 border-purple-500/50">
+                    <th className="py-3 px-3 text-left text-purple-300 font-bold">Scenario</th>
+                    <th className="py-3 px-3 text-center text-purple-300 font-bold">Conservative</th>
+                    <th className="py-3 px-3 text-center text-purple-300 font-bold">Balanced</th>
+                    <th className="py-3 px-3 text-center text-purple-300 font-bold">Aggressive</th>
+                    <th className="py-3 px-3 text-center text-purple-300 font-bold">Blended Fee</th>
+                    <th className="py-3 px-3 text-center text-purple-300 font-bold">Annual Revenue</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-purple-500/20">
+                  <tr className="hover:bg-purple-500/5">
+                    <td className="py-3 px-3 text-gray-300 font-semibold">Base Case</td>
+                    <td className="py-3 px-3 text-center text-white">100%</td>
+                    <td className="py-3 px-3 text-center text-gray-500">0%</td>
+                    <td className="py-3 px-3 text-center text-gray-500">0%</td>
+                    <td className="py-3 px-3 text-center text-blue-400">1.18%*</td>
+                    <td className="py-3 px-3 text-center text-green-400 font-bold">$4.5M</td>
+                  </tr>
+                  <tr className="hover:bg-purple-500/5">
+                    <td className="py-3 px-3 text-gray-300 font-semibold">Mixed Adoption</td>
+                    <td className="py-3 px-3 text-center text-white">60%</td>
+                    <td className="py-3 px-3 text-center text-white">30%</td>
+                    <td className="py-3 px-3 text-center text-white">10%</td>
+                    <td className="py-3 px-3 text-center text-blue-400">1.37%</td>
+                    <td className="py-3 px-3 text-center text-green-400 font-bold">$5.22M</td>
+                  </tr>
+                  <tr className="hover:bg-purple-500/5">
+                    <td className="py-3 px-3 text-gray-300 font-semibold">Balanced-Heavy</td>
+                    <td className="py-3 px-3 text-center text-white">40%</td>
+                    <td className="py-3 px-3 text-center text-white">50%</td>
+                    <td className="py-3 px-3 text-center text-white">10%</td>
+                    <td className="py-3 px-3 text-center text-blue-400">1.46%</td>
+                    <td className="py-3 px-3 text-center text-green-400 font-bold">$5.52M</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div className="mt-4 pt-4 border-t border-purple-500/30 space-y-1.5">
+              <p className="text-[10px] text-gray-400 italic text-center">
+                *Base case blended avg includes volume discounts as AUM scales (1.25% @ $25-100M tier → lower rates for $100M+ portions)
+              </p>
+              <p className="text-xs text-purple-300 text-center">
+                <strong>Investor Takeaway:</strong> Even with conservative (1.25%) base case pricing, revenue is substantial. Tier upsells provide significant upside without requiring more AUM.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* UNIT ECONOMICS */}
+        <div className="mb-8 md:mb-10">
+          <h3 className="text-xl md:text-2xl font-bold text-orange-400 mb-4 md:mb-6 text-center">
+            Unit Economics
+          </h3>
+          
+          <div className="bg-gradient-to-br from-orange-500/10 to-red-500/10 border-2 border-orange-500/30 rounded-xl p-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {/* Left Column */}
+              <div className="space-y-4">
+                <div className="bg-orange-900/20 border border-orange-500/30 rounded-lg p-4">
+                  <div className="text-orange-300 font-semibold mb-2">Customer Acquisition Cost (CAC)</div>
+                  <div className="text-2xl font-bold text-white mb-1">$60k - $120k</div>
+                  <div className="text-xs text-gray-400">Per institutional client</div>
+                </div>
+                
+                <div className="bg-green-900/20 border border-green-500/30 rounded-lg p-4">
+                  <div className="text-green-300 font-semibold mb-2">Lifetime Value (LTV)</div>
+                  <div className="text-2xl font-bold text-white mb-1">$900k - $1.8M+</div>
+                  <div className="text-xs text-gray-400">3-year horizon, $30M avg AUM</div>
+                </div>
+              </div>
+
+              {/* Right Column */}
+              <div className="space-y-4">
+                <div className="bg-blue-900/20 border border-blue-500/30 rounded-lg p-4">
+                  <div className="text-blue-300 font-semibold mb-2">CAC Payback Period</div>
+                  <div className="text-2xl font-bold text-white mb-1">6-9 months</div>
+                  <div className="text-xs text-gray-400">Exceptionally fast for B2B</div>
+                </div>
+                
+                <div className="bg-purple-900/20 border border-purple-500/30 rounded-lg p-4">
+                  <div className="text-purple-300 font-semibold mb-2">Gross Margins</div>
+                  <div className="text-2xl font-bold text-white mb-1">70-85%</div>
+                  <div className="text-xs text-gray-400">High-margin SaaS model</div>
+                </div>
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-blue-500/20 to-blue-500/5 border-2 border-blue-500/50 rounded-xl p-4 md:p-6 text-center">
-              <h4 className="text-base md:text-lg font-bold mb-2 md:mb-3 text-blue-300">
-                Implementation
-              </h4>
-              <div className="text-2xl md:text-4xl font-bold text-blue-300 mb-2">
-                $25-75K
-              </div>
-              <div className="text-xs md:text-sm text-gray-400">
-                One-Time Setup
-              </div>
-            </div>
-
-            <div className="bg-gradient-to-br from-amber-500/20 to-amber-500/5 border-2 border-amber-500/50 rounded-xl p-4 md:p-6 text-center">
-              <h4 className="text-base md:text-lg font-bold mb-2 md:mb-3 text-amber-300">
-                White-Label SDK
-              </h4>
-              <div className="text-2xl md:text-4xl font-bold text-amber-300 mb-2">
-                $2-15K
-              </div>
-              <div className="text-xs md:text-sm text-gray-400">
-                Monthly SaaS
+            <div className="mt-6 pt-6 border-t border-orange-500/30">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+                <div className="bg-green-900/20 border border-green-500/30 rounded-lg p-3">
+                  <div className="text-green-300 font-semibold mb-2">Revenue Retention</div>
+                  <div className="text-white font-bold text-lg mb-1">&gt;95% annual</div>
+                  <div className="text-gray-400">Enterprise clients rarely churn once integrated</div>
+                </div>
+                <div className="bg-blue-900/20 border border-blue-500/30 rounded-lg p-3">
+                  <div className="text-blue-300 font-semibold mb-2">Net Dollar Retention</div>
+                  <div className="text-white font-bold text-lg mb-1">120-150%</div>
+                  <div className="text-gray-400">Clients increase AUM as trust builds</div>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        {/* Operating Cost Structure */}
+
         <div className="mb-10">
           <h3 className="text-2xl font-bold text-purple-400 mb-6 text-center">
             Phased Operating Expense Model

@@ -246,10 +246,13 @@ export default function Slide25_Projections() {
         </FourColumnGrid>
 
         <div className="p-6 bg-blue-500/10 border-2 border-blue-500/50 rounded-lg mb-8">
-          <p className="text-blue-300 text-lg text-center">
+          <p className="text-blue-300 text-lg text-center mb-3">
             Projections assume conservative institutional adoption. Security,
             audit, and insurance costs scale linearly with AUM; monitoring
             infrastructure is embedded in core operating expenses.
+          </p>
+          <p className="text-amber-300 text-sm text-center font-semibold">
+            Base case assumes 100% Conservative tier at 1.25% management fee (avg $30M client in $25-100M AUM tier). Volume discounts apply at scale. See tier mix scenarios below for sensitivity analysis.
           </p>
         </div>
 
