@@ -37,8 +37,8 @@ export default function Slide02_Problem() {
             Market Validation (Institutional Sources)
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-gray-300">
-            <div className="flex gap-2" style={{ alignItems: "baseline" }}>
-              <span className="text-blue-400 flex-shrink-0">•</span>
+            <div className="flex items-start gap-2">
+              <span className="text-blue-400 flex-shrink-0 mt-0.5">•</span>
               <span>
                 Total stablecoin market capitalization reached{" "}
                 <strong className="text-white">~$300B in Sept 2025</strong>, a
@@ -49,8 +49,8 @@ export default function Slide02_Problem() {
                 </span>
               </span>
             </div>
-            <div className="flex gap-2" style={{ alignItems: "baseline" }}>
-              <span className="text-blue-400 flex-shrink-0">•</span>
+            <div className="flex items-start gap-2">
+              <span className="text-blue-400 flex-shrink-0 mt-0.5">•</span>
               <span>
                 Institutions deployed approximately{" "}
                 <strong className="text-white">
@@ -63,8 +63,8 @@ export default function Slide02_Problem() {
                 </span>
               </span>
             </div>
-            <div className="flex gap-2" style={{ alignItems: "baseline" }}>
-              <span className="text-blue-400 flex-shrink-0">•</span>
+            <div className="flex items-start gap-2">
+              <span className="text-blue-400 flex-shrink-0 mt-0.5">•</span>
               <span>
                 Regulatory uncertainty dropped from 85% to 25% and compliance
                 issues from 74% to 18% since 2023.{" "}
@@ -77,8 +77,8 @@ export default function Slide02_Problem() {
                 </span>
               </span>
             </div>
-            <div className="flex gap-2" style={{ alignItems: "baseline" }}>
-              <span className="text-blue-400 flex-shrink-0">•</span>
+            <div className="flex items-start gap-2">
+              <span className="text-blue-400 flex-shrink-0 mt-0.5">•</span>
               <span>
                 USDC — one of the most regulated stablecoins — had a market cap
                 of <strong className="text-white">~$77B in late 2025</strong>{" "}

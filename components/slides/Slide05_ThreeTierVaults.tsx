@@ -688,6 +688,13 @@ export default function Slide05_ThreeTierVaults() {
               rules-based automation.
             </div>
 
+            <div className='bg-gradient-to-r from-green-900/30 via-green-800/30 to-green-900/30 border-2 border-green-500/40 rounded-xl p-4 mb-5 shadow-lg'>
+              <div className='text-center text-xs md:text-sm text-green-200 leading-relaxed'>
+                <strong className='text-green-300'>For Institutional Risk Committees:</strong>{" "}
+                DeFi lending risk is not credit risk — loans are over-collateralized, continuously marked to market, and automatically liquidated well before insolvency — similar to a continuously margined repo, but enforced by protocol code.
+              </div>
+            </div>
+
             <div className='grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-5 text-xs md:text-sm mb-6'>
               {/* Conservative */}
               <div className='bg-gradient-to-br from-blue-900/30 to-blue-900/10 border-2 border-blue-500/40 rounded-xl p-4 hover:border-blue-400 transition-all hover:shadow-lg hover:shadow-blue-500/20'>
@@ -708,8 +715,13 @@ export default function Slide05_ThreeTierVaults() {
                     <span className='text-blue-400'>•</span>
                     <span>Emergency exits + insurance</span>
                   </div>
-                  <div className='text-blue-300 font-bold mt-3 pt-3 border-t border-blue-500/30 text-center'>
-                    → Bots rebalance within limits
+                  <div className='mt-3 pt-3 border-t border-blue-500/30 text-center'>
+                    <div className='text-blue-300 font-bold mb-2'>
+                      → Bots rebalance within limits
+                    </div>
+                    <div className='text-xs text-blue-200/90 italic bg-blue-900/20 rounded-lg p-2 mt-2'>
+                      Core yields (lending + fees) drive most returns, with incentives optional — supporting yield sustainability even as incentives taper.
+                    </div>
                   </div>
                 </div>
               </div>
@@ -864,6 +876,13 @@ export default function Slide05_ThreeTierVaults() {
                 <strong className='text-red-400'>Bots cannot:</strong> add
                 leverage • introduce new assets • enter new protocols • change
                 strategy type
+              </div>
+
+              <div className='mt-5 bg-gradient-to-r from-blue-900/30 via-purple-900/30 to-blue-900/30 border-2 border-blue-500/40 rounded-xl p-4 shadow-lg'>
+                <div className='text-center text-xs md:text-sm text-blue-200 leading-relaxed'>
+                  <strong className='text-blue-300'>TradFi Perspective:</strong>{" "}
+                  From an institutional perspective, DeFi lending behaves like a continuously margined repo with pre-defined liquidation boundaries — there is no unsecured borrower to underwrite.
+                </div>
               </div>
             </div>
           </div>

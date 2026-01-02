@@ -121,6 +121,94 @@ export default function Slide15_DeFiRiskComparison() {
           </div>
         </div>
 
+        {/* CORE LOAN DIFFERENCES IN PRACTICE */}
+        <div className="max-w-6xl mx-auto mb-8">
+          <div className="bg-gradient-to-br from-blue-900/20 to-purple-900/20 border-2 border-blue-500/40 rounded-xl p-6">
+            <h3 className="text-lg md:text-xl font-bold text-center mb-4 text-blue-300">
+              Core Loan Differences in Practice
+            </h3>
+            <div className="overflow-x-auto">
+              <table className="w-full text-xs md:text-sm border-collapse">
+                <thead>
+                  <tr className="border-b-2 border-blue-500">
+                    <th className="p-3 text-left text-gray-400 font-bold w-1/4">
+                      Feature
+                    </th>
+                    <th className="p-3 text-left text-blue-300 font-bold w-3/8">
+                      TradFi Loan
+                    </th>
+                    <th className="p-3 text-left text-green-300 font-bold w-3/8">
+                      DeFi Loan
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="text-gray-300">
+                  <tr className="border-b border-gray-700">
+                    <td className="p-3 text-gray-400 font-semibold">Origin</td>
+                    <td className="p-3">Bank / Lender</td>
+                    <td className="p-3 text-green-400">
+                      Smart Contract / Protocol Pool
+                    </td>
+                  </tr>
+                  <tr className="border-b border-gray-700 bg-gray-900/30">
+                    <td className="p-3 text-gray-400 font-semibold">
+                      Credit Check
+                    </td>
+                    <td className="p-3">
+                      Required (credit score, underwriting)
+                    </td>
+                    <td className="p-3 text-green-400">
+                      Not required — collateral enforced by code
+                    </td>
+                  </tr>
+                  <tr className="border-b border-gray-700">
+                    <td className="p-3 text-gray-400 font-semibold">
+                      Collateral
+                    </td>
+                    <td className="p-3">Sometimes unsecured</td>
+                    <td className="p-3 text-green-400">
+                      Over-collateralized (150–200% typical)
+                    </td>
+                  </tr>
+                  <tr className="border-b border-gray-700 bg-gray-900/30">
+                    <td className="p-3 text-gray-400 font-semibold">Custody</td>
+                    <td className="p-3">Bank holds funds</td>
+                    <td className="p-3 text-green-400">
+                      User retains custody until contract executes
+                    </td>
+                  </tr>
+                  <tr className="border-b border-gray-700">
+                    <td className="p-3 text-gray-400 font-semibold">
+                      Execution Speed
+                    </td>
+                    <td className="p-3">Days / weeks</td>
+                    <td className="p-3 text-green-400">Seconds / minutes</td>
+                  </tr>
+                  <tr className="border-b border-gray-700 bg-gray-900/30">
+                    <td className="p-3 text-gray-400 font-semibold">Risk</td>
+                    <td className="p-3 text-amber-400">Default + systemic</td>
+                    <td className="p-3 text-green-400">
+                      Smart contract + liquidation
+                    </td>
+                  </tr>
+                  <tr className="border-b border-gray-700">
+                    <td className="p-3 text-gray-400 font-semibold">
+                      Settlement
+                    </td>
+                    <td className="p-3">T+1 to T+5</td>
+                    <td className="p-3 text-green-400">Instant on-chain</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div className="mt-4 p-3 bg-blue-900/30 border border-blue-500/30 rounded-lg">
+              <p className="text-xs md:text-sm text-center text-blue-200 leading-relaxed">
+                <strong>DeFi loans remove discretionary credit risk, but introduce smart contract and liquidation risk</strong> — fully visible and enforceable programmatically.
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* WHERE MONOLITH ADDS VALUE */}
         <div className="max-w-6xl mx-auto mb-6">
           <div className="bg-gradient-to-br from-purple-500/20 to-blue-500/10 border-2 border-purple-500/50 rounded-xl p-6">

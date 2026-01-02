@@ -40,6 +40,10 @@ export default function Slide01_Cover() {
         <p className="text-slate-600 mt-12 text-sm sm:text-base">
           Seed Round • December 2025
         </p>
+
+        <p className="text-slate-500 mt-8 text-xs italic">
+          This is intended for desktop viewports, might have some issues on mobile
+        </p>
       </SlideContent>
     </Slide>
   );
