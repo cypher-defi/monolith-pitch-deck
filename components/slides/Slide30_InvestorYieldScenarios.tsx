@@ -42,11 +42,18 @@ export default function Slide30_InvestorYieldScenarios() {
                 </thead>
                 <tbody className="divide-y divide-blue-500/20 text-gray-300">
                   <tr>
-                    <td className="p-2">$20M</td>
+                    <td className="p-2">$10M</td>
                     <td className="p-2">$0</td>
                     <td className="p-2 text-blue-400">6% avg</td>
-                    <td className="p-2">$1.2M/yr</td>
-                    <td className="p-2 text-green-400">10 mo</td>
+                    <td className="p-2">$600K/yr</td>
+                    <td className="p-2 text-green-400">20 mo</td>
+                  </tr>
+                  <tr>
+                    <td className="p-2">$25M</td>
+                    <td className="p-2">$0</td>
+                    <td className="p-2 text-blue-400">6% avg</td>
+                    <td className="p-2">$1.5M/yr</td>
+                    <td className="p-2 text-green-400">8 mo</td>
                   </tr>
                   <tr>
                     <td className="p-2">$50M</td>
@@ -55,19 +62,12 @@ export default function Slide30_InvestorYieldScenarios() {
                     <td className="p-2">$3M/yr</td>
                     <td className="p-2 text-green-400">4 mo</td>
                   </tr>
-                  <tr>
-                    <td className="p-2">$100M</td>
-                    <td className="p-2">$0</td>
-                    <td className="p-2 text-blue-400">6% avg</td>
-                    <td className="p-2">$6M/yr</td>
-                    <td className="p-2 text-green-400">2 mo</td>
-                  </tr>
                 </tbody>
               </table>
             </div>
             <p className="text-xs text-gray-400 mt-3 text-center">
-              *Conservative tier charges 1.25% management fee (example: $100M
-              AUM = $1.25M annual fee)
+              *Conservative tier charges 1.25% management fee (example: $50M
+              AUM = $625K annual fee)
               <br />
               Net to investor after fees: 6% - 1.25% ={" "}
               <strong className="text-blue-400">4.75% actual yield</strong>
@@ -92,11 +92,18 @@ export default function Slide30_InvestorYieldScenarios() {
                 </thead>
                 <tbody className="divide-y divide-purple-500/20 text-gray-300">
                   <tr>
-                    <td className="p-2">$20M</td>
+                    <td className="p-2">$10M</td>
                     <td className="p-2">$0</td>
                     <td className="p-2 text-purple-400">10% avg</td>
-                    <td className="p-2">$2M/yr</td>
-                    <td className="p-2 text-green-400">6 mo</td>
+                    <td className="p-2">$1M/yr</td>
+                    <td className="p-2 text-green-400">12 mo</td>
+                  </tr>
+                  <tr>
+                    <td className="p-2">$25M</td>
+                    <td className="p-2">$0</td>
+                    <td className="p-2 text-purple-400">10% avg</td>
+                    <td className="p-2">$2.5M/yr</td>
+                    <td className="p-2 text-green-400">4.8 mo</td>
                   </tr>
                   <tr>
                     <td className="p-2">$50M</td>
@@ -105,19 +112,12 @@ export default function Slide30_InvestorYieldScenarios() {
                     <td className="p-2">$5M/yr</td>
                     <td className="p-2 text-green-400">2.4 mo</td>
                   </tr>
-                  <tr>
-                    <td className="p-2">$100M</td>
-                    <td className="p-2">$0</td>
-                    <td className="p-2 text-purple-400">10% avg</td>
-                    <td className="p-2">$10M/yr</td>
-                    <td className="p-2 text-green-400">36 days</td>
-                  </tr>
                 </tbody>
               </table>
             </div>
             <p className="text-xs text-gray-400 mt-3 text-center">
-              *Balanced tier charges 1.50% management fee (example: $100M AUM =
-              $1.50M annual fee)
+              *Balanced tier charges 1.50% management fee (example: $50M AUM =
+              $750K annual fee)
               <br />
               Net to investor after fees: 10% - 1.50% ={" "}
               <strong className="text-purple-400">8.50% actual yield</strong>
@@ -142,11 +142,18 @@ export default function Slide30_InvestorYieldScenarios() {
                 </thead>
                 <tbody className="divide-y divide-amber-500/20 text-gray-300">
                   <tr>
-                    <td className="p-2">$20M</td>
+                    <td className="p-2">$10M</td>
                     <td className="p-2">$0</td>
                     <td className="p-2 text-amber-400">17% avg</td>
-                    <td className="p-2">$3.4M/yr</td>
-                    <td className="p-2 text-green-400">3.5 mo</td>
+                    <td className="p-2">$1.7M/yr</td>
+                    <td className="p-2 text-green-400">7 mo</td>
+                  </tr>
+                  <tr>
+                    <td className="p-2">$25M</td>
+                    <td className="p-2">$0</td>
+                    <td className="p-2 text-amber-400">17% avg</td>
+                    <td className="p-2">$4.25M/yr</td>
+                    <td className="p-2 text-green-400">2.8 mo</td>
                   </tr>
                   <tr>
                     <td className="p-2">$50M</td>
@@ -155,19 +162,12 @@ export default function Slide30_InvestorYieldScenarios() {
                     <td className="p-2">$8.5M/yr</td>
                     <td className="p-2 text-green-400">42 days</td>
                   </tr>
-                  <tr>
-                    <td className="p-2">$100M</td>
-                    <td className="p-2">$0</td>
-                    <td className="p-2 text-amber-400">17% avg</td>
-                    <td className="p-2">$17M/yr</td>
-                    <td className="p-2 text-green-400">21 days</td>
-                  </tr>
                 </tbody>
               </table>
             </div>
             <p className="text-xs text-gray-400 mt-3 text-center">
-              *Aggressive tier charges 1.75% management fee (example: $100M AUM
-              = $1.75M annual fee)
+              *Aggressive tier charges 1.75% management fee (example: $50M AUM
+              = $875K annual fee)
               <br />
               Net to investor after fees: 17% - 1.75% ={" "}
               <strong className="text-amber-400">15.25% actual yield</strong>

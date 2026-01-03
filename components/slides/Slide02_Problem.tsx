@@ -26,7 +26,7 @@ export default function Slide02_Problem() {
           </p>
         </div>
         <Subtitle size="md" className="mb-6 md:mb-8 text-center px-4">
-          While safe yields of 5-22% sit untapped
+          While yields of 5-22% sit untapped
           <span className="block text-base md:text-lg text-gray-400 mt-3">
             Conservative: 5-8% • Balanced: 8-12% • Growth: 12-22%
           </span>

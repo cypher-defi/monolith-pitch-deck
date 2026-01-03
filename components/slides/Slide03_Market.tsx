@@ -288,6 +288,14 @@ export default function Slide03_Market() {
 
           {/* KEY METRICS SUMMARY */}
           <div className="max-w-5xl mx-auto mt-8 p-6 bg-gradient-to-r from-blue-500/10 to-purple-500/10 border-2 border-blue-500/50 rounded-xl">
+            <div className="mb-4 p-3 bg-blue-900/30 border border-blue-500/30 rounded-lg">
+              <p className="text-xs text-blue-200 leading-relaxed text-center">
+                <strong>Client Allocation Context:</strong> These revenue figures
+                represent typical institutional allocations (1-5% of total
+                portfolio currently in crypto). Example: A $10B asset manager
+                allocating 2% = $200M deployment.
+              </p>
+            </div>
             <div className="grid grid-cols-3 gap-8 text-center">
               <div>
                 <div className="text-3xl font-bold text-blue-400 mb-2">

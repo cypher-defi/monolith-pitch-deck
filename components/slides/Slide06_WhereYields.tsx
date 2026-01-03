@@ -23,89 +23,6 @@ export default function Slide4_75WhereYields() {
           risk, crypto volatility, and regulatory uncertainty
         </Subtitle>
 
-        {/* YIELD SOURCE TABLE */}
-        <div className='max-w-6xl mx-auto mb-6 md:mb-8'>
-          <div className='overflow-x-auto'>
-            <table className='w-full text-xs md:text-sm border-collapse'>
-              <thead>
-                <tr className='border-b-2 border-blue-500'>
-                  <th className='p-2 md:p-3 text-left text-gray-400 font-bold'>
-                    Yield Source
-                  </th>
-                  <th className='p-2 md:p-3 text-left text-gray-400 font-bold'>
-                    Mechanics
-                  </th>
-                  <th className='p-2 md:p-3 text-left text-gray-400 font-bold'>
-                    Stability / Risk
-                  </th>
-                  <th className='p-2 md:p-3 text-left text-gray-400 font-bold'>
-                    Tier Usage
-                  </th>
-                </tr>
-              </thead>
-              <tbody className='text-gray-300'>
-                <tr className='border-b border-gray-700'>
-                  <td className='p-2 md:p-3 text-blue-400 font-semibold'>
-                    Borrowing Demand
-                  </td>
-                  <td className='p-2 md:p-3 text-xs'>
-                    Traders borrow USDC/USDT for leverage or arbitrage
-                  </td>
-                  <td className='p-2 md:p-3 text-xs'>
-                    Variable (spikes in volatility), high demand can temporarily
-                    reduce available liquidity
-                  </td>
-                  <td className='p-2 md:p-3 text-xs'>
-                    <span className='text-green-400 font-semibold'>
-                      Core driver all tiers
-                    </span>
-                  </td>
-                </tr>
-                <tr className='border-b border-gray-700 bg-gray-900/30'>
-                  <td className='p-2 md:p-3 text-purple-400 font-semibold'>
-                    Protocol Incentives
-                  </td>
-                  <td className='p-2 md:p-3 text-xs'>
-                    Token distributions (AAVE, CRV, MORPHO)
-                  </td>
-                  <td className='p-2 md:p-3 text-xs text-amber-400'>
-                    Temporary, volatile, dilution risk — can end abruptly
-                  </td>
-                  <td className='p-2 md:p-3 text-xs'>
-                    <span className='text-purple-400'>
-                      Heavier in Balanced/Aggressive
-                    </span>
-                  </td>
-                </tr>
-                <tr className='border-b border-gray-700'>
-                  <td className='p-2 md:p-3 text-amber-400 font-semibold'>
-                    Trading Fees
-                  </td>
-                  <td className='p-2 md:p-3 text-xs'>
-                    Fee revenue from providing liquidity to trading pools
-                  </td>
-                  <td className='p-2 md:p-3 text-xs text-green-400'>
-                    Most stable, price risk minimized with stablecoin pools (all
-                    assets ~$1)
-                  </td>
-                  <td className='p-2 md:p-3 text-xs'>
-                    Optional for Balanced/Aggressive,{" "}
-                    <span className='text-red-400'>excluded</span> from
-                    Conservative
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
-          <div className='mt-4 p-3 bg-blue-900/20 border border-blue-500/30 rounded-lg'>
-            <p className='text-xs md:text-sm text-center text-blue-300 leading-tight'>
-              <strong>Conservative vault:</strong> Sustainable sources.
-              Balanced/Aggressive add incentive exposure = higher risk/reward.
-            </p>
-          </div>
-        </div>
-
         {/* THREE YIELD SOURCES - HORIZONTAL CARDS */}
         <div className='space-y-3 mb-6 md:mb-8 max-w-6xl mx-auto'>
           {/* 1. BORROWING DEMAND */}
@@ -507,6 +424,129 @@ export default function Slide4_75WhereYields() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+
+        {/* DEFI VS TRADFI BORROWING COMPARISON */}
+        <div className='max-w-6xl mx-auto mb-8'>
+          <h3 className='text-xl font-bold text-center mb-4 text-purple-300'>
+            Borrowing Risk Comparison: DeFi vs TradFi
+          </h3>
+          <p className='text-gray-400 text-sm text-center mb-6'>
+            Understanding how DeFi lending works differently from traditional
+            finance
+          </p>
+          <div className='overflow-x-auto'>
+            <table className='w-full text-xs md:text-sm border-collapse'>
+              <thead>
+                <tr className='border-b-2 border-purple-500'>
+                  <th className='p-3 text-left text-gray-400 font-bold w-1/4'>
+                    Dimension
+                  </th>
+                  <th className='p-3 text-left text-blue-300 font-bold w-3/8'>
+                    TradFi Borrowing
+                  </th>
+                  <th className='p-3 text-left text-green-300 font-bold w-3/8'>
+                    DeFi Borrowing
+                  </th>
+                </tr>
+              </thead>
+              <tbody className='text-gray-300'>
+                <tr className='border-b border-gray-700'>
+                  <td className='p-3 text-gray-400 font-semibold'>
+                    Credit Check
+                  </td>
+                  <td className='p-3'>
+                    Required (FICO score, income verification, credit history)
+                  </td>
+                  <td className='p-3 text-green-400'>
+                    Not required — code enforces collateral automatically
+                  </td>
+                </tr>
+                <tr className='border-b border-gray-700 bg-gray-900/30'>
+                  <td className='p-3 text-gray-400 font-semibold'>
+                    Collateral
+                  </td>
+                  <td className='p-3'>
+                    Variable (0-100%, negotiable, can change)
+                  </td>
+                  <td className='p-3 text-green-400'>
+                    Mandatory over-collateralization (125-200% enforced by
+                    protocol)
+                  </td>
+                </tr>
+                <tr className='border-b border-gray-700'>
+                  <td className='p-3 text-gray-400 font-semibold'>
+                    Interest Rate
+                  </td>
+                  <td className='p-3'>
+                    Discretionary (credit-based pricing, negotiable)
+                  </td>
+                  <td className='p-3 text-green-400'>
+                    Algorithmic (utilization-based, transparent formula)
+                  </td>
+                </tr>
+                <tr className='border-b border-gray-700 bg-gray-900/30'>
+                  <td className='p-3 text-gray-400 font-semibold'>
+                    Liquidation
+                  </td>
+                  <td className='p-3 text-amber-400'>
+                    Legal process (slow, costly, requires courts)
+                  </td>
+                  <td className='p-3 text-green-400'>
+                    Automatic (immediate, programmatic, no human intervention)
+                  </td>
+                </tr>
+                <tr className='border-b border-gray-700'>
+                  <td className='p-3 text-gray-400 font-semibold'>
+                    Transparency
+                  </td>
+                  <td className='p-3'>Opaque terms, hidden fees possible</td>
+                  <td className='p-3 text-green-400'>
+                    Fully transparent on-chain (all terms visible 24/7)
+                  </td>
+                </tr>
+                <tr className='border-b border-gray-700 bg-gray-900/30'>
+                  <td className='p-3 text-gray-400 font-semibold'>
+                    Access Barriers
+                  </td>
+                  <td className='p-3 text-amber-400'>
+                    Geographic restrictions, regulatory limits,
+                    relationship-based
+                  </td>
+                  <td className='p-3 text-green-400'>
+                    Permissionless (anyone with collateral can borrow)
+                  </td>
+                </tr>
+                <tr className='border-b border-gray-700'>
+                  <td className='p-3 text-gray-400 font-semibold'>Speed</td>
+                  <td className='p-3'>Days to weeks for approval & funding</td>
+                  <td className='p-3 text-green-400'>
+                    Minutes to hours (instant once collateral posted)
+                  </td>
+                </tr>
+                <tr className='border-b border-gray-700 bg-gray-900/30'>
+                  <td className='p-3 text-gray-400 font-semibold'>
+                    Repayment Terms
+                  </td>
+                  <td className='p-3'>
+                    Fixed contracts, early payment penalties possible
+                  </td>
+                  <td className='p-3 text-green-400'>
+                    Flexible (repay anytime, no penalties)
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div className='mt-4 p-3 bg-purple-900/20 border border-purple-500/30 rounded-lg'>
+            <p className='text-xs md:text-sm text-center text-purple-300 leading-tight'>
+              <strong>Key Insight:</strong> DeFi borrowing replaces credit risk
+              with transparent, continuously enforced collateral requirements.
+              This is why our lending yields are sustainable — borrowers pay for
+              permissionless access and instant execution.
+            </p>
           </div>
         </div>
 
