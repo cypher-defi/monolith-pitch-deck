@@ -7,6 +7,12 @@ export async function POST(request: NextRequest) {
     const validUsername = process.env.AUTH_USERNAME;
     const validPassword = process.env.AUTH_PASSWORD;
 
+    // Debug logging
+    console.log("Login attempt:");
+    console.log("  Received username:", username);
+    console.log("  Expected username:", validUsername);
+    console.log("  Password match:", password === validPassword);
+
     if (!validUsername || !validPassword) {
       console.error("AUTH_USERNAME or AUTH_PASSWORD not set in environment variables");
       return NextResponse.json(

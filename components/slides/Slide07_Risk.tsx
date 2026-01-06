@@ -177,6 +177,70 @@ export default function Slide7_5RiskFramework() {
           </div>
         </ThreeColumnGrid>
 
+        {/* WHY THIS MATTERS: THE INSTITUTIONAL TRUST MODEL */}
+        <div className="max-w-5xl mx-auto mb-8 md:mb-12">
+          <div className="bg-gradient-to-br from-red-500/10 via-amber-500/10 to-green-500/10 border-2 border-green-500/50 rounded-xl p-4 md:p-8">
+            <h3 className="text-xl md:text-2xl font-bold text-center mb-4 md:mb-6 text-white">
+              WHY THIS MATTERS: The Institutional Trust Model
+            </h3>
+
+            <p className="text-center text-gray-300 text-sm md:text-base mb-6 md:mb-8">
+              Your CFO has seen centralized custody failures:
+            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-3 md:gap-4 mb-6 md:mb-8 text-xs md:text-sm">
+              <div className="bg-red-500/5 border border-red-500/30 rounded-lg p-3 md:p-4">
+                <div className="text-red-400 font-bold mb-1">Lehman 2008</div>
+                <div className="text-gray-300 leading-tight">Bank failed → Customers waited YEARS → Many didn't recover</div>
+              </div>
+
+              <div className="bg-amber-500/5 border border-amber-500/30 rounded-lg p-3 md:p-4">
+                <div className="text-amber-400 font-bold mb-1">MF Global 2011</div>
+                <div className="text-gray-300 leading-tight">Broker moved $900M of customer funds → 8+ year recovery</div>
+              </div>
+
+              <div className="bg-orange-500/5 border border-orange-500/30 rounded-lg p-3 md:p-4">
+                <div className="text-orange-400 font-bold mb-1">Madoff 2008</div>
+                <div className="text-gray-300 leading-tight">Manager controlled custody → $65B fraud hidden 20 years</div>
+              </div>
+
+              <div className="bg-red-500/5 border border-red-500/30 rounded-lg p-3 md:p-4">
+                <div className="text-red-400 font-bold mb-1">SVB 2023</div>
+                <div className="text-gray-300 leading-tight">Bank failure → Government rescue required</div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-r from-green-500/20 to-blue-500/20 border-2 border-green-500/50 rounded-lg p-4 md:p-6">
+              <h4 className="text-base md:text-lg font-bold text-green-300 mb-3 md:mb-4 text-center">
+                With Monolith:
+              </h4>
+              <div className="space-y-2 md:space-y-3 text-xs md:text-sm text-gray-300 max-w-3xl mx-auto">
+                <div className="flex items-start gap-2 md:gap-3">
+                  <Icon name="check" size={20} className="text-green-400 flex-shrink-0 mt-0.5" />
+                  <p className="text-white leading-tight">
+                    <strong>Your vault shares live in YOUR wallet. Not ours.</strong>
+                  </p>
+                </div>
+                <div className="flex items-start gap-2 md:gap-3">
+                  <Icon name="check" size={20} className="text-green-400 flex-shrink-0 mt-0.5" />
+                  <p className="text-white leading-tight">
+                    Even if Monolith fails, you still own your shares.
+                  </p>
+                </div>
+                <div className="flex items-start gap-2 md:gap-3">
+                  <Icon name="check" size={20} className="text-green-400 flex-shrink-0 mt-0.5" />
+                  <p className="text-white leading-tight">
+                    Blockchain makes unauthorized transfers impossible.
+                  </p>
+                </div>
+              </div>
+              <p className="text-center text-green-300 text-sm md:text-lg font-bold mt-4 md:mt-6">
+                Together, audits + insurance + non-custodial = why institutions allocate here.
+              </p>
+            </div>
+          </div>
+        </div>
+
         <div className="max-w-5xl mx-auto">
           <div className="bg-gradient-to-r from-blue-500/10 to-green-500/10 border-2 border-blue-500/50 rounded-xl p-4 md:p-8">
             <h3 className="text-lg md:text-2xl font-bold text-center mb-4 md:mb-6 text-white">

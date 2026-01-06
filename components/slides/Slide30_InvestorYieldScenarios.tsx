@@ -9,7 +9,7 @@ export default function Slide30_InvestorYieldScenarios() {
     <Slide id={30} background="bg-black">
       <SlideContent>
         <Title size="lg" className="mb-12 text-center">
-          APPENDIX: INVESTOR YIELD SCENARIOS
+          APPENDIX F: INVESTOR YIELD SCENARIOS
         </Title>
 
         <p className="text-slate-300 text-center mb-8 text-sm max-w-5xl mx-auto">

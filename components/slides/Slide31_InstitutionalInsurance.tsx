@@ -9,7 +9,7 @@ export default function Slide31_InstitutionalInsurance() {
     <Slide id={31} background="bg-black">
       <SlideContent>
         <Title size="lg" className="mb-8 text-center">
-          APPENDIX D: INSTITUTIONAL INSURANCE - MONOLITH VS TRADFI
+          APPENDIX G: INSTITUTIONAL INSURANCE - MONOLITH VS TRADFI
         </Title>
 
         {/* THE TRADFI REALITY */}

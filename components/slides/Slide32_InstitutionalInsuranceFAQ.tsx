@@ -9,7 +9,7 @@ export default function Slide32_InstitutionalInsuranceFAQ() {
     <Slide id={32} background="bg-black">
       <SlideContent>
         <Title size="lg" className="mb-6 text-center">
-          APPENDIX E: INSTITUTIONAL INVESTOR FAQs ON INSURANCE
+          APPENDIX H: INSTITUTIONAL INVESTOR FAQs ON INSURANCE
         </Title>
 
         {/* Q1 */}
@@ -310,11 +310,11 @@ export default function Slide32_InstitutionalInsuranceFAQ() {
               <div className="bg-green-900/30 p-3 rounded border border-green-500/30">
                 <h5 className="text-sm font-bold text-green-300 mb-2">Math on $100M allocation</h5>
                 <ul className="text-xs text-gray-300 space-y-1">
-                  <li>• In-house cost: $1.5M+ per year</li>
-                  <li>• Monolith cost: $1.25M per year</li>
+                  <li>• In-house cost: $950K-$2.4M per year</li>
+                  <li>• Monolith cost: $1.25M per year (1.25% fee)</li>
                 </ul>
                 <p className="text-xs text-green-300 font-bold mt-2">
-                  Monolith is cheaper AND faster AND lower risk
+                  Monolith is competitive on cost, faster to deploy (2 weeks vs 3-6 months), and lower operational risk
                 </p>
               </div>
             </div>
