@@ -42,68 +42,88 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
-      <div className="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-md">
-        <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold text-gray-900 mb-2">
-            Monolith Pitch Deck
-          </h1>
-          <p className="text-gray-600">Please sign in to continue</p>
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-black via-zinc-900 to-black px-4">
+      <div className="w-full max-w-md">
+        {/* Logo */}
+        <div className="mb-12 flex justify-center">
+          <div className="logo">
+            <div className="logo-line"></div>
+            <div className="logo-line"></div>
+          </div>
         </div>
 
-        <form onSubmit={handleSubmit} className="space-y-6">
-          <div>
-            <label
-              htmlFor="username"
-              className="block text-sm font-medium text-gray-700 mb-2"
-            >
-              Username
-            </label>
-            <input
-              id="username"
-              type="text"
-              value={username}
-              onChange={(e) => setUsername(e.target.value)}
-              required
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition text-gray-900"
-              placeholder="Enter username"
-              disabled={isLoading}
-            />
-          </div>
+        {/* Header */}
+        <div className="text-center mb-10">
+          <h1 className="text-4xl font-bold text-blue-400 mb-3">
+            MONOLITH
+          </h1>
+          <p className="text-slate-400 text-sm">
+            Institutional Yield Infrastructure
+          </p>
+          <div className="w-32 h-0.5 bg-blue-400/30 my-6 mx-auto"></div>
+          <p className="text-slate-300">Please sign in to continue</p>
+        </div>
 
-          <div>
-            <label
-              htmlFor="password"
-              className="block text-sm font-medium text-gray-700 mb-2"
-            >
-              Password
-            </label>
-            <input
-              id="password"
-              type="password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              required
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition text-gray-900"
-              placeholder="Enter password"
-              disabled={isLoading}
-            />
-          </div>
-
-          {error && (
-            <div className="bg-red-50 border border-red-200 text-red-600 px-4 py-3 rounded-lg text-sm">
-              {error}
+        {/* Login Form */}
+        <div className="bg-white/5 border-2 border-[#e2e8f0]/20 rounded-xl p-8 backdrop-blur-sm">
+          <form onSubmit={handleSubmit} className="space-y-6">
+            <div>
+              <label
+                htmlFor="username"
+                className="block text-sm font-medium text-slate-300 mb-2"
+              >
+                Username
+              </label>
+              <input
+                id="username"
+                type="text"
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
+                required
+                className="w-full px-4 py-3 bg-black/40 border-2 border-[#e2e8f0]/20 rounded-lg focus:ring-2 focus:ring-blue-400 focus:border-blue-400 outline-none transition text-white placeholder-slate-500"
+                placeholder="Enter username"
+                disabled={isLoading}
+              />
             </div>
-          )}
 
-          <button
-            type="submit"
-            disabled={isLoading}
-            className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-4 rounded-lg transition duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
-          >
-            {isLoading ? "Signing in..." : "Sign In"}
-          </button>
-        </form>
+            <div>
+              <label
+                htmlFor="password"
+                className="block text-sm font-medium text-slate-300 mb-2"
+              >
+                Password
+              </label>
+              <input
+                id="password"
+                type="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                required
+                className="w-full px-4 py-3 bg-black/40 border-2 border-[#e2e8f0]/20 rounded-lg focus:ring-2 focus:ring-blue-400 focus:border-blue-400 outline-none transition text-white placeholder-slate-500"
+                placeholder="Enter password"
+                disabled={isLoading}
+              />
+            </div>
+
+            {error && (
+              <div className="bg-red-500/10 border-2 border-red-500/30 text-red-400 px-4 py-3 rounded-lg text-sm">
+                {error}
+              </div>
+            )}
+
+            <button
+              type="submit"
+              disabled={isLoading}
+              className="w-full bg-blue-400 hover:bg-blue-500 text-black font-semibold py-3 px-4 rounded-lg transition duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+              {isLoading ? "Signing in..." : "Sign In"}
+            </button>
+          </form>
+        </div>
+
+        <p className="text-slate-600 text-center mt-8 text-xs">
+          Seed Round • December 2025
+        </p>
       </div>
     </div>
   );
